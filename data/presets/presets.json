@@ -4094,6 +4094,7 @@
         "icon": "highway-footway",
         "fields": [
             "surface",
+            "Wego",
             "lit",
             "width",
             "structure",
@@ -6018,6 +6019,18 @@
             "leisure": "water_park"
         },
         "name": "Water Park"
+    },
+    "leisure/wegotooo": {
+        "icon": "garden",
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "leisure": "wegotooo"
+        },
+        "name": "wegotooo"
     },
     "line": {
         "name": "Line",
@@ -10976,6 +10989,21 @@
             "waterway": "weir"
         },
         "name": "Weir"
+    },
+    "wegoto": {
+        "fields": [
+            "wegoto"
+        ],
+        "geometry": [
+            "point"
+        ],
+        "tags": {
+            "addr:housenumber": "*"
+        },
+        "addTags": {},
+        "removeTags": {},
+        "matchScore": 0.2,
+        "name": "Wegoto"
     },
     "amenity/fuel/76": {
         "tags": {

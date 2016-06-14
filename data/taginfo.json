@@ -1372,6 +1372,10 @@
             "value": "water_park"
         },
         {
+            "key": "leisure",
+            "value": "wegotooo"
+        },
+        {
             "key": "man_made"
         },
         {
@@ -2528,6 +2532,9 @@
         {
             "key": "waterway",
             "value": "weir"
+        },
+        {
+            "key": "addr:housenumber"
         }
     ]
 }

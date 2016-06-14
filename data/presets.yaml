@@ -24,6 +24,9 @@ en:
       category-water-line:
         name: Water Features
     fields:
+      Wego:
+        # 'Wego=*'
+        label: Wego
       access:
         # 'access=*, foot=*, motor_vehicle=*, bicycle=*, horse=*'
         label: Allowed Access
@@ -1035,6 +1038,9 @@ en:
         label: Website
         # website field placeholder
         placeholder: 'http://example.com/'
+      wegoto:
+        # 'wegoto=*'
+        label: wegoto
       wetland:
         # 'wetland=*'
         label: Type
@@ -2567,6 +2573,10 @@ en:
         name: Water Park
         # 'terms: swim,pool,dive'
         terms: "<translate with synonyms or related terms for 'Water Park', separated by commas>"
+      leisure/wegotooo:
+        # leisure=wegotooo
+        name: wegotooo
+        terms: "<translate with synonyms or related terms for 'wegotooo', separated by commas>"
       line:
         name: Line
         terms: "<translate with synonyms or related terms for 'Line', separated by commas>"
@@ -3835,3 +3845,7 @@ en:
         # waterway=weir
         name: Weir
         terms: "<translate with synonyms or related terms for 'Weir', separated by commas>"
+      wegoto:
+        # 'addr:housenumber=*'
+        name: Wegoto
+        terms: "<translate with synonyms or related terms for 'Wegoto', separated by commas>"

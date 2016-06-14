@@ -2,6 +2,7 @@
     "icon": "highway-footway",
     "fields": [
         "surface",
+        "Wego",
         "lit",
         "width",
         "structure",

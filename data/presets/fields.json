@@ -1,4 +1,9 @@
 {
+    "Wego": {
+        "key": "Wego",
+        "type": "combo",
+        "label": "Wego"
+    },
     "access": {
         "keys": [
             "access",
@@ -1389,6 +1394,11 @@
         "placeholder": "http://example.com/",
         "universal": true,
         "label": "Website"
+    },
+    "wegoto": {
+        "key": "wegoto",
+        "type": "text",
+        "label": "wegoto"
     },
     "wetland": {
         "key": "wetland",

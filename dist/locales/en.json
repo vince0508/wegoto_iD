@@ -648,6 +648,9 @@
             }
         },
         "fields": {
+            "Wego": {
+                "label": "Wego"
+            },
             "access": {
                 "label": "Allowed Access",
                 "placeholder": "Not Specified",
@@ -1494,6 +1497,9 @@
             "website": {
                 "label": "Website",
                 "placeholder": "http://example.com/"
+            },
+            "wegoto": {
+                "label": "wegoto"
             },
             "wetland": {
                 "label": "Type"
@@ -2881,6 +2887,10 @@
                 "name": "Water Park",
                 "terms": "swim,pool,dive"
             },
+            "leisure/wegotooo": {
+                "name": "wegotooo",
+                "terms": ""
+            },
             "line": {
                 "name": "Line",
                 "terms": ""
@@ -4063,6 +4073,10 @@
             },
             "waterway/weir": {
                 "name": "Weir",
+                "terms": ""
+            },
+            "wegoto": {
+                "name": "Wegoto",
                 "terms": ""
             }
         }
