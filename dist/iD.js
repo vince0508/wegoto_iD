@@ -29640,8 +29640,8 @@ iD.oneWayTags = {
 
 iD.pavedTags = {
     'surface': {
-        'paved': true,
-        'asphalt': true,
+        'paved': false,
+        'asphalt': false,
         'concrete': true
     },
     'tracktype': {
