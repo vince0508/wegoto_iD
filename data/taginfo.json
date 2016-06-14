@@ -679,6 +679,10 @@
         },
         {
             "key": "building",
+            "value": "test"
+        },
+        {
+            "key": "building",
             "value": "train_station"
         },
         {

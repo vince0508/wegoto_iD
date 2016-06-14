@@ -2082,6 +2082,10 @@
                 "name": "Résidence",
                 "terms": "Appartements"
             },
+              "building/test": {
+                "name": "test",
+                "terms": "tesst"
+            },
             "building/barn": {
                 "name": "Grange",
                 "terms": "Hangar agricole"

@@ -3045,6 +3045,21 @@
         "matchScore": 0.5,
         "name": "Row Houses"
     },
+    "building/test": {
+        "icon": "commercial",
+        "fields": [
+            "address",
+            "levels"
+        ],
+        "geometry": [
+            "area"
+        ],
+        "tags": {
+            "building": "test"
+        },
+        "matchScore": 0.5,
+        "name": "Test"
+    },
     "building/train_station": {
         "icon": "building",
         "fields": [

@@ -2181,6 +2181,10 @@
                 "name": "Row Houses",
                 "terms": "home,terrace,brownstone,family,residence,dwelling"
             },
+            "building/test": {
+                "name": "Test",
+                "terms": ""
+            },
             "building/train_station": {
                 "name": "Train Station",
                 "terms": ""

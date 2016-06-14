@@ -1804,6 +1804,10 @@ en:
         name: Row Houses
         # 'terms: home,terrace,brownstone,family,residence,dwelling'
         terms: "<translate with synonyms or related terms for 'Row Houses', separated by commas>"
+      building/test:
+        # building=test
+        name: Test
+        terms: "<translate with synonyms or related terms for 'Test', separated by commas>"
       building/train_station:
         # building=train_station
         name: Train Station

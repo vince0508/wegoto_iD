@@ -21,7 +21,8 @@
             "building/apartments",
             "building/commercial",
             "building/industrial",
-            "building/residential"
+            "building/residential",
+            "building/test"
         ]
     },
     "category-golf": {
