@@ -95,6 +95,7 @@ iD.services.taginfo = function() {
     }
 
     taginfo.keys = function(parameters, callback) {
+        console.log("keys !!!!!!!!");
         var debounce = parameters.debounce;
         parameters = clean(setSort(parameters));
         request(endpoint + 'keys/all?' +
