@@ -21365,6 +21365,7 @@ iD.services.taginfo = function() {
     };
 
     taginfo.values = function(parameters, callback) {
+        console.log("TOTOTOTOOTOTOTOTOTOO");
         var debounce = parameters.debounce;
         parameters = clean(setSort(setFilter(parameters)));
         request(endpoint + 'key/values?' +
@@ -29640,8 +29641,8 @@ iD.oneWayTags = {
 
 iD.pavedTags = {
     'surface': {
-        'paved': false,
-        'asphalt': false,
+        'paved': true,
+        'asphalt': true,
         'concrete': true
     },
     'tracktype': {
@@ -29655,6 +29656,7 @@ iD.interestingTag = function (key) {
         key !== 'source' &&
         key !== 'odbl' &&
         key.indexOf('tiger:') !== 0;
+       
 
 };
 iD.Tree = function(head) {

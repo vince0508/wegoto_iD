@@ -127,6 +127,7 @@ iD.services.taginfo = function() {
     };
 
     taginfo.values = function(parameters, callback) {
+        console.log("TOTOTOTOOTOTOTOTOTOO");
         var debounce = parameters.debounce;
         parameters = clean(setSort(setFilter(parameters)));
         request(endpoint + 'key/values?' +

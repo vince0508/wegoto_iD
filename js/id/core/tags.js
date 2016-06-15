@@ -32,8 +32,8 @@ iD.oneWayTags = {
 
 iD.pavedTags = {
     'surface': {
-        'paved': false,
-        'asphalt': false,
+        'paved': true,
+        'asphalt': true,
         'concrete': true
     },
     'tracktype': {
@@ -47,5 +47,6 @@ iD.interestingTag = function (key) {
         key !== 'source' &&
         key !== 'odbl' &&
         key.indexOf('tiger:') !== 0;
+       
 
 };
