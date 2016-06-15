@@ -111,6 +111,7 @@ iD.services.taginfo = function() {
     };
 
     taginfo.multikeys = function(parameters, callback) {
+        console.log("multikeys !!!!!!!!");
         var debounce = parameters.debounce;
         parameters = clean(setSort(parameters));
         request(endpoint + 'keys/all?' +
@@ -127,7 +128,7 @@ iD.services.taginfo = function() {
     };
 
     taginfo.values = function(parameters, callback) {
-        console.log("TOTOTOTOOTOTOTOTOTOO");
+        console.log("VALUEEEEES");
         var debounce = parameters.debounce;
         parameters = clean(setSort(setFilter(parameters)));
         request(endpoint + 'key/values?' +
