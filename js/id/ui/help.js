@@ -5,10 +5,8 @@ iD.ui.Help = function(context) {
         'help.help',
         'help.editing_saving',
         'help.roads',
-        'help.gps',
         'help.imagery',
-        'help.addresses',
-        'help.inspector',
+        'help.addresses',  
         'help.buildings',
         'help.relations'];
 
