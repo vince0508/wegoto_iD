@@ -33767,8 +33767,12 @@ iD.ui = function(context) {
         hash();
 
         if (!hash.hadHash) {
-            map.centerZoom([-77.02271, 38.90085], 20);
+            map.centerZoom([0, 0], 2);
         }
+
+        container.append('svg')
+            .attr('id', 'defs')
+            .call(iD.svg.Defs(context));
 
         container.append('div')
             .attr('id', 'sidebar')
@@ -33782,9 +33786,15 @@ iD.ui = function(context) {
             .attr('id', 'bar')
             .attr('class', 'fillD');
 
-        var m = content.append('div')
+        content.append('div')
             .attr('id', 'map')
             .call(map);
+
+        content
+            .call(iD.ui.MapInMap(context));
+
+        content.append('div')
+            .call(iD.ui.Info(context));
 
         bar.append('div')
             .attr('class', 'spacer col4');
@@ -33805,15 +33815,12 @@ iD.ui = function(context) {
             .call(iD.ui.Save(context));
 
         bar.append('div')
+            .attr('class', 'full-screen')
+            .call(iD.ui.FullScreen(context));
+
+        bar.append('div')
             .attr('class', 'spinner')
             .call(iD.ui.Spinner(context));
-
-        content
-            .call(iD.ui.Attribution(context));
-
-        content.append('div')
-            .style('display', 'none')
-            .attr('class', 'help-wrap map-overlay fillL col5 content');
 
         var controls = bar.append('div')
             .attr('class', 'map-controls');
@@ -33824,59 +33831,83 @@ iD.ui = function(context) {
 
         controls.append('div')
             .attr('class', 'map-control geolocate-control')
-            .call(iD.ui.Geolocate(map));
+            .call(iD.ui.Geolocate(context));
 
         controls.append('div')
             .attr('class', 'map-control background-control')
             .call(iD.ui.Background(context));
 
         controls.append('div')
+            .attr('class', 'map-control map-data-control')
+            .call(iD.ui.MapData(context));
+
+        controls.append('div')
             .attr('class', 'map-control help-control')
             .call(iD.ui.Help(context));
 
-        controls.append('div')
-            .attr('class', 'map-control preset-editor-control')
-            .call(iD.ui.EditPresets(context));
-
         var about = content.append('div')
-            .attr('class','col12 about-block fillD');
+            .attr('id', 'about');
 
         about.append('div')
+            .attr('id', 'attrib')
+            .call(iD.ui.Attribution(context));
+
+        var footer = about.append('div')
+            .attr('id', 'footer')
+            .attr('class', 'fillD');
+
+        footer.append('div')
             .attr('class', 'api-status')
             .call(iD.ui.Status(context));
 
+        footer.append('div')
+            .attr('id', 'scale-block')
+            .call(iD.ui.Scale(context));
+
+        var aboutList = footer.append('div')
+            .attr('id', 'info-block')
+            .append('ul')
+            .attr('id', 'about-list');
+
         if (!context.embed()) {
-            about.append('div')
-                .attr('class', 'account')
-                .call(iD.ui.Account(context));
+            aboutList.call(iD.ui.Account(context));
         }
 
-        var linkList = about.append('ul')
-            .attr('id', 'about')
-            .attr('class', 'link-list');
-
-        linkList.append('li')
+        aboutList.append('li')
             .append('a')
             .attr('target', '_blank')
             .attr('tabindex', -1)
-            .attr('href', 'http://github.com/openstreetmap/iD')
+            .attr('href', 'https://github.com/openstreetmap/iD')
             .text(iD.version);
 
-        var bugReport = linkList.append('li')
-            .append('a')
+        var issueLinks = aboutList.append('li');
+
+        issueLinks.append('a')
             .attr('target', '_blank')
             .attr('tabindex', -1)
-            .attr('href', 'https://github.com/openstreetmap/iD/issues');
-
-        bugReport.append('span')
-            .attr('class','icon bug light');
-
-        bugReport.call(bootstrap.tooltip()
+            .attr('href', 'https://github.com/openstreetmap/iD/issues')
+            .call(iD.svg.Icon('#icon-bug', 'light'))
+            .call(bootstrap.tooltip()
                 .title(t('report_a_bug'))
                 .placement('top')
             );
 
-        linkList.append('li')
+        issueLinks.append('a')
+            .attr('target', '_blank')
+            .attr('tabindex', -1)
+            .attr('href', 'https://github.com/openstreetmap/iD/blob/master/CONTRIBUTING.md#translating')
+            .call(iD.svg.Icon('#icon-translate', 'light'))
+            .call(bootstrap.tooltip()
+                .title(t('help_translate'))
+                .placement('top')
+            );
+
+        aboutList.append('li')
+            .attr('class', 'feature-warning')
+            .attr('tabindex', -1)
+            .call(iD.ui.FeatureInfo(context));
+
+        aboutList.append('li')
             .attr('class', 'user-list')
             .attr('tabindex', -1)
             .call(iD.ui.Contributors(context));
@@ -33889,25 +33920,37 @@ iD.ui = function(context) {
             context.history().unlock();
         };
 
+        var mapDimensions = map.dimensions();
+
         d3.select(window).on('resize.editor', function() {
-            map.dimensions(m.dimensions());
+            mapDimensions = content.dimensions(null);
+            map.dimensions(mapDimensions);
         });
 
         function pan(d) {
             return function() {
-                context.pan(d);
+                d3.event.preventDefault();
+                if (!context.inIntro()) context.pan(d);
             };
         }
 
         // pan amount
-        var pa = 5;
+        var pa = 10;
 
         var keybinding = d3.keybinding('main')
             .on('⌫', function() { d3.event.preventDefault(); })
             .on('←', pan([pa, 0]))
             .on('↑', pan([0, pa]))
             .on('→', pan([-pa, 0]))
-            .on('↓', pan([0, -pa]));
+            .on('↓', pan([0, -pa]))
+            .on('⇧←', pan([mapDimensions[0], 0]))
+            .on('⇧↑', pan([0, mapDimensions[1]]))
+            .on('⇧→', pan([-mapDimensions[0], 0]))
+            .on('⇧↓', pan([0, -mapDimensions[1]]))
+            .on(iD.ui.cmd('⌘←'), pan([mapDimensions[0], 0]))
+            .on(iD.ui.cmd('⌘↑'), pan([0, mapDimensions[1]]))
+            .on(iD.ui.cmd('⌘→'), pan([-mapDimensions[0], 0]))
+            .on(iD.ui.cmd('⌘↓'), pan([0, -mapDimensions[1]]));
 
         d3.select(document)
             .call(keybinding);
@@ -33944,8 +33987,15 @@ iD.ui = function(context) {
 };
 
 iD.ui.tooltipHtml = function(text, key) {
-    return '<span>' + text + '</span>' + '<div class="keyhint-wrap">' + '<span> ' + (t('tooltip_keyhint')) + ' </span>' + '<span class="keyhint"> ' + key + '</span></div>';
-};iD.ui.Account = function(context) {
+    var s = '<span>' + text + '</span>';
+    if (key) {
+        s += '<div class="keyhint-wrap">' +
+            '<span> ' + (t('tooltip_keyhint')) + ' </span>' +
+            '<span class="keyhint"> ' + key + '</span></div>';
+    }
+    return s;
+};
+iD.ui.Account = function(context) {
     var connection = context.connection();
 
     function update(selection) {
@@ -39258,8 +39308,8 @@ iD.ui.Sidebar = function(context) {
         var inspectorWrap = selection.append('div')
             .attr('class', 'inspector-hidden inspector-wrap fr');
 
-        sidebar.hover = function(id) {
-            if (!current && id) {
+        function hover(id) {
+            if (!current && context.hasEntity(id)) {
                 featureListWrap.classed('inspector-hidden', true);
                 inspectorWrap.classed('inspector-hidden', false)
                     .classed('inspector-hover', true);
@@ -39276,9 +39326,9 @@ iD.ui.Sidebar = function(context) {
                 inspectorWrap.classed('inspector-hidden', true);
                 inspector.state('hide');
             }
-        };
+        }
 
-        sidebar.hover = _.throttle(sidebar.hover, 200);
+        sidebar.hover = _.throttle(hover, 200);
 
         sidebar.select = function(id, newFeature) {
             if (!current && id) {
@@ -39302,7 +39352,6 @@ iD.ui.Sidebar = function(context) {
         };
 
         sidebar.show = function(component) {
-            console.log('side bar component', component);
             featureListWrap.classed('inspector-hidden', true);
             inspectorWrap.classed('inspector-hidden', true);
             if (current) current.remove();
@@ -39313,18 +39362,21 @@ iD.ui.Sidebar = function(context) {
 
         sidebar.hide = function() {
             featureListWrap.classed('inspector-hidden', false);
+            inspectorWrap.classed('inspector-hidden', true);
             if (current) current.remove();
             current = null;
         };
     }
 
     sidebar.hover = function() {};
+    sidebar.hover.cancel = function() {};
     sidebar.select = function() {};
     sidebar.show = function() {};
     sidebar.hide = function() {};
 
     return sidebar;
-};iD.ui.SourceSwitch = function(context) {
+};
+iD.ui.SourceSwitch = function(context) {
     var keys;
 
     function click() {

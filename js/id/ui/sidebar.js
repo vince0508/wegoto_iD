@@ -12,8 +12,8 @@ iD.ui.Sidebar = function(context) {
         var inspectorWrap = selection.append('div')
             .attr('class', 'inspector-hidden inspector-wrap fr');
 
-        sidebar.hover = function(id) {
-            if (!current && id) {
+        function hover(id) {
+            if (!current && context.hasEntity(id)) {
                 featureListWrap.classed('inspector-hidden', true);
                 inspectorWrap.classed('inspector-hidden', false)
                     .classed('inspector-hover', true);
@@ -30,9 +30,9 @@ iD.ui.Sidebar = function(context) {
                 inspectorWrap.classed('inspector-hidden', true);
                 inspector.state('hide');
             }
-        };
+        }
 
-        sidebar.hover = _.throttle(sidebar.hover, 200);
+        sidebar.hover = _.throttle(hover, 200);
 
         sidebar.select = function(id, newFeature) {
             if (!current && id) {
@@ -56,7 +56,6 @@ iD.ui.Sidebar = function(context) {
         };
 
         sidebar.show = function(component) {
-            console.log('side bar component', component);
             featureListWrap.classed('inspector-hidden', true);
             inspectorWrap.classed('inspector-hidden', true);
             if (current) current.remove();
@@ -67,12 +66,14 @@ iD.ui.Sidebar = function(context) {
 
         sidebar.hide = function() {
             featureListWrap.classed('inspector-hidden', false);
+            inspectorWrap.classed('inspector-hidden', true);
             if (current) current.remove();
             current = null;
         };
     }
 
     sidebar.hover = function() {};
+    sidebar.hover.cancel = function() {};
     sidebar.select = function() {};
     sidebar.show = function() {};
     sidebar.hide = function() {};
