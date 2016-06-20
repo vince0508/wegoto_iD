@@ -7434,7 +7434,7 @@
         "name": "Village"
     },
     "poi_wegoto": {
-        "icon": "garden",
+        "icon": "attraction",
         "fields": [
             "address",
             "building_area",

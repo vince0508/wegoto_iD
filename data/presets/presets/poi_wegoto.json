@@ -1,6 +1,6 @@
 
 {
-    "icon": "garden",
+    "icon": "attraction",
        "fields": [
         "address",
         "building_area",
@@ -16,5 +16,7 @@
         "test2" : "toto",
         "test3": "titi"
     },
+
+
     "name": "test"
 }
