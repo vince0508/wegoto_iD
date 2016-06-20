@@ -2449,8 +2449,8 @@ en:
         terms: "<translate with synonyms or related terms for 'Common', separated by commas>"
       leisure/dog_park:
         # leisure=dog_park
-        name: Dog Park
-        terms: "<translate with synonyms or related terms for 'Dog Park', separated by commas>"
+        name: Wegoto
+        terms: "<translate with synonyms or related terms for 'Wegoto', separated by commas>"
       leisure/firepit:
         # leisure=firepit
         name: Firepit
