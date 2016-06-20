@@ -1372,7 +1372,7 @@
             "value": "water_park"
         },
         {
-            "key": "leisure",
+            "key": "test",
             "value": "wegotooo"
         },
         {
@@ -1733,6 +1733,10 @@
         {
             "key": "place",
             "value": "village"
+        },
+        {
+            "key": "test3",
+            "value": "titi"
         },
         {
             "key": "power"

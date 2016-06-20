@@ -5530,7 +5530,7 @@
         "tags": {
             "leisure": "dog_park"
         },
-        "name": "Wegoto"
+        "name": "Dog Park"
     },
     "leisure/firepit": {
         "geometry": [
@@ -6028,7 +6028,7 @@
             "area"
         ],
         "tags": {
-            "leisure": "wegotooo"
+            "test": "wegotooo"
         },
         "name": "wegotooo"
     },
@@ -7432,6 +7432,25 @@
             "place": "village"
         },
         "name": "Village"
+    },
+    "poi_wegoto": {
+        "icon": "garden",
+        "fields": [
+            "address",
+            "building_area",
+            "opening_hours"
+        ],
+        "geometry": [
+            "point",
+            "vertex",
+            "area"
+        ],
+        "tags": {
+            "test": "wegotooo",
+            "test2": "toto",
+            "test3": "titi"
+        },
+        "name": "test"
     },
     "point": {
         "name": "Point",

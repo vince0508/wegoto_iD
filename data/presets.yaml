@@ -2449,8 +2449,8 @@ en:
         terms: "<translate with synonyms or related terms for 'Common', separated by commas>"
       leisure/dog_park:
         # leisure=dog_park
-        name: Wegoto
-        terms: "<translate with synonyms or related terms for 'Wegoto', separated by commas>"
+        name: Dog Park
+        terms: "<translate with synonyms or related terms for 'Dog Park', separated by commas>"
       leisure/firepit:
         # leisure=firepit
         name: Firepit
@@ -2574,7 +2574,7 @@ en:
         # 'terms: swim,pool,dive'
         terms: "<translate with synonyms or related terms for 'Water Park', separated by commas>"
       leisure/wegotooo:
-        # leisure=wegotooo
+        # test=wegotooo
         name: wegotooo
         terms: "<translate with synonyms or related terms for 'wegotooo', separated by commas>"
       line:
@@ -2969,6 +2969,10 @@ en:
         # place=village
         name: Village
         terms: "<translate with synonyms or related terms for 'Village', separated by commas>"
+      poi_wegoto:
+        # 'test=wegotooo, test2=toto, test3=titi'
+        name: test
+        terms: "<translate with synonyms or related terms for 'test', separated by commas>"
       point:
         name: Point
         terms: "<translate with synonyms or related terms for 'Point', separated by commas>"
