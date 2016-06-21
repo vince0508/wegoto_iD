@@ -2196,6 +2196,14 @@ en:
         # highway=pedestrian
         name: Pedestrian Street
         terms: "<translate with synonyms or related terms for 'Pedestrian Street', separated by commas>"
+      highway/ppieton_entree:
+        # highway=motorway
+        name: Start of crossing way
+        terms: "<translate with synonyms or related terms for 'Start of crossing way', separated by commas>"
+      highway/ppieton_sortie:
+        # highway=motorway
+        name: 'End of crossing '
+        terms: "<translate with synonyms or related terms for 'End of crossing ', separated by commas>"
       highway/primary:
         # highway=primary
         name: Primary Road
@@ -3002,10 +3010,6 @@ en:
         # place=village
         name: Village
         terms: "<translate with synonyms or related terms for 'Village', separated by commas>"
-      poi_wegoto:
-        # 'test=wegotooo, test2=toto, test3=titi'
-        name: test
-        terms: "<translate with synonyms or related terms for 'test', separated by commas>"
       point:
         name: Point
         terms: "<translate with synonyms or related terms for 'Point', separated by commas>"
@@ -3882,7 +3886,3 @@ en:
         # waterway=weir
         name: Weir
         terms: "<translate with synonyms or related terms for 'Weir', separated by commas>"
-      wegoto:
-        # 'addr:housenumber=*'
-        name: Wegoto
-        terms: "<translate with synonyms or related terms for 'Wegoto', separated by commas>"

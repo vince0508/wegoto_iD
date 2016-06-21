@@ -1032,6 +1032,14 @@
         },
         {
             "key": "highway",
+            "value": "motorway"
+        },
+        {
+            "key": "highway",
+            "value": "motorway"
+        },
+        {
+            "key": "highway",
             "value": "primary"
         },
         {
@@ -1765,10 +1773,6 @@
         {
             "key": "place",
             "value": "village"
-        },
-        {
-            "key": "test3",
-            "value": "titi"
         },
         {
             "key": "power"
@@ -2568,9 +2572,6 @@
         {
             "key": "waterway",
             "value": "weir"
-        },
-        {
-            "key": "addr:housenumber"
         }
     ]
 }

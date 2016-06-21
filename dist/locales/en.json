@@ -2543,6 +2543,14 @@
                 "name": "Pedestrian Street",
                 "terms": ""
             },
+            "highway/ppieton_entree": {
+                "name": "Start of crossing way",
+                "terms": ""
+            },
+            "highway/ppieton_sortie": {
+                "name": "End of crossing ",
+                "terms": ""
+            },
             "highway/primary": {
                 "name": "Primary Road",
                 "terms": ""
@@ -3289,10 +3297,6 @@
             },
             "place/village": {
                 "name": "Village",
-                "terms": ""
-            },
-            "poi_wegoto": {
-                "name": "test",
                 "terms": ""
             },
             "point": {
@@ -4109,10 +4113,6 @@
             },
             "waterway/weir": {
                 "name": "Weir",
-                "terms": ""
-            },
-            "wegoto": {
-                "name": "Wegoto",
                 "terms": ""
             }
         }

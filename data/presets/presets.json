@@ -4639,6 +4639,46 @@
         "terms": [],
         "name": "Pedestrian Street"
     },
+    "highway/ppieton_entree": {
+        "icon": "circle",
+        "fields": [
+            "oneway_yes",
+            "maxspeed",
+            "structure",
+            "access",
+            "lanes",
+            "surface",
+            "ref"
+        ],
+        "geometry": [
+            "vertex"
+        ],
+        "tags": {
+            "highway": "motorway"
+        },
+        "terms": [],
+        "name": "Start of crossing way"
+    },
+    "highway/ppieton_sortie": {
+        "icon": "circle",
+        "fields": [
+            "oneway_yes",
+            "maxspeed",
+            "structure",
+            "access",
+            "lanes",
+            "surface",
+            "ref"
+        ],
+        "geometry": [
+            "vertex"
+        ],
+        "tags": {
+            "highway": "motorway"
+        },
+        "terms": [],
+        "name": "End of crossing "
+    },
     "highway/primary": {
         "icon": "highway-primary",
         "fields": [
@@ -7584,25 +7624,6 @@
             "place": "village"
         },
         "name": "Village"
-    },
-    "poi_wegoto": {
-        "icon": "garden",
-        "fields": [
-            "address",
-            "building_area",
-            "opening_hours"
-        ],
-        "geometry": [
-            "point",
-            "vertex",
-            "area"
-        ],
-        "tags": {
-            "test": "wegotooo",
-            "test2": "toto",
-            "test3": "titi"
-        },
-        "name": "test"
     },
     "point": {
         "name": "Point",
@@ -11160,21 +11181,6 @@
             "waterway": "weir"
         },
         "name": "Weir"
-    },
-    "wegoto": {
-        "fields": [
-            "wegoto"
-        ],
-        "geometry": [
-            "point"
-        ],
-        "tags": {
-            "addr:housenumber": "*"
-        },
-        "addTags": {},
-        "removeTags": {},
-        "matchScore": 0.2,
-        "name": "Wegoto"
     },
     "amenity/fuel/76": {
         "tags": {
