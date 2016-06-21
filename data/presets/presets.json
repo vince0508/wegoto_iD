@@ -4460,6 +4460,22 @@
         },
         "name": "Foot Path"
     },
+    "highway/ilot_wegoto": {
+        "icon": "highway-cycleway",
+        "fields": [
+            "crossing",
+            "sloped_curb",
+            "tactile_paving"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "crossing"
+        },
+        "terms": [],
+        "name": "Island"
+    },
     "highway/living_street": {
         "icon": "highway-living-street",
         "fields": [
@@ -5064,6 +5080,22 @@
             "traffic light"
         ],
         "name": "Traffic Signals"
+    },
+    "highway/traversee_wegoto": {
+        "icon": "highway-cycleway",
+        "fields": [
+            "crossing",
+            "sloped_curb",
+            "tactile_paving"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "crossing"
+        },
+        "terms": [],
+        "name": "Street Crossing"
     },
     "highway/trottoir_wegoto": {
         "icon": "highway-motorway",

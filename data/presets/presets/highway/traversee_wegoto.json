@@ -1,0 +1,16 @@
+{
+    "icon": "highway-cycleway",
+    "fields": [
+        "crossing",
+        "sloped_curb",
+        "tactile_paving"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "crossing"
+    },
+    "terms": [],
+    "name": "Street Crossing"
+}

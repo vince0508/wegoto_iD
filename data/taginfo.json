@@ -996,6 +996,10 @@
         },
         {
             "key": "highway",
+            "value": "crossing"
+        },
+        {
+            "key": "highway",
             "value": "living_street"
         },
         {
@@ -1113,6 +1117,10 @@
         {
             "key": "highway",
             "value": "traffic_signals"
+        },
+        {
+            "key": "highway",
+            "value": "crossing"
         },
         {
             "key": "highway",

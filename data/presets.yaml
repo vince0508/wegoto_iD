@@ -2158,6 +2158,10 @@ en:
         name: Foot Path
         # 'terms: hike,hiking,trackway,trail,walk'
         terms: "<translate with synonyms or related terms for 'Foot Path', separated by commas>"
+      highway/ilot_wegoto:
+        # highway=crossing
+        name: Island
+        terms: "<translate with synonyms or related terms for 'Island', separated by commas>"
       highway/living_street:
         # highway=living_street
         name: Living Street
@@ -2291,6 +2295,10 @@ en:
         name: Traffic Signals
         # 'terms: light,stoplight,traffic light'
         terms: "<translate with synonyms or related terms for 'Traffic Signals', separated by commas>"
+      highway/traversee_wegoto:
+        # highway=crossing
+        name: Street Crossing
+        terms: "<translate with synonyms or related terms for 'Street Crossing', separated by commas>"
       highway/trottoir_wegoto:
         # highway=motorway
         name: SideWalk

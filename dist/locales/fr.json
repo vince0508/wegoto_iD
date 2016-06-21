@@ -2496,6 +2496,14 @@
                 "name": "Passage piéton",
                 "terms": "Passage piéton "
             },
+                "highway/traversee_wegoto": {
+                "name": "Traversée",
+                "terms": "traversée"
+            },
+               "highway/ilot_wegoto": {
+                "name": "Îlot",
+                "terms": "ilot"
+            },
             "highway/crosswalk": {
                 "name": "Passage piéton",
                 "terms": "Passage piéton, Zébra, Passage zébré"

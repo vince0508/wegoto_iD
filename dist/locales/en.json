@@ -2507,6 +2507,10 @@
                 "name": "Foot Path",
                 "terms": "hike,hiking,trackway,trail,walk"
             },
+            "highway/ilot_wegoto": {
+                "name": "Island",
+                "terms": ""
+            },
             "highway/living_street": {
                 "name": "Living Street",
                 "terms": ""
@@ -2626,6 +2630,10 @@
             "highway/traffic_signals": {
                 "name": "Traffic Signals",
                 "terms": "light,stoplight,traffic light"
+            },
+            "highway/traversee_wegoto": {
+                "name": "Street Crossing",
+                "terms": ""
             },
             "highway/trottoir_wegoto": {
                 "name": "SideWalk",
