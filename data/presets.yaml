@@ -2158,6 +2158,10 @@ en:
         name: Foot Path
         # 'terms: hike,hiking,trackway,trail,walk'
         terms: "<translate with synonyms or related terms for 'Foot Path', separated by commas>"
+      highway/ilot_entree:
+        # highway=motorway
+        name: 'Start of island '
+        terms: "<translate with synonyms or related terms for 'Start of island ', separated by commas>"
       highway/ilot_wegoto:
         # highway=crossing
         name: Island
@@ -3049,6 +3053,14 @@ en:
         # power=transformer
         name: Transformer
         terms: "<translate with synonyms or related terms for 'Transformer', separated by commas>"
+      ppieton_entree:
+        # highway=motorway
+        name: 'Start of crossing '
+        terms: "<translate with synonyms or related terms for 'Start of crossing ', separated by commas>"
+      ppieton_sortie:
+        # highway=motorway
+        name: 'End of crossing '
+        terms: "<translate with synonyms or related terms for 'End of crossing ', separated by commas>"
       public_transport/platform:
         # public_transport=platform
         name: Platform

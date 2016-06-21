@@ -2507,6 +2507,10 @@
                 "name": "Foot Path",
                 "terms": "hike,hiking,trackway,trail,walk"
             },
+            "highway/ilot_entree": {
+                "name": "Start of island ",
+                "terms": ""
+            },
             "highway/ilot_wegoto": {
                 "name": "Island",
                 "terms": ""
@@ -3337,6 +3341,14 @@
             },
             "power/transformer": {
                 "name": "Transformer",
+                "terms": ""
+            },
+            "ppieton_entree": {
+                "name": "Start of crossing ",
+                "terms": ""
+            },
+            "ppieton_sortie": {
+                "name": "End of crossing ",
                 "terms": ""
             },
             "public_transport/platform": {

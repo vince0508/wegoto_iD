@@ -996,6 +996,10 @@
         },
         {
             "key": "highway",
+            "value": "motorway"
+        },
+        {
+            "key": "highway",
             "value": "crossing"
         },
         {
@@ -1808,6 +1812,14 @@
         {
             "key": "power",
             "value": "transformer"
+        },
+        {
+            "key": "highway",
+            "value": "motorway"
+        },
+        {
+            "key": "highway",
+            "value": "motorway"
         },
         {
             "key": "public_transport",
