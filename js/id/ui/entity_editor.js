@@ -72,7 +72,7 @@ iD.ui.EntityEditor = function(context) {
         $enter.append('div')
             .attr('class', 'inspector-border inspector-preset');
 
-       
+        
 
         $enter.append('div')
             .attr('class', 'inspector-border raw-member-editor inspector-inner');

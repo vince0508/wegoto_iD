@@ -99,7 +99,7 @@
     },
     "category-road": {
         "geometry": "line",
-        "name": "Road Features",
+        "name": "Elements voiries",
         "icon": "category-roads",
         "members": [
             "highway/residential",
