@@ -1,0 +1,21 @@
+
+{
+    "icon": "circle",
+    "fields": [
+        "oneway_yes",
+        "maxspeed",
+        "structure",
+        "access",
+        "lanes",
+        "surface",
+        "ref"
+    ],
+    "geometry": [
+        "vertex"
+    ],
+    "tags": {
+        "highway": "motorway"
+    },
+    "terms": [],
+    "name": "Start of crossing "
+}
