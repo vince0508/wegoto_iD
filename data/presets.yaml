@@ -2162,6 +2162,10 @@ en:
         # highway=motorway
         name: 'Start of island '
         terms: "<translate with synonyms or related terms for 'Start of island ', separated by commas>"
+      highway/ilot_sortie:
+        # highway=motorway
+        name: 'End of island '
+        terms: "<translate with synonyms or related terms for 'End of island ', separated by commas>"
       highway/ilot_wegoto:
         # highway=crossing
         name: Island

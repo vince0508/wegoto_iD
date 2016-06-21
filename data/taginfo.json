@@ -1000,6 +1000,10 @@
         },
         {
             "key": "highway",
+            "value": "motorway"
+        },
+        {
+            "key": "highway",
             "value": "crossing"
         },
         {
