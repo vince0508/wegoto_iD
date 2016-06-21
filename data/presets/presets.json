@@ -4464,12 +4464,7 @@
         "icon": "circle",
         "fields": [
             "oneway_yes",
-            "maxspeed",
-            "structure",
-            "access",
-            "lanes",
-            "surface",
-            "ref"
+            "structure"
         ],
         "geometry": [
             "vertex"
@@ -4483,13 +4478,7 @@
     "highway/ilot_sortie": {
         "icon": "circle",
         "fields": [
-            "oneway_yes",
-            "maxspeed",
-            "structure",
-            "access",
-            "lanes",
-            "surface",
-            "ref"
+            "oneway_yes"
         ],
         "geometry": [
             "vertex"
@@ -4682,13 +4671,7 @@
     "highway/ppieton_entree": {
         "icon": "circle",
         "fields": [
-            "oneway_yes",
-            "maxspeed",
-            "structure",
-            "access",
-            "lanes",
-            "surface",
-            "ref"
+            "oneway_yes"
         ],
         "geometry": [
             "vertex"
@@ -7809,13 +7792,7 @@
     "ppieton_sortie": {
         "icon": "circle",
         "fields": [
-            "oneway_yes",
-            "maxspeed",
-            "structure",
-            "access",
-            "lanes",
-            "surface",
-            "ref"
+            "oneway_yes"
         ],
         "geometry": [
             "vertex"

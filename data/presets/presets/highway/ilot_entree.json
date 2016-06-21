@@ -3,12 +3,9 @@
     "icon": "circle",
     "fields": [
         "oneway_yes",
-        "maxspeed",
-        "structure",
-        "access",
-        "lanes",
-        "surface",
-        "ref"
+        
+        "structure"
+       
     ],
     "geometry": [
         "vertex"
