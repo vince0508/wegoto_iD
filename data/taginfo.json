@@ -952,6 +952,10 @@
         },
         {
             "key": "highway",
+            "value": "unclassified"
+        },
+        {
+            "key": "highway",
             "value": "bridleway"
         },
         {

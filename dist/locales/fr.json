@@ -2500,7 +2500,7 @@
                 "name": "Passage piéton",
                 "terms": "Passage piéton, Zébra, Passage zébré"
             },
-            
+
             "highway/cycleway": {
                 "name": "Voie cyclable",
                 "terms": "Piste cyclable"
@@ -2580,6 +2580,10 @@
             },
             "highway/road": {
                 "name": "Voie de type inconnu",
+                "terms": "Route inconnue"
+            },
+              "highway/autre_wegoto": {
+                "name": "Autre type de voie",
                 "terms": "Route inconnue"
             },
             "highway/secondary": {

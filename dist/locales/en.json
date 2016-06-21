@@ -2463,6 +2463,10 @@
                 "name": "Highway",
                 "terms": ""
             },
+            "highway/autre_wegoto": {
+                "name": "Other Road",
+                "terms": ""
+            },
             "highway/bridleway": {
                 "name": "Bridle Path",
                 "terms": "bridleway,equestrian,horse"

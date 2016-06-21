@@ -2108,6 +2108,10 @@ en:
         # 'highway=*'
         name: Highway
         terms: "<translate with synonyms or related terms for 'Highway', separated by commas>"
+      highway/autre_wegoto:
+        # highway=unclassified
+        name: Other Road
+        terms: "<translate with synonyms or related terms for 'Other Road', separated by commas>"
       highway/bridleway:
         # highway=bridleway
         name: Bridle Path

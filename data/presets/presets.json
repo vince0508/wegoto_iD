@@ -4238,6 +4238,25 @@
         "searchable": false,
         "name": "Highway"
     },
+    "highway/autre_wegoto": {
+        "icon": "highway-unclassified",
+        "fields": [
+            "oneway",
+            "maxspeed",
+            "structure",
+            "access",
+            "surface",
+            "cycleway"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "unclassified"
+        },
+        "terms": [],
+        "name": "Other Road"
+    },
     "highway/bridleway": {
         "fields": [
             "surface",
