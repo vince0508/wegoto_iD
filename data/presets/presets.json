@@ -4278,6 +4278,46 @@
         "terms": [],
         "name": "Bus Stop"
     },
+    "highway/chausse_wegoto": {
+        "icon": "highway-path",
+        "fields": [
+            "oneway_yes",
+            "maxspeed",
+            "structure",
+            "access",
+            "lanes",
+            "surface",
+            "ref"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "motorway"
+        },
+        "terms": [],
+        "name": "Road"
+    },
+    "highway/chemin_wegoto": {
+        "icon": "highway-path",
+        "fields": [
+            "oneway_yes",
+            "maxspeed",
+            "structure",
+            "access",
+            "lanes",
+            "surface",
+            "ref"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "motorway"
+        },
+        "terms": [],
+        "name": "Path"
+    },
     "highway/corridor": {
         "icon": "highway-footway",
         "fields": [
@@ -4333,6 +4373,27 @@
             "zebra crossing"
         ],
         "name": "Pedestrian Crosswalk"
+    },
+    "highway/cyclable_wegoto": {
+        "icon": "highway-cycleway",
+        "fields": [
+            "surface",
+            "lit",
+            "width",
+            "oneway",
+            "structure",
+            "access"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "cycleway"
+        },
+        "terms": [
+            "bike"
+        ],
+        "name": "Cycle Path"
     },
     "highway/cycleway": {
         "icon": "highway-cycleway",
@@ -4504,6 +4565,26 @@
         "name": "Path"
     },
     "highway/pedestrian": {
+        "icon": "highway-footway",
+        "fields": [
+            "surface",
+            "lit",
+            "width",
+            "oneway",
+            "structure",
+            "access"
+        ],
+        "geometry": [
+            "line",
+            "area"
+        ],
+        "tags": {
+            "highway": "pedestrian"
+        },
+        "terms": [],
+        "name": "Pedestrian Street"
+    },
+    "highway/pietonne_wegoto": {
         "icon": "highway-footway",
         "fields": [
             "surface",
@@ -4964,6 +5045,26 @@
             "traffic light"
         ],
         "name": "Traffic Signals"
+    },
+    "highway/trottoir_wegoto": {
+        "icon": "highway-motorway",
+        "fields": [
+            "oneway_yes",
+            "maxspeed",
+            "structure",
+            "access",
+            "lanes",
+            "surface",
+            "ref"
+        ],
+        "geometry": [
+            "line"
+        ],
+        "tags": {
+            "highway": "motorway"
+        },
+        "terms": [],
+        "name": "SideWalk"
     },
     "highway/trunk": {
         "icon": "highway-trunk",

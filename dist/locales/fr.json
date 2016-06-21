@@ -628,7 +628,7 @@
                 "name": "Éléments  pour restrictions"
             },
             "category-road": {
-                "name": "Éléments routiers"
+                "name": "Éléments voiries"
             },
             "category-route": {
                 "name": "Éléments pour itinéraires"
@@ -2500,7 +2500,12 @@
                 "name": "Passage piéton",
                 "terms": "Passage piéton, Zébra, Passage zébré"
             },
+            
             "highway/cycleway": {
+                "name": "Voie cyclable",
+                "terms": "Piste cyclable"
+            },
+            "highway/cyclable_wegoto": {
                 "name": "Voie cyclable",
                 "terms": "Piste cyclable"
             },
@@ -2520,6 +2525,10 @@
                 "name": "Autoroute",
                 "terms": "Autoroute, Voie rapide"
             },
+             "highway/trottoir_wegoto": {
+                "name": "Trottoir",
+                "terms": "trottoir, Voirie"
+            },
             "highway/motorway_junction": {
                 "name": "Bretelle d'autoroute / Sortie",
                 "terms": "Échangeur, Échangeur Autoroutier,Croisement d'autoroutes,Intersection d'autoroutes,Bretelle d'autoroute,Bretelle de sortie"
@@ -2532,7 +2541,20 @@
                 "name": "Chemin non carrossable",
                 "terms": "Chemin"
             },
+            "highway/chausse_wegoto": {
+                "name": "Chaussée",
+                "terms": "Chaussée"
+            },
+
+             "highway/chemin_wegoto": {
+                "name": "Chemin",
+                "terms": "Chemin"
+            },
             "highway/pedestrian": {
+                "name": "Rue piétonne",
+                "terms": "Rue piétonnière,Espace piétonnier,Place piétonne,Rue piétonne"
+            },
+              "highway/pietonne_wegoto": {
                 "name": "Rue piétonne",
                 "terms": "Rue piétonnière,Espace piétonnier,Place piétonne,Rue piétonne"
             },

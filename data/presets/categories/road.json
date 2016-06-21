@@ -1,8 +1,13 @@
 {
     "geometry": "line",
-    "name": "Elements voiries",
+    "name": "Road Features",
     "icon": "category-roads",
     "members": [
+        "highway/trottoir_wegoto",
+        "highway/chemin_wegoto",
+        "highway/chausse_wegoto",
+        "highway/pietonne_wegoto",
+        "highway/cyclable_wegoto",
         "highway/residential",
         "highway/motorway",
         "highway/trunk",

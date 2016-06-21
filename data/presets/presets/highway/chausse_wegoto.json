@@ -1,0 +1,20 @@
+{
+    "icon": "highway-path",
+    "fields": [
+        "oneway_yes",
+        "maxspeed",
+        "structure",
+        "access",
+        "lanes",
+        "surface",
+        "ref"
+    ],
+    "geometry": [
+        "line"
+    ],
+    "tags": {
+        "highway": "motorway"
+    },
+    "terms": [],
+    "name": "Road"
+}

@@ -635,7 +635,7 @@
                 "name": "Restriction Features"
             },
             "category-road": {
-                "name": "Elements voiries"
+                "name": "Road Features"
             },
             "category-route": {
                 "name": "Route Features"
@@ -2471,6 +2471,14 @@
                 "name": "Bus Stop",
                 "terms": ""
             },
+            "highway/chausse_wegoto": {
+                "name": "Road",
+                "terms": ""
+            },
+            "highway/chemin_wegoto": {
+                "name": "Path",
+                "terms": ""
+            },
             "highway/corridor": {
                 "name": "Indoor Corridor",
                 "terms": "gallery,hall,hallway,indoor,passage,passageway"
@@ -2482,6 +2490,10 @@
             "highway/crosswalk": {
                 "name": "Pedestrian Crosswalk",
                 "terms": "zebra crossing"
+            },
+            "highway/cyclable_wegoto": {
+                "name": "Cycle Path",
+                "terms": "bike"
             },
             "highway/cycleway": {
                 "name": "Cycle Path",
@@ -2516,6 +2528,10 @@
                 "terms": "hike,hiking,trackway,trail,walk"
             },
             "highway/pedestrian": {
+                "name": "Pedestrian Street",
+                "terms": ""
+            },
+            "highway/pietonne_wegoto": {
                 "name": "Pedestrian Street",
                 "terms": ""
             },
@@ -2606,6 +2622,10 @@
             "highway/traffic_signals": {
                 "name": "Traffic Signals",
                 "terms": "light,stoplight,traffic light"
+            },
+            "highway/trottoir_wegoto": {
+                "name": "SideWalk",
+                "terms": ""
             },
             "highway/trunk": {
                 "name": "Trunk Road",

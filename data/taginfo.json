@@ -960,6 +960,14 @@
         },
         {
             "key": "highway",
+            "value": "motorway"
+        },
+        {
+            "key": "highway",
+            "value": "motorway"
+        },
+        {
+            "key": "highway",
             "value": "corridor"
         },
         {
@@ -969,6 +977,10 @@
         {
             "key": "crossing",
             "value": "zebra"
+        },
+        {
+            "key": "highway",
+            "value": "cycleway"
         },
         {
             "key": "highway",
@@ -1001,6 +1013,10 @@
         {
             "key": "highway",
             "value": "path"
+        },
+        {
+            "key": "highway",
+            "value": "pedestrian"
         },
         {
             "key": "highway",
@@ -1093,6 +1109,10 @@
         {
             "key": "highway",
             "value": "traffic_signals"
+        },
+        {
+            "key": "highway",
+            "value": "motorway"
         },
         {
             "key": "highway",

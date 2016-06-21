@@ -16,7 +16,7 @@ en:
       category-restriction:
         name: Restriction Features
       category-road:
-        name: Elements voiries
+        name: Road Features
       category-route:
         name: Route Features
       category-water-area:
@@ -2117,6 +2117,14 @@ en:
         # highway=bus_stop
         name: Bus Stop
         terms: "<translate with synonyms or related terms for 'Bus Stop', separated by commas>"
+      highway/chausse_wegoto:
+        # highway=motorway
+        name: Road
+        terms: "<translate with synonyms or related terms for 'Road', separated by commas>"
+      highway/chemin_wegoto:
+        # highway=motorway
+        name: Path
+        terms: "<translate with synonyms or related terms for 'Path', separated by commas>"
       highway/corridor:
         # highway=corridor
         name: Indoor Corridor
@@ -2131,6 +2139,11 @@ en:
         name: Pedestrian Crosswalk
         # 'terms: zebra crossing'
         terms: "<translate with synonyms or related terms for 'Pedestrian Crosswalk', separated by commas>"
+      highway/cyclable_wegoto:
+        # highway=cycleway
+        name: Cycle Path
+        # 'terms: bike'
+        terms: "<translate with synonyms or related terms for 'Cycle Path', separated by commas>"
       highway/cycleway:
         # highway=cycleway
         name: Cycle Path
@@ -2168,6 +2181,10 @@ en:
         # 'terms: hike,hiking,trackway,trail,walk'
         terms: "<translate with synonyms or related terms for 'Path', separated by commas>"
       highway/pedestrian:
+        # highway=pedestrian
+        name: Pedestrian Street
+        terms: "<translate with synonyms or related terms for 'Pedestrian Street', separated by commas>"
+      highway/pietonne_wegoto:
         # highway=pedestrian
         name: Pedestrian Street
         terms: "<translate with synonyms or related terms for 'Pedestrian Street', separated by commas>"
@@ -2270,6 +2287,10 @@ en:
         name: Traffic Signals
         # 'terms: light,stoplight,traffic light'
         terms: "<translate with synonyms or related terms for 'Traffic Signals', separated by commas>"
+      highway/trottoir_wegoto:
+        # highway=motorway
+        name: SideWalk
+        terms: "<translate with synonyms or related terms for 'SideWalk', separated by commas>"
       highway/trunk:
         # highway=trunk
         name: Trunk Road
