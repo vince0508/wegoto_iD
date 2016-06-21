@@ -2676,7 +2676,15 @@
             },
             "highway/ppieton_sortie": {
                 "name": "Sortie d'un passage piéton",
-                "terms": "Ppassage piéton"
+                "terms": "passage piéton"
+            },
+            "highway/ilot_entree": {
+                "name": "Entrée d'un îlot",
+                "terms": "ilot"
+            },
+            "highway/ilot_sortie": {
+                "name": "Sortie d'un îlot",
+                "terms": "ilot"
             },
             "highway/unclassified": {
                 "name": "Route mineure ou non classifiée",

@@ -34,6 +34,10 @@
     "vertex": [
         "highway/crosswalk",
         "highway/crossing",
+        "highway/ppieton_entree",
+        "highway/ppieton_sortie",
+        "highway/ilot_entree",
+        "highway/ilot_sortie",
         "railway/level_crossing",
         "highway/traffic_signals",
         "highway/turning_circle",
