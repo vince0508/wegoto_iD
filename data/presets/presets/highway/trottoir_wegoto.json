@@ -1,5 +1,5 @@
 {
-    "icon": "highway-motorway",
+    "icon": "highway-footway",
     "fields": [
         "oneway_yes",
         "maxspeed",
