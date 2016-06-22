@@ -4312,7 +4312,7 @@
             "line"
         ],
         "tags": {
-            "highway": "motorway"
+            "highway": "road"
         },
         "terms": [],
         "name": "Road"
@@ -4332,7 +4332,7 @@
             "line"
         ],
         "tags": {
-            "highway": "motorway"
+            "highway": "path"
         },
         "terms": [],
         "name": "Path"
@@ -5155,7 +5155,7 @@
             "line"
         ],
         "tags": {
-            "highway": "crossing"
+            "footway": "crossing"
         },
         "terms": [],
         "name": "Street Crossing"
@@ -5175,7 +5175,7 @@
             "line"
         ],
         "tags": {
-            "highway": "SideWalk"
+            "footway": "sidewalk"
         },
         "terms": [],
         "name": "SideWalk"

@@ -964,11 +964,11 @@
         },
         {
             "key": "highway",
-            "value": "motorway"
+            "value": "road"
         },
         {
             "key": "highway",
-            "value": "motorway"
+            "value": "path"
         },
         {
             "key": "highway",
@@ -1135,12 +1135,12 @@
             "value": "traffic_signals"
         },
         {
-            "key": "highway",
+            "key": "footway",
             "value": "crossing"
         },
         {
-            "key": "highway",
-            "value": "SideWalk"
+            "key": "footway",
+            "value": "sidewalk"
         },
         {
             "key": "highway",

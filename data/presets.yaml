@@ -2122,11 +2122,11 @@ en:
         name: Bus Stop
         terms: "<translate with synonyms or related terms for 'Bus Stop', separated by commas>"
       highway/chausse_wegoto:
-        # highway=motorway
+        # highway=road
         name: Road
         terms: "<translate with synonyms or related terms for 'Road', separated by commas>"
       highway/chemin_wegoto:
-        # highway=motorway
+        # highway=path
         name: Path
         terms: "<translate with synonyms or related terms for 'Path', separated by commas>"
       highway/corridor:
@@ -2312,11 +2312,11 @@ en:
         # 'terms: light,stoplight,traffic light'
         terms: "<translate with synonyms or related terms for 'Traffic Signals', separated by commas>"
       highway/traversee_wegoto:
-        # highway=crossing
+        # footway=crossing
         name: Street Crossing
         terms: "<translate with synonyms or related terms for 'Street Crossing', separated by commas>"
       highway/trottoir_wegoto:
-        # highway=SideWalk
+        # footway=sidewalk
         name: SideWalk
         terms: "<translate with synonyms or related terms for 'SideWalk', separated by commas>"
       highway/trunk:
