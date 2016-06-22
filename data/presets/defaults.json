@@ -14,9 +14,7 @@
         "category-road",
         "category-rail",
         "category-path",
-        "category-water-line",
         "category-barrier",
-        "power/line",
         "line"
     ],
     "point": [

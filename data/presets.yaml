@@ -2316,7 +2316,7 @@ en:
         name: Street Crossing
         terms: "<translate with synonyms or related terms for 'Street Crossing', separated by commas>"
       highway/trottoir_wegoto:
-        # highway=motorway
+        # highway=SideWalk
         name: SideWalk
         terms: "<translate with synonyms or related terms for 'SideWalk', separated by commas>"
       highway/trunk:
