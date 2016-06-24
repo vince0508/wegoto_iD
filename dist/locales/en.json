@@ -1412,7 +1412,7 @@
             },
             "smoothness_wegoto": {
                 "label": "Smoothnesss",
-                "placeholder": "Excellent, intermediate, bad...",
+                "placeholder": "Excellent, intermediate, Bad...",
                 "options": {
                     "excellent": "excellent",
                     "intermediate": "intermediate",

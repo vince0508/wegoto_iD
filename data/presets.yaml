@@ -936,7 +936,7 @@ en:
           # smoothness_wegoto=intermediate
           intermediate: intermediate
         # smoothness_wegoto field placeholder
-        placeholder: 'Excellent, intermediate, bad...'
+        placeholder: 'Excellent, intermediate, Bad...'
       social_facility_for:
         # 'social_facility:for=*'
         label: People served

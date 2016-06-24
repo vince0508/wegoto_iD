@@ -1233,7 +1233,7 @@
         "key": "smoothness_wegoto",
         "type": "combo",
         "label": "Smoothnesss",
-        "placeholder": "Excellent, intermediate, bad...",
+        "placeholder": "Excellent, intermediate, Bad...",
         "strings": {
             "options": {
                 "excellent": "excellent",

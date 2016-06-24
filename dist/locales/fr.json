@@ -1041,8 +1041,20 @@
                 "label": "Accotement gauche"
             },
               "smoothness_wegoto": {
-                "label": "Etat revêtement"
+                "label": "Etat revêtement",
+                "options": {
+                    "excellent": "Excellent",
+                    "intermediate": "Intermédiaire",
+                    "bad": "Mauvais"
+                    
+
+                }
             },
+     
+
+
+
+
             "line_right": {
                 "label": "Séparation droit"
             },
