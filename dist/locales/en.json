@@ -699,6 +699,14 @@
             "access_toilets": {
                 "label": "Access"
             },
+            "addr_wegoto": {
+                "label": "Address",
+                "placeholders": {
+                    "street": "Street",
+                    "city": "City",
+                    "postcode": "Postcode"
+                }
+            },
             "address": {
                 "label": "Address",
                 "placeholders": {
@@ -1042,6 +1050,9 @@
                     "terminal": "Terminal"
                 }
             },
+            "kerb": {
+                "label": "Kerb"
+            },
             "lamp_type": {
                 "label": "Type"
             },
@@ -1103,6 +1114,12 @@
             "levels": {
                 "label": "Levels",
                 "placeholder": "2, 4, 6..."
+            },
+            "line_left": {
+                "label": "Line left"
+            },
+            "line_right": {
+                "label": "Line right"
             },
             "lit": {
                 "label": "Lit"
@@ -1351,6 +1368,12 @@
             },
             "shop": {
                 "label": "Type"
+            },
+            "shoulder_left": {
+                "label": "Shoulder left"
+            },
+            "shoulder_right": {
+                "label": "Shoulder right"
             },
             "site": {
                 "label": "Type"

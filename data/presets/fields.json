@@ -81,6 +81,27 @@
             "customers"
         ]
     },
+    "addr_wegoto": {
+        "type": "address",
+        "keys": [
+            "addr:street",
+            "addr:city",
+            "addr:postcode"
+        ],
+        "reference": {
+            "key": "addr_wegoto"
+        },
+        "icon": "address",
+        "universal": true,
+        "label": "Address",
+        "strings": {
+            "placeholders": {
+                "street": "Street",
+                "city": "City",
+                "postcode": "Postcode"
+            }
+        }
+    },
     "address": {
         "type": "address",
         "keys": [
@@ -640,6 +661,11 @@
             }
         }
     },
+    "kerb": {
+        "key": "kerb",
+        "type": "combo",
+        "label": "Kerb"
+    },
     "lamp_type": {
         "key": "lamp_type",
         "type": "combo",
@@ -734,6 +760,16 @@
         "type": "number",
         "label": "Levels",
         "placeholder": "2, 4, 6..."
+    },
+    "line_left": {
+        "key": "line_left",
+        "type": "combo",
+        "label": "Line left"
+    },
+    "line_right": {
+        "key": "line_right",
+        "type": "combo",
+        "label": "Line right"
     },
     "lit": {
         "key": "lit",
@@ -1133,6 +1169,16 @@
         "key": "shop",
         "type": "typeCombo",
         "label": "Type"
+    },
+    "shoulder_left": {
+        "key": "shoulder_left",
+        "type": "combo",
+        "label": "Shoulder left"
+    },
+    "shoulder_right": {
+        "key": "shoulder_right",
+        "type": "combo",
+        "label": "Shoulder right"
     },
     "site": {
         "key": "site",

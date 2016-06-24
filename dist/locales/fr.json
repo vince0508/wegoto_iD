@@ -1030,6 +1030,22 @@
             "incline": {
                 "label": "Pente"
             },
+             "kerb": {
+                "label": "Devers"
+            },
+            "shoulder_right": {
+                "label": "Accotement droit"
+            },
+            
+            "shoulder_left": {
+                "label": "Accotement gauche"
+            },
+            "line_right": {
+                "label": "Séparation droit"
+            },
+            "line_left": {
+                "label": "Séparation gauche"
+            },
             "incline_steps": {
                 "label": "Inclinaison",
                 "options": {

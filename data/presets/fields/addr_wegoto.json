@@ -1,0 +1,23 @@
+{
+    "type": "address",
+    "keys": [
+        
+        "addr:street",
+        "addr:city",
+        "addr:postcode"
+       
+    ],
+    "reference": {"key": "addr_wegoto"},
+    "icon": "address",
+    "universal": true,
+    "label": "Address",
+    "strings": {
+        "placeholders": {
+          
+          "street": "Street",
+          "city": "City",
+          "postcode": "Postcode"
+          
+        }
+    }
+}

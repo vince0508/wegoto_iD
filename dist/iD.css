@@ -730,6 +730,19 @@ path.casing.tag-tertiary {
     stroke:#2c5476;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 .legacy-carto .preset-icon .icon.highway-trunk,
 .legacy-carto .preset-icon .icon.highway-trunk-link {
     color: #8cd05f;
@@ -1022,6 +1035,8 @@ path.casing.tag-highway-bridleway.tag-unpaved {
     stroke-dasharray: none;
 }
 
+
+/* css pour chemin */ 
 .preset-icon .icon.category-path,
 .preset-icon .icon.highway-path {
     color: #746f6f;
@@ -1030,6 +1045,19 @@ path.casing.tag-highway-bridleway.tag-unpaved {
 path.stroke.tag-highway-path {
     stroke: #746f6f;
 }
+
+
+
+/* css pour trottoir */ 
+
+.preset-icon .icon.highway-footway {
+    color: #746f6f;
+    fill: #c5b59f;
+}
+path.stroke.tag-footway-sidewalk {
+    stroke: #746f6f;
+}
+
 
 .preset-icon .icon.tag-route-foot,
 .preset-icon .icon.tag-route-hiking,

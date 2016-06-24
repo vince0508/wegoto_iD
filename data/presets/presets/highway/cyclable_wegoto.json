@@ -1,18 +1,38 @@
 {
     "icon": "highway-cycleway",
     "fields": [
-        "surface",
-        "lit",
+        "incline",
+        "kerb",
         "width",
-        "oneway",
-        "structure",
-        "access"
+        "elevation",
+        "smoothness",
+        "shoulder_right",
+        "shoulder_left",
+        "line_right",
+        "line_left",
+        "surface",
+        
+        "addr_wegoto"
     ],
     "geometry": [
         "line"
     ],
     "tags": {
-        "highway": "cycleway"
+        "incline":"",
+        "kerb":"",
+        "est_width":"",
+        "ele":"",
+        "smoothness":"",
+        "shoulder:right":"",
+        "shoulder:left":"",
+        "line:right":"",
+        "line:left":"",
+        "surface": "asphalt",
+        "highway": "cycleway",
+        "name": "",
+        "addr:postcode": "",
+        "addr:city": ""
+        
     },
     "terms": [
         "bike"

@@ -963,12 +963,12 @@
             "value": "bus_stop"
         },
         {
-            "key": "highway",
-            "value": "road"
+            "key": "addr:city",
+            "value": ""
         },
         {
-            "key": "highway",
-            "value": "path"
+            "key": "addr:city",
+            "value": ""
         },
         {
             "key": "highway",
@@ -983,8 +983,8 @@
             "value": "zebra"
         },
         {
-            "key": "highway",
-            "value": "cycleway"
+            "key": "addr:city",
+            "value": ""
         },
         {
             "key": "highway",
@@ -1035,8 +1035,8 @@
             "value": "pedestrian"
         },
         {
-            "key": "highway",
-            "value": "pedestrian"
+            "key": "addr:city",
+            "value": ""
         },
         {
             "key": "highway",
@@ -1139,8 +1139,8 @@
             "value": "crossing"
         },
         {
-            "key": "footway",
-            "value": "sidewalk"
+            "key": "addr:city",
+            "value": ""
         },
         {
             "key": "highway",

@@ -1,19 +1,38 @@
 {
     "icon": "highway-footway",
     "fields": [
-        "surface",
-        "lit",
+        "incline",
+        "kerb",
         "width",
-        "oneway",
-        "structure",
-        "access"
+        "elevation",
+        "smoothness",
+        "shoulder_right",
+        "shoulder_left",
+        "line_right",
+        "line_left",
+        "surface",
+        "addr_wegoto"
     ],
     "geometry": [
         "line",
         "area"
     ],
     "tags": {
-        "highway": "pedestrian"
+        "incline":"",
+        "kerb":"",
+        "est_width":"",
+        "ele":"",
+        "smoothness":"",
+        "shoulder:right":"",
+        "shoulder:left":"",
+        "line:right":"",
+        "line:left":"",
+        "surface": "asphalt",
+        "highway": "pedestrian",
+        "name": "",
+        "addr:postcode": "",
+        "addr:city": ""
+        
     },
     "terms": [],
     "name": "Pedestrian Street"

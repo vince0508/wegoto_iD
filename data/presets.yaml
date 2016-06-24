@@ -82,6 +82,13 @@ en:
       access_toilets:
         # 'access=*'
         label: Access
+      addr_wegoto:
+        # 'addr:street=*, addr:city=*, addr:postcode=*'
+        label: Address
+        placeholders:
+          city: City
+          postcode: Postcode
+          street: Street
       address:
         # 'addr:housename=*, addr:housenumber=*, addr:conscriptionnumber=*, addr:street=*, addr:city=*, addr:postcode=*, addr:place=*, addr:hamlet=*, addr:suburb=*, addr:subdistrict=*, addr:district=*, addr:province=*, addr:state=*, addr:country=*'
         label: Address
@@ -466,6 +473,9 @@ en:
           wlan: Wifi
           # internet_access=yes
           'yes': 'Yes'
+      kerb:
+        # 'kerb=*'
+        label: Kerb
       lamp_type:
         # 'lamp_type=*'
         label: Type
@@ -542,6 +552,12 @@ en:
         label: Levels
         # levels field placeholder
         placeholder: '2, 4, 6...'
+      line_left:
+        # 'line_left=*'
+        label: Line left
+      line_right:
+        # 'line_right=*'
+        label: Line right
       lit:
         # 'lit=*'
         label: Lit
@@ -854,6 +870,12 @@ en:
       shop:
         # 'shop=*'
         label: Type
+      shoulder_left:
+        # 'shoulder_left=*'
+        label: Shoulder left
+      shoulder_right:
+        # 'shoulder_right=*'
+        label: Shoulder right
       site:
         # 'site=*'
         label: Type
@@ -2122,11 +2144,11 @@ en:
         name: Bus Stop
         terms: "<translate with synonyms or related terms for 'Bus Stop', separated by commas>"
       highway/chausse_wegoto:
-        # highway=road
+        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=asphalt, highway=road, name=, addr:postcode=, addr:city='
         name: Road
         terms: "<translate with synonyms or related terms for 'Road', separated by commas>"
       highway/chemin_wegoto:
-        # highway=path
+        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=asphalt, highway=path, name=, addr:postcode=, addr:city='
         name: Path
         terms: "<translate with synonyms or related terms for 'Path', separated by commas>"
       highway/corridor:
@@ -2144,7 +2166,7 @@ en:
         # 'terms: zebra crossing'
         terms: "<translate with synonyms or related terms for 'Pedestrian Crosswalk', separated by commas>"
       highway/cyclable_wegoto:
-        # highway=cycleway
+        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=asphalt, highway=cycleway, name=, addr:postcode=, addr:city='
         name: Cycle Path
         # 'terms: bike'
         terms: "<translate with synonyms or related terms for 'Cycle Path', separated by commas>"
@@ -2201,7 +2223,7 @@ en:
         name: Pedestrian Street
         terms: "<translate with synonyms or related terms for 'Pedestrian Street', separated by commas>"
       highway/pietonne_wegoto:
-        # highway=pedestrian
+        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=asphalt, highway=pedestrian, name=, addr:postcode=, addr:city='
         name: Pedestrian Street
         terms: "<translate with synonyms or related terms for 'Pedestrian Street', separated by commas>"
       highway/ppieton_entree:
@@ -2316,7 +2338,7 @@ en:
         name: Street Crossing
         terms: "<translate with synonyms or related terms for 'Street Crossing', separated by commas>"
       highway/trottoir_wegoto:
-        # footway=sidewalk
+        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=asphalt, footway=sidewalk, name=, addr:postcode=, addr:city='
         name: SideWalk
         terms: "<translate with synonyms or related terms for 'SideWalk', separated by commas>"
       highway/trunk:

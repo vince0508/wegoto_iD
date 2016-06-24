@@ -4300,19 +4300,36 @@
     "highway/chausse_wegoto": {
         "icon": "highway-path",
         "fields": [
-            "oneway_yes",
-            "maxspeed",
-            "structure",
-            "access",
-            "lanes",
+            "incline",
+            "kerb",
+            "width",
+            "elevation",
+            "smoothness",
+            "shoulder_right",
+            "shoulder_left",
+            "line_right",
+            "line_left",
             "surface",
-            "ref"
+            "addr_wegoto"
         ],
         "geometry": [
             "line"
         ],
         "tags": {
-            "highway": "road"
+            "incline": "",
+            "kerb": "",
+            "est_width": "",
+            "ele": "",
+            "smoothness": "",
+            "shoulder:right": "",
+            "shoulder:left": "",
+            "line:right": "",
+            "line:left": "",
+            "surface": "asphalt",
+            "highway": "road",
+            "name": "",
+            "addr:postcode": "",
+            "addr:city": ""
         },
         "terms": [],
         "name": "Road"
@@ -4320,19 +4337,36 @@
     "highway/chemin_wegoto": {
         "icon": "highway-path",
         "fields": [
-            "oneway_yes",
-            "maxspeed",
-            "structure",
-            "access",
-            "lanes",
+            "incline",
+            "kerb",
+            "width",
+            "elevation",
+            "smoothness",
+            "shoulder_right",
+            "shoulder_left",
+            "line_right",
+            "line_left",
             "surface",
-            "ref"
+            "addr_wegoto"
         ],
         "geometry": [
             "line"
         ],
         "tags": {
-            "highway": "path"
+            "incline": "",
+            "kerb": "",
+            "est_width": "",
+            "ele": "",
+            "smoothness": "",
+            "shoulder:right": "",
+            "shoulder:left": "",
+            "line:right": "",
+            "line:left": "",
+            "surface": "asphalt",
+            "highway": "path",
+            "name": "",
+            "addr:postcode": "",
+            "addr:city": ""
         },
         "terms": [],
         "name": "Path"
@@ -4396,18 +4430,36 @@
     "highway/cyclable_wegoto": {
         "icon": "highway-cycleway",
         "fields": [
-            "surface",
-            "lit",
+            "incline",
+            "kerb",
             "width",
-            "oneway",
-            "structure",
-            "access"
+            "elevation",
+            "smoothness",
+            "shoulder_right",
+            "shoulder_left",
+            "line_right",
+            "line_left",
+            "surface",
+            "addr_wegoto"
         ],
         "geometry": [
             "line"
         ],
         "tags": {
-            "highway": "cycleway"
+            "incline": "",
+            "kerb": "",
+            "est_width": "",
+            "ele": "",
+            "smoothness": "",
+            "shoulder:right": "",
+            "shoulder:left": "",
+            "line:right": "",
+            "line:left": "",
+            "surface": "asphalt",
+            "highway": "cycleway",
+            "name": "",
+            "addr:postcode": "",
+            "addr:city": ""
         },
         "terms": [
             "bike"
@@ -4651,19 +4703,37 @@
     "highway/pietonne_wegoto": {
         "icon": "highway-footway",
         "fields": [
-            "surface",
-            "lit",
+            "incline",
+            "kerb",
             "width",
-            "oneway",
-            "structure",
-            "access"
+            "elevation",
+            "smoothness",
+            "shoulder_right",
+            "shoulder_left",
+            "line_right",
+            "line_left",
+            "surface",
+            "addr_wegoto"
         ],
         "geometry": [
             "line",
             "area"
         ],
         "tags": {
-            "highway": "pedestrian"
+            "incline": "",
+            "kerb": "",
+            "est_width": "",
+            "ele": "",
+            "smoothness": "",
+            "shoulder:right": "",
+            "shoulder:left": "",
+            "line:right": "",
+            "line:left": "",
+            "surface": "asphalt",
+            "highway": "pedestrian",
+            "name": "",
+            "addr:postcode": "",
+            "addr:city": ""
         },
         "terms": [],
         "name": "Pedestrian Street"
@@ -5163,19 +5233,36 @@
     "highway/trottoir_wegoto": {
         "icon": "highway-footway",
         "fields": [
-            "oneway_yes",
-            "maxspeed",
-            "structure",
-            "access",
-            "lanes",
+            "incline",
+            "kerb",
+            "width",
+            "elevation",
+            "smoothness",
+            "shoulder_right",
+            "shoulder_left",
+            "line_right",
+            "line_left",
             "surface",
-            "ref"
+            "addr_wegoto"
         ],
         "geometry": [
             "line"
         ],
         "tags": {
-            "footway": "sidewalk"
+            "incline": "",
+            "kerb": "",
+            "est_width": "",
+            "ele": "",
+            "smoothness": "",
+            "shoulder:right": "",
+            "shoulder:left": "",
+            "line:right": "",
+            "line:left": "",
+            "surface": "asphalt",
+            "footway": "sidewalk",
+            "name": "",
+            "addr:postcode": "",
+            "addr:city": ""
         },
         "terms": [],
         "name": "SideWalk"
