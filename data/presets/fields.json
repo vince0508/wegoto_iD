@@ -1236,9 +1236,9 @@
         "placeholder": "Thin Rollers, Wheels, Off-Road...",
         "strings": {
             "options": {
-                "excellent": "",
-                "intermediate": "",
-                "bad": ""
+                "excellent": "t",
+                "intermediate": "t",
+                "bad": "t"
             }
         }
     },

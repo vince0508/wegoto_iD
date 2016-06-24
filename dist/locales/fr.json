@@ -1046,6 +1046,9 @@
             "line_right": {
                 "label": "Séparation droit"
             },
+            "incline_wegoto": {
+                "label": "Pente"
+            },
             "line_left": {
                 "label": "Séparation gauche"
             },

@@ -930,11 +930,11 @@ en:
         label: Smoothnesss
         options:
           # smoothness_wegoto=bad
-          bad: ''
+          bad: t
           # smoothness_wegoto=excellent
-          excellent: ''
+          excellent: t
           # smoothness_wegoto=intermediate
-          intermediate: ''
+          intermediate: t
         # smoothness_wegoto field placeholder
         placeholder: 'Thin Rollers, Wheels, Off-Road...'
       social_facility_for:

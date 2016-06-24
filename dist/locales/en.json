@@ -1414,9 +1414,9 @@
                 "label": "Smoothnesss",
                 "placeholder": "Thin Rollers, Wheels, Off-Road...",
                 "options": {
-                    "excellent": "",
-                    "intermediate": "",
-                    "bad": ""
+                    "excellent": "t",
+                    "intermediate": "t",
+                    "bad": "t"
                 }
             },
             "social_facility_for": {
