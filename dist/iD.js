@@ -35422,10 +35422,10 @@ iD.ui.EntityEditor = function(context) {
         $enter.append('div')
             .attr('class', 'inspector-border inspector-preset');
 
-//SUP TAG
-         /* $enter.append('div')
+
+          $enter.append('div')
               .attr('class', 'inspector-border raw-tag-editor inspector-inner');
-  */
+  
 
         $enter.append('div')
             .attr('class', 'inspector-border raw-member-editor inspector-inner');
