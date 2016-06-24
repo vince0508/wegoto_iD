@@ -1036,9 +1036,12 @@
             "shoulder_right": {
                 "label": "Accotement droit"
             },
-            
+
             "shoulder_left": {
                 "label": "Accotement gauche"
+            },
+              "smoothness_wegoto": {
+                "label": "Etat revêtement"
             },
             "line_right": {
                 "label": "Séparation droit"

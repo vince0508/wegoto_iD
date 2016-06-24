@@ -1,0 +1,14 @@
+{
+    "key": "smoothness_wegoto",
+    "type": "combo",
+    "label": "Smoothnesss",
+    "placeholder": "Thin Rollers, Wheels, Off-Road...",
+    "strings": {
+        "options": {
+            "excellent":"",
+            "intermediate": "",
+            "bad": ""
+          
+        }
+    }
+}

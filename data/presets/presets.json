@@ -4300,11 +4300,11 @@
     "highway/chausse_wegoto": {
         "icon": "highway-path",
         "fields": [
-            "incline",
+            "incline_wegoto",
             "kerb",
             "width",
             "elevation",
-            "smoothness",
+            "smoothness_wegoto",
             "shoulder_right",
             "shoulder_left",
             "line_right",
@@ -4337,11 +4337,11 @@
     "highway/chemin_wegoto": {
         "icon": "highway-path",
         "fields": [
-            "incline",
+            "incline_wegoto",
             "kerb",
             "width",
             "elevation",
-            "smoothness",
+            "smoothness_wegoto",
             "shoulder_right",
             "shoulder_left",
             "line_right",
@@ -4430,11 +4430,11 @@
     "highway/cyclable_wegoto": {
         "icon": "highway-cycleway",
         "fields": [
-            "incline",
+            "incline_wegoto",
             "kerb",
             "width",
             "elevation",
-            "smoothness",
+            "smoothness_wegoto",
             "shoulder_right",
             "shoulder_left",
             "line_right",
@@ -4703,11 +4703,11 @@
     "highway/pietonne_wegoto": {
         "icon": "highway-footway",
         "fields": [
-            "incline",
+            "incline_wegoto",
             "kerb",
             "width",
             "elevation",
-            "smoothness",
+            "smoothness_wegoto",
             "shoulder_right",
             "shoulder_left",
             "line_right",
@@ -5233,11 +5233,11 @@
     "highway/trottoir_wegoto": {
         "icon": "highway-footway",
         "fields": [
-            "incline",
+            "incline_wegoto",
             "kerb",
             "width",
             "elevation",
-            "smoothness",
+            "smoothness_wegoto",
             "shoulder_right",
             "shoulder_left",
             "line_right",

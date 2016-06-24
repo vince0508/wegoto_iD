@@ -456,6 +456,9 @@ en:
           down: Down
           # incline=up
           up: Up
+      incline_wegoto:
+        # 'incline_wegoto=*'
+        label: Incline
       information:
         # 'information=*'
         label: Type
@@ -921,6 +924,18 @@ en:
           # smoothness=very_horrible
           very_horrible: 'Specialized off-road: tractor, ATV'
         # smoothness field placeholder
+        placeholder: 'Thin Rollers, Wheels, Off-Road...'
+      smoothness_wegoto:
+        # 'smoothness_wegoto=*'
+        label: Smoothnesss
+        options:
+          # smoothness_wegoto=bad
+          bad: ''
+          # smoothness_wegoto=excellent
+          excellent: ''
+          # smoothness_wegoto=intermediate
+          intermediate: ''
+        # smoothness_wegoto field placeholder
         placeholder: 'Thin Rollers, Wheels, Off-Road...'
       social_facility_for:
         # 'social_facility:for=*'

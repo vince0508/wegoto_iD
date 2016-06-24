@@ -642,6 +642,11 @@
             }
         }
     },
+    "incline_wegoto": {
+        "key": "incline_wegoto",
+        "type": "number",
+        "label": "Incline"
+    },
     "information": {
         "key": "information",
         "type": "typeCombo",
@@ -663,7 +668,7 @@
     },
     "kerb": {
         "key": "kerb",
-        "type": "combo",
+        "type": "number",
         "label": "Kerb"
     },
     "lamp_type": {
@@ -1221,6 +1226,19 @@
                 "horrible": "Off-Road: heavy duty off-road vehicle",
                 "very_horrible": "Specialized off-road: tractor, ATV",
                 "impassable": "Impassable / No wheeled vehicle"
+            }
+        }
+    },
+    "smoothness_wegoto": {
+        "key": "smoothness_wegoto",
+        "type": "combo",
+        "label": "Smoothnesss",
+        "placeholder": "Thin Rollers, Wheels, Off-Road...",
+        "strings": {
+            "options": {
+                "excellent": "",
+                "intermediate": "",
+                "bad": ""
             }
         }
     },
