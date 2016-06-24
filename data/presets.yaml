@@ -930,13 +930,13 @@ en:
         label: Smoothnesss
         options:
           # smoothness_wegoto=bad
-          bad: t
+          bad: bad
           # smoothness_wegoto=excellent
-          excellent: t
+          excellent: excellent
           # smoothness_wegoto=intermediate
-          intermediate: t
+          intermediate: intermediate
         # smoothness_wegoto field placeholder
-        placeholder: 'Thin Rollers, Wheels, Off-Road...'
+        placeholder: 'Excellent, intermediate, bad...'
       social_facility_for:
         # 'social_facility:for=*'
         label: People served

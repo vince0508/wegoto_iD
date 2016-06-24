@@ -1412,11 +1412,11 @@
             },
             "smoothness_wegoto": {
                 "label": "Smoothnesss",
-                "placeholder": "Thin Rollers, Wheels, Off-Road...",
+                "placeholder": "Excellent, intermediate, bad...",
                 "options": {
-                    "excellent": "t",
-                    "intermediate": "t",
-                    "bad": "t"
+                    "excellent": "excellent",
+                    "intermediate": "intermediate",
+                    "bad": "bad"
                 }
             },
             "social_facility_for": {

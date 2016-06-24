@@ -2,12 +2,12 @@
     "key": "smoothness_wegoto",
     "type": "combo",
     "label": "Smoothnesss",
-    "placeholder": "Thin Rollers, Wheels, Off-Road...",
+    "placeholder": "Excellent, intermediate, bad...",
     "strings": {
         "options": {
-            "excellent":"t",
-            "intermediate": "t",
-            "bad": "t"
+            "excellent":"excellent",
+            "intermediate": "intermediate",
+            "bad": "bad"
           
         }
     }
