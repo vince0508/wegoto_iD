@@ -1094,7 +1094,7 @@
 
             "line_right": {
                 "label": "Séparation droit",
-                "option":{
+                "options":{
                     "bollard":"Poteaux",
                     "post": "Borne",
                     "ref": "Marquage au sol",
@@ -1113,7 +1113,7 @@
             },
             "line_left": {
                 "label": "Séparation gauche",
-                 "option":{
+                 "options":{
 
              "bollard":"Poteaux",
             "post": "Borne",

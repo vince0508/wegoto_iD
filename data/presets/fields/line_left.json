@@ -3,8 +3,8 @@
     "type": "combo",
     "label": "Line left",
     "strings":{
-   	 "options": {
-             "bollard":"bollard",
+   	 	"options": {
+             "bollard": "bollard",
             "post": "post",
             "ref": "ref",
             "sound_ref": "sound_ref",
