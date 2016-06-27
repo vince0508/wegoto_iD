@@ -1,5 +1,23 @@
 {
     "key": "shoulder_right",
     "type": "combo",
-    "label": "Shoulder right"
+    "label": "Shoulder right",
+    "strings": {
+        "options": {
+            "road":"road",
+            "rail": "rail",
+            "bicycle": "bicycle",
+            "vegetation": "vegetation",
+            "grass": "grass",
+            "designated_parking": "designated_parking",
+            "longside_parking": "longside_parking",
+            "angled_parking": "angled_parking",
+            "wall": "wall",
+            "building": "building",
+            "house": "house",
+            "gap": "gap",
+            "free_space": "free_space"
+          
+        }
+    }
 }

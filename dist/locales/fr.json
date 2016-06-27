@@ -1034,11 +1034,46 @@
                 "label": "Devers"
             },
             "shoulder_right": {
-                "label": "Accotement droit"
+                "label": "Accotement droit",
+                "options": {
+                    "road":"Chaussée",
+            "rail": "Rail",
+            "bicycle": "Piste cyclable",
+            "vegetation": "Végétation",
+            "grass": "Herbe",
+            "designated_parking": "Parking bataille",
+            "longside_parking": "Parking en long",
+            "angled_parking": "Parking en épi",
+            "wall": "Mur",
+            "building": "Immeuble",
+            "house": "Maison",
+            "gap": "Fossé",
+            "free_space": "Espace libre"
+                    
+
+                }
+
             },
 
             "shoulder_left": {
-                "label": "Accotement gauche"
+                "label": "Accotement gauche",
+                  "options": {
+                    "road":"Chaussée",
+            "rail": "Rail",
+            "bicycle": "Piste cyclable",
+            "vegetation": "Végétation",
+            "grass": "Herbe",
+            "designated_parking": "Parking bataille",
+            "longside_parking": "Parking en long",
+            "angled_parking": "Parking en épi",
+            "wall": "Mur",
+            "building": "Immeuble",
+            "house": "Maison",
+            "gap": "Fossé",
+            "free_space": "Espace libre"
+                    
+
+                }
             },
               "smoothness_wegoto": {
                 "label": "Etat revêtement",
@@ -1050,19 +1085,55 @@
 
                 }
             },
+
+
      
 
 
 
 
             "line_right": {
-                "label": "Séparation droit"
+                "label": "Séparation droit",
+                "option":{
+
+             "bollard":"Poteaux",
+            "post": "Borne",
+            "ref": "Marquage au sol",
+            "sound_ref": "Marquage sol sonore",
+            "sidewalk": "trottoir",
+            "railing": "Parapet",
+            "diagonal_cross": "Barriére",
+            "tree": "Arbre",
+            "hedge": "Herbe",
+            "gardener_box": "Jardiniére",
+            "no ": "no sep"
+           
+
+
+                }
             },
             "incline_wegoto": {
                 "label": "Pente"
             },
             "line_left": {
-                "label": "Séparation gauche"
+                "label": "Séparation gauche",
+                 "option":{
+
+             "bollard":"Poteaux",
+            "post": "Borne",
+            "ref": "Marquage au sol",
+            "sound_ref": "Marquage sol sonore",
+            "sidewalk": "trottoir",
+            "railing": "Parapet",
+            "diagonal_cross": "Barriére",
+            "tree": "Arbre",
+            "hedge": "Herbe",
+            "gardener_box": "Jardiniére",
+            "no ": "no sep"
+           
+
+
+                }
             },
             "incline_steps": {
                 "label": "Inclinaison",
