@@ -1095,21 +1095,17 @@
             "line_right": {
                 "label": "Séparation droit",
                 "option":{
-
-             "bollard":"Poteaux",
-            "post": "Borne",
-            "ref": "Marquage au sol",
-            "sound_ref": "Marquage sol sonore",
-            "sidewalk": "trottoir",
-            "railing": "Parapet",
-            "diagonal_cross": "Barriére",
-            "tree": "Arbre",
-            "hedge": "Herbe",
-            "gardener_box": "Jardiniére",
-            "no ": "no sep"
-           
-
-
+                    "bollard":"Poteaux",
+                    "post": "Borne",
+                    "ref": "Marquage au sol",
+                    "sound_ref": "Marquage sol sonore",
+                    "sidewalk": "trottoir",
+                    "railing": "Parapet",
+                    "diagonal_cross": "Barriére",
+                    "tree": "Arbre",
+                    "hedge": "Herbe",
+                    "gardener_box": "Jardiniére",
+                    "no ": "no sep"
                 }
             },
             "incline_wegoto": {
@@ -1122,14 +1118,14 @@
              "bollard":"Poteaux",
             "post": "Borne",
             "ref": "Marquage au sol",
-            "sound_ref": "Marquage sol sonore",
+            "sound ref": "Marquage sol sonore",
             "sidewalk": "trottoir",
             "railing": "Parapet",
-            "diagonal_cross": "Barriére",
+            "diagonal cross": "Barriére",
             "tree": "Arbre",
             "hedge": "Herbe",
-            "gardener_box": "Jardiniére",
-            "no ": "no sep"
+            "gardener box": "Jardiniére",
+            "no sep": "Pas de séparation"
            
 
 
