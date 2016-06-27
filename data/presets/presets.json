@@ -4257,27 +4257,6 @@
         "terms": [],
         "name": "Other Road"
     },
-    "highway/bridleway": {
-        "fields": [
-            "surface",
-            "width",
-            "structure",
-            "access"
-        ],
-        "icon": "highway-bridleway",
-        "geometry": [
-            "line"
-        ],
-        "tags": {
-            "highway": "bridleway"
-        },
-        "terms": [
-            "bridleway",
-            "equestrian",
-            "horse"
-        ],
-        "name": "Bridle Path"
-    },
     "highway/bus_stop": {
         "icon": "bus",
         "fields": [
@@ -4466,52 +4445,6 @@
         ],
         "name": "Cycle Path"
     },
-    "highway/cycleway": {
-        "icon": "highway-cycleway",
-        "fields": [
-            "surface",
-            "lit",
-            "width",
-            "oneway",
-            "structure",
-            "access"
-        ],
-        "geometry": [
-            "line"
-        ],
-        "tags": {
-            "highway": "cycleway"
-        },
-        "terms": [
-            "bike"
-        ],
-        "name": "Cycle Path"
-    },
-    "highway/footway": {
-        "icon": "highway-footway",
-        "fields": [
-            "surface",
-            "lit",
-            "width",
-            "structure",
-            "access"
-        ],
-        "geometry": [
-            "line",
-            "area"
-        ],
-        "terms": [
-            "hike",
-            "hiking",
-            "trackway",
-            "trail",
-            "walk"
-        ],
-        "tags": {
-            "highway": "footway"
-        },
-        "name": "Foot Path"
-    },
     "highway/ilot_entree": {
         "icon": "circle",
         "fields": [
@@ -4649,56 +4582,6 @@
             "off ramp"
         ],
         "name": "Motorway Link"
-    },
-    "highway/path": {
-        "icon": "highway-path",
-        "fields": [
-            "surface",
-            "width",
-            "structure",
-            "access",
-            "incline",
-            "sac_scale",
-            "trail_visibility",
-            "mtb/scale",
-            "mtb/scale/uphill",
-            "mtb/scale/imba",
-            "ref"
-        ],
-        "geometry": [
-            "line"
-        ],
-        "terms": [
-            "hike",
-            "hiking",
-            "trackway",
-            "trail",
-            "walk"
-        ],
-        "tags": {
-            "highway": "path"
-        },
-        "name": "Path"
-    },
-    "highway/pedestrian": {
-        "icon": "highway-footway",
-        "fields": [
-            "surface",
-            "lit",
-            "width",
-            "oneway",
-            "structure",
-            "access"
-        ],
-        "geometry": [
-            "line",
-            "area"
-        ],
-        "tags": {
-            "highway": "pedestrian"
-        },
-        "terms": [],
-        "name": "Pedestrian Street"
     },
     "highway/pietonne_wegoto": {
         "icon": "highway-footway",

@@ -956,10 +956,6 @@
         },
         {
             "key": "highway",
-            "value": "bridleway"
-        },
-        {
-            "key": "highway",
             "value": "bus_stop"
         },
         {
@@ -985,14 +981,6 @@
         {
             "key": "addr:city",
             "value": ""
-        },
-        {
-            "key": "highway",
-            "value": "cycleway"
-        },
-        {
-            "key": "highway",
-            "value": "footway"
         },
         {
             "key": "highway",
@@ -1025,14 +1013,6 @@
         {
             "key": "highway",
             "value": "motorway_link"
-        },
-        {
-            "key": "highway",
-            "value": "path"
-        },
-        {
-            "key": "highway",
-            "value": "pedestrian"
         },
         {
             "key": "addr:city",

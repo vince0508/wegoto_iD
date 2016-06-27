@@ -2570,10 +2570,6 @@
                 "name": "Other Road",
                 "terms": ""
             },
-            "highway/bridleway": {
-                "name": "Bridle Path",
-                "terms": "bridleway,equestrian,horse"
-            },
             "highway/bus_stop": {
                 "name": "Bus Stop",
                 "terms": ""
@@ -2601,14 +2597,6 @@
             "highway/cyclable_wegoto": {
                 "name": "Cycle Path",
                 "terms": "bike"
-            },
-            "highway/cycleway": {
-                "name": "Cycle Path",
-                "terms": "bike"
-            },
-            "highway/footway": {
-                "name": "Foot Path",
-                "terms": "hike,hiking,trackway,trail,walk"
             },
             "highway/ilot_entree": {
                 "name": "Start of island ",
@@ -2641,14 +2629,6 @@
             "highway/motorway_link": {
                 "name": "Motorway Link",
                 "terms": "ramp,on ramp,off ramp"
-            },
-            "highway/path": {
-                "name": "Path",
-                "terms": "hike,hiking,trackway,trail,walk"
-            },
-            "highway/pedestrian": {
-                "name": "Pedestrian Street",
-                "terms": ""
             },
             "highway/pietonne_wegoto": {
                 "name": "Pedestrian Street",

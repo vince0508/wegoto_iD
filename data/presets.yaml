@@ -2267,11 +2267,6 @@ en:
         # highway=unclassified
         name: Other Road
         terms: "<translate with synonyms or related terms for 'Other Road', separated by commas>"
-      highway/bridleway:
-        # highway=bridleway
-        name: Bridle Path
-        # 'terms: bridleway,equestrian,horse'
-        terms: "<translate with synonyms or related terms for 'Bridle Path', separated by commas>"
       highway/bus_stop:
         # highway=bus_stop
         name: Bus Stop
@@ -2303,16 +2298,6 @@ en:
         name: Cycle Path
         # 'terms: bike'
         terms: "<translate with synonyms or related terms for 'Cycle Path', separated by commas>"
-      highway/cycleway:
-        # highway=cycleway
-        name: Cycle Path
-        # 'terms: bike'
-        terms: "<translate with synonyms or related terms for 'Cycle Path', separated by commas>"
-      highway/footway:
-        # highway=footway
-        name: Foot Path
-        # 'terms: hike,hiking,trackway,trail,walk'
-        terms: "<translate with synonyms or related terms for 'Foot Path', separated by commas>"
       highway/ilot_entree:
         # highway=motorway
         name: 'Start of island '
@@ -2346,15 +2331,6 @@ en:
         name: Motorway Link
         # 'terms: ramp,on ramp,off ramp'
         terms: "<translate with synonyms or related terms for 'Motorway Link', separated by commas>"
-      highway/path:
-        # highway=path
-        name: Path
-        # 'terms: hike,hiking,trackway,trail,walk'
-        terms: "<translate with synonyms or related terms for 'Path', separated by commas>"
-      highway/pedestrian:
-        # highway=pedestrian
-        name: Pedestrian Street
-        terms: "<translate with synonyms or related terms for 'Pedestrian Street', separated by commas>"
       highway/pietonne_wegoto:
         # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=asphalt, highway=pedestrian, name=, addr:postcode=, addr:city='
         name: Pedestrian Street
