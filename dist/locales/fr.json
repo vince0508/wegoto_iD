@@ -1105,7 +1105,7 @@
                     "tree": "Arbre",
                     "hedge": "Herbe",
                     "gardener_box": "Jardiniére",
-                    "no ": "no sep"
+                    "no": "Pas de séparation"
                 }
             },
             "incline_wegoto": {
@@ -1118,14 +1118,14 @@
              "bollard":"Poteaux",
             "post": "Borne",
             "ref": "Marquage au sol",
-            "sound ref": "Marquage sol sonore",
+            "sound_ref": "Marquage sol sonore",
             "sidewalk": "trottoir",
             "railing": "Parapet",
-            "diagonal cross": "Barriére",
+            "diagonal_cross": "Barriére",
             "tree": "Arbre",
             "hedge": "Herbe",
-            "gardener box": "Jardiniére",
-            "no sep": "Pas de séparation"
+            "gardener_box": "Jardiniére",
+            "no": "Pas de séparation"
            
 
 

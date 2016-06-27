@@ -562,13 +562,13 @@ en:
           # line_left=bollard
           bollard: bollard
           # line_left=diagonal_cross
-          diagonal_cross: diagonal cross
+          diagonal_cross: diagonal_cross
           # line_left=gardener_box
-          gardener_box: gardener box
+          gardener_box: gardener_box
           # line_left=hedge
           hedge: hedge
-          # 'line_left=no '
-          'no ': no sep
+          # line_left=no
+          'no': 'no'
           # line_left=post
           post: post
           # line_left=railing
@@ -578,7 +578,7 @@ en:
           # line_left=sidewalk
           sidewalk: sidewalk
           # line_left=sound_ref
-          sound_ref: sound ref
+          sound_ref: sound_ref
           # line_left=tree
           tree: tree
       line_right:
@@ -588,13 +588,13 @@ en:
           # line_right=bollard
           bollard: bollard
           # line_right=diagonal_cross
-          diagonal_cross: diagonal cross
+          diagonal_cross: diagonal_cross
           # line_right=gardener_box
           gardener_box: gardener box
           # line_right=hedge
           hedge: hedge
-          # 'line_right=no '
-          'no ': no sep
+          # line_right=no
+          'no': 'no'
           # line_right=post
           post: post
           # line_right=railing
@@ -604,7 +604,7 @@ en:
           # line_right=sidewalk
           sidewalk: sidewalk
           # line_right=sound_ref
-          sound_ref: sound ref
+          sound_ref: sound_ref
           # line_right=tree
           tree: tree
       lit:

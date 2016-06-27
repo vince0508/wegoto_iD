@@ -7,14 +7,14 @@
              "bollard":"bollard",
             "post": "post",
             "ref": "ref",
-            "sound_ref": "sound ref",
+            "sound_ref": "sound_ref",
             "sidewalk": "sidewalk",
             "railing": "railing",
-            "diagonal_cross": "diagonal cross",
+            "diagonal_cross": "diagonal_cross",
             "tree": "tree",
             "hedge": "hedge",
-            "gardener_box": "gardener box",
-             "no ": "no sep"
+            "gardener_box": "gardener_box",
+             "no": "no"
            
               
                 }
