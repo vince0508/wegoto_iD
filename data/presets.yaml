@@ -558,9 +558,55 @@ en:
       line_left:
         # 'line_left=*'
         label: Line left
+        options:
+          # line_left=bollard
+          bollard: bollard
+          # line_left=diagonal_cross
+          diagonal_cross: diagonal cross
+          # line_left=gardener_box
+          gardener_box: gardener box
+          # line_left=hedge
+          hedge: hedge
+          # 'line_left=no '
+          'no ': no sep
+          # line_left=post
+          post: post
+          # line_left=railing
+          railing: railing
+          # line_left=ref
+          ref: ref
+          # line_left=sidewalk
+          sidewalk: sidewalk
+          # line_left=sound_ref
+          sound_ref: sound ref
+          # line_left=tree
+          tree: tree
       line_right:
         # 'line_right=*'
         label: Line right
+        options:
+          # line_right=bollard
+          bollard: bollard
+          # line_right=diagonal_cross
+          diagonal_cross: diagonal cross
+          # line_right=gardener_box
+          gardener_box: gardener box
+          # line_right=hedge
+          hedge: hedge
+          # 'line_right=no '
+          'no ': no sep
+          # line_right=post
+          post: post
+          # line_right=railing
+          railing: railing
+          # line_right=ref
+          ref: ref
+          # line_right=sidewalk
+          sidewalk: sidewalk
+          # line_right=sound_ref
+          sound_ref: sound ref
+          # line_right=tree
+          tree: tree
       lit:
         # 'lit=*'
         label: Lit
@@ -876,9 +922,63 @@ en:
       shoulder_left:
         # 'shoulder_left=*'
         label: Shoulder left
+        options:
+          # shoulder_left=angled_parking
+          angled_parking: angled_parking
+          # shoulder_left=bicycle
+          bicycle: bicycle
+          # shoulder_left=building
+          building: building
+          # shoulder_left=designated_parking
+          designated_parking: designated_parking
+          # shoulder_left=free_space
+          free_space: free_space
+          # shoulder_left=gap
+          gap: gap
+          # shoulder_left=grass
+          grass: grass
+          # shoulder_left=house
+          house: house
+          # shoulder_left=longside_parking
+          longside_parking: longside_parking
+          # shoulder_left=rail
+          rail: rail
+          # shoulder_left=road
+          road: road
+          # shoulder_left=vegetation
+          vegetation: vegetation
+          # shoulder_left=wall
+          wall: wall
       shoulder_right:
         # 'shoulder_right=*'
         label: Shoulder right
+        options:
+          # shoulder_right=angled_parking
+          angled_parking: angled_parking
+          # shoulder_right=bicycle
+          bicycle: bicycle
+          # shoulder_right=building
+          building: building
+          # shoulder_right=designated_parking
+          designated_parking: designated_parking
+          # shoulder_right=free_space
+          free_space: free_space
+          # shoulder_right=gap
+          gap: gap
+          # shoulder_right=grass
+          grass: grass
+          # shoulder_right=house
+          house: house
+          # shoulder_right=longside_parking
+          longside_parking: longside_parking
+          # shoulder_right=rail
+          rail: rail
+          # shoulder_right=road
+          road: road
+          # shoulder_right=vegetation
+          vegetation: vegetation
+          # shoulder_right=wall
+          wall: wall
       site:
         # 'site=*'
         label: Type

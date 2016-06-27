@@ -2,6 +2,7 @@
     "key": "line_right",
     "type": "combo",
     "label": "Line right",
+    "strings":{
     "options": {
              "bollard":"bollard",
             "post": "post",
@@ -16,5 +17,5 @@
             "no ": "no sep"
            
               
-                }
+                }}
 }

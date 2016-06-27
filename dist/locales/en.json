@@ -1119,10 +1119,36 @@
                 "placeholder": "2, 4, 6..."
             },
             "line_left": {
-                "label": "Line left"
+                "label": "Line left",
+                "options": {
+                    "bollard": "bollard",
+                    "post": "post",
+                    "ref": "ref",
+                    "sound_ref": "sound ref",
+                    "sidewalk": "sidewalk",
+                    "railing": "railing",
+                    "diagonal_cross": "diagonal cross",
+                    "tree": "tree",
+                    "hedge": "hedge",
+                    "gardener_box": "gardener box",
+                    "no ": "no sep"
+                }
             },
             "line_right": {
-                "label": "Line right"
+                "label": "Line right",
+                "options": {
+                    "bollard": "bollard",
+                    "post": "post",
+                    "ref": "ref",
+                    "sound_ref": "sound ref",
+                    "sidewalk": "sidewalk",
+                    "railing": "railing",
+                    "diagonal_cross": "diagonal cross",
+                    "tree": "tree",
+                    "hedge": "hedge",
+                    "gardener_box": "gardener box",
+                    "no ": "no sep"
+                }
             },
             "lit": {
                 "label": "Lit"
@@ -1373,10 +1399,40 @@
                 "label": "Type"
             },
             "shoulder_left": {
-                "label": "Shoulder left"
+                "label": "Shoulder left",
+                "options": {
+                    "road": "road",
+                    "rail": "rail",
+                    "bicycle": "bicycle",
+                    "vegetation": "vegetation",
+                    "grass": "grass",
+                    "designated_parking": "designated_parking",
+                    "longside_parking": "longside_parking",
+                    "angled_parking": "angled_parking",
+                    "wall": "wall",
+                    "building": "building",
+                    "house": "house",
+                    "gap": "gap",
+                    "free_space": "free_space"
+                }
             },
             "shoulder_right": {
-                "label": "Shoulder right"
+                "label": "Shoulder right",
+                "options": {
+                    "road": "road",
+                    "rail": "rail",
+                    "bicycle": "bicycle",
+                    "vegetation": "vegetation",
+                    "grass": "grass",
+                    "designated_parking": "designated_parking",
+                    "longside_parking": "longside_parking",
+                    "angled_parking": "angled_parking",
+                    "wall": "wall",
+                    "building": "building",
+                    "house": "house",
+                    "gap": "gap",
+                    "free_space": "free_space"
+                }
             },
             "site": {
                 "label": "Type"
