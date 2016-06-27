@@ -1131,6 +1131,22 @@
 
                 }
             },
+
+            "surface_wegoto": {
+                "label": "Séparation gauche",
+                 "options":{
+                    "asphalt":"Bitume",
+            "paving_stone": "Pavé",
+            "dirt": "Terre",
+            "compacted": "Gravillon",
+            "grass": "Herbe",
+            "dalle": "dalle",
+            "wood": "Bois"
+
+                 }
+
+                 },
+
             "incline_steps": {
                 "label": "Inclinaison",
                 "options": {

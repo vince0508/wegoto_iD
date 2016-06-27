@@ -1,0 +1,18 @@
+{
+    "key": "surface_wegoto",
+    "type": "combo",
+    "label": "Surface",
+    "strings": {
+        "options": {
+            "asphalt":"asphalt",
+            "paving_stone": "paving_stone",
+            "dirt": "dirt",
+            "compacted": "compacted",
+            "grass": "grass",
+            "dalle": "dalle",
+            "wood": "wood"
+            
+          
+        }
+    }
+}

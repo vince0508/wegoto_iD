@@ -1514,6 +1514,18 @@
             "surface": {
                 "label": "Surface"
             },
+            "surface_wegoto": {
+                "label": "Surface",
+                "options": {
+                    "asphalt": "asphalt",
+                    "paving_stone": "paving_stone",
+                    "dirt": "dirt",
+                    "compacted": "compacted",
+                    "grass": "grass",
+                    "dalle": "dalle",
+                    "wood": "wood"
+                }
+            },
             "tactile_paving": {
                 "label": "Tactile Paving"
             },

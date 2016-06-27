@@ -4309,7 +4309,7 @@
             "shoulder_left",
             "line_right",
             "line_left",
-            "surface",
+            "surface_wegoto",
             "addr_wegoto"
         ],
         "geometry": [
@@ -4346,7 +4346,7 @@
             "shoulder_left",
             "line_right",
             "line_left",
-            "surface",
+            "surface_wegoto",
             "addr_wegoto"
         ],
         "geometry": [
@@ -4439,7 +4439,7 @@
             "shoulder_left",
             "line_right",
             "line_left",
-            "surface",
+            "surface_wegoto",
             "addr_wegoto"
         ],
         "geometry": [
@@ -4712,7 +4712,7 @@
             "shoulder_left",
             "line_right",
             "line_left",
-            "surface",
+            "surface_wegoto",
             "addr_wegoto"
         ],
         "geometry": [
@@ -5242,7 +5242,7 @@
             "shoulder_left",
             "line_right",
             "line_left",
-            "surface",
+            "surface_wegoto",
             "addr_wegoto"
         ],
         "geometry": [

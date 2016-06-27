@@ -1082,6 +1082,24 @@ en:
       surface:
         # 'surface=*'
         label: Surface
+      surface_wegoto:
+        # 'surface_wegoto=*'
+        label: Surface
+        options:
+          # surface_wegoto=asphalt
+          asphalt: asphalt
+          # surface_wegoto=compacted
+          compacted: compacted
+          # surface_wegoto=dalle
+          dalle: dalle
+          # surface_wegoto=dirt
+          dirt: dirt
+          # surface_wegoto=grass
+          grass: grass
+          # surface_wegoto=paving_stone
+          paving_stone: paving_stone
+          # surface_wegoto=wood
+          wood: wood
       tactile_paving:
         # 'tactile_paving=*'
         label: Tactile Paving
