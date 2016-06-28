@@ -2373,7 +2373,6 @@ en:
         name: Road
         terms: "<translate with synonyms or related terms for 'Road', separated by commas>"
       highway/chemin_wegoto:
-        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=asphalt, highway=path, name=, addr:postcode=, addr:city='
         name: Path
         terms: "<translate with synonyms or related terms for 'Path', separated by commas>"
       highway/corridor:
@@ -2540,7 +2539,7 @@ en:
         # 'terms: light,stoplight,traffic light'
         terms: "<translate with synonyms or related terms for 'Traffic Signals', separated by commas>"
       highway/traversee_wegoto:
-        # 'footway=crossing, crossing:ref=, traffic_signals:presence=, traffic_signals:sound=, crossing:bollard:left=, crossing:bollard:right=, incline=, kerb=, width=, crossing:bollard:left:high=, crossing:bollard:right:high=, crossing:shape=, crossing:bevel=, tactile_paving=, crossing:obstacle=, crossing:railway='
+        # 'footway=crossing, crossing:ref=, traffic_signals:presence=, crossing:bollard:left=, crossing:bollard:right=, incline=, kerb=, width=, crossing:bollard:left:high=, crossing:bollard:right:high=, crossing:shape=, crossing:bevel=, tactile_paving=, crossing:obstacle=, crossing:railway='
         name: Street Crossing
         terms: "<translate with synonyms or related terms for 'Street Crossing', separated by commas>"
       highway/trottoir_wegoto:

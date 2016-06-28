@@ -4349,22 +4349,7 @@
         "geometry": [
             "line"
         ],
-        "tags": {
-            "incline": "",
-            "kerb": "",
-            "est_width": "",
-            "ele": "",
-            "smoothness": "",
-            "shoulder:right": "",
-            "shoulder:left": "",
-            "line:right": "",
-            "line:left": "",
-            "surface": "asphalt",
-            "highway": "path",
-            "name": "",
-            "addr:postcode": "",
-            "addr:city": ""
-        },
+        "tags": {},
         "terms": [],
         "name": "Path"
     },
@@ -5138,7 +5123,6 @@
             "footway": "crossing",
             "crossing:ref": "",
             "traffic_signals:presence": "",
-            "traffic_signals:sound": "",
             "crossing:bollard:left": "",
             "crossing:bollard:right": "",
             "incline": "",

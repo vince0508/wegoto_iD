@@ -22,8 +22,6 @@
         "footway": "crossing",
         "crossing:ref":"",
         "traffic_signals:presence":"",
-        "traffic_signals:sound":"",
-        "traffic_signals:presence":"",
         "crossing:bollard:left":"",
         "crossing:bollard:right":"",
         "incline":"",

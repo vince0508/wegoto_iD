@@ -963,10 +963,6 @@
             "value": ""
         },
         {
-            "key": "addr:city",
-            "value": ""
-        },
-        {
             "key": "highway",
             "value": "corridor"
         },
