@@ -1075,7 +1075,7 @@
 
                 }
             },
-              "smoothness": {
+              "smoothness_wegoto": {
                 "label": "Etat revêtement",
                 "options": {
                     "excellent": "Excellent",
