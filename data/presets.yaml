@@ -479,6 +479,14 @@ en:
       kerb:
         # 'kerb=*'
         label: Kerb
+      kerb_steps:
+        # 'kerb=*'
+        label: Kerb
+        options:
+          # kerb=down
+          down: Down
+          # kerb=up
+          up: Up
       lamp_type:
         # 'lamp_type=*'
         label: Type

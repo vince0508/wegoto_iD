@@ -671,6 +671,17 @@
         "type": "number",
         "label": "Kerb"
     },
+    "kerb_steps": {
+        "key": "kerb",
+        "type": "combo",
+        "label": "Kerb",
+        "strings": {
+            "options": {
+                "up": "Up",
+                "down": "Down"
+            }
+        }
+    },
     "lamp_type": {
         "key": "lamp_type",
         "type": "combo",

@@ -1,0 +1,11 @@
+{
+    "key": "kerb",
+    "type": "combo",
+    "label": "Kerb",
+    "strings": {
+        "options": {
+            "up": "Up",
+            "down": "Down"
+        }
+    }
+}
