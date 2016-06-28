@@ -1589,7 +1589,7 @@
     },
     "traffic_signals_wegoto": {
         "key": "traffic_signal_wegoto",
-        "type": "check",
+        "type": "combo",
         "keys": [
             "traffic_signals:presence",
             "traffic_signals:sound",
