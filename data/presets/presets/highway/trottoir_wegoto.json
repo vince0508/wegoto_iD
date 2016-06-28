@@ -1,7 +1,7 @@
 {
     "icon": "highway-footway",
     "fields": [
-        "incline_wegoto",
+        "incline",
         "kerb",
         "width",
         "elevation",

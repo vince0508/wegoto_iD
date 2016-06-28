@@ -632,7 +632,7 @@
         "label": "Incline"
     },
     "incline_steps": {
-        "key": "incline_wegoto",
+        "key": "incline",
         "type": "combo",
         "label": "Incline",
         "strings": {
