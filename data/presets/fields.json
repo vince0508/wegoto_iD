@@ -669,7 +669,7 @@
         }
     },
     "incline_wegoto": {
-        "key": "incline_wegoto",
+        "key": "incline",
         "type": "number",
         "label": "Incline"
     },
@@ -1396,7 +1396,7 @@
         }
     },
     "smoothness_wegoto": {
-        "key": "smoothness_wegoto",
+        "key": "smoothness",
         "type": "combo",
         "label": "Smoothnesss",
         "placeholder": "Excellent, intermediate, Bad...",

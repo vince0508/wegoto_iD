@@ -1075,7 +1075,7 @@
 
                 }
             },
-              "smoothness_wegoto": {
+              "smoothness": {
                 "label": "Etat revêtement",
                 "options": {
                     "excellent": "Excellent",
@@ -1598,20 +1598,7 @@
                 },
                 "placeholder": "Non, Séparé, Oui"
             },
-            "smoothness": {
-                "label": "Douceur",
-                "options": {
-                    "bad": "Grandes roues : VTT, voiture, pousse-pousse",
-                    "excellent": "Petites roulettes : rollers, planche à roulettes",
-                    "good": "Petites roues : vélo de course",
-                    "horrible": "Hors-piste : gros véhicule hors-piste",
-                    "impassable": "Infranchissable / Pas de véhicules à roues",
-                    "intermediate": "Roues : vélo de ville, fauteuil roulant, scooter",
-                    "very_bad": "Garde au sol élevée : véhicule léger tout terrain",
-                    "very_horrible": "Spécialisé tout-terrain : tracteur, véhicule tout-terrain"
-                },
-                "placeholder": "Petites roulettes, Roues, Hors-piste"
-            },
+  
             "social_facility_for": {
                 "label": "Personnes desservies",
                 "placeholder": "Sans-abris, handicapés, enfants, etc."

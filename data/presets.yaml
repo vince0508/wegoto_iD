@@ -481,7 +481,7 @@ en:
           # incline=up
           up: Up
       incline_wegoto:
-        # 'incline_wegoto=*'
+        # 'incline=*'
         label: Incline
       information:
         # 'information=*'
@@ -1118,14 +1118,14 @@ en:
         # smoothness field placeholder
         placeholder: 'Thin Rollers, Wheels, Off-Road...'
       smoothness_wegoto:
-        # 'smoothness_wegoto=*'
+        # 'smoothness=*'
         label: Smoothnesss
         options:
-          # smoothness_wegoto=bad
+          # smoothness=bad
           bad: bad
-          # smoothness_wegoto=excellent
+          # smoothness=excellent
           excellent: excellent
-          # smoothness_wegoto=intermediate
+          # smoothness=intermediate
           intermediate: intermediate
         # smoothness_wegoto field placeholder
         placeholder: 'Excellent, intermediate, Bad...'
@@ -2373,6 +2373,7 @@ en:
         name: Road
         terms: "<translate with synonyms or related terms for 'Road', separated by commas>"
       highway/chemin_wegoto:
+        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=asphalt, highway=path, name=, addr:postcode=, addr:city='
         name: Path
         terms: "<translate with synonyms or related terms for 'Path', separated by commas>"
       highway/corridor:

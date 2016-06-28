@@ -1,5 +1,5 @@
 {
-    "key": "smoothness_wegoto",
+    "key": "smoothness",
     "type": "combo",
     "label": "Smoothnesss",
     "placeholder": "Excellent, intermediate, Bad...",
