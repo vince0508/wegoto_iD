@@ -449,12 +449,12 @@ en:
         # 'incline=*'
         label: Incline
       incline_steps:
-        # 'incline=*'
+        # 'incline_wegoto=*'
         label: Incline
         options:
-          # incline=down
+          # incline_wegoto=down
           down: Down
-          # incline=up
+          # incline_wegoto=up
           up: Up
       incline_wegoto:
         # 'incline_wegoto=*'
