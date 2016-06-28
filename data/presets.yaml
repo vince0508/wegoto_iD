@@ -240,6 +240,16 @@ en:
           WNW: West-northwest
           # direction=WSW
           WSW: West-southwest
+      chanfrein_wegoto:
+        # 'chanfrein_wegoto=*'
+        label: Bevel
+        options:
+          # chanfrein_wegoto=no
+          'no': 'no'
+          # chanfrein_wegoto=yes
+          'yes': 'yes'
+        # chanfrein_wegoto field placeholder
+        placeholder: 'Présence ou non '
       clock_direction:
         # 'direction=*'
         label: Direction
@@ -385,6 +395,20 @@ en:
       fixme:
         # 'fixme=*'
         label: Fix Me
+      forme_trottoir_wegoto:
+        # 'forme_trottoir_wegoto=*'
+        label: Crossing shape
+        options:
+          # 'forme_trottoir_wegoto=curved:left'
+          'curved:left': 'curved:left'
+          # 'forme_trottoir_wegoto=curved:right'
+          'curved:right': 'curved:right'
+          # forme_trottoir_wegoto=other
+          other: other
+          # forme_trottoir_wegoto=straight
+          straight: straight
+        # forme_trottoir_wegoto field placeholder
+        placeholder: 'Droit, arrondi, ...'
       fuel:
         # 'fuel=*'
         label: Fuel
@@ -624,6 +648,22 @@ en:
       man_made:
         # 'man_made=*'
         label: Type
+      marquage_wegoto:
+        # 'marquage_wegoto=*'
+        label: Crossing reference
+        options:
+          # marquage_wegoto=dammaged
+          dammaged: dammaged
+          # marquage_wegoto=other
+          other: other
+          # marquage_wegoto=temporary
+          temporary: temporary
+          # marquage_wegoto=unmarked
+          unmarked: unmarked
+          # marquage_wegoto=zebra
+          zebra: zebra
+        # marquage_wegoto field placeholder
+        placeholder: 'Bande blanche, absence de marquage, ...'
       maxspeed:
         # 'maxspeed=*'
         label: Speed Limit
@@ -700,6 +740,16 @@ en:
       note:
         # 'note=*'
         label: Note
+      obstacle_wegoto:
+        # 'obstacle_wegoto=*'
+        label: Crossing obstacle
+        options:
+          # obstacle_wegoto=no
+          'no': 'no'
+          # obstacle_wegoto=yes
+          'yes': 'yes'
+        # obstacle_wegoto field placeholder
+        placeholder: "Pas d'obstacle, rail,  ..."
       office:
         # 'office=*'
         label: Type
@@ -827,6 +877,40 @@ en:
       population:
         # 'population=*'
         label: Population
+      poteau_droit_h_wegoto:
+        # 'poteau_droit_h_wegoto=*'
+        label: Right high crossing bollard
+      poteau_droit_wegoto:
+        # 'poteau_droit_wegoto=*'
+        label: Right crossing bollard
+        options:
+          # poteau_droit_wegoto=barrier
+          barrier: barrier
+          # poteau_droit_wegoto=contrasted
+          contrasted: contrasted
+          # poteau_droit_wegoto=no
+          'no': 'no'
+          # poteau_droit_wegoto=other
+          other: other
+          # poteau_droit_wegoto=yes
+          'yes': 'yes'
+      poteau_gauche_h_wegoto:
+        # 'poteau_gauche_h_wegoto=*'
+        label: Left high crossing bollard
+      poteau_gauche_wegoto:
+        # 'poteau_gauche_wegoto=*'
+        label: Left crossing bollard
+        options:
+          # poteau_gauche_wegoto=barrier
+          barrier: barrier
+          # poteau_gauche_wegoto=contrasted
+          contrasted: contrasted
+          # poteau_gauche_wegoto=no
+          'no': 'no'
+          # poteau_gauche_wegoto=other
+          other: other
+          # poteau_gauche_wegoto=yes
+          'yes': 'yes'
       power:
         # 'power=*'
         label: Type
@@ -1160,6 +1244,11 @@ en:
       traffic_signals:
         # 'traffic_signals=*'
         label: Type
+      traffic_signals_wegoto:
+        # 'traffic_signals:presence=*, traffic_signals:sound=*, traffic_signals:presence=*'
+        label: Traffic signal
+        # traffic_signals_wegoto field placeholder
+        placeholder: 'Présence, Sonore, ...'
       trail_visibility:
         # 'trail_visibility=*'
         label: Trail Visibility
@@ -2272,7 +2361,7 @@ en:
         name: Highway
         terms: "<translate with synonyms or related terms for 'Highway', separated by commas>"
       highway/autre_wegoto:
-        # highway=unclassified
+        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=, footway=other, name=, addr:postcode=, addr:city='
         name: Other Road
         terms: "<translate with synonyms or related terms for 'Other Road', separated by commas>"
       highway/bus_stop:
@@ -2451,7 +2540,7 @@ en:
         # 'terms: light,stoplight,traffic light'
         terms: "<translate with synonyms or related terms for 'Traffic Signals', separated by commas>"
       highway/traversee_wegoto:
-        # footway=crossing
+        # 'footway=crossing, crossing:ref=, traffic_signals:presence=, traffic_signals:sound=, crossing:bollard:left=, crossing:bollard:right=, incline=, kerb=, width=, crossing:bollard:left:high=, crossing:bollard:right:high=, crossing:shape=, crossing:bevel=, tactile_paving=, crossing:obstacle=, crossing:railway='
         name: Street Crossing
         terms: "<translate with synonyms or related terms for 'Street Crossing', separated by commas>"
       highway/trottoir_wegoto:

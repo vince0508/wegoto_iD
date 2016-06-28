@@ -1,0 +1,16 @@
+{
+    "key": "chanfrein_wegoto",
+    "type": "combo",
+    "label": "Bevel",
+    "placeholder": "Présence ou non ",
+    "strings": {
+        "options": {
+            "yes":"yes",
+            "no": "no"
+            
+            
+
+          
+        }
+    }
+}

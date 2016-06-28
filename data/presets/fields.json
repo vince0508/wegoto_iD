@@ -315,6 +315,18 @@
             }
         }
     },
+    "chanfrein_wegoto": {
+        "key": "chanfrein_wegoto",
+        "type": "combo",
+        "label": "Bevel",
+        "placeholder": "Présence ou non ",
+        "strings": {
+            "options": {
+                "yes": "yes",
+                "no": "no"
+            }
+        }
+    },
     "clock_direction": {
         "key": "direction",
         "type": "combo",
@@ -535,6 +547,20 @@
         "type": "textarea",
         "label": "Fix Me",
         "universal": true
+    },
+    "forme_trottoir_wegoto": {
+        "key": "forme_trottoir_wegoto",
+        "type": "combo",
+        "label": "Crossing shape",
+        "placeholder": "Droit, arrondi, ...",
+        "strings": {
+            "options": {
+                "straight": "straight",
+                "curved:left": "curved:left",
+                "curved:right": "curved:right",
+                "other": "other"
+            }
+        }
     },
     "fuel": {
         "key": "fuel",
@@ -832,6 +858,21 @@
         "type": "typeCombo",
         "label": "Type"
     },
+    "marquage_wegoto": {
+        "key": "marquage_wegoto",
+        "type": "combo",
+        "label": "Crossing reference",
+        "placeholder": "Bande blanche, absence de marquage, ...",
+        "strings": {
+            "options": {
+                "zebra": "zebra",
+                "dammaged": "dammaged",
+                "unmarked": "unmarked",
+                "other": "other",
+                "temporary": "temporary"
+            }
+        }
+    },
     "maxspeed": {
         "key": "maxspeed",
         "type": "maxspeed",
@@ -927,6 +968,18 @@
         "universal": true,
         "icon": "note",
         "label": "Note"
+    },
+    "obstacle_wegoto": {
+        "key": "obstacle_wegoto",
+        "type": "combo",
+        "label": "Crossing obstacle",
+        "placeholder": "Pas d'obstacle, rail,  ...",
+        "strings": {
+            "options": {
+                "no": "no",
+                "yes": "yes"
+            }
+        }
     },
     "office": {
         "key": "office",
@@ -1066,6 +1119,44 @@
         "key": "population",
         "type": "text",
         "label": "Population"
+    },
+    "poteau_droit_h_wegoto": {
+        "key": "poteau_droit_h_wegoto",
+        "type": "number",
+        "label": "Right high crossing bollard"
+    },
+    "poteau_droit_wegoto": {
+        "key": "poteau_droit_wegoto",
+        "type": "combo",
+        "label": "Right crossing bollard",
+        "strings": {
+            "options": {
+                "contrasted": "contrasted",
+                "yes": "yes",
+                "barrier": "barrier",
+                "no": "no",
+                "other": "other"
+            }
+        }
+    },
+    "poteau_gauche_h_wegoto": {
+        "key": "poteau_gauche_h_wegoto",
+        "type": "number",
+        "label": "Left high crossing bollard"
+    },
+    "poteau_gauche_wegoto": {
+        "key": "poteau_gauche_wegoto",
+        "type": "combo",
+        "label": "Left crossing bollard",
+        "strings": {
+            "options": {
+                "contrasted": "contrasted",
+                "yes": "yes",
+                "barrier": "barrier",
+                "no": "no",
+                "other": "other"
+            }
+        }
     },
     "power": {
         "key": "power",
@@ -1495,6 +1586,17 @@
         "type": "combo",
         "label": "Type",
         "default": "signal"
+    },
+    "traffic_signals_wegoto": {
+        "key": "traffic_signal_wegoto",
+        "type": "check",
+        "keys": [
+            "traffic_signals:presence",
+            "traffic_signals:sound",
+            "traffic_signals:presence"
+        ],
+        "label": "Traffic signal",
+        "placeholder": "Présence, Sonore, ..."
     },
     "trail_visibility": {
         "key": "trail_visibility",

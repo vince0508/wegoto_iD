@@ -1,0 +1,16 @@
+{
+    "key": "poteau_droit_wegoto",
+    "type": "combo",
+    "label": "Right crossing bollard",
+    "strings":{
+   	 	"options": {
+             "contrasted": "contrasted",
+            "yes": "yes",
+            "barrier": "barrier",
+            "no": "no",
+            "other": "other"
+              
+                }
+            }
+
+}

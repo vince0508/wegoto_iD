@@ -4241,18 +4241,36 @@
     "highway/autre_wegoto": {
         "icon": "highway-unclassified",
         "fields": [
-            "oneway",
-            "maxspeed",
-            "structure",
-            "access",
-            "surface",
-            "cycleway"
+            "incline_wegoto",
+            "kerb",
+            "width",
+            "elevation",
+            "smoothness_wegoto",
+            "shoulder_right",
+            "shoulder_left",
+            "line_right",
+            "line_left",
+            "surface_wegoto",
+            "addr_wegoto"
         ],
         "geometry": [
             "line"
         ],
         "tags": {
-            "highway": "unclassified"
+            "incline": "",
+            "kerb": "",
+            "est_width": "",
+            "ele": "",
+            "smoothness": "",
+            "shoulder:right": "",
+            "shoulder:left": "",
+            "line:right": "",
+            "line:left": "",
+            "surface": "",
+            "footway": "other",
+            "name": "",
+            "addr:postcode": "",
+            "addr:city": ""
         },
         "terms": [],
         "name": "Other Road"
@@ -5100,17 +5118,40 @@
     "highway/traversee_wegoto": {
         "icon": "highway-cycleway",
         "fields": [
-            "crossing",
-            "sloped_curb",
-            "tactile_paving"
+            "marquage_wegoto",
+            "traffic_signals_wegoto",
+            "poteau_gauche_wegoto",
+            "poteau_droit_wegoto",
+            "incline_wegoto",
+            "kerb",
+            "poteau_gauche_h_wegoto",
+            "poteau_droit_h_wegoto",
+            "forme_trottoir_wegoto",
+            "chanfrein_wegoto",
+            "tactile_paving",
+            "obstacle_wegoto"
         ],
         "geometry": [
             "line"
         ],
         "tags": {
-            "footway": "crossing"
+            "footway": "crossing",
+            "crossing:ref": "",
+            "traffic_signals:presence": "",
+            "traffic_signals:sound": "",
+            "crossing:bollard:left": "",
+            "crossing:bollard:right": "",
+            "incline": "",
+            "kerb": "",
+            "width": "",
+            "crossing:bollard:left:high": "",
+            "crossing:bollard:right:high": "",
+            "crossing:shape": "",
+            "crossing:bevel": "",
+            "tactile_paving": "",
+            "crossing:obstacle": "",
+            "crossing:railway": ""
         },
-        "terms": [],
         "name": "Street Crossing"
     },
     "highway/trottoir_wegoto": {

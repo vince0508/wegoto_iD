@@ -1,0 +1,17 @@
+{
+    "key": "marquage_wegoto",
+    "type": "combo",
+    "label": "Crossing reference",
+    "placeholder": "Bande blanche, absence de marquage, ...",
+    "strings": {
+        "options": {
+            "zebra":"zebra",
+            "dammaged": "dammaged",
+            "unmarked": "unmarked",
+            "other":"other",
+            "temporary":"temporary"
+
+          
+        }
+    }
+}

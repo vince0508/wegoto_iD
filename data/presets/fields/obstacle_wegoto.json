@@ -1,0 +1,16 @@
+{
+    "key": "obstacle_wegoto",
+    "type": "combo",
+    "label": "Crossing obstacle",
+    "placeholder": "Pas d'obstacle, rail,  ...",
+    "strings": {
+        "options": {
+            "no":"no",
+            "yes": "yes"
+           
+            
+
+          
+        }
+    }
+}

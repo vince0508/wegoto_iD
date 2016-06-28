@@ -1,0 +1,17 @@
+{
+    "key": "forme_trottoir_wegoto",
+    "type": "combo",
+    "label": "Crossing shape",
+    "placeholder": "Droit, arrondi, ...",
+    "strings": {
+        "options": {
+            "straight":"straight",
+            "curved:left": "curved:left",
+            "curved:right": "curved:right",
+            "other":"other"
+            
+
+          
+        }
+    }
+}

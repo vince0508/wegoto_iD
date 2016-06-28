@@ -951,8 +951,8 @@
             "key": "highway"
         },
         {
-            "key": "highway",
-            "value": "unclassified"
+            "key": "addr:city",
+            "value": ""
         },
         {
             "key": "highway",
@@ -1115,8 +1115,8 @@
             "value": "traffic_signals"
         },
         {
-            "key": "footway",
-            "value": "crossing"
+            "key": "crossing:railway",
+            "value": ""
         },
         {
             "key": "addr:city",

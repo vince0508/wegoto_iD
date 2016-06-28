@@ -1,18 +1,38 @@
 {
     "icon": "highway-unclassified",
     "fields": [
-        "oneway",
-        "maxspeed",
-        "structure",
-        "access",
-        "surface",
-        "cycleway"
+        "incline_wegoto",
+        "kerb",
+        "width",
+        "elevation",
+        "smoothness_wegoto",
+        "shoulder_right",
+        "shoulder_left",
+        "line_right",
+        "line_left",
+        "surface_wegoto",
+        
+        "addr_wegoto"
     ],
     "geometry": [
         "line"
     ],
     "tags": {
-        "highway": "unclassified"
+        "incline":"",
+        "kerb":"",
+        "est_width":"",
+        "ele":"",
+        "smoothness":"",
+        "shoulder:right":"",
+        "shoulder:left":"",
+        "line:right":"",
+        "line:left":"",
+        "surface": "",
+        "footway": "other",
+        "name": "",
+        "addr:postcode": "",
+        "addr:city": ""
+        
     },
     "terms": [],
     "name": "Other Road"

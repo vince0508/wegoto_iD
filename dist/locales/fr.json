@@ -1147,6 +1147,90 @@
 
                  },
 
+ "poteau_gauche_wegoto": {
+                "label": "Poteau gauche traversée",
+                 "options":{
+                    "contrasted": "Bord poteau contrasté",
+            "yes": "Bord poteau non contrasté",
+            "barrier": "Bord barriére",
+            "no": "Absence de bord",
+            "other": "Autre"
+
+                 }
+
+                 },
+
+                 "forme_trottoir_wegoto": {
+                "label": "Forme trottoir",
+                 "options":{
+                  "straight":"Droit",
+            "curved:left": "Arrondi à gauche",
+            "curved:right": "Arrondi à droite",
+            "other":"Autre"
+            
+                 }
+
+                 },
+                  "obstacle_wegoto": {
+                "label": "Présence obstacle ",
+                 "options":{
+                  "no":"Pas d'obstacle",
+            "yes": "Présence de rail"
+           
+            
+                 }
+
+                 },
+
+                   "chanfrein_wegoto": {
+                "label": "Chanfrein",
+                 "options":{
+                  "yes":"Présence",
+            "no": "Absence"
+            
+                 }
+
+                 },
+
+ "poteau_gauche_h_wegoto": {
+                "label": "Hauteur Poteau gauche "
+                 
+
+                 },
+                 "poteau_droit_h_wegoto": {
+                "label": "Hauteur Poteau droit "
+                 
+
+                 },
+
+
+
+                 "poteau_droit_wegoto": {
+                "label": "Poteau droit traversée",
+                 "options":{
+                    "contrasted": "Bord poteau contrasté",
+            "yes": "Bord poteau non contrasté",
+            "barrier": "Bord barriére",
+            "no": "Absence de bord",
+            "other": "Autre"
+
+                 }
+
+                 },
+
+                "marquage_wegoto": {
+                "label": "Marquage au sol",
+                 "options":{
+                    "zebra":"Bandes blanches",
+            "dammaged": "Bandes blanches endommagées",
+            "unmarked": "Absence de marquage",
+            "other":"Autre",
+            "temporary":"Bandes jaunes temporaires"
+
+                 }
+
+                 }, 
+
             "incline_steps": {
                 "label": "Inclinaison",
                 "options": {

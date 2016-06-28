@@ -836,6 +836,14 @@
                     "NNW": "North-northwest"
                 }
             },
+            "chanfrein_wegoto": {
+                "label": "Bevel",
+                "placeholder": "Présence ou non ",
+                "options": {
+                    "yes": "yes",
+                    "no": "no"
+                }
+            },
             "clock_direction": {
                 "label": "Direction",
                 "options": {
@@ -972,6 +980,16 @@
             },
             "fixme": {
                 "label": "Fix Me"
+            },
+            "forme_trottoir_wegoto": {
+                "label": "Crossing shape",
+                "placeholder": "Droit, arrondi, ...",
+                "options": {
+                    "straight": "straight",
+                    "curved:left": "curved:left",
+                    "curved:right": "curved:right",
+                    "other": "other"
+                }
             },
             "fuel": {
                 "label": "Fuel"
@@ -1166,6 +1184,17 @@
             "man_made": {
                 "label": "Type"
             },
+            "marquage_wegoto": {
+                "label": "Crossing reference",
+                "placeholder": "Bande blanche, absence de marquage, ...",
+                "options": {
+                    "zebra": "zebra",
+                    "dammaged": "dammaged",
+                    "unmarked": "unmarked",
+                    "other": "other",
+                    "temporary": "temporary"
+                }
+            },
             "maxspeed": {
                 "label": "Speed Limit",
                 "placeholder": "40, 50, 60..."
@@ -1221,6 +1250,14 @@
             },
             "note": {
                 "label": "Note"
+            },
+            "obstacle_wegoto": {
+                "label": "Crossing obstacle",
+                "placeholder": "Pas d'obstacle, rail,  ...",
+                "options": {
+                    "no": "no",
+                    "yes": "yes"
+                }
             },
             "office": {
                 "label": "Type"
@@ -1316,6 +1353,32 @@
             },
             "population": {
                 "label": "Population"
+            },
+            "poteau_droit_h_wegoto": {
+                "label": "Right high crossing bollard"
+            },
+            "poteau_droit_wegoto": {
+                "label": "Right crossing bollard",
+                "options": {
+                    "contrasted": "contrasted",
+                    "yes": "yes",
+                    "barrier": "barrier",
+                    "no": "no",
+                    "other": "other"
+                }
+            },
+            "poteau_gauche_h_wegoto": {
+                "label": "Left high crossing bollard"
+            },
+            "poteau_gauche_wegoto": {
+                "label": "Left crossing bollard",
+                "options": {
+                    "contrasted": "contrasted",
+                    "yes": "yes",
+                    "barrier": "barrier",
+                    "no": "no",
+                    "other": "other"
+                }
             },
             "power": {
                 "label": "Type"
@@ -1573,6 +1636,10 @@
             },
             "traffic_signals": {
                 "label": "Type"
+            },
+            "traffic_signals_wegoto": {
+                "label": "Traffic signal",
+                "placeholder": "Présence, Sonore, ..."
             },
             "trail_visibility": {
                 "label": "Trail Visibility",

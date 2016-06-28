@@ -1,0 +1,12 @@
+{
+    "key": "traffic_signal_wegoto",
+    "type": "check",
+     "keys": [
+        "traffic_signals:presence",
+        "traffic_signals:sound",
+        "traffic_signals:presence"
+    ],
+    "label": "Traffic signal",
+    "placeholder": "Présence, Sonore, ..."
+ 
+}
