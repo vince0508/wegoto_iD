@@ -1,5 +1,5 @@
 {
-    "key": "shoulder_left",
+    "key": "shoulder:left",
     "type": "combo",
     "label": "Shoulder left",
     "strings": {

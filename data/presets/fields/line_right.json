@@ -1,5 +1,5 @@
 {
-    "key": "line_right",
+    "key": "line:right",
     "type": "combo",
     "label": "Line right",
     "strings":{

@@ -804,7 +804,7 @@
         "placeholder": "2, 4, 6..."
     },
     "line_left": {
-        "key": "line_left",
+        "key": "line:left",
         "type": "combo",
         "label": "Line left",
         "strings": {
@@ -824,7 +824,7 @@
         }
     },
     "line_right": {
-        "key": "line_right",
+        "key": "line:right",
         "type": "combo",
         "label": "Line right",
         "strings": {
@@ -1308,7 +1308,7 @@
         "label": "Type"
     },
     "shoulder_left": {
-        "key": "shoulder_left",
+        "key": "shoulder:left",
         "type": "combo",
         "label": "Shoulder left",
         "strings": {
@@ -1330,7 +1330,7 @@
         }
     },
     "shoulder_right": {
-        "key": "shoulder_right",
+        "key": "shoulder:right",
         "type": "combo",
         "label": "Shoulder right",
         "strings": {
@@ -1510,7 +1510,7 @@
         "label": "Surface"
     },
     "surface_wegoto": {
-        "key": "surface_wegoto",
+        "key": "surface",
         "type": "combo",
         "label": "Surface",
         "strings": {
