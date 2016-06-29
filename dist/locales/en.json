@@ -711,20 +711,10 @@
             "address": {
                 "label": "Address",
                 "placeholders": {
-                    "housename": "Housename",
                     "housenumber": "123",
-                    "conscriptionnumber": "123",
                     "street": "Street",
                     "city": "City",
-                    "postcode": "Postcode",
-                    "place": "Place",
-                    "hamlet": "Hamlet",
-                    "suburb": "Suburb",
-                    "subdistrict": "Subdistrict",
-                    "district": "District",
-                    "province": "Province",
-                    "state": "State",
-                    "country": "Country"
+                    "postcode": "Postcode"
                 }
             },
             "admin_level": {

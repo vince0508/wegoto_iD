@@ -11,7 +11,7 @@
         "line_right",
         "line_left",
         "surface_wegoto",
-        "addr_wegoto"
+        "address"
     ],
     "geometry": [
         "line",
