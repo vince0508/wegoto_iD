@@ -1180,25 +1180,25 @@ en:
         label: Tactile Paving
         options:
           # 'tactile_paving=limited:1:l'
-          'limited:1:l': Horses
+          'limited:1:l': Etat 1
           # 'tactile_paving=limited:1:m'
-          'limited:1:m': Motor Vehicles
+          'limited:1:m': ' Etat 1'
           # 'tactile_paving=limited:1:r'
-          'limited:1:r': Horses
+          'limited:1:r': Etat 1
           # 'tactile_paving=limited:2:l'
-          'limited:2:l': Horses
+          'limited:2:l': Etat 1
           # 'tactile_paving=limited:2:m'
-          'limited:2:m': Bicycles
+          'limited:2:m': Etat 1
           # 'tactile_paving=limited:2:r'
-          'limited:2:r': Horses
+          'limited:2:r': Etat 1
           # tactile_paving=no
           'no': Non présent
           # 'tactile_paving=yes:l'
-          'yes:l': Horses
+          'yes:l': Etat 1
           # 'tactile_paving=yes:m'
-          'yes:m': Foot
+          'yes:m': Etat 1
           # 'tactile_paving=yes:r'
-          'yes:r': Horses
+          'yes:r': Etat 1
         # tactile_paving field placeholder
         placeholder: BEV
       takeaway:

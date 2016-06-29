@@ -682,6 +682,22 @@
                     "motor_vehicle": "Véhicules motorisés"
                 }
             },
+            "tactile_paving":{
+                "label": "BEV",
+                "options": {
+                    "no": "Non présent",
+                    "yes:m": "bla",
+                    "limited:1:m": "bla",
+                    "limited:2:m": "bla",
+                     "yes:l": "bla",
+                    "limited:1:l": "bla",
+                    "limited:2:l": "bla",
+                     "yes:r": "bla",
+                    "limited:1:r": "bla",
+                    "limited:2:r": "bla"
+                }
+
+                },
             "access_simple": {
                 "label": "Accès autorisé",
                 "placeholder": "oui"
@@ -1652,9 +1668,7 @@
             "surface": {
                 "label": "Revêtement"
             },
-            "tactile_paving": {
-                "label": "Équipement de voirie podotactile"
-            },
+         
             "takeaway": {
                 "label": "À emporter",
                 "options": {
