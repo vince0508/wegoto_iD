@@ -5124,6 +5124,7 @@
             "poteau_droit_wegoto",
             "incline_wegoto",
             "kerb",
+            "largeur_traverse",
             "poteau_gauche_h_wegoto",
             "poteau_droit_h_wegoto",
             "forme_trottoir_wegoto",

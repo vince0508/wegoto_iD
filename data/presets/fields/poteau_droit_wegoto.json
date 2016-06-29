@@ -1,5 +1,5 @@
 {
-    "key": "poteau_droit_wegoto",
+    "key": "crossing:bollard:right",
     "type": "combo",
     "label": "Right crossing bollard",
     "strings":{

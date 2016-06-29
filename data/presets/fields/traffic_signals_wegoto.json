@@ -1,5 +1,5 @@
 {
-    "key": "traffic_signal_wegoto",
+    "key": "traffic_signals:presence",
     "type": "combo",
      "keys": [
         "traffic_signals:presence",

@@ -83,10 +83,11 @@ en:
         # 'access=*'
         label: Access
       addr_wegoto:
-        # 'addr:street=*, addr:city=*, addr:postcode=*'
+        # 'addr:housenumber=*, addr:street=*, addr:city=*, addr:postcode=*'
         label: Address
         placeholders:
           city: City
+          housenumber: '123'
           postcode: Postcode
           street: Street
       address:
@@ -241,12 +242,12 @@ en:
           # direction=WSW
           WSW: West-southwest
       chanfrein_wegoto:
-        # 'chanfrein_wegoto=*'
+        # 'crossing:bevel=*'
         label: Bevel
         options:
-          # chanfrein_wegoto=no
+          # 'crossing:bevel=no'
           'no': 'no'
-          # chanfrein_wegoto=yes
+          # 'crossing:bevel=yes'
           'yes': 'yes'
         # chanfrein_wegoto field placeholder
         placeholder: 'Présence ou non '
@@ -396,16 +397,16 @@ en:
         # 'fixme=*'
         label: Fix Me
       forme_trottoir_wegoto:
-        # 'forme_trottoir_wegoto=*'
+        # 'crossing:shape=*'
         label: Crossing shape
         options:
-          # 'forme_trottoir_wegoto=curved:left'
+          # 'crossing:shape=curved:left'
           'curved:left': 'curved:left'
-          # 'forme_trottoir_wegoto=curved:right'
+          # 'crossing:shape=curved:right'
           'curved:right': 'curved:right'
-          # forme_trottoir_wegoto=other
+          # 'crossing:shape=other'
           other: other
-          # forme_trottoir_wegoto=straight
+          # 'crossing:shape=straight'
           straight: straight
         # forme_trottoir_wegoto field placeholder
         placeholder: 'Droit, arrondi, ...'
@@ -522,6 +523,9 @@ en:
         label: Lanes
         # lanes field placeholder
         placeholder: '1, 2, 3...'
+      largeur_traverse:
+        # 'width=*'
+        label: Width (Meters)
       layer:
         # 'layer=*'
         label: Layer
@@ -649,18 +653,18 @@ en:
         # 'man_made=*'
         label: Type
       marquage_wegoto:
-        # 'marquage_wegoto=*'
+        # 'crossing:ref=*'
         label: Crossing reference
         options:
-          # marquage_wegoto=dammaged
+          # 'crossing:ref=dammaged'
           dammaged: dammaged
-          # marquage_wegoto=other
+          # 'crossing:ref=other'
           other: other
-          # marquage_wegoto=temporary
+          # 'crossing:ref=temporary'
           temporary: temporary
-          # marquage_wegoto=unmarked
+          # 'crossing:ref=unmarked'
           unmarked: unmarked
-          # marquage_wegoto=zebra
+          # 'crossing:ref=zebra'
           zebra: zebra
         # marquage_wegoto field placeholder
         placeholder: 'Bande blanche, absence de marquage, ...'
@@ -741,12 +745,12 @@ en:
         # 'note=*'
         label: Note
       obstacle_wegoto:
-        # 'obstacle_wegoto=*'
+        # 'crossing:obstacle=*'
         label: Crossing obstacle
         options:
-          # obstacle_wegoto=no
+          # 'crossing:obstacle=no'
           'no': 'no'
-          # obstacle_wegoto=yes
+          # 'crossing:obstacle=yes'
           'yes': 'yes'
         # obstacle_wegoto field placeholder
         placeholder: "Pas d'obstacle, rail,  ..."
@@ -878,38 +882,38 @@ en:
         # 'population=*'
         label: Population
       poteau_droit_h_wegoto:
-        # 'poteau_droit_h_wegoto=*'
+        # 'crossing:bollard:right:high=*'
         label: Right high crossing bollard
       poteau_droit_wegoto:
-        # 'poteau_droit_wegoto=*'
+        # 'crossing:bollard:right=*'
         label: Right crossing bollard
         options:
-          # poteau_droit_wegoto=barrier
+          # 'crossing:bollard:right=barrier'
           barrier: barrier
-          # poteau_droit_wegoto=contrasted
+          # 'crossing:bollard:right=contrasted'
           contrasted: contrasted
-          # poteau_droit_wegoto=no
+          # 'crossing:bollard:right=no'
           'no': 'no'
-          # poteau_droit_wegoto=other
+          # 'crossing:bollard:right=other'
           other: other
-          # poteau_droit_wegoto=yes
+          # 'crossing:bollard:right=yes'
           'yes': 'yes'
       poteau_gauche_h_wegoto:
-        # 'poteau_gauche_h_wegoto=*'
+        # 'crossing:bollard:left:high=*'
         label: Left high crossing bollard
       poteau_gauche_wegoto:
-        # 'poteau_gauche_wegoto=*'
+        # 'crossing:bollard:left=*'
         label: Left crossing bollard
         options:
-          # poteau_gauche_wegoto=barrier
+          # 'crossing:bollard:left=barrier'
           barrier: barrier
-          # poteau_gauche_wegoto=contrasted
+          # 'crossing:bollard:left=contrasted'
           contrasted: contrasted
-          # poteau_gauche_wegoto=no
+          # 'crossing:bollard:left=no'
           'no': 'no'
-          # poteau_gauche_wegoto=other
+          # 'crossing:bollard:left=other'
           other: other
-          # poteau_gauche_wegoto=yes
+          # 'crossing:bollard:left=yes'
           'yes': 'yes'
       power:
         # 'power=*'
@@ -1300,7 +1304,7 @@ en:
         # 'wheelchair=*'
         label: Wheelchair Access
       width:
-        # 'width=*'
+        # 'est_width=*'
         label: Width (Meters)
       wikipedia:
         # 'wikipedia=*, wikidata=*'

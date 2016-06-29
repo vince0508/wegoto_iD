@@ -1,5 +1,5 @@
 {
-    "key": "marquage_wegoto",
+    "key": "crossing:ref",
     "type": "combo",
     "label": "Crossing reference",
     "placeholder": "Bande blanche, absence de marquage, ...",

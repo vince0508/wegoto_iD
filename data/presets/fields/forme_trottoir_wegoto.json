@@ -1,5 +1,5 @@
 {
-    "key": "forme_trottoir_wegoto",
+    "key": "crossing:shape",
     "type": "combo",
     "label": "Crossing shape",
     "placeholder": "Droit, arrondi, ...",

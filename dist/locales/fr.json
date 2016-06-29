@@ -1238,6 +1238,10 @@
                     "up": "En haut"
                 }
             },
+                "largeur_traverse": {
+                "label": "Largeur"
+               
+            },
             "information": {
                 "label": "Type"
             },

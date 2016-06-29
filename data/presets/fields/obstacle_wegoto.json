@@ -1,5 +1,5 @@
 {
-    "key": "obstacle_wegoto",
+    "key": "crossing:obstacle",
     "type": "combo",
     "label": "Crossing obstacle",
     "placeholder": "Pas d'obstacle, rail,  ...",

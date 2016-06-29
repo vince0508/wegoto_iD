@@ -1,5 +1,5 @@
 {
-    "key": "poteau_gauche_h_wegoto",
+    "key": "crossing:bollard:left:high",
     "type": "number",
     "label": "Left high crossing bollard"
 }

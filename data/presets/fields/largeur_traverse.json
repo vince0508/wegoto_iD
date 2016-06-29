@@ -1,5 +1,5 @@
 {
-    "key": "est_width",
+    "key": "width",
     "type": "number",
     "label": "Width (Meters)"
 }

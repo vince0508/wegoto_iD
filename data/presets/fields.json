@@ -84,6 +84,7 @@
     "addr_wegoto": {
         "type": "address",
         "keys": [
+            "addr:housenumber",
             "addr:street",
             "addr:city",
             "addr:postcode"
@@ -96,6 +97,7 @@
         "label": "Address",
         "strings": {
             "placeholders": {
+                "housenumber": "123",
                 "street": "Street",
                 "city": "City",
                 "postcode": "Postcode"
@@ -316,7 +318,7 @@
         }
     },
     "chanfrein_wegoto": {
-        "key": "chanfrein_wegoto",
+        "key": "crossing:bevel",
         "type": "combo",
         "label": "Bevel",
         "placeholder": "Présence ou non ",
@@ -549,7 +551,7 @@
         "universal": true
     },
     "forme_trottoir_wegoto": {
-        "key": "forme_trottoir_wegoto",
+        "key": "crossing:shape",
         "type": "combo",
         "label": "Crossing shape",
         "placeholder": "Droit, arrondi, ...",
@@ -724,6 +726,11 @@
         "label": "Lanes",
         "placeholder": "1, 2, 3..."
     },
+    "largeur_traverse": {
+        "key": "width",
+        "type": "number",
+        "label": "Width (Meters)"
+    },
     "layer": {
         "key": "layer",
         "type": "combo",
@@ -859,7 +866,7 @@
         "label": "Type"
     },
     "marquage_wegoto": {
-        "key": "marquage_wegoto",
+        "key": "crossing:ref",
         "type": "combo",
         "label": "Crossing reference",
         "placeholder": "Bande blanche, absence de marquage, ...",
@@ -970,7 +977,7 @@
         "label": "Note"
     },
     "obstacle_wegoto": {
-        "key": "obstacle_wegoto",
+        "key": "crossing:obstacle",
         "type": "combo",
         "label": "Crossing obstacle",
         "placeholder": "Pas d'obstacle, rail,  ...",
@@ -1121,12 +1128,12 @@
         "label": "Population"
     },
     "poteau_droit_h_wegoto": {
-        "key": "poteau_droit_h_wegoto",
+        "key": "crossing:bollard:right:high",
         "type": "number",
         "label": "Right high crossing bollard"
     },
     "poteau_droit_wegoto": {
-        "key": "poteau_droit_wegoto",
+        "key": "crossing:bollard:right",
         "type": "combo",
         "label": "Right crossing bollard",
         "strings": {
@@ -1140,12 +1147,12 @@
         }
     },
     "poteau_gauche_h_wegoto": {
-        "key": "poteau_gauche_h_wegoto",
+        "key": "crossing:bollard:left:high",
         "type": "number",
         "label": "Left high crossing bollard"
     },
     "poteau_gauche_wegoto": {
-        "key": "poteau_gauche_wegoto",
+        "key": "crossing:bollard:left",
         "type": "combo",
         "label": "Left crossing bollard",
         "strings": {
@@ -1588,7 +1595,7 @@
         "default": "signal"
     },
     "traffic_signals_wegoto": {
-        "key": "traffic_signal_wegoto",
+        "key": "traffic_signals:presence",
         "type": "combo",
         "keys": [
             "traffic_signals:presence",
@@ -1675,7 +1682,7 @@
         "label": "Wheelchair Access"
     },
     "width": {
-        "key": "width",
+        "key": "est_width",
         "type": "number",
         "label": "Width (Meters)"
     },
