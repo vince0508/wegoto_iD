@@ -3,6 +3,7 @@
     "fields": [
         "marquage_wegoto",
         "traffic_signals_wegoto",
+        "traffic_signals_wegoto2",
         "poteau_gauche_wegoto",
         "poteau_droit_wegoto",
         "incline_wegoto",

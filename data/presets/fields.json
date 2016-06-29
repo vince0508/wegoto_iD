@@ -1559,14 +1559,13 @@
     },
     "traffic_signals_wegoto": {
         "key": "traffic_signals:presence",
-        "type": "combo",
-        "keys": [
-            "traffic_signals:presence",
-            "traffic_signals:sound",
-            "traffic_signals:presence"
-        ],
-        "label": "Traffic signal",
-        "placeholder": "Présence, Sonore, ..."
+        "type": "check",
+        "label": "Traffic signal"
+    },
+    "traffic_signals_wegoto2": {
+        "key": "traffic_signals:sound",
+        "type": "check",
+        "label": "Sound Traffic signal"
     },
     "trail_visibility": {
         "key": "trail_visibility",

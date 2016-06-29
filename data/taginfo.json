@@ -13,6 +13,9 @@
     },
     "tags": [
         {
+            "key": "addr:housenumber"
+        },
+        {
             "key": "aerialway"
         },
         {

@@ -1693,6 +1693,14 @@
             "traffic_signals": {
                 "label": "Type"
             },
+
+   "traffic_signals_wegoto": {
+                "label": "Présence de feu"
+            },
+            "traffic_signals_wegoto2": {
+                "label": "Présence de feu sonore"
+            },
+
             "trail_visibility": {
                 "label": "Visibilité du sentier",
                 "options": {

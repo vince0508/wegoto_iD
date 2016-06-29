@@ -1627,8 +1627,10 @@
                 "label": "Type"
             },
             "traffic_signals_wegoto": {
-                "label": "Traffic signal",
-                "placeholder": "Présence, Sonore, ..."
+                "label": "Traffic signal"
+            },
+            "traffic_signals_wegoto2": {
+                "label": "Sound Traffic signal"
             },
             "trail_visibility": {
                 "label": "Trail Visibility",

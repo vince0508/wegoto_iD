@@ -6,7 +6,9 @@
         "geometry": [
             "point"
         ],
-        "tags": {},
+        "tags": {
+            "addr:housenumber": "*"
+        },
         "addTags": {},
         "removeTags": {},
         "matchScore": 0.2,
@@ -5049,6 +5051,7 @@
         "fields": [
             "marquage_wegoto",
             "traffic_signals_wegoto",
+            "traffic_signals_wegoto2",
             "poteau_gauche_wegoto",
             "poteau_droit_wegoto",
             "incline_wegoto",

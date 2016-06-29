@@ -1235,10 +1235,11 @@ en:
         # 'traffic_signals=*'
         label: Type
       traffic_signals_wegoto:
-        # 'traffic_signals:presence=*, traffic_signals:sound=*, traffic_signals:presence=*'
+        # 'traffic_signals:presence=*'
         label: Traffic signal
-        # traffic_signals_wegoto field placeholder
-        placeholder: 'Présence, Sonore, ...'
+      traffic_signals_wegoto2:
+        # 'traffic_signals:sound=*'
+        label: Sound Traffic signal
       trail_visibility:
         # 'trail_visibility=*'
         label: Trail Visibility
@@ -1297,6 +1298,7 @@ en:
         label: Wikipedia
     presets:
       address:
+        # 'addr:housenumber=*'
         name: Address
         terms: "<translate with synonyms or related terms for 'Address', separated by commas>"
       aerialway:

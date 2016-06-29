@@ -1,13 +1,9 @@
 {
     "key": "traffic_signals:presence",
-    "type": "combo",
-     "keys": [
-        "traffic_signals:presence",
-        "traffic_signals:sound",
-        "traffic_signals:presence"
-    ],
-    "label": "Traffic signal",
-    "placeholder": "Présence, Sonore, ..."
+    "type": "check",
+ 
+    "label": "Traffic signal"
+  
     
  
 }
