@@ -92,7 +92,6 @@
         "reference": {
             "key": "addr_wegoto"
         },
-        "icon": "address",
         "universal": true,
         "label": "Address",
         "strings": {

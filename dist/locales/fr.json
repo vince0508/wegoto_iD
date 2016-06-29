@@ -1133,7 +1133,7 @@
             },
 
             "surface_wegoto": {
-                "label": "Séparation gauche",
+                "label": "Etat revêtement",
                  "options":{
                     "asphalt":"Bitume",
             "paving_stone": "Pavé",
