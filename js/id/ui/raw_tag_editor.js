@@ -144,7 +144,7 @@ iD.ui.RawTagEditor = function(context) {
                 return sameletter.concat(other);
             }
 
-          /**  key.call(d3.combobox()
+            key.call(d3.combobox()
                 .fetcher(function(value, callback) {
                     context.taginfo().keys({
                         debounce: true,
@@ -165,7 +165,7 @@ iD.ui.RawTagEditor = function(context) {
                     }, function(err, data) {
                         if (!err) callback(sort(value, data));
                     });
-                }));*/
+                }));
         }
 
         function unbind() {

@@ -21368,19 +21368,7 @@ iD.services.taginfo = function() {
 
     taginfo.values = function(parameters, callback) {
         console.log("VALUEEEEES");
-        var debounce = parameters.debounce;
-        parameters = clean(setSort(setFilter(parameters)));
-        request(endpoint + 'key/values?' +
-            iD.util.qsString(_.extend({
-                rp: 25,
-                sortname: 'count_all',
-                sortorder: 'desc',
-                page: 1
-            }, parameters)), debounce, function(err, d) {
-                if (err) return callback(err);
-                var f = filterValues();
-                callback(null, d.data.filter(f).map(valKeyDescription));
-            });
+        
     };
 
     taginfo.docs = function(parameters, callback) {
@@ -38901,7 +38889,7 @@ iD.ui.RawTagEditor = function(context) {
                 return sameletter.concat(other);
             }
 
-          /**  key.call(d3.combobox()
+            key.call(d3.combobox()
                 .fetcher(function(value, callback) {
                     context.taginfo().keys({
                         debounce: true,
@@ -38922,7 +38910,7 @@ iD.ui.RawTagEditor = function(context) {
                     }, function(err, data) {
                         if (!err) callback(sort(value, data));
                     });
-                }));*/
+                }));
         }
 
         function unbind() {
