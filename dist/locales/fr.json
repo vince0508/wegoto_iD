@@ -687,14 +687,14 @@
                 "options": {
                     "no": "Non présent",
                     "yes:m": "bla",
-                    "limited:1:m": "bla",
-                    "limited:2:m": "bla",
-                     "yes:l": "bla",
-                    "limited:1:l": "bla",
-                    "limited:2:l": "bla",
-                     "yes:r": "bla",
-                    "limited:1:r": "bla",
-                    "limited:2:r": "bla"
+                    "limited:1:m": "bla1",
+                    "limited:2:m": "blaé",
+                     "yes:l": "bla2",
+                    "limited:1:l": "blas",
+                    "limited:2:l": "bsla",
+                     "yes:r": "d",
+                    "limited:1:r": "df",
+                    "limited:2:r": "s"
                 }
 
                 },
