@@ -1237,10 +1237,22 @@ en:
         # 'traffic_signals=*'
         label: Type
       traffic_signals_wegoto:
-        # 'traffic_signals:presence=*, traffic_signals:sound=*, traffic_signals:presence=*'
+        # 'traffic_signals:presence=*, traffic_signals:sound=*'
         label: Traffic signal
+        options:
+          # no=yes
+          'no':
+            description: Access not permitted to the general public
+            title: Prohibited
+          # yes=yes
+          'yes':
+            description: Access permitted by law; a right of way
+            title: Allowed
         # traffic_signals_wegoto field placeholder
         placeholder: 'Présence, Sonore, ...'
+        types:
+          'traffic_signals:presence': Présence
+          'traffic_signals:sound': Présence avec son
       trail_visibility:
         # 'trail_visibility=*'
         label: Trail Visibility

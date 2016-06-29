@@ -4547,6 +4547,7 @@
         "icon": "highway-footway",
         "fields": [
             "access",
+            "cp_wegoto",
             "incline_wegoto",
             "kerb",
             "width",
