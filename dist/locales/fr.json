@@ -1031,7 +1031,7 @@
                 "label": "Pente"
             },
              "kerb": {
-                "label": "Devers"
+                "label": "Devers en %"
             },
             "shoulder_right": {
                 "label": "Accotement droit",
@@ -1109,7 +1109,7 @@
                 }
             },
             "incline_wegoto": {
-                "label": "Pente"
+                "label": "Pente en %"
             },
             "line_left": {
                 "label": "Séparation gauche",

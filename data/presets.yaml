@@ -2433,7 +2433,7 @@ en:
         # 'terms: ramp,on ramp,off ramp'
         terms: "<translate with synonyms or related terms for 'Motorway Link', separated by commas>"
       highway/pietonne_wegoto:
-        # 'incline=*, kerb=*, est_width=*, ele=*, smoothness=*, shoulder:right=*, shoulder:left=*, line:right=*, line:left=*, surface=*, highway=pedestrian, name=*, addr:postcode=*, addr:city=*'
+        # 'incline=0, kerb=0, est_width=0, ele=0, smoothness=excellent, shoulder:right=road, shoulder:left=road, line:right=bollard, line:left=bollard, surface=asphalt, highway=pedestrian, name=?, addr:postcode=*, addr:city=*'
         name: Pedestrian Street
         terms: "<translate with synonyms or related terms for 'Pedestrian Street', separated by commas>"
       highway/ppieton_entree:
