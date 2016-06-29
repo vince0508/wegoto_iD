@@ -90,7 +90,7 @@
             "addr:postcode"
         ],
         "reference": {
-            "key": "addr_wegoto"
+            "key": "addr"
         },
         "universal": true,
         "label": "Address",
