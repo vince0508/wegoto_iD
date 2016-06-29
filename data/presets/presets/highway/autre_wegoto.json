@@ -10,9 +10,8 @@
         "shoulder_left",
         "line_right",
         "line_left",
-        "surface_wegoto",
+        "surface_wegoto"
         
-        "addr_wegoto"
     ],
     "geometry": [
         "line"

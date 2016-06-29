@@ -81,28 +81,6 @@
             "customers"
         ]
     },
-    "addr_wegoto": {
-        "type": "address",
-        "keys": [
-            "addr:housenumber",
-            "addr:street",
-            "addr:city",
-            "addr:postcode"
-        ],
-        "reference": {
-            "key": "addr"
-        },
-        "universal": true,
-        "label": "Address",
-        "strings": {
-            "placeholders": {
-                "housenumber": "123",
-                "street": "Street",
-                "city": "City",
-                "postcode": "Postcode"
-            }
-        }
-    },
     "address": {
         "type": "address",
         "keys": [

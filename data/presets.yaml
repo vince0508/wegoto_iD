@@ -82,14 +82,6 @@ en:
       access_toilets:
         # 'access=*'
         label: Access
-      addr_wegoto:
-        # 'addr:housenumber=*, addr:street=*, addr:city=*, addr:postcode=*'
-        label: Address
-        placeholders:
-          city: City
-          housenumber: '123'
-          postcode: Postcode
-          street: Street
       address:
         # 'addr:housenumber=*, addr:street=*, addr:city=*, addr:postcode=*'
         label: Address
