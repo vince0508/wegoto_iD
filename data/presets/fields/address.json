@@ -3,7 +3,6 @@
     "keys": [
         
         "addr:housenumber",
-       
         "addr:street",
         "addr:city",
         "addr:postcode"
@@ -17,7 +16,7 @@
         "placeholders": {
      
           "housenumber": "123",
-          
+
           "street": "Street",
           "city": "City",
           "postcode": "Postcode"

@@ -6,9 +6,7 @@
         "geometry": [
             "point"
         ],
-        "tags": {
-            "addr:housenumber": "*"
-        },
+        "tags": {},
         "addTags": {},
         "removeTags": {},
         "matchScore": 0.2,
@@ -4552,6 +4550,7 @@
     "highway/pietonne_wegoto": {
         "icon": "highway-footway",
         "fields": [
+            "access",
             "incline_wegoto",
             "kerb",
             "width",
@@ -4561,9 +4560,7 @@
             "shoulder_left",
             "line_right",
             "line_left",
-            "surface_wegoto",
-            "cp_wegoto",
-            "city_wegoto"
+            "surface_wegoto"
         ],
         "geometry": [
             "line",

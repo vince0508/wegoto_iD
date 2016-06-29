@@ -89,6 +89,10 @@
             "addr:city",
             "addr:postcode"
         ],
+        "reference": {
+            "key": "addr"
+        },
+        "universal": true,
         "label": "Address",
         "strings": {
             "placeholders": {

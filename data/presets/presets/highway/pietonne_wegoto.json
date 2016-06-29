@@ -1,6 +1,7 @@
 {
     "icon": "highway-footway",
     "fields": [
+        "access",
         "incline_wegoto",
         "kerb",
         "width",
@@ -10,9 +11,8 @@
         "shoulder_left",
         "line_right",
         "line_left",
-        "surface_wegoto",
-        "cp_wegoto",
-        "city_wegoto"
+        "surface_wegoto"
+
     ],
     "geometry": [
         "line",
