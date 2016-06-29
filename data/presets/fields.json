@@ -111,6 +111,9 @@
             "addr:city",
             "addr:postcode"
         ],
+        "reference": {
+            "key": "addr"
+        },
         "icon": "address",
         "universal": true,
         "label": "Address",

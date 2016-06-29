@@ -35430,8 +35430,9 @@ iD.ui.EntityEditor = function(context) {
         $enter.append('div')
             .attr('class', 'inspector-border raw-member-editor inspector-inner');
 
-        $enter.append('div')
-            .attr('class', 'raw-membership-editor inspector-inner');
+//enlever relation
+       /* $enter.append('div')
+            .attr('class', 'raw-membership-editor inspector-inner');*/
 
         selection.selectAll('.preset-reset')
             .on('click', function() {
