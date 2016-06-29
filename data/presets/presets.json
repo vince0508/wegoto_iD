@@ -4548,7 +4548,7 @@
     "highway/pietonne_wegoto": {
         "icon": "highway-footway",
         "fields": [
-            "cp_wegoto",
+            "address",
             "incline_wegoto",
             "kerb",
             "width",
