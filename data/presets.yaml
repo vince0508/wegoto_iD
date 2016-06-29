@@ -2365,7 +2365,7 @@ en:
         name: Highway
         terms: "<translate with synonyms or related terms for 'Highway', separated by commas>"
       highway/autre_wegoto:
-        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=, footway=other, name=, addr:postcode=, addr:city='
+        # footway=other
         name: Other Road
         terms: "<translate with synonyms or related terms for 'Other Road', separated by commas>"
       highway/bus_stop:
@@ -2373,11 +2373,11 @@ en:
         name: Bus Stop
         terms: "<translate with synonyms or related terms for 'Bus Stop', separated by commas>"
       highway/chausse_wegoto:
-        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=asphalt, highway=road, name=, addr:postcode=, addr:city='
+        # highway=road
         name: Road
         terms: "<translate with synonyms or related terms for 'Road', separated by commas>"
       highway/chemin_wegoto:
-        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=asphalt, highway=path, name=, addr:postcode=, addr:city='
+        # highway=path
         name: Path
         terms: "<translate with synonyms or related terms for 'Path', separated by commas>"
       highway/corridor:
@@ -2395,7 +2395,7 @@ en:
         # 'terms: zebra crossing'
         terms: "<translate with synonyms or related terms for 'Pedestrian Crosswalk', separated by commas>"
       highway/cyclable_wegoto:
-        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=asphalt, highway=cycleway, name=, addr:postcode=, addr:city='
+        # highway=cycleway
         name: Cycle Path
         # 'terms: bike'
         terms: "<translate with synonyms or related terms for 'Cycle Path', separated by commas>"
@@ -2544,11 +2544,11 @@ en:
         # 'terms: light,stoplight,traffic light'
         terms: "<translate with synonyms or related terms for 'Traffic Signals', separated by commas>"
       highway/traversee_wegoto:
-        # 'footway=crossing, crossing:ref=*, traffic_signals:presence=*, crossing:bollard:left=*, crossing:bollard:right=*, incline=*, kerb=*, width=*, crossing:bollard:left:high=*, crossing:bollard:right:high=*, crossing:shape=*, crossing:bevel=*, tactile_paving=*, crossing:obstacle=*, crossing:railway=*'
+        # footway=crossing
         name: Street Crossing
         terms: "<translate with synonyms or related terms for 'Street Crossing', separated by commas>"
       highway/trottoir_wegoto:
-        # 'incline=, kerb=, est_width=, ele=, smoothness=, shoulder:right=, shoulder:left=, line:right=, line:left=, surface=asphalt, footway=sidewalk, name=, addr:postcode=, addr:city='
+        # footway=sidewalk
         name: SideWalk
         terms: "<translate with synonyms or related terms for 'SideWalk', separated by commas>"
       highway/trunk:

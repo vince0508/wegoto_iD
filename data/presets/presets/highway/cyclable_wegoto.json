@@ -17,20 +17,9 @@
         "line"
     ],
     "tags": {
-        "incline":"",
-        "kerb":"",
-        "est_width":"",
-        "ele":"",
-        "smoothness":"",
-        "shoulder:right":"",
-        "shoulder:left":"",
-        "line:right":"",
-        "line:left":"",
-        "surface": "asphalt",
-        "highway": "cycleway",
-        "name": "",
-        "addr:postcode": "",
-        "addr:city": ""
+      
+        "highway": "cycleway"
+        
         
     },
     "terms": [

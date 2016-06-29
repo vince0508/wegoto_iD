@@ -20,25 +20,8 @@
         "line"
     ],
     "tags": {
-        "footway": "crossing",
-        "crossing:ref":"*",
-        "traffic_signals:presence":"*",
-        "crossing:bollard:left":"*",
-        "crossing:bollard:right":"*",
-        "incline":"*",
-        "kerb":"*",
-        "width":"*",
-        "crossing:bollard:left:high":"*",
-        "crossing:bollard:right:high":"*",
-        "crossing:shape":"*",
-        "crossing:bevel":"*",
-        "tactile_paving":"*",
-        "crossing:obstacle":"*",
-        "crossing:railway":"*"
-
-
-
-
+        "footway": "crossing"
+    
     },
     
     "name": "Street Crossing"

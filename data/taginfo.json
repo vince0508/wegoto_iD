@@ -951,20 +951,20 @@
             "key": "highway"
         },
         {
-            "key": "addr:city",
-            "value": ""
+            "key": "footway",
+            "value": "other"
         },
         {
             "key": "highway",
             "value": "bus_stop"
         },
         {
-            "key": "addr:city",
-            "value": ""
+            "key": "highway",
+            "value": "road"
         },
         {
-            "key": "addr:city",
-            "value": ""
+            "key": "highway",
+            "value": "path"
         },
         {
             "key": "highway",
@@ -979,8 +979,8 @@
             "value": "zebra"
         },
         {
-            "key": "addr:city",
-            "value": ""
+            "key": "highway",
+            "value": "cycleway"
         },
         {
             "key": "highway",
@@ -1115,11 +1115,12 @@
             "value": "traffic_signals"
         },
         {
-            "key": "crossing:railway"
+            "key": "footway",
+            "value": "crossing"
         },
         {
-            "key": "addr:city",
-            "value": ""
+            "key": "footway",
+            "value": "sidewalk"
         },
         {
             "key": "highway",

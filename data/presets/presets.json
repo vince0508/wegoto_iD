@@ -4257,20 +4257,7 @@
             "line"
         ],
         "tags": {
-            "incline": "",
-            "kerb": "",
-            "est_width": "",
-            "ele": "",
-            "smoothness": "",
-            "shoulder:right": "",
-            "shoulder:left": "",
-            "line:right": "",
-            "line:left": "",
-            "surface": "",
-            "footway": "other",
-            "name": "",
-            "addr:postcode": "",
-            "addr:city": ""
+            "footway": "other"
         },
         "terms": [],
         "name": "Other Road"
@@ -4313,20 +4300,7 @@
             "line"
         ],
         "tags": {
-            "incline": "",
-            "kerb": "",
-            "est_width": "",
-            "ele": "",
-            "smoothness": "",
-            "shoulder:right": "",
-            "shoulder:left": "",
-            "line:right": "",
-            "line:left": "",
-            "surface": "asphalt",
-            "highway": "road",
-            "name": "",
-            "addr:postcode": "",
-            "addr:city": ""
+            "highway": "road"
         },
         "terms": [],
         "name": "Road"
@@ -4350,20 +4324,7 @@
             "line"
         ],
         "tags": {
-            "incline": "",
-            "kerb": "",
-            "est_width": "",
-            "ele": "",
-            "smoothness": "",
-            "shoulder:right": "",
-            "shoulder:left": "",
-            "line:right": "",
-            "line:left": "",
-            "surface": "asphalt",
-            "highway": "path",
-            "name": "",
-            "addr:postcode": "",
-            "addr:city": ""
+            "highway": "path"
         },
         "terms": [],
         "name": "Path"
@@ -4443,20 +4404,7 @@
             "line"
         ],
         "tags": {
-            "incline": "",
-            "kerb": "",
-            "est_width": "",
-            "ele": "",
-            "smoothness": "",
-            "shoulder:right": "",
-            "shoulder:left": "",
-            "line:right": "",
-            "line:left": "",
-            "surface": "asphalt",
-            "highway": "cycleway",
-            "name": "",
-            "addr:postcode": "",
-            "addr:city": ""
+            "highway": "cycleway"
         },
         "terms": [
             "bike"
@@ -5123,21 +5071,7 @@
             "line"
         ],
         "tags": {
-            "footway": "crossing",
-            "crossing:ref": "*",
-            "traffic_signals:presence": "*",
-            "crossing:bollard:left": "*",
-            "crossing:bollard:right": "*",
-            "incline": "*",
-            "kerb": "*",
-            "width": "*",
-            "crossing:bollard:left:high": "*",
-            "crossing:bollard:right:high": "*",
-            "crossing:shape": "*",
-            "crossing:bevel": "*",
-            "tactile_paving": "*",
-            "crossing:obstacle": "*",
-            "crossing:railway": "*"
+            "footway": "crossing"
         },
         "name": "Street Crossing"
     },
@@ -5160,20 +5094,7 @@
             "line"
         ],
         "tags": {
-            "incline": "",
-            "kerb": "",
-            "est_width": "",
-            "ele": "",
-            "smoothness": "",
-            "shoulder:right": "",
-            "shoulder:left": "",
-            "line:right": "",
-            "line:left": "",
-            "surface": "asphalt",
-            "footway": "sidewalk",
-            "name": "",
-            "addr:postcode": "",
-            "addr:city": ""
+            "footway": "sidewalk"
         },
         "terms": [],
         "name": "SideWalk"

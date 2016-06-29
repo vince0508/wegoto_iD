@@ -17,21 +17,9 @@
         "line"
     ],
     "tags": {
-        "incline":"",
-        "kerb":"",
-        "est_width":"",
-        "ele":"",
-        "smoothness":"",
-        "shoulder:right":"",
-        "shoulder:left":"",
-        "line:right":"",
-        "line:left":"",
-        "surface": "asphalt",
-        "highway": "road",
-        "name": "",
-        "addr:postcode": "",
-        "addr:city": ""
         
+        "highway": "road"
+       
     },
     "terms": [],
     "name": "Road"
