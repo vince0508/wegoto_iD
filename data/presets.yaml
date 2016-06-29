@@ -241,6 +241,9 @@ en:
           'yes': 'yes'
         # chanfrein_wegoto field placeholder
         placeholder: 'Présence ou non '
+      city_wegoto:
+        # 'addr:city=*'
+        label: City
       clock_direction:
         # 'direction=*'
         label: Direction
@@ -264,6 +267,9 @@ en:
       covered:
         # 'covered=*'
         label: Covered
+      cp_wegoto:
+        # 'addr:postcode=*'
+        label: Post Code
       craft:
         # 'craft=*'
         label: Type
@@ -724,7 +730,7 @@ en:
         # 'name=*'
         label: Name
         # name field placeholder
-        placeholder: Common name (if any)
+        placeholder: Street
       natural:
         # 'natural=*'
         label: Natural

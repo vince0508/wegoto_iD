@@ -835,6 +835,9 @@
                     "no": "no"
                 }
             },
+            "city_wegoto": {
+                "label": "City"
+            },
             "clock_direction": {
                 "label": "Direction",
                 "options": {
@@ -856,6 +859,9 @@
             },
             "covered": {
                 "label": "Covered"
+            },
+            "cp_wegoto": {
+                "label": "Post Code"
             },
             "craft": {
                 "label": "Type"
@@ -1234,7 +1240,7 @@
             },
             "name": {
                 "label": "Name",
-                "placeholder": "Common name (if any)"
+                "placeholder": "Street"
             },
             "natural": {
                 "label": "Natural"

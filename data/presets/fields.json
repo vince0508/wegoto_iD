@@ -89,10 +89,6 @@
             "addr:city",
             "addr:postcode"
         ],
-        "reference": {
-            "key": "addr"
-        },
-        "universal": true,
         "label": "Address",
         "strings": {
             "placeholders": {
@@ -308,6 +304,11 @@
             }
         }
     },
+    "city_wegoto": {
+        "key": "addr:city",
+        "type": "localized",
+        "label": "City"
+    },
     "clock_direction": {
         "key": "direction",
         "type": "combo",
@@ -343,6 +344,11 @@
         "key": "covered",
         "type": "check",
         "label": "Covered"
+    },
+    "cp_wegoto": {
+        "key": "addr:postcode",
+        "type": "localized",
+        "label": "Post Code"
     },
     "craft": {
         "key": "craft",
@@ -936,7 +942,7 @@
         "key": "name",
         "type": "localized",
         "label": "Name",
-        "placeholder": "Common name (if any)"
+        "placeholder": "Street"
     },
     "natural": {
         "key": "natural",

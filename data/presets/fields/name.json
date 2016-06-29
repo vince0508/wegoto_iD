@@ -2,5 +2,5 @@
     "key": "name",
     "type": "localized",
     "label": "Name",
-    "placeholder": "Common name (if any)"
+    "placeholder": "Street"
 }

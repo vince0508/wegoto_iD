@@ -1375,8 +1375,16 @@
                 "placeholder": "0, 1, 2, 3..."
             },
             "name": {
-                "label": "Nom",
-                "placeholder": "Nom courant (si existant)"
+                "label": "Rue",
+                "placeholder": "Nom de la rue "
+            },
+            "city_wegoto": {
+                "label": "Ville "
+               
+            },
+            "cp_wegoto": {
+                "label": "Code postal"
+               
             },
             "natural": {
                 "label": "Nature"
