@@ -4621,16 +4621,6 @@
             "area"
         ],
         "tags": {
-            "incline": "0",
-            "kerb": "0",
-            "est_width": "0",
-            "ele": "0",
-            "smoothness": "excellent",
-            "shoulder:right": "road",
-            "shoulder:left": "road",
-            "line:right": "bollard",
-            "line:left": "bollard",
-            "surface": "asphalt",
             "highway": "pedestrian"
         },
         "terms": [],
