@@ -2740,6 +2740,10 @@
                 "name": "Rest Area",
                 "terms": "rest stop"
             },
+            "highway/road": {
+                "name": "Unknown Road",
+                "terms": ""
+            },
             "highway/secondary": {
                 "name": "Secondary Road",
                 "terms": ""

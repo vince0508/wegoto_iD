@@ -1048,6 +1048,10 @@
         },
         {
             "key": "highway",
+            "value": "road"
+        },
+        {
+            "key": "highway",
             "value": "secondary"
         },
         {

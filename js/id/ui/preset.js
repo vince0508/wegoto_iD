@@ -186,10 +186,7 @@ iD.ui.preset = function(context) {
         var $more = selection.selectAll('.more-fields')
             .data((notShown.length > 0) ? [0] : []);
 
-        $more.enter().append('div')
-            .attr('class', 'more-fields')
-            .append('label')
-                .text(t('inspector.add_fields'));
+       
 
         var $input = $more.selectAll('.value')
             .data([0]);
