@@ -2467,10 +2467,6 @@ en:
         name: Rest Area
         # 'terms: rest stop'
         terms: "<translate with synonyms or related terms for 'Rest Area', separated by commas>"
-      highway/road:
-        # highway=road
-        name: Unknown Road
-        terms: "<translate with synonyms or related terms for 'Unknown Road', separated by commas>"
       highway/secondary:
         # highway=secondary
         name: Secondary Road

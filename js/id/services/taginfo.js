@@ -130,7 +130,19 @@ iD.services.taginfo = function() {
 
     taginfo.values = function(parameters, callback) {
         console.log("VALUEEEEES");
-        
+        var debounce = parameters.debounce;
+        parameters = clean(setSort(setFilter(parameters)));
+        request(endpoint + 'key/values?' +
+            iD.util.qsString(_.extend({
+                rp: 25,
+                sortname: 'count_all',
+                sortorder: 'desc',
+                page: 1
+            }, parameters)), debounce, function(err, d) {
+                if (err) return callback(err);
+                var f = filterValues();
+                callback(null, d.data.filter(f).map(valKeyDescription));
+            });
     };
 
     taginfo.docs = function(parameters, callback) {
