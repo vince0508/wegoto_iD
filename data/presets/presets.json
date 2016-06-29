@@ -4631,10 +4631,7 @@
             "line:right": "bollard",
             "line:left": "bollard",
             "surface": "asphalt",
-            "highway": "pedestrian",
-            "name": "?",
-            "addr:postcode": "*",
-            "addr:city": "*"
+            "highway": "pedestrian"
         },
         "terms": [],
         "name": "Pedestrian Street"

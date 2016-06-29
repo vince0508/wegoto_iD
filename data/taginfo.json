@@ -1015,7 +1015,8 @@
             "value": "motorway_link"
         },
         {
-            "key": "addr:city"
+            "key": "highway",
+            "value": "pedestrian"
         },
         {
             "key": "highway",
