@@ -4241,6 +4241,7 @@
     "highway/autre_wegoto": {
         "icon": "highway-unclassified",
         "fields": [
+            "address",
             "incline_wegoto",
             "kerb",
             "width",
@@ -4283,6 +4284,7 @@
     "highway/chausse_wegoto": {
         "icon": "highway-path",
         "fields": [
+            "address",
             "incline_wegoto",
             "kerb",
             "width",
@@ -4306,6 +4308,7 @@
     "highway/chemin_wegoto": {
         "icon": "highway-path",
         "fields": [
+            "address",
             "incline_wegoto",
             "kerb",
             "width",
@@ -4385,6 +4388,7 @@
     "highway/cyclable_wegoto": {
         "icon": "highway-cycleway",
         "fields": [
+            "address",
             "incline_wegoto",
             "kerb",
             "width",
@@ -5075,6 +5079,7 @@
     "highway/trottoir_wegoto": {
         "icon": "highway-footway",
         "fields": [
+            "address",
             "incline_wegoto",
             "kerb",
             "width",

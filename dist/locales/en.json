@@ -817,12 +817,7 @@
                 }
             },
             "chanfrein_wegoto": {
-                "label": "Bevel",
-                "placeholder": "Présence ou non ",
-                "options": {
-                    "yes": "yes",
-                    "no": "no"
-                }
+                "label": "Bevel"
             },
             "city_wegoto": {
                 "label": "City"
@@ -1586,7 +1581,20 @@
                 }
             },
             "tactile_paving": {
-                "label": "Tactile Paving"
+                "label": "Tactile Paving",
+                "placeholder": "BEV",
+                "options": {
+                    "no": "Non présent",
+                    "yes:m": "Foot",
+                    "limited:1:m": "Motor Vehicles",
+                    "limited:2:m": "Bicycles",
+                    "yes:l": "Horses",
+                    "limited:1:l": "Horses",
+                    "limited:2:l": "Horses",
+                    "yes:r": "Horses",
+                    "limited:1:r": "Horses",
+                    "limited:2:r": "Horses"
+                }
             },
             "takeaway": {
                 "label": "Takeaway",

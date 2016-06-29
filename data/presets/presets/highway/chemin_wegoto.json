@@ -1,6 +1,7 @@
 {
     "icon": "highway-path",
     "fields": [
+    "address",
         "incline_wegoto",
         "kerb",
         "width",

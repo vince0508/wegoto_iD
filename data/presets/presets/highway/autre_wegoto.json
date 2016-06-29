@@ -1,6 +1,7 @@
 {
     "icon": "highway-unclassified",
     "fields": [
+    "address",
         "incline_wegoto",
         "kerb",
         "width",

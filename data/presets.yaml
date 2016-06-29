@@ -224,13 +224,6 @@ en:
       chanfrein_wegoto:
         # 'crossing:bevel=*'
         label: Bevel
-        options:
-          # 'crossing:bevel=no'
-          'no': 'no'
-          # 'crossing:bevel=yes'
-          'yes': 'yes'
-        # chanfrein_wegoto field placeholder
-        placeholder: 'Présence ou non '
       city_wegoto:
         # 'addr:city=*'
         label: City
@@ -1185,6 +1178,29 @@ en:
       tactile_paving:
         # 'tactile_paving=*'
         label: Tactile Paving
+        options:
+          # 'tactile_paving=limited:1:l'
+          'limited:1:l': Horses
+          # 'tactile_paving=limited:1:m'
+          'limited:1:m': Motor Vehicles
+          # 'tactile_paving=limited:1:r'
+          'limited:1:r': Horses
+          # 'tactile_paving=limited:2:l'
+          'limited:2:l': Horses
+          # 'tactile_paving=limited:2:m'
+          'limited:2:m': Bicycles
+          # 'tactile_paving=limited:2:r'
+          'limited:2:r': Horses
+          # tactile_paving=no
+          'no': Non présent
+          # 'tactile_paving=yes:l'
+          'yes:l': Horses
+          # 'tactile_paving=yes:m'
+          'yes:m': Foot
+          # 'tactile_paving=yes:r'
+          'yes:r': Horses
+        # tactile_paving field placeholder
+        placeholder: BEV
       takeaway:
         # 'takeaway=*'
         label: Takeaway

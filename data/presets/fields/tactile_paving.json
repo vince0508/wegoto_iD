@@ -1,5 +1,23 @@
 {
     "key": "tactile_paving",
-    "type": "check",
-    "label": "Tactile Paving"
+    "type": "combo",
+    "label": "Tactile Paving",
+    "placeholder": "BEV",
+    "strings": {
+ 
+        "options": {
+            "no": "Non présent",
+            "yes:m": "Foot",
+            "limited:1:m": "Motor Vehicles",
+            "limited:2:m": "Bicycles",
+            "yes:l": "Horses",
+            "limited:1:l": "Horses",
+            "limited:2:l": "Horses",
+            "yes:r": "Horses",
+            "limited:1:r": "Horses",
+            "limited:2:r": "Horses"
+
+          
+        }
+    }
 }

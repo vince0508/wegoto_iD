@@ -269,15 +269,8 @@
     },
     "chanfrein_wegoto": {
         "key": "crossing:bevel",
-        "type": "combo",
-        "label": "Bevel",
-        "placeholder": "Présence ou non ",
-        "strings": {
-            "options": {
-                "yes": "yes",
-                "no": "no"
-            }
-        }
+        "type": "check",
+        "label": "Bevel"
     },
     "city_wegoto": {
         "key": "addr:city",
@@ -1494,8 +1487,23 @@
     },
     "tactile_paving": {
         "key": "tactile_paving",
-        "type": "check",
-        "label": "Tactile Paving"
+        "type": "combo",
+        "label": "Tactile Paving",
+        "placeholder": "BEV",
+        "strings": {
+            "options": {
+                "no": "Non présent",
+                "yes:m": "Foot",
+                "limited:1:m": "Motor Vehicles",
+                "limited:2:m": "Bicycles",
+                "yes:l": "Horses",
+                "limited:1:l": "Horses",
+                "limited:2:l": "Horses",
+                "yes:r": "Horses",
+                "limited:1:r": "Horses",
+                "limited:2:r": "Horses"
+            }
+        }
     },
     "takeaway": {
         "key": "takeaway",

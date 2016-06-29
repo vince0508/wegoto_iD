@@ -1,16 +1,7 @@
 {
     "key": "crossing:bevel",
-    "type": "combo",
-    "label": "Bevel",
-    "placeholder": "Présence ou non ",
-    "strings": {
-        "options": {
-            "yes":"yes",
-            "no": "no"
-            
-            
+    "type": "check",
+    "label": "Bevel"
 
-          
-        }
-    }
+    
 }
