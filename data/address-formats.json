@@ -16,7 +16,7 @@
     },
     {
         "countryCodes": ["fr", "lu", "mo"],
-        "format": [["housenumber", "street"], ["postcode", "city"]]
+        "format": [ ["postcode", "city"]]
     },
     {
         "countryCodes": ["br"],
