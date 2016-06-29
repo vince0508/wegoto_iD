@@ -83,13 +83,11 @@ en:
         # 'access=*'
         label: Access
       address:
-        # 'addr:housenumber=*, addr:street=*, addr:city=*, addr:postcode=*'
+        # 'addr:city=*, addr:postcode=*'
         label: Address
         placeholders:
           city: City
-          housenumber: '123'
           postcode: Postcode
-          street: Street
       admin_level:
         # 'admin_level=*'
         label: Admin Level
@@ -1237,22 +1235,10 @@ en:
         # 'traffic_signals=*'
         label: Type
       traffic_signals_wegoto:
-        # 'traffic_signals:presence=*, traffic_signals:sound=*'
+        # 'traffic_signals:presence=*, traffic_signals:sound=*, traffic_signals:presence=*'
         label: Traffic signal
-        options:
-          # no=yes
-          'no':
-            description: Access not permitted to the general public
-            title: Prohibited
-          # yes=yes
-          'yes':
-            description: Access permitted by law; a right of way
-            title: Allowed
         # traffic_signals_wegoto field placeholder
         placeholder: 'Présence, Sonore, ...'
-        types:
-          'traffic_signals:presence': Présence
-          'traffic_signals:sound': Présence avec son
       trail_visibility:
         # 'trail_visibility=*'
         label: Trail Visibility

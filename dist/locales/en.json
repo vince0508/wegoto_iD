@@ -702,8 +702,6 @@
             "address": {
                 "label": "Address",
                 "placeholders": {
-                    "housenumber": "123",
-                    "street": "Street",
                     "city": "City",
                     "postcode": "Postcode"
                 }
@@ -1630,21 +1628,7 @@
             },
             "traffic_signals_wegoto": {
                 "label": "Traffic signal",
-                "placeholder": "Présence, Sonore, ...",
-                "types": {
-                    "traffic_signals:presence": "Présence",
-                    "traffic_signals:sound": "Présence avec son"
-                },
-                "options": {
-                    "yes": {
-                        "title": "Allowed",
-                        "description": "Access permitted by law; a right of way"
-                    },
-                    "no": {
-                        "title": "Prohibited",
-                        "description": "Access not permitted to the general public"
-                    }
-                }
+                "placeholder": "Présence, Sonore, ..."
             },
             "trail_visibility": {
                 "label": "Trail Visibility",

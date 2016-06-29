@@ -1,30 +1,13 @@
 {
-    
+    "key": "traffic_signals:presence",
     "type": "combo",
      "keys": [
         "traffic_signals:presence",
-        "traffic_signals:sound"
-       
+        "traffic_signals:sound",
+        "traffic_signals:presence"
     ],
     "label": "Traffic signal",
-    "placeholder": "Présence, Sonore, ...",
-    "strings": {
-        "types": {
-            "traffic_signals:presence": "Présence",
-            "traffic_signals:sound": "Présence avec son"
-        },
-        "options": {
-            "yes": {
-                "title": "Allowed",
-                "description": "Access permitted by law; a right of way"
-            },
-            "no": {
-                "title": "Prohibited",
-                "description": "Access not permitted to the general public"
-            }
+    "placeholder": "Présence, Sonore, ..."
     
  
-}
-
-}
 }

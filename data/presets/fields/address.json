@@ -1,9 +1,7 @@
 {
     "type": "address",
     "keys": [
-        
-        "addr:housenumber",
-        "addr:street",
+      
         "addr:city",
         "addr:postcode"
         
@@ -14,10 +12,6 @@
     "label": "Address",
     "strings": {
         "placeholders": {
-     
-          "housenumber": "123",
-
-          "street": "Street",
           "city": "City",
           "postcode": "Postcode"
          
