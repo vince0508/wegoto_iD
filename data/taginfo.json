@@ -1015,8 +1015,7 @@
             "value": "motorway_link"
         },
         {
-            "key": "addr:city",
-            "value": ""
+            "key": "addr:city"
         },
         {
             "key": "highway",
@@ -1115,8 +1114,7 @@
             "value": "traffic_signals"
         },
         {
-            "key": "crossing:railway",
-            "value": ""
+            "key": "crossing:railway"
         },
         {
             "key": "addr:city",
