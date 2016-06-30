@@ -5037,7 +5037,7 @@
         "name": "Crossing"
     },
     "highway/traversee_wegoto": {
-        "icon": "highway-cycleway",
+        "icon": "waterway-ditch",
         "fields": [
             "incline_wegoto",
             "kerb",
