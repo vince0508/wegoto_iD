@@ -1,20 +1,10 @@
 {
     "area": [
-        "category-landuse",
-        "category-building",
-        "category-water-area",
-        "leisure/park",
-        "amenity/hospital",
-        "amenity/place_of_worship",
-        "amenity/cafe",
-        "amenity/restaurant",
+
         "area"
     ],
     "line": [
         "category-road",
-        "category-rail",
-        "category-path",
-        "category-barrier",
         "line"
     ],
     "point": [
