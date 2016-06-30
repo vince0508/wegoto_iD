@@ -37591,8 +37591,7 @@ iD.ui.modal = function(selection, blocking) {
 iD.ui.Modes = function(context) {
     var modes = [
         iD.modes.AddPoint(context),
-        iD.modes.AddLine(context),
-        iD.modes.AddArea(context)];
+        iD.modes.AddLine(context)];
 
     function editable() {
         return context.editable() && context.mode().id !== 'save';
@@ -41765,7 +41764,9 @@ iD.ui.intro.area = function(context, reveal) {
         var playground = [-85.63552, 41.94159],
             corner = [-85.63565411045074, 41.9417715536927];
         context.map().centerZoom(playground, 19);
-      
+        reveal('button.add-area',
+            t('intro.areas.add', { button: iD.ui.intro.icon('#icon-area', 'pre-text') }),
+            { tooltipClass: 'intro-areas-add' });
 
         context.on('enter.intro', addArea);
 
