@@ -59,35 +59,11 @@
         },
         {
             "key": "aeroway",
-            "value": "aerodrome"
-        },
-        {
-            "key": "aeroway",
-            "value": "apron"
-        },
-        {
-            "key": "aeroway",
             "value": "gate"
         },
         {
             "key": "aeroway",
-            "value": "hangar"
-        },
-        {
-            "key": "aeroway",
-            "value": "helipad"
-        },
-        {
-            "key": "aeroway",
-            "value": "runway"
-        },
-        {
-            "key": "aeroway",
             "value": "taxiway"
-        },
-        {
-            "key": "aeroway",
-            "value": "terminal"
         },
         {
             "key": "amenity"
@@ -295,22 +271,6 @@
         {
             "key": "amenity",
             "value": "place_of_worship"
-        },
-        {
-            "key": "religion",
-            "value": "buddhist"
-        },
-        {
-            "key": "religion",
-            "value": "christian"
-        },
-        {
-            "key": "religion",
-            "value": "jewish"
-        },
-        {
-            "key": "religion",
-            "value": "muslim"
         },
         {
             "key": "amenity",
@@ -697,190 +657,6 @@
             "key": "craft"
         },
         {
-            "key": "craft",
-            "value": "basket_maker"
-        },
-        {
-            "key": "craft",
-            "value": "beekeeper"
-        },
-        {
-            "key": "craft",
-            "value": "blacksmith"
-        },
-        {
-            "key": "craft",
-            "value": "boatbuilder"
-        },
-        {
-            "key": "craft",
-            "value": "bookbinder"
-        },
-        {
-            "key": "craft",
-            "value": "brewery"
-        },
-        {
-            "key": "craft",
-            "value": "carpenter"
-        },
-        {
-            "key": "craft",
-            "value": "carpet_layer"
-        },
-        {
-            "key": "craft",
-            "value": "caterer"
-        },
-        {
-            "key": "craft",
-            "value": "clockmaker"
-        },
-        {
-            "key": "craft",
-            "value": "confectionery"
-        },
-        {
-            "key": "craft",
-            "value": "dressmaker"
-        },
-        {
-            "key": "craft",
-            "value": "electrician"
-        },
-        {
-            "key": "craft",
-            "value": "gardener"
-        },
-        {
-            "key": "craft",
-            "value": "glaziery"
-        },
-        {
-            "key": "craft",
-            "value": "handicraft"
-        },
-        {
-            "key": "craft",
-            "value": "hvac"
-        },
-        {
-            "key": "craft",
-            "value": "insulation"
-        },
-        {
-            "key": "craft",
-            "value": "jeweler"
-        },
-        {
-            "key": "craft",
-            "value": "key_cutter"
-        },
-        {
-            "key": "craft",
-            "value": "locksmith"
-        },
-        {
-            "key": "craft",
-            "value": "metal_construction"
-        },
-        {
-            "key": "craft",
-            "value": "optician"
-        },
-        {
-            "key": "craft",
-            "value": "painter"
-        },
-        {
-            "key": "craft",
-            "value": "photographer"
-        },
-        {
-            "key": "craft",
-            "value": "photographic_laboratory"
-        },
-        {
-            "key": "craft",
-            "value": "plasterer"
-        },
-        {
-            "key": "craft",
-            "value": "plumber"
-        },
-        {
-            "key": "craft",
-            "value": "pottery"
-        },
-        {
-            "key": "craft",
-            "value": "rigger"
-        },
-        {
-            "key": "craft",
-            "value": "roofer"
-        },
-        {
-            "key": "craft",
-            "value": "saddler"
-        },
-        {
-            "key": "craft",
-            "value": "sailmaker"
-        },
-        {
-            "key": "craft",
-            "value": "sawmill"
-        },
-        {
-            "key": "craft",
-            "value": "scaffolder"
-        },
-        {
-            "key": "craft",
-            "value": "sculpter"
-        },
-        {
-            "key": "craft",
-            "value": "shoemaker"
-        },
-        {
-            "key": "craft",
-            "value": "stonemason"
-        },
-        {
-            "key": "craft",
-            "value": "sweep"
-        },
-        {
-            "key": "craft",
-            "value": "tailor"
-        },
-        {
-            "key": "craft",
-            "value": "tiler"
-        },
-        {
-            "key": "craft",
-            "value": "tinsmith"
-        },
-        {
-            "key": "craft",
-            "value": "upholsterer"
-        },
-        {
-            "key": "craft",
-            "value": "watchmaker"
-        },
-        {
-            "key": "craft",
-            "value": "window_construction"
-        },
-        {
-            "key": "craft",
-            "value": "winery"
-        },
-        {
             "key": "embankment",
             "value": "yes"
         },
@@ -914,38 +690,6 @@
         {
             "key": "ford",
             "value": "yes"
-        },
-        {
-            "key": "natural",
-            "value": "sand"
-        },
-        {
-            "key": "landuse",
-            "value": "grass"
-        },
-        {
-            "key": "sport",
-            "value": "golf"
-        },
-        {
-            "key": "golf",
-            "value": "hole"
-        },
-        {
-            "key": "natural",
-            "value": "water"
-        },
-        {
-            "key": "landuse",
-            "value": "grass"
-        },
-        {
-            "key": "landuse",
-            "value": "grass"
-        },
-        {
-            "key": "natural",
-            "value": "water"
         },
         {
             "key": "highway"
@@ -1132,38 +876,6 @@
         },
         {
             "key": "historic"
-        },
-        {
-            "key": "historic",
-            "value": "archaeological_site"
-        },
-        {
-            "key": "historic",
-            "value": "boundary_stone"
-        },
-        {
-            "key": "historic",
-            "value": "castle"
-        },
-        {
-            "key": "historic",
-            "value": "memorial"
-        },
-        {
-            "key": "historic",
-            "value": "monument"
-        },
-        {
-            "key": "historic",
-            "value": "ruins"
-        },
-        {
-            "key": "historic",
-            "value": "wayside_cross"
-        },
-        {
-            "key": "historic",
-            "value": "wayside_shrine"
         },
         {
             "key": "junction",
@@ -1399,138 +1111,6 @@
             "key": "man_made"
         },
         {
-            "key": "man_made",
-            "value": "adit"
-        },
-        {
-            "key": "man_made",
-            "value": "breakwater"
-        },
-        {
-            "key": "man_made",
-            "value": "chimney"
-        },
-        {
-            "key": "man_made",
-            "value": "cutline"
-        },
-        {
-            "key": "man_made",
-            "value": "embankment"
-        },
-        {
-            "key": "man_made",
-            "value": "flagpole"
-        },
-        {
-            "key": "man_made",
-            "value": "gasometer"
-        },
-        {
-            "key": "man_made",
-            "value": "groyne"
-        },
-        {
-            "key": "man_made",
-            "value": "lighthouse"
-        },
-        {
-            "key": "man_made",
-            "value": "mast"
-        },
-        {
-            "key": "tower:type",
-            "value": "observation"
-        },
-        {
-            "key": "man_made",
-            "value": "petroleum_well"
-        },
-        {
-            "key": "man_made",
-            "value": "pier"
-        },
-        {
-            "key": "man_made",
-            "value": "pipeline"
-        },
-        {
-            "key": "man_made",
-            "value": "silo"
-        },
-        {
-            "key": "man_made",
-            "value": "storage_tank"
-        },
-        {
-            "key": "man_made",
-            "value": "surveillance"
-        },
-        {
-            "key": "man_made",
-            "value": "survey_point"
-        },
-        {
-            "key": "man_made",
-            "value": "tower"
-        },
-        {
-            "key": "man_made",
-            "value": "wastewater_plant"
-        },
-        {
-            "key": "man_made",
-            "value": "water_tower"
-        },
-        {
-            "key": "man_made",
-            "value": "water_well"
-        },
-        {
-            "key": "man_made",
-            "value": "water_works"
-        },
-        {
-            "key": "man_made",
-            "value": "works"
-        },
-        {
-            "key": "military",
-            "value": "airfield"
-        },
-        {
-            "key": "military",
-            "value": "barracks"
-        },
-        {
-            "key": "military",
-            "value": "bunker"
-        },
-        {
-            "key": "military",
-            "value": "checkpoint"
-        },
-        {
-            "key": "military",
-            "value": "danger_area"
-        },
-        {
-            "key": "military",
-            "value": "naval_base"
-        },
-        {
-            "key": "military",
-            "value": "obstacle_course"
-        },
-        {
-            "key": "military",
-            "value": "range"
-        },
-        {
-            "key": "military",
-            "value": "training_area"
-        },
-        {
             "key": "natural"
         },
         {
@@ -1715,79 +1295,7 @@
             "key": "place"
         },
         {
-            "key": "place",
-            "value": "city"
-        },
-        {
-            "key": "place",
-            "value": "farm"
-        },
-        {
-            "key": "place",
-            "value": "hamlet"
-        },
-        {
-            "key": "place",
-            "value": "island"
-        },
-        {
-            "key": "place",
-            "value": "isolated_dwelling"
-        },
-        {
-            "key": "place",
-            "value": "locality"
-        },
-        {
-            "key": "place",
-            "value": "neighbourhood"
-        },
-        {
-            "key": "place",
-            "value": "suburb"
-        },
-        {
-            "key": "place",
-            "value": "town"
-        },
-        {
-            "key": "place",
-            "value": "village"
-        },
-        {
             "key": "power"
-        },
-        {
-            "key": "power",
-            "value": "generator"
-        },
-        {
-            "key": "power",
-            "value": "line"
-        },
-        {
-            "key": "power",
-            "value": "minor_line"
-        },
-        {
-            "key": "power",
-            "value": "pole"
-        },
-        {
-            "key": "power",
-            "value": "sub_station"
-        },
-        {
-            "key": "power",
-            "value": "substation"
-        },
-        {
-            "key": "power",
-            "value": "tower"
-        },
-        {
-            "key": "power",
-            "value": "transformer"
         },
         {
             "key": "public_transport",
@@ -1855,10 +1363,6 @@
         {
             "key": "junction",
             "value": "roundabout"
-        },
-        {
-            "key": "route",
-            "value": "ferry"
         },
         {
             "key": "shop"

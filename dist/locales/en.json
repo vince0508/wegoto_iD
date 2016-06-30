@@ -613,17 +613,8 @@
     },
     "presets": {
         "categories": {
-            "category-barrier": {
-                "name": "Barrier Features"
-            },
             "category-building": {
                 "name": "Building Features"
-            },
-            "category-golf": {
-                "name": "Golf Features"
-            },
-            "category-landuse": {
-                "name": "Land Use Features"
             },
             "category-path": {
                 "name": "Path Features"
@@ -639,12 +630,6 @@
             },
             "category-route": {
                 "name": "Route Features"
-            },
-            "category-water-area": {
-                "name": "Water Features"
-            },
-            "category-water-line": {
-                "name": "Water Features"
             }
         },
         "fields": {
@@ -1778,37 +1763,13 @@
                 "name": "Aeroway",
                 "terms": ""
             },
-            "aeroway/aerodrome": {
-                "name": "Airport",
-                "terms": "airplane,airport,aerodrome"
-            },
-            "aeroway/apron": {
-                "name": "Apron",
-                "terms": "ramp"
-            },
             "aeroway/gate": {
                 "name": "Airport gate",
                 "terms": ""
             },
-            "aeroway/hangar": {
-                "name": "Hangar",
-                "terms": ""
-            },
-            "aeroway/helipad": {
-                "name": "Helipad",
-                "terms": "helicopter,helipad,heliport"
-            },
-            "aeroway/runway": {
-                "name": "Runway",
-                "terms": "landing strip"
-            },
             "aeroway/taxiway": {
                 "name": "Taxiway",
                 "terms": ""
-            },
-            "aeroway/terminal": {
-                "name": "Airport terminal",
-                "terms": "airport,aerodrome"
             },
             "amenity": {
                 "name": "Amenity",
@@ -2017,22 +1978,6 @@
             "amenity/place_of_worship": {
                 "name": "Place of Worship",
                 "terms": "abbey,basilica,bethel,cathedral,chancel,chantry,chapel,church,fold,house of God,house of prayer,house of worship,minster,mission,mosque,oratory,parish,sacellum,sanctuary,shrine,synagogue,tabernacle,temple"
-            },
-            "amenity/place_of_worship/buddhist": {
-                "name": "Buddhist Temple",
-                "terms": "stupa,vihara,monastery,temple,pagoda,zendo,dojo"
-            },
-            "amenity/place_of_worship/christian": {
-                "name": "Church",
-                "terms": "christian,abbey,basilica,bethel,cathedral,chancel,chantry,chapel,fold,house of God,house of prayer,house of worship,minster,mission,oratory,parish,sacellum,sanctuary,shrine,tabernacle,temple"
-            },
-            "amenity/place_of_worship/jewish": {
-                "name": "Synagogue",
-                "terms": "jewish"
-            },
-            "amenity/place_of_worship/muslim": {
-                "name": "Mosque",
-                "terms": "muslim"
             },
             "amenity/police": {
                 "name": "Police",
@@ -2422,190 +2367,6 @@
                 "name": "Craft",
                 "terms": ""
             },
-            "craft/basket_maker": {
-                "name": "Basket Maker",
-                "terms": ""
-            },
-            "craft/beekeeper": {
-                "name": "Beekeeper",
-                "terms": ""
-            },
-            "craft/blacksmith": {
-                "name": "Blacksmith",
-                "terms": ""
-            },
-            "craft/boatbuilder": {
-                "name": "Boat Builder",
-                "terms": ""
-            },
-            "craft/bookbinder": {
-                "name": "Bookbinder",
-                "terms": "book repair"
-            },
-            "craft/brewery": {
-                "name": "Brewery",
-                "terms": "beer,bier"
-            },
-            "craft/carpenter": {
-                "name": "Carpenter",
-                "terms": "woodworker"
-            },
-            "craft/carpet_layer": {
-                "name": "Carpet Layer",
-                "terms": ""
-            },
-            "craft/caterer": {
-                "name": "Caterer",
-                "terms": ""
-            },
-            "craft/clockmaker": {
-                "name": "Clockmaker",
-                "terms": ""
-            },
-            "craft/confectionery": {
-                "name": "Confectionery",
-                "terms": "sweets,candy"
-            },
-            "craft/dressmaker": {
-                "name": "Dressmaker",
-                "terms": "seamstress"
-            },
-            "craft/electrician": {
-                "name": "Electrician",
-                "terms": "power,wire"
-            },
-            "craft/gardener": {
-                "name": "Gardener",
-                "terms": "landscaper,grounds keeper"
-            },
-            "craft/glaziery": {
-                "name": "Glaziery",
-                "terms": "glass,stained-glass,window"
-            },
-            "craft/handicraft": {
-                "name": "Handicraft",
-                "terms": ""
-            },
-            "craft/hvac": {
-                "name": "HVAC",
-                "terms": "heat*,vent*,air conditioning"
-            },
-            "craft/insulator": {
-                "name": "Insulator",
-                "terms": ""
-            },
-            "craft/jeweler": {
-                "name": "Jeweler",
-                "terms": ""
-            },
-            "craft/key_cutter": {
-                "name": "Key Cutter",
-                "terms": ""
-            },
-            "craft/locksmith": {
-                "name": "Locksmith",
-                "terms": ""
-            },
-            "craft/metal_construction": {
-                "name": "Metal Construction",
-                "terms": ""
-            },
-            "craft/optician": {
-                "name": "Optician",
-                "terms": ""
-            },
-            "craft/painter": {
-                "name": "Painter",
-                "terms": ""
-            },
-            "craft/photographer": {
-                "name": "Photographer",
-                "terms": ""
-            },
-            "craft/photographic_laboratory": {
-                "name": "Photographic Laboratory",
-                "terms": "film"
-            },
-            "craft/plasterer": {
-                "name": "Plasterer",
-                "terms": ""
-            },
-            "craft/plumber": {
-                "name": "Plumber",
-                "terms": "pipe"
-            },
-            "craft/pottery": {
-                "name": "Pottery",
-                "terms": "ceramic"
-            },
-            "craft/rigger": {
-                "name": "Rigger",
-                "terms": ""
-            },
-            "craft/roofer": {
-                "name": "Roofer",
-                "terms": ""
-            },
-            "craft/saddler": {
-                "name": "Saddler",
-                "terms": ""
-            },
-            "craft/sailmaker": {
-                "name": "Sailmaker",
-                "terms": ""
-            },
-            "craft/sawmill": {
-                "name": "Sawmill",
-                "terms": "lumber"
-            },
-            "craft/scaffolder": {
-                "name": "Scaffolder",
-                "terms": ""
-            },
-            "craft/sculpter": {
-                "name": "Sculpter",
-                "terms": ""
-            },
-            "craft/shoemaker": {
-                "name": "Shoemaker",
-                "terms": "cobbler"
-            },
-            "craft/stonemason": {
-                "name": "Stonemason",
-                "terms": "masonry"
-            },
-            "craft/sweep": {
-                "name": "Chimney Sweep",
-                "terms": ""
-            },
-            "craft/tailor": {
-                "name": "Tailor",
-                "terms": "clothes,suit"
-            },
-            "craft/tiler": {
-                "name": "Tiler",
-                "terms": ""
-            },
-            "craft/tinsmith": {
-                "name": "Tinsmith",
-                "terms": ""
-            },
-            "craft/upholsterer": {
-                "name": "Upholsterer",
-                "terms": ""
-            },
-            "craft/watchmaker": {
-                "name": "Watchmaker",
-                "terms": ""
-            },
-            "craft/window_construction": {
-                "name": "Window Construction",
-                "terms": "glass"
-            },
-            "craft/winery": {
-                "name": "Winery",
-                "terms": ""
-            },
             "embankment": {
                 "name": "Embankment",
                 "terms": ""
@@ -2640,38 +2401,6 @@
             },
             "ford": {
                 "name": "Ford",
-                "terms": ""
-            },
-            "golf/bunker": {
-                "name": "Sand Trap",
-                "terms": "hazard,bunker"
-            },
-            "golf/fairway": {
-                "name": "Fairway",
-                "terms": ""
-            },
-            "golf/green": {
-                "name": "Putting Green",
-                "terms": ""
-            },
-            "golf/hole": {
-                "name": "Golf Hole",
-                "terms": ""
-            },
-            "golf/lateral_water_hazard": {
-                "name": "Lateral Water Hazard",
-                "terms": ""
-            },
-            "golf/rough": {
-                "name": "Rough",
-                "terms": ""
-            },
-            "golf/tee": {
-                "name": "Tee Box",
-                "terms": "teeing ground"
-            },
-            "golf/water_hazard": {
-                "name": "Water Hazard",
                 "terms": ""
             },
             "highway": {
@@ -2860,38 +2589,6 @@
             },
             "historic": {
                 "name": "Historic Site",
-                "terms": ""
-            },
-            "historic/archaeological_site": {
-                "name": "Archaeological Site",
-                "terms": ""
-            },
-            "historic/boundary_stone": {
-                "name": "Boundary Stone",
-                "terms": ""
-            },
-            "historic/castle": {
-                "name": "Castle",
-                "terms": ""
-            },
-            "historic/memorial": {
-                "name": "Memorial",
-                "terms": ""
-            },
-            "historic/monument": {
-                "name": "Monument",
-                "terms": ""
-            },
-            "historic/ruins": {
-                "name": "Ruins",
-                "terms": ""
-            },
-            "historic/wayside_cross": {
-                "name": "Wayside Cross",
-                "terms": ""
-            },
-            "historic/wayside_shrine": {
-                "name": "Wayside Shrine",
                 "terms": ""
             },
             "junction": {
@@ -3134,138 +2831,6 @@
                 "name": "Man Made",
                 "terms": ""
             },
-            "man_made/adit": {
-                "name": "Adit",
-                "terms": "entrance,underground,mine,cave"
-            },
-            "man_made/breakwater": {
-                "name": "Breakwater",
-                "terms": ""
-            },
-            "man_made/chimney": {
-                "name": "Chimney",
-                "terms": ""
-            },
-            "man_made/cutline": {
-                "name": "Cut line",
-                "terms": ""
-            },
-            "man_made/embankment": {
-                "name": "Embankment",
-                "terms": ""
-            },
-            "man_made/flagpole": {
-                "name": "Flagpole",
-                "terms": ""
-            },
-            "man_made/gasometer": {
-                "name": "Gasometer",
-                "terms": "gas holder"
-            },
-            "man_made/groyne": {
-                "name": "Groyne",
-                "terms": ""
-            },
-            "man_made/lighthouse": {
-                "name": "Lighthouse",
-                "terms": ""
-            },
-            "man_made/mast": {
-                "name": "Radio Mast",
-                "terms": "broadcast tower,cell phone tower,cell tower,guyed tower,mobile phone tower,radio tower,television tower,transmission mast,transmission tower,tv tower"
-            },
-            "man_made/observation": {
-                "name": "Observation Tower",
-                "terms": "lookout tower,fire tower"
-            },
-            "man_made/petroleum_well": {
-                "name": "Oil Well",
-                "terms": "drilling rig,oil derrick,oil drill,oil horse,oil rig,oil pump,petroleum well,pumpjack"
-            },
-            "man_made/pier": {
-                "name": "Pier",
-                "terms": "dock"
-            },
-            "man_made/pipeline": {
-                "name": "Pipeline",
-                "terms": ""
-            },
-            "man_made/silo": {
-                "name": "Silo",
-                "terms": "grain,corn,wheat"
-            },
-            "man_made/storage_tank": {
-                "name": "Storage Tank",
-                "terms": "water,oil,gas,petrol"
-            },
-            "man_made/surveillance": {
-                "name": "Surveillance",
-                "terms": ""
-            },
-            "man_made/survey_point": {
-                "name": "Survey Point",
-                "terms": ""
-            },
-            "man_made/tower": {
-                "name": "Tower",
-                "terms": ""
-            },
-            "man_made/wastewater_plant": {
-                "name": "Wastewater Plant",
-                "terms": "sewage*,water treatment plant,reclamation plant"
-            },
-            "man_made/water_tower": {
-                "name": "Water Tower",
-                "terms": ""
-            },
-            "man_made/water_well": {
-                "name": "Water Well",
-                "terms": ""
-            },
-            "man_made/water_works": {
-                "name": "Water Works",
-                "terms": ""
-            },
-            "man_made/works": {
-                "name": "Works",
-                "terms": "car assembly plant,aluminium processing plant,brewery,furniture manufacture factory,oil refinery,plastic recycling"
-            },
-            "military/airfield": {
-                "name": "Airfield",
-                "terms": ""
-            },
-            "military/barracks": {
-                "name": "Barracks",
-                "terms": ""
-            },
-            "military/bunker": {
-                "name": "Bunker",
-                "terms": ""
-            },
-            "military/checkpoint": {
-                "name": "Checkpoint",
-                "terms": ""
-            },
-            "military/danger_area": {
-                "name": "Danger Area",
-                "terms": ""
-            },
-            "military/naval_base": {
-                "name": "Naval Base",
-                "terms": ""
-            },
-            "military/obstacle_course": {
-                "name": "Obstacle Course",
-                "terms": ""
-            },
-            "military/range": {
-                "name": "Military Range",
-                "terms": ""
-            },
-            "military/training_area": {
-                "name": "Training area",
-                "terms": ""
-            },
             "natural": {
                 "name": "Natural",
                 "terms": ""
@@ -3454,84 +3019,12 @@
                 "name": "Place",
                 "terms": ""
             },
-            "place/city": {
-                "name": "City",
-                "terms": ""
-            },
-            "place/farm": {
-                "name": "Farm",
-                "terms": ""
-            },
-            "place/hamlet": {
-                "name": "Hamlet",
-                "terms": ""
-            },
-            "place/island": {
-                "name": "Island",
-                "terms": "archipelago,atoll,bar,cay,isle,islet,key,reef"
-            },
-            "place/isolated_dwelling": {
-                "name": "Isolated Dwelling",
-                "terms": ""
-            },
-            "place/locality": {
-                "name": "Locality",
-                "terms": ""
-            },
-            "place/neighbourhood": {
-                "name": "Neighborhood",
-                "terms": "neighbourhood"
-            },
-            "place/suburb": {
-                "name": "Borough",
-                "terms": "Boro,Quarter"
-            },
-            "place/town": {
-                "name": "Town",
-                "terms": ""
-            },
-            "place/village": {
-                "name": "Village",
-                "terms": ""
-            },
             "point": {
                 "name": "Point",
                 "terms": ""
             },
             "power": {
                 "name": "Power",
-                "terms": ""
-            },
-            "power/generator": {
-                "name": "Power Generator",
-                "terms": ""
-            },
-            "power/line": {
-                "name": "Power Line",
-                "terms": ""
-            },
-            "power/minor_line": {
-                "name": "Minor Power Line",
-                "terms": ""
-            },
-            "power/pole": {
-                "name": "Power Pole",
-                "terms": ""
-            },
-            "power/sub_station": {
-                "name": "Substation",
-                "terms": ""
-            },
-            "power/substation": {
-                "name": "Substation",
-                "terms": ""
-            },
-            "power/tower": {
-                "name": "High-Voltage Tower",
-                "terms": ""
-            },
-            "power/transformer": {
-                "name": "Transformer",
                 "terms": ""
             },
             "public_transport/platform": {
@@ -3604,10 +3097,6 @@
             },
             "roundabout": {
                 "name": "Roundabout",
-                "terms": ""
-            },
-            "route/ferry": {
-                "name": "Ferry Route",
                 "terms": ""
             },
             "shop": {

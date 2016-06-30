@@ -115,12 +115,12 @@ iD.ui = function(context) {
             aboutList.call(iD.ui.Account(context));
         }
 
-        aboutList.append('li')
+       /* aboutList.append('li')
             .append('a')
             .attr('target', '_blank')
             .attr('tabindex', -1)
             .attr('href', 'https://github.com/openstreetmap/iD')
-            .text(iD.version);
+            .text(iD.version);*/
 
         var issueLinks = aboutList.append('li');
 

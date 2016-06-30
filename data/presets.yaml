@@ -1,14 +1,8 @@
 en:
   presets:
     categories:
-      category-barrier:
-        name: Barrier Features
       category-building:
         name: Building Features
-      category-golf:
-        name: Golf Features
-      category-landuse:
-        name: Land Use Features
       category-path:
         name: Path Features
       category-rail:
@@ -19,10 +13,6 @@ en:
         name: Road Features
       category-route:
         name: Route Features
-      category-water-area:
-        name: Water Features
-      category-water-line:
-        name: Water Features
     fields:
       Wego:
         # 'Wego=*'
@@ -1419,43 +1409,14 @@ en:
         # 'aeroway=*'
         name: Aeroway
         terms: "<translate with synonyms or related terms for 'Aeroway', separated by commas>"
-      aeroway/aerodrome:
-        # aeroway=aerodrome
-        name: Airport
-        # 'terms: airplane,airport,aerodrome'
-        terms: "<translate with synonyms or related terms for 'Airport', separated by commas>"
-      aeroway/apron:
-        # aeroway=apron
-        name: Apron
-        # 'terms: ramp'
-        terms: "<translate with synonyms or related terms for 'Apron', separated by commas>"
       aeroway/gate:
         # aeroway=gate
         name: Airport gate
         terms: "<translate with synonyms or related terms for 'Airport gate', separated by commas>"
-      aeroway/hangar:
-        # aeroway=hangar
-        name: Hangar
-        terms: "<translate with synonyms or related terms for 'Hangar', separated by commas>"
-      aeroway/helipad:
-        # aeroway=helipad
-        name: Helipad
-        # 'terms: helicopter,helipad,heliport'
-        terms: "<translate with synonyms or related terms for 'Helipad', separated by commas>"
-      aeroway/runway:
-        # aeroway=runway
-        name: Runway
-        # 'terms: landing strip'
-        terms: "<translate with synonyms or related terms for 'Runway', separated by commas>"
       aeroway/taxiway:
         # aeroway=taxiway
         name: Taxiway
         terms: "<translate with synonyms or related terms for 'Taxiway', separated by commas>"
-      aeroway/terminal:
-        # aeroway=terminal
-        name: Airport terminal
-        # 'terms: airport,aerodrome'
-        terms: "<translate with synonyms or related terms for 'Airport terminal', separated by commas>"
       amenity:
         # 'amenity=*'
         name: Amenity
@@ -1695,26 +1656,6 @@ en:
         name: Place of Worship
         # 'terms: abbey,basilica,bethel,cathedral,chancel,chantry,chapel,church,fold,house of God,house of prayer,house of worship,minster,mission,mosque,oratory,parish,sacellum,sanctuary,shrine,synagogue,tabernacle,temple'
         terms: "<translate with synonyms or related terms for 'Place of Worship', separated by commas>"
-      amenity/place_of_worship/buddhist:
-        # 'amenity=place_of_worship, religion=buddhist'
-        name: Buddhist Temple
-        # 'terms: stupa,vihara,monastery,temple,pagoda,zendo,dojo'
-        terms: "<translate with synonyms or related terms for 'Buddhist Temple', separated by commas>"
-      amenity/place_of_worship/christian:
-        # 'amenity=place_of_worship, religion=christian'
-        name: Church
-        # 'terms: christian,abbey,basilica,bethel,cathedral,chancel,chantry,chapel,fold,house of God,house of prayer,house of worship,minster,mission,oratory,parish,sacellum,sanctuary,shrine,tabernacle,temple'
-        terms: "<translate with synonyms or related terms for 'Church', separated by commas>"
-      amenity/place_of_worship/jewish:
-        # 'amenity=place_of_worship, religion=jewish'
-        name: Synagogue
-        # 'terms: jewish'
-        terms: "<translate with synonyms or related terms for 'Synagogue', separated by commas>"
-      amenity/place_of_worship/muslim:
-        # 'amenity=place_of_worship, religion=muslim'
-        name: Mosque
-        # 'terms: muslim'
-        terms: "<translate with synonyms or related terms for 'Mosque', separated by commas>"
       amenity/police:
         # amenity=police
         name: Police
@@ -2144,207 +2085,6 @@ en:
         # 'craft=*'
         name: Craft
         terms: "<translate with synonyms or related terms for 'Craft', separated by commas>"
-      craft/basket_maker:
-        # craft=basket_maker
-        name: Basket Maker
-        terms: "<translate with synonyms or related terms for 'Basket Maker', separated by commas>"
-      craft/beekeeper:
-        # craft=beekeeper
-        name: Beekeeper
-        terms: "<translate with synonyms or related terms for 'Beekeeper', separated by commas>"
-      craft/blacksmith:
-        # craft=blacksmith
-        name: Blacksmith
-        terms: "<translate with synonyms or related terms for 'Blacksmith', separated by commas>"
-      craft/boatbuilder:
-        # craft=boatbuilder
-        name: Boat Builder
-        terms: "<translate with synonyms or related terms for 'Boat Builder', separated by commas>"
-      craft/bookbinder:
-        # craft=bookbinder
-        name: Bookbinder
-        # 'terms: book repair'
-        terms: "<translate with synonyms or related terms for 'Bookbinder', separated by commas>"
-      craft/brewery:
-        # craft=brewery
-        name: Brewery
-        # 'terms: beer,bier'
-        terms: "<translate with synonyms or related terms for 'Brewery', separated by commas>"
-      craft/carpenter:
-        # craft=carpenter
-        name: Carpenter
-        # 'terms: woodworker'
-        terms: "<translate with synonyms or related terms for 'Carpenter', separated by commas>"
-      craft/carpet_layer:
-        # craft=carpet_layer
-        name: Carpet Layer
-        terms: "<translate with synonyms or related terms for 'Carpet Layer', separated by commas>"
-      craft/caterer:
-        # craft=caterer
-        name: Caterer
-        terms: "<translate with synonyms or related terms for 'Caterer', separated by commas>"
-      craft/clockmaker:
-        # craft=clockmaker
-        name: Clockmaker
-        terms: "<translate with synonyms or related terms for 'Clockmaker', separated by commas>"
-      craft/confectionery:
-        # craft=confectionery
-        name: Confectionery
-        # 'terms: sweets,candy'
-        terms: "<translate with synonyms or related terms for 'Confectionery', separated by commas>"
-      craft/dressmaker:
-        # craft=dressmaker
-        name: Dressmaker
-        # 'terms: seamstress'
-        terms: "<translate with synonyms or related terms for 'Dressmaker', separated by commas>"
-      craft/electrician:
-        # craft=electrician
-        name: Electrician
-        # 'terms: power,wire'
-        terms: "<translate with synonyms or related terms for 'Electrician', separated by commas>"
-      craft/gardener:
-        # craft=gardener
-        name: Gardener
-        # 'terms: landscaper,grounds keeper'
-        terms: "<translate with synonyms or related terms for 'Gardener', separated by commas>"
-      craft/glaziery:
-        # craft=glaziery
-        name: Glaziery
-        # 'terms: glass,stained-glass,window'
-        terms: "<translate with synonyms or related terms for 'Glaziery', separated by commas>"
-      craft/handicraft:
-        # craft=handicraft
-        name: Handicraft
-        terms: "<translate with synonyms or related terms for 'Handicraft', separated by commas>"
-      craft/hvac:
-        # craft=hvac
-        name: HVAC
-        # 'terms: heat*,vent*,air conditioning'
-        terms: "<translate with synonyms or related terms for 'HVAC', separated by commas>"
-      craft/insulator:
-        # craft=insulation
-        name: Insulator
-        terms: "<translate with synonyms or related terms for 'Insulator', separated by commas>"
-      craft/jeweler:
-        # craft=jeweler
-        name: Jeweler
-        terms: "<translate with synonyms or related terms for 'Jeweler', separated by commas>"
-      craft/key_cutter:
-        # craft=key_cutter
-        name: Key Cutter
-        terms: "<translate with synonyms or related terms for 'Key Cutter', separated by commas>"
-      craft/locksmith:
-        # craft=locksmith
-        name: Locksmith
-        terms: "<translate with synonyms or related terms for 'Locksmith', separated by commas>"
-      craft/metal_construction:
-        # craft=metal_construction
-        name: Metal Construction
-        terms: "<translate with synonyms or related terms for 'Metal Construction', separated by commas>"
-      craft/optician:
-        # craft=optician
-        name: Optician
-        terms: "<translate with synonyms or related terms for 'Optician', separated by commas>"
-      craft/painter:
-        # craft=painter
-        name: Painter
-        terms: "<translate with synonyms or related terms for 'Painter', separated by commas>"
-      craft/photographer:
-        # craft=photographer
-        name: Photographer
-        terms: "<translate with synonyms or related terms for 'Photographer', separated by commas>"
-      craft/photographic_laboratory:
-        # craft=photographic_laboratory
-        name: Photographic Laboratory
-        # 'terms: film'
-        terms: "<translate with synonyms or related terms for 'Photographic Laboratory', separated by commas>"
-      craft/plasterer:
-        # craft=plasterer
-        name: Plasterer
-        terms: "<translate with synonyms or related terms for 'Plasterer', separated by commas>"
-      craft/plumber:
-        # craft=plumber
-        name: Plumber
-        # 'terms: pipe'
-        terms: "<translate with synonyms or related terms for 'Plumber', separated by commas>"
-      craft/pottery:
-        # craft=pottery
-        name: Pottery
-        # 'terms: ceramic'
-        terms: "<translate with synonyms or related terms for 'Pottery', separated by commas>"
-      craft/rigger:
-        # craft=rigger
-        name: Rigger
-        terms: "<translate with synonyms or related terms for 'Rigger', separated by commas>"
-      craft/roofer:
-        # craft=roofer
-        name: Roofer
-        terms: "<translate with synonyms or related terms for 'Roofer', separated by commas>"
-      craft/saddler:
-        # craft=saddler
-        name: Saddler
-        terms: "<translate with synonyms or related terms for 'Saddler', separated by commas>"
-      craft/sailmaker:
-        # craft=sailmaker
-        name: Sailmaker
-        terms: "<translate with synonyms or related terms for 'Sailmaker', separated by commas>"
-      craft/sawmill:
-        # craft=sawmill
-        name: Sawmill
-        # 'terms: lumber'
-        terms: "<translate with synonyms or related terms for 'Sawmill', separated by commas>"
-      craft/scaffolder:
-        # craft=scaffolder
-        name: Scaffolder
-        terms: "<translate with synonyms or related terms for 'Scaffolder', separated by commas>"
-      craft/sculpter:
-        # craft=sculpter
-        name: Sculpter
-        terms: "<translate with synonyms or related terms for 'Sculpter', separated by commas>"
-      craft/shoemaker:
-        # craft=shoemaker
-        name: Shoemaker
-        # 'terms: cobbler'
-        terms: "<translate with synonyms or related terms for 'Shoemaker', separated by commas>"
-      craft/stonemason:
-        # craft=stonemason
-        name: Stonemason
-        # 'terms: masonry'
-        terms: "<translate with synonyms or related terms for 'Stonemason', separated by commas>"
-      craft/sweep:
-        # craft=sweep
-        name: Chimney Sweep
-        terms: "<translate with synonyms or related terms for 'Chimney Sweep', separated by commas>"
-      craft/tailor:
-        # craft=tailor
-        name: Tailor
-        # 'terms: clothes,suit'
-        terms: "<translate with synonyms or related terms for 'Tailor', separated by commas>"
-      craft/tiler:
-        # craft=tiler
-        name: Tiler
-        terms: "<translate with synonyms or related terms for 'Tiler', separated by commas>"
-      craft/tinsmith:
-        # craft=tinsmith
-        name: Tinsmith
-        terms: "<translate with synonyms or related terms for 'Tinsmith', separated by commas>"
-      craft/upholsterer:
-        # craft=upholsterer
-        name: Upholsterer
-        terms: "<translate with synonyms or related terms for 'Upholsterer', separated by commas>"
-      craft/watchmaker:
-        # craft=watchmaker
-        name: Watchmaker
-        terms: "<translate with synonyms or related terms for 'Watchmaker', separated by commas>"
-      craft/window_construction:
-        # craft=window_construction
-        name: Window Construction
-        # 'terms: glass'
-        terms: "<translate with synonyms or related terms for 'Window Construction', separated by commas>"
-      craft/winery:
-        # craft=winery
-        name: Winery
-        terms: "<translate with synonyms or related terms for 'Winery', separated by commas>"
       embankment:
         # embankment=yes
         name: Embankment
@@ -2383,40 +2123,6 @@ en:
         # ford=yes
         name: Ford
         terms: "<translate with synonyms or related terms for 'Ford', separated by commas>"
-      golf/bunker:
-        # 'golf=bunker, natural=sand'
-        name: Sand Trap
-        # 'terms: hazard,bunker'
-        terms: "<translate with synonyms or related terms for 'Sand Trap', separated by commas>"
-      golf/fairway:
-        # 'golf=fairway, landuse=grass'
-        name: Fairway
-        terms: "<translate with synonyms or related terms for 'Fairway', separated by commas>"
-      golf/green:
-        # 'golf=green, landuse=grass, leisure=pitch, sport=golf'
-        name: Putting Green
-        terms: "<translate with synonyms or related terms for 'Putting Green', separated by commas>"
-      golf/hole:
-        # golf=hole
-        name: Golf Hole
-        terms: "<translate with synonyms or related terms for 'Golf Hole', separated by commas>"
-      golf/lateral_water_hazard:
-        # 'golf=lateral_water_hazard, natural=water'
-        name: Lateral Water Hazard
-        terms: "<translate with synonyms or related terms for 'Lateral Water Hazard', separated by commas>"
-      golf/rough:
-        # 'golf=rough, landuse=grass'
-        name: Rough
-        terms: "<translate with synonyms or related terms for 'Rough', separated by commas>"
-      golf/tee:
-        # 'golf=tee, landuse=grass'
-        name: Tee Box
-        # 'terms: teeing ground'
-        terms: "<translate with synonyms or related terms for 'Tee Box', separated by commas>"
-      golf/water_hazard:
-        # 'golf=water_hazard, natural=water'
-        name: Water Hazard
-        terms: "<translate with synonyms or related terms for 'Water Hazard', separated by commas>"
       highway:
         # 'highway=*'
         name: Highway
@@ -2622,38 +2328,6 @@ en:
         # 'historic=*'
         name: Historic Site
         terms: "<translate with synonyms or related terms for 'Historic Site', separated by commas>"
-      historic/archaeological_site:
-        # historic=archaeological_site
-        name: Archaeological Site
-        terms: "<translate with synonyms or related terms for 'Archaeological Site', separated by commas>"
-      historic/boundary_stone:
-        # historic=boundary_stone
-        name: Boundary Stone
-        terms: "<translate with synonyms or related terms for 'Boundary Stone', separated by commas>"
-      historic/castle:
-        # historic=castle
-        name: Castle
-        terms: "<translate with synonyms or related terms for 'Castle', separated by commas>"
-      historic/memorial:
-        # historic=memorial
-        name: Memorial
-        terms: "<translate with synonyms or related terms for 'Memorial', separated by commas>"
-      historic/monument:
-        # historic=monument
-        name: Monument
-        terms: "<translate with synonyms or related terms for 'Monument', separated by commas>"
-      historic/ruins:
-        # historic=ruins
-        name: Ruins
-        terms: "<translate with synonyms or related terms for 'Ruins', separated by commas>"
-      historic/wayside_cross:
-        # historic=wayside_cross
-        name: Wayside Cross
-        terms: "<translate with synonyms or related terms for 'Wayside Cross', separated by commas>"
-      historic/wayside_shrine:
-        # historic=wayside_shrine
-        name: Wayside Shrine
-        terms: "<translate with synonyms or related terms for 'Wayside Shrine', separated by commas>"
       junction:
         # junction=yes
         name: Junction
@@ -2914,148 +2588,6 @@ en:
         # 'man_made=*'
         name: Man Made
         terms: "<translate with synonyms or related terms for 'Man Made', separated by commas>"
-      man_made/adit:
-        # man_made=adit
-        name: Adit
-        # 'terms: entrance,underground,mine,cave'
-        terms: "<translate with synonyms or related terms for 'Adit', separated by commas>"
-      man_made/breakwater:
-        # man_made=breakwater
-        name: Breakwater
-        terms: "<translate with synonyms or related terms for 'Breakwater', separated by commas>"
-      man_made/chimney:
-        # man_made=chimney
-        name: Chimney
-        terms: "<translate with synonyms or related terms for 'Chimney', separated by commas>"
-      man_made/cutline:
-        # man_made=cutline
-        name: Cut line
-        terms: "<translate with synonyms or related terms for 'Cut line', separated by commas>"
-      man_made/embankment:
-        # man_made=embankment
-        name: Embankment
-        terms: "<translate with synonyms or related terms for 'Embankment', separated by commas>"
-      man_made/flagpole:
-        # man_made=flagpole
-        name: Flagpole
-        terms: "<translate with synonyms or related terms for 'Flagpole', separated by commas>"
-      man_made/gasometer:
-        # man_made=gasometer
-        name: Gasometer
-        # 'terms: gas holder'
-        terms: "<translate with synonyms or related terms for 'Gasometer', separated by commas>"
-      man_made/groyne:
-        # man_made=groyne
-        name: Groyne
-        terms: "<translate with synonyms or related terms for 'Groyne', separated by commas>"
-      man_made/lighthouse:
-        # man_made=lighthouse
-        name: Lighthouse
-        terms: "<translate with synonyms or related terms for 'Lighthouse', separated by commas>"
-      man_made/mast:
-        # man_made=mast
-        name: Radio Mast
-        # 'terms: broadcast tower,cell phone tower,cell tower,guyed tower,mobile phone tower,radio tower,television tower,transmission mast,transmission tower,tv tower'
-        terms: "<translate with synonyms or related terms for 'Radio Mast', separated by commas>"
-      man_made/observation:
-        # 'man_made=tower, tower:type=observation'
-        name: Observation Tower
-        # 'terms: lookout tower,fire tower'
-        terms: "<translate with synonyms or related terms for 'Observation Tower', separated by commas>"
-      man_made/petroleum_well:
-        # man_made=petroleum_well
-        name: Oil Well
-        # 'terms: drilling rig,oil derrick,oil drill,oil horse,oil rig,oil pump,petroleum well,pumpjack'
-        terms: "<translate with synonyms or related terms for 'Oil Well', separated by commas>"
-      man_made/pier:
-        # man_made=pier
-        name: Pier
-        # 'terms: dock'
-        terms: "<translate with synonyms or related terms for 'Pier', separated by commas>"
-      man_made/pipeline:
-        # man_made=pipeline
-        name: Pipeline
-        terms: "<translate with synonyms or related terms for 'Pipeline', separated by commas>"
-      man_made/silo:
-        # man_made=silo
-        name: Silo
-        # 'terms: grain,corn,wheat'
-        terms: "<translate with synonyms or related terms for 'Silo', separated by commas>"
-      man_made/storage_tank:
-        # man_made=storage_tank
-        name: Storage Tank
-        # 'terms: water,oil,gas,petrol'
-        terms: "<translate with synonyms or related terms for 'Storage Tank', separated by commas>"
-      man_made/surveillance:
-        # man_made=surveillance
-        name: Surveillance
-        terms: "<translate with synonyms or related terms for 'Surveillance', separated by commas>"
-      man_made/survey_point:
-        # man_made=survey_point
-        name: Survey Point
-        terms: "<translate with synonyms or related terms for 'Survey Point', separated by commas>"
-      man_made/tower:
-        # man_made=tower
-        name: Tower
-        terms: "<translate with synonyms or related terms for 'Tower', separated by commas>"
-      man_made/wastewater_plant:
-        # man_made=wastewater_plant
-        name: Wastewater Plant
-        # 'terms: sewage*,water treatment plant,reclamation plant'
-        terms: "<translate with synonyms or related terms for 'Wastewater Plant', separated by commas>"
-      man_made/water_tower:
-        # man_made=water_tower
-        name: Water Tower
-        terms: "<translate with synonyms or related terms for 'Water Tower', separated by commas>"
-      man_made/water_well:
-        # man_made=water_well
-        name: Water Well
-        terms: "<translate with synonyms or related terms for 'Water Well', separated by commas>"
-      man_made/water_works:
-        # man_made=water_works
-        name: Water Works
-        terms: "<translate with synonyms or related terms for 'Water Works', separated by commas>"
-      man_made/works:
-        # man_made=works
-        name: Works
-        # 'terms: car assembly plant,aluminium processing plant,brewery,furniture manufacture factory,oil refinery,plastic recycling'
-        terms: "<translate with synonyms or related terms for 'Works', separated by commas>"
-      military/airfield:
-        # military=airfield
-        name: Airfield
-        terms: "<translate with synonyms or related terms for 'Airfield', separated by commas>"
-      military/barracks:
-        # military=barracks
-        name: Barracks
-        terms: "<translate with synonyms or related terms for 'Barracks', separated by commas>"
-      military/bunker:
-        # military=bunker
-        name: Bunker
-        terms: "<translate with synonyms or related terms for 'Bunker', separated by commas>"
-      military/checkpoint:
-        # military=checkpoint
-        name: Checkpoint
-        terms: "<translate with synonyms or related terms for 'Checkpoint', separated by commas>"
-      military/danger_area:
-        # military=danger_area
-        name: Danger Area
-        terms: "<translate with synonyms or related terms for 'Danger Area', separated by commas>"
-      military/naval_base:
-        # military=naval_base
-        name: Naval Base
-        terms: "<translate with synonyms or related terms for 'Naval Base', separated by commas>"
-      military/obstacle_course:
-        # military=obstacle_course
-        name: Obstacle Course
-        terms: "<translate with synonyms or related terms for 'Obstacle Course', separated by commas>"
-      military/range:
-        # military=range
-        name: Military Range
-        terms: "<translate with synonyms or related terms for 'Military Range', separated by commas>"
-      military/training_area:
-        # military=training_area
-        name: Training area
-        terms: "<translate with synonyms or related terms for 'Training area', separated by commas>"
       natural:
         # 'natural=*'
         name: Natural
@@ -3256,49 +2788,6 @@ en:
         # 'place=*'
         name: Place
         terms: "<translate with synonyms or related terms for 'Place', separated by commas>"
-      place/city:
-        # place=city
-        name: City
-        terms: "<translate with synonyms or related terms for 'City', separated by commas>"
-      place/farm:
-        # place=farm
-        name: Farm
-        terms: "<translate with synonyms or related terms for 'Farm', separated by commas>"
-      place/hamlet:
-        # place=hamlet
-        name: Hamlet
-        terms: "<translate with synonyms or related terms for 'Hamlet', separated by commas>"
-      place/island:
-        # place=island
-        name: Island
-        # 'terms: archipelago,atoll,bar,cay,isle,islet,key,reef'
-        terms: "<translate with synonyms or related terms for 'Island', separated by commas>"
-      place/isolated_dwelling:
-        # place=isolated_dwelling
-        name: Isolated Dwelling
-        terms: "<translate with synonyms or related terms for 'Isolated Dwelling', separated by commas>"
-      place/locality:
-        # place=locality
-        name: Locality
-        terms: "<translate with synonyms or related terms for 'Locality', separated by commas>"
-      place/neighbourhood:
-        # place=neighbourhood
-        name: Neighborhood
-        # 'terms: neighbourhood'
-        terms: "<translate with synonyms or related terms for 'Neighborhood', separated by commas>"
-      place/suburb:
-        # place=suburb
-        name: Borough
-        # 'terms: Boro,Quarter'
-        terms: "<translate with synonyms or related terms for 'Borough', separated by commas>"
-      place/town:
-        # place=town
-        name: Town
-        terms: "<translate with synonyms or related terms for 'Town', separated by commas>"
-      place/village:
-        # place=village
-        name: Village
-        terms: "<translate with synonyms or related terms for 'Village', separated by commas>"
       point:
         name: Point
         terms: "<translate with synonyms or related terms for 'Point', separated by commas>"
@@ -3306,38 +2795,6 @@ en:
         # 'power=*'
         name: Power
         terms: "<translate with synonyms or related terms for 'Power', separated by commas>"
-      power/generator:
-        # power=generator
-        name: Power Generator
-        terms: "<translate with synonyms or related terms for 'Power Generator', separated by commas>"
-      power/line:
-        # power=line
-        name: Power Line
-        terms: "<translate with synonyms or related terms for 'Power Line', separated by commas>"
-      power/minor_line:
-        # power=minor_line
-        name: Minor Power Line
-        terms: "<translate with synonyms or related terms for 'Minor Power Line', separated by commas>"
-      power/pole:
-        # power=pole
-        name: Power Pole
-        terms: "<translate with synonyms or related terms for 'Power Pole', separated by commas>"
-      power/sub_station:
-        # power=sub_station
-        name: Substation
-        terms: "<translate with synonyms or related terms for 'Substation', separated by commas>"
-      power/substation:
-        # power=substation
-        name: Substation
-        terms: "<translate with synonyms or related terms for 'Substation', separated by commas>"
-      power/tower:
-        # power=tower
-        name: High-Voltage Tower
-        terms: "<translate with synonyms or related terms for 'High-Voltage Tower', separated by commas>"
-      power/transformer:
-        # power=transformer
-        name: Transformer
-        terms: "<translate with synonyms or related terms for 'Transformer', separated by commas>"
       public_transport/platform:
         # public_transport=platform
         name: Platform
@@ -3415,10 +2872,6 @@ en:
         # junction=roundabout
         name: Roundabout
         terms: "<translate with synonyms or related terms for 'Roundabout', separated by commas>"
-      route/ferry:
-        # route=ferry
-        name: Ferry Route
-        terms: "<translate with synonyms or related terms for 'Ferry Route', separated by commas>"
       shop:
         # 'shop=*'
         name: Shop

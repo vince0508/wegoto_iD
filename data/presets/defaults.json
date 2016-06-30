@@ -1,6 +1,5 @@
 {
     "area": [
-
         "area"
     ],
     "line": [
@@ -20,19 +19,11 @@
         "point"
     ],
     "vertex": [
-       
-       
         "highway/traversee_sortie",
-        
         "highway/ilot_sortie",
         "vertex"
     ],
     "relation": [
-        "category-route",
-        "category-restriction",
-        "type/boundary",
-        "type/multipolygon",
-        "type/site",
         "relation"
     ]
 }

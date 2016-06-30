@@ -1,16 +1,4 @@
 {
-    "category-barrier": {
-        "geometry": "line",
-        "name": "Barrier Features",
-        "icon": "roadblock",
-        "members": [
-            "barrier/fence",
-            "barrier/wall",
-            "barrier/ditch",
-            "barrier/gate",
-            "barrier"
-        ]
-    },
     "category-building": {
         "geometry": "area",
         "name": "Building Features",
@@ -23,37 +11,6 @@
             "building/industrial",
             "building/residential",
             "building/test"
-        ]
-    },
-    "category-golf": {
-        "geometry": "area",
-        "name": "Golf Features",
-        "icon": "golf",
-        "members": [
-            "golf/fairway",
-            "golf/green",
-            "golf/lateral_water_hazard",
-            "golf/rough",
-            "golf/bunker",
-            "golf/tee",
-            "golf/water_hazard"
-        ]
-    },
-    "category-landuse": {
-        "geometry": "area",
-        "name": "Land Use Features",
-        "icon": "land-use",
-        "members": [
-            "landuse/residential",
-            "landuse/industrial",
-            "landuse/commercial",
-            "landuse/retail",
-            "landuse/farmland",
-            "landuse/farmyard",
-            "landuse/forest",
-            "landuse/meadow",
-            "landuse/cemetery",
-            "landuse/military"
         ]
     },
     "category-path": {
@@ -126,29 +83,6 @@
             "type/route/detour",
             "type/route_master",
             "type/route"
-        ]
-    },
-    "category-water-area": {
-        "geometry": "area",
-        "name": "Water Features",
-        "icon": "water",
-        "members": [
-            "natural/water/lake",
-            "natural/water/pond",
-            "natural/water/reservoir",
-            "natural/water"
-        ]
-    },
-    "category-water-line": {
-        "geometry": "line",
-        "name": "Water Features",
-        "icon": "category-water",
-        "members": [
-            "waterway/river",
-            "waterway/stream",
-            "waterway/canal",
-            "waterway/ditch",
-            "waterway/drain"
         ]
     }
 }
