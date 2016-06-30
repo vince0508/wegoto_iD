@@ -77,6 +77,7 @@ g.midpoint.tag-highway-pedestrian .fill,
 g.midpoint.tag-highway-steps .fill,
 g.midpoint.tag-highway-path .fill,
 g.midpoint.tag-highway-footway .fill,
+g.midpoint.tag-footway-crossing .fill,
 g.midpoint.tag-highway-cycleway .fill,
 g.midpoint.tag-highway-bridleway .fill {
     fill: #fff;
@@ -728,7 +729,7 @@ path.casing.tag-road {
 .low-zoom path.stroke.tag-highway-track,
 .low-zoom path.stroke.tag-highway-path,
 .low-zoom path.stroke.tag-highway-footway,
-low-zoom path.stroke.tag-footway-crossing,
+.low-zoom path.stroke.tag-footway-crossing,
 .low-zoom path.stroke.tag-highway-cycleway,
 .low-zoom path.stroke.tag-highway-bridleway,
 .low-zoom path.stroke.tag-highway-corridor,
@@ -753,6 +754,7 @@ low-zoom path.stroke.tag-footway-crossing,
 .low-zoom path.casing.tag-highway-track,
 .low-zoom path.casing.tag-highway-path,
 .low-zoom path.casing.tag-highway-footway,
+.low-zoom path.casing.tag-footway-crossing,
 .low-zoom path.casing.tag-highway-cycleway,
 .low-zoom path.casing.tag-highway-bridleway,
 .low-zoom path.casing.tag-highway-corridor,
@@ -852,6 +854,7 @@ path.casing.tag-track {
 
 path.stroke.tag-highway-path,
 path.stroke.tag-highway-footway,
+path.stroke.tag-footway-crossing,
 path.stroke.tag-highway-cycleway,
 path.stroke.tag-highway-bridleway {
     stroke-linecap: butt;
@@ -865,10 +868,14 @@ path.casing.tag-highway-path.tag-unpaved {
     stroke-dasharray: none;
 }
 path.casing.tag-highway-footway,
+path.casing.tag-footway-crossing,
+
 path.casing.tag-highway-crossing,
 path.casing.tag-highway-cycleway,
 path.casing.tag-highway-bridleway,
 path.casing.tag-highway-footway.tag-unpaved,
+path.casing.tag-footway-crossing.tag-unpaved,
+
 path.casing.tag-highway-cycleway.tag-unpaved,
 path.casing.tag-highway-bridleway.tag-unpaved {
     stroke: #fff;
@@ -914,11 +921,15 @@ path.stroke.tag-footway-sidewalk {
 path.stroke.tag-highway-footway {
     stroke: #ae8681;
 }
+/*couleur ?*/
+path.stroke.tag-footway-crossing {
+    stroke: #ae8681;
+}
 
 .preset-icon .icon.highway-footway.tag-crossing {
     color: #444;
 }
-path.stroke.tag-highway-footway.tag-crossing {
+path.stroke.tag-footway-crossing.tag-crossing {
     stroke: #444;
     stroke-dasharray: 6, 4;
 }
