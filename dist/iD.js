@@ -33880,7 +33880,27 @@ iD.ui = function(context) {
             .attr('href', 'https://github.com/openstreetmap/iD')
             .text(iD.version);
 
-       
+        var issueLinks = aboutList.append('li');
+
+        issueLinks.append('a')
+            .attr('target', '_blank')
+            .attr('tabindex', -1)
+            .attr('href', 'https://github.com/openstreetmap/iD/issues')
+            .call(iD.svg.Icon('#icon-bug', 'light'))
+            .call(bootstrap.tooltip()
+                .title(t('report_a_bug'))
+                .placement('top')
+            );
+
+        issueLinks.append('a')
+            .attr('target', '_blank')
+            .attr('tabindex', -1)
+            .attr('href', 'https://github.com/openstreetmap/iD/blob/master/CONTRIBUTING.md#translating')
+            .call(iD.svg.Icon('#icon-translate', 'light'))
+            .call(bootstrap.tooltip()
+                .title(t('help_translate'))
+                .placement('top')
+            );
 
         aboutList.append('li')
             .attr('class', 'feature-warning')
