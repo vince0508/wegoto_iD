@@ -15,8 +15,9 @@
         "vertex"
     ],
     "tags": {
+        "island:node":"yes"
         
     },
     "terms": [],
-    "name": "End of island "
+    "name": "island"
 }

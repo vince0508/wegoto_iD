@@ -4411,22 +4411,6 @@
         ],
         "name": "Cycle Path"
     },
-    "highway/ilot_entree": {
-        "icon": "circle",
-        "fields": [
-            "island_width_wegoto",
-            "island_tactile_paving_wegoto",
-            "island_high_wegoto",
-            "island_incline_wegoto",
-            "island_kerb_wegoto"
-        ],
-        "geometry": [
-            "vertex"
-        ],
-        "tags": {},
-        "terms": [],
-        "name": "Start of island "
-    },
     "highway/ilot_sortie": {
         "icon": "circle",
         "fields": [
@@ -4439,9 +4423,11 @@
         "geometry": [
             "vertex"
         ],
-        "tags": {},
+        "tags": {
+            "island:node": "yes"
+        },
         "terms": [],
-        "name": "End of island "
+        "name": "island"
     },
     "highway/ilot_wegoto": {
         "icon": "highway-cycleway",
@@ -5022,32 +5008,6 @@
         ],
         "name": "Traffic Signals"
     },
-    "highway/traversee_entree": {
-        "icon": "circle",
-        "fields": [
-            "obstacle_wegoto",
-            "marquage_wegoto",
-            "surface_wegoto",
-            "poteau_gauche_wegoto",
-            "poteau_droit_wegoto",
-            "poteau_gauche_h_wegoto",
-            "poteau_droit_h_wegoto",
-            "largeur_traverse",
-            "chanfrein_wegoto",
-            "forme_trottoir_wegoto",
-            "tactile_paving",
-            "traffic_signals_wegoto",
-            "traffic_signals_wegoto2",
-            "incline_wegoto",
-            "kerb",
-            "hauteur_trottoir_wegoto"
-        ],
-        "geometry": [
-            "vertex"
-        ],
-        "tags": {},
-        "name": "Start of Crossing"
-    },
     "highway/traversee_sortie": {
         "icon": "circle",
         "fields": [
@@ -5072,9 +5032,9 @@
             "vertex"
         ],
         "tags": {
-            "crossing:bevel": "no"
+            "crossing:node": "yes"
         },
-        "name": "End of Crossing"
+        "name": "Crossing"
     },
     "highway/traversee_wegoto": {
         "icon": "highway-cycleway",

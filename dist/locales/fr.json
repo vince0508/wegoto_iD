@@ -2851,7 +2851,7 @@
                 "terms": "traversée, entrée, entrée d'une traversée"
             },
                 "highway/traversee_sortie": {
-                "name": "Sortie d'une traversée",
+                "name": "Point d'une traversée",
                 "terms": "traversée, sortie, sortie d'une traversée"
             },
             "highway/primary": {
@@ -2971,7 +2971,7 @@
                 "terms": "ilot"
             },
             "highway/ilot_sortie": {
-                "name": "Sortie d'un îlot",
+                "name": "Point d'un îlot",
                 "terms": "ilot"
             },
             "highway/unclassified": {

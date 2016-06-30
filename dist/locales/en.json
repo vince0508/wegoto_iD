@@ -2710,12 +2710,8 @@
                 "name": "Cycle Path",
                 "terms": "bike"
             },
-            "highway/ilot_entree": {
-                "name": "Start of island ",
-                "terms": ""
-            },
             "highway/ilot_sortie": {
-                "name": "End of island ",
+                "name": "island",
                 "terms": ""
             },
             "highway/ilot_wegoto": {
@@ -2834,12 +2830,8 @@
                 "name": "Traffic Signals",
                 "terms": "light,stoplight,traffic light"
             },
-            "highway/traversee_entree": {
-                "name": "Start of Crossing",
-                "terms": ""
-            },
             "highway/traversee_sortie": {
-                "name": "End of Crossing",
+                "name": "Crossing",
                 "terms": ""
             },
             "highway/traversee_wegoto": {

@@ -21,9 +21,9 @@
     ],
     "vertex": [
        
-        "highway/traversee_entree",
+       
         "highway/traversee_sortie",
-        "highway/ilot_entree",
+        
         "highway/ilot_sortie",
         "vertex"
     ],

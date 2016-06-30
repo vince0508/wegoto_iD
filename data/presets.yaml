@@ -2456,12 +2456,10 @@ en:
         name: Cycle Path
         # 'terms: bike'
         terms: "<translate with synonyms or related terms for 'Cycle Path', separated by commas>"
-      highway/ilot_entree:
-        name: 'Start of island '
-        terms: "<translate with synonyms or related terms for 'Start of island ', separated by commas>"
       highway/ilot_sortie:
-        name: 'End of island '
-        terms: "<translate with synonyms or related terms for 'End of island ', separated by commas>"
+        # 'island:node=yes'
+        name: island
+        terms: "<translate with synonyms or related terms for 'island', separated by commas>"
       highway/ilot_wegoto:
         # footway=island
         name: Island
@@ -2590,13 +2588,10 @@ en:
         name: Traffic Signals
         # 'terms: light,stoplight,traffic light'
         terms: "<translate with synonyms or related terms for 'Traffic Signals', separated by commas>"
-      highway/traversee_entree:
-        name: Start of Crossing
-        terms: "<translate with synonyms or related terms for 'Start of Crossing', separated by commas>"
       highway/traversee_sortie:
-        # 'crossing:bevel=no'
-        name: End of Crossing
-        terms: "<translate with synonyms or related terms for 'End of Crossing', separated by commas>"
+        # 'crossing:node=yes'
+        name: Crossing
+        terms: "<translate with synonyms or related terms for 'Crossing', separated by commas>"
       highway/traversee_wegoto:
         # footway=crossing
         name: Street Crossing

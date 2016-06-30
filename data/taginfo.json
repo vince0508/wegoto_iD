@@ -983,6 +983,10 @@
             "value": "cycleway"
         },
         {
+            "key": "island:node",
+            "value": "yes"
+        },
+        {
             "key": "footway",
             "value": "island"
         },
@@ -1099,8 +1103,8 @@
             "value": "traffic_signals"
         },
         {
-            "key": "crossing:bevel",
-            "value": "no"
+            "key": "crossing:node",
+            "value": "yes"
         },
         {
             "key": "footway",
