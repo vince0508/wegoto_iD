@@ -1,15 +1,20 @@
 {
     "icon": "highway-cycleway",
     "fields": [
-        "crossing",
-        "sloped_curb",
-        "tactile_paving"
+      "incline_wegoto",
+       "kerb",
+       "width",
+       "elevation",
+       "surface_wegoto",
+       "smoothness_wegoto"
+     
     ],
     "geometry": [
         "line"
     ],
     "tags": {
-        "highway": "crossing"
+        "footway":"island"
+       
     },
     "terms": [],
     "name": "Island"

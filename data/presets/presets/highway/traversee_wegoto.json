@@ -1,20 +1,14 @@
 {
     "icon": "highway-cycleway",
     "fields": [
-        "marquage_wegoto",
-        "traffic_signals_wegoto",
-        "traffic_signals_wegoto2",
-        "poteau_gauche_wegoto",
-        "poteau_droit_wegoto",
+     
         "incline_wegoto",
         "kerb",
-        "largeur_traverse",
-        "poteau_gauche_h_wegoto",
-        "poteau_droit_h_wegoto",
-        "forme_trottoir_wegoto",
-        "chanfrein_wegoto",
-        "tactile_paving",
-        "obstacle_wegoto"
+        "width",
+        "elevation",
+        "surface_wegoto",
+        "smoothness_wegoto"
+        
 
     ],
     "geometry": [

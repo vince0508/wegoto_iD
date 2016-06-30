@@ -1010,6 +1010,9 @@
             "handrail": {
                 "label": "Handrail"
             },
+            "hauteur_trottoir_wegoto": {
+                "label": "Height curb"
+            },
             "highway": {
                 "label": "Type"
             },
@@ -1051,6 +1054,34 @@
                     "wired": "Wired",
                     "terminal": "Terminal"
                 }
+            },
+            "island_high_wegoto": {
+                "label": "high of Island"
+            },
+            "island_incline_wegoto": {
+                "label": "Incline of Island"
+            },
+            "island_kerb_wegoto": {
+                "label": "Kerb of Island"
+            },
+            "island_tactile_paving_wegoto": {
+                "label": "Tactile Paving of Island",
+                "placeholder": "BEV",
+                "options": {
+                    "no": "Non présent",
+                    "yes:m": "Etat 1",
+                    "limited:1:m": " Etat 1",
+                    "limited:2:m": "Etat 1",
+                    "yes:l": "Etat 1",
+                    "limited:1:l": "Etat 1",
+                    "limited:2:l": "Etat 1",
+                    "yes:r": "Etat 1",
+                    "limited:1:r": "Etat 1",
+                    "limited:2:r": "Etat 1"
+                }
+            },
+            "island_width_wegoto": {
+                "label": "Width of island (cm)"
             },
             "kerb": {
                 "label": "Kerb"
@@ -2803,6 +2834,10 @@
                 "name": "Traffic Signals",
                 "terms": "light,stoplight,traffic light"
             },
+            "highway/traversee_sortie": {
+                "name": "End of Crossing",
+                "terms": ""
+            },
             "highway/traversee_wegoto": {
                 "name": "Street Crossing",
                 "terms": ""
@@ -4122,6 +4157,10 @@
             "traffic_calming/table": {
                 "name": "Raised Pedestrian Crossing",
                 "terms": "speed table,flat top hump"
+            },
+            "traversee_entree": {
+                "name": "Start of Crossing",
+                "terms": ""
             },
             "type/boundary": {
                 "name": "Boundary",

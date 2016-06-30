@@ -983,16 +983,8 @@
             "value": "cycleway"
         },
         {
-            "key": "highway",
-            "value": "motorway"
-        },
-        {
-            "key": "highway",
-            "value": "motorway"
-        },
-        {
-            "key": "highway",
-            "value": "crossing"
+            "key": "footway",
+            "value": "island"
         },
         {
             "key": "highway",

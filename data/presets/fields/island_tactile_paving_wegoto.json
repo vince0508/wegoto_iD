@@ -1,0 +1,23 @@
+{
+    "key": "island_tactile_paving:e/s",
+    "type": "combo",
+    "label": "Tactile Paving of Island",
+    "placeholder": "BEV",
+    "strings": {
+ 
+        "options": {
+            "no": "Non présent",
+            "yes:m": "Etat 1",
+            "limited:1:m": " Etat 1",
+            "limited:2:m": "Etat 1",
+            "yes:l": "Etat 1",
+            "limited:1:l": "Etat 1",
+            "limited:2:l": "Etat 1",
+            "yes:r": "Etat 1",
+            "limited:1:r": "Etat 1",
+            "limited:2:r": "Etat 1"
+
+          
+        }
+    }
+}

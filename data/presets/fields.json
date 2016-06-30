@@ -581,6 +581,11 @@
         "type": "check",
         "label": "Handrail"
     },
+    "hauteur_trottoir_wegoto": {
+        "key": "height_curb",
+        "type": "number",
+        "label": "Height curb"
+    },
     "highway": {
         "key": "highway",
         "type": "typeCombo",
@@ -646,6 +651,46 @@
                 "terminal": "Terminal"
             }
         }
+    },
+    "island_high_wegoto": {
+        "key": "island:high",
+        "type": "number",
+        "label": "high of Island"
+    },
+    "island_incline_wegoto": {
+        "key": "island:incline",
+        "type": "number",
+        "label": "Incline of Island"
+    },
+    "island_kerb_wegoto": {
+        "key": "island:kerb",
+        "type": "number",
+        "label": "Kerb of Island"
+    },
+    "island_tactile_paving_wegoto": {
+        "key": "island_tactile_paving:e/s",
+        "type": "combo",
+        "label": "Tactile Paving of Island",
+        "placeholder": "BEV",
+        "strings": {
+            "options": {
+                "no": "Non présent",
+                "yes:m": "Etat 1",
+                "limited:1:m": " Etat 1",
+                "limited:2:m": "Etat 1",
+                "yes:l": "Etat 1",
+                "limited:1:l": "Etat 1",
+                "limited:2:l": "Etat 1",
+                "yes:r": "Etat 1",
+                "limited:1:r": "Etat 1",
+                "limited:2:r": "Etat 1"
+            }
+        }
+    },
+    "island_width_wegoto": {
+        "key": "island_width",
+        "type": "number",
+        "label": "Width of island (cm)"
     },
     "kerb": {
         "key": "kerb",

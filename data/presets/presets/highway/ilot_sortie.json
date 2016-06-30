@@ -2,15 +2,20 @@
 {
     "icon": "circle",
     "fields": [
-        "oneway_yes"
-       
+        "island_width_wegoto",
+        "island_tactile_paving_wegoto",
+        "island_high_wegoto",
+        "island_incline_wegoto",
+        "island_kerb_wegoto"
+        
+
        
     ],
     "geometry": [
         "vertex"
     ],
     "tags": {
-        "highway": "motorway"
+        
     },
     "terms": [],
     "name": "End of island "

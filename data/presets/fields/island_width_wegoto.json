@@ -1,0 +1,5 @@
+{
+    "key": "island_width",
+    "type": "number",
+    "label": "Width of island (cm)"
+}

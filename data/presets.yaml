@@ -432,6 +432,9 @@ en:
       handrail:
         # 'handrail=*'
         label: Handrail
+      hauteur_trottoir_wegoto:
+        # 'height_curb=*'
+        label: Height curb
       highway:
         # 'highway=*'
         label: Type
@@ -480,6 +483,44 @@ en:
           wlan: Wifi
           # internet_access=yes
           'yes': 'Yes'
+      island_high_wegoto:
+        # 'island:high=*'
+        label: high of Island
+      island_incline_wegoto:
+        # 'island:incline=*'
+        label: Incline of Island
+      island_kerb_wegoto:
+        # 'island:kerb=*'
+        label: Kerb of Island
+      island_tactile_paving_wegoto:
+        # 'island_tactile_paving:e/s=*'
+        label: Tactile Paving of Island
+        options:
+          # 'island_tactile_paving:e/s=limited:1:l'
+          'limited:1:l': Etat 1
+          # 'island_tactile_paving:e/s=limited:1:m'
+          'limited:1:m': ' Etat 1'
+          # 'island_tactile_paving:e/s=limited:1:r'
+          'limited:1:r': Etat 1
+          # 'island_tactile_paving:e/s=limited:2:l'
+          'limited:2:l': Etat 1
+          # 'island_tactile_paving:e/s=limited:2:m'
+          'limited:2:m': Etat 1
+          # 'island_tactile_paving:e/s=limited:2:r'
+          'limited:2:r': Etat 1
+          # 'island_tactile_paving:e/s=no'
+          'no': Non présent
+          # 'island_tactile_paving:e/s=yes:l'
+          'yes:l': Etat 1
+          # 'island_tactile_paving:e/s=yes:m'
+          'yes:m': Etat 1
+          # 'island_tactile_paving:e/s=yes:r'
+          'yes:r': Etat 1
+        # island_tactile_paving_wegoto field placeholder
+        placeholder: BEV
+      island_width_wegoto:
+        # 'island_width=*'
+        label: Width of island (cm)
       kerb:
         # 'kerb=*'
         label: Kerb
@@ -2403,15 +2444,13 @@ en:
         # 'terms: bike'
         terms: "<translate with synonyms or related terms for 'Cycle Path', separated by commas>"
       highway/ilot_entree:
-        # highway=motorway
         name: 'Start of island '
         terms: "<translate with synonyms or related terms for 'Start of island ', separated by commas>"
       highway/ilot_sortie:
-        # highway=motorway
         name: 'End of island '
         terms: "<translate with synonyms or related terms for 'End of island ', separated by commas>"
       highway/ilot_wegoto:
-        # highway=crossing
+        # footway=island
         name: Island
         terms: "<translate with synonyms or related terms for 'Island', separated by commas>"
       highway/living_street:
@@ -2546,12 +2585,15 @@ en:
         name: Traffic Signals
         # 'terms: light,stoplight,traffic light'
         terms: "<translate with synonyms or related terms for 'Traffic Signals', separated by commas>"
+      highway/traversee_sortie:
+        name: End of Crossing
+        terms: "<translate with synonyms or related terms for 'End of Crossing', separated by commas>"
       highway/traversee_wegoto:
         # footway=crossing
         name: Street Crossing
         terms: "<translate with synonyms or related terms for 'Street Crossing', separated by commas>"
       highway/trottoir_wegoto:
-        # footway=sidewalk
+        # 'highway=footway, footway=sidewalk'
         name: SideWalk
         terms: "<translate with synonyms or related terms for 'SideWalk', separated by commas>"
       highway/trunk:
@@ -3969,6 +4011,9 @@ en:
         name: Raised Pedestrian Crossing
         # 'terms: speed table,flat top hump'
         terms: "<translate with synonyms or related terms for 'Raised Pedestrian Crossing', separated by commas>"
+      traversee_entree:
+        name: Start of Crossing
+        terms: "<translate with synonyms or related terms for 'Start of Crossing', separated by commas>"
       type/boundary:
         # type=boundary
         name: Boundary

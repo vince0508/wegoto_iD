@@ -4414,44 +4414,50 @@
     "highway/ilot_entree": {
         "icon": "circle",
         "fields": [
-            "oneway_yes",
-            "structure"
+            "island_width_wegoto",
+            "island_tactile_paving_wegoto",
+            "island_high_wegoto",
+            "island_incline_wegoto",
+            "island_kerb_wegoto"
         ],
         "geometry": [
             "vertex"
         ],
-        "tags": {
-            "highway": "motorway"
-        },
+        "tags": {},
         "terms": [],
         "name": "Start of island "
     },
     "highway/ilot_sortie": {
         "icon": "circle",
         "fields": [
-            "oneway_yes"
+            "island_width_wegoto",
+            "island_tactile_paving_wegoto",
+            "island_high_wegoto",
+            "island_incline_wegoto",
+            "island_kerb_wegoto"
         ],
         "geometry": [
             "vertex"
         ],
-        "tags": {
-            "highway": "motorway"
-        },
+        "tags": {},
         "terms": [],
         "name": "End of island "
     },
     "highway/ilot_wegoto": {
         "icon": "highway-cycleway",
         "fields": [
-            "crossing",
-            "sloped_curb",
-            "tactile_paving"
+            "incline_wegoto",
+            "kerb",
+            "width",
+            "elevation",
+            "surface_wegoto",
+            "smoothness_wegoto"
         ],
         "geometry": [
             "line"
         ],
         "tags": {
-            "highway": "crossing"
+            "footway": "island"
         },
         "terms": [],
         "name": "Island"
@@ -5050,23 +5056,41 @@
         ],
         "name": "Traffic Signals"
     },
+    "highway/traversee_sortie": {
+        "icon": "circle",
+        "fields": [
+            "obstacle_wegoto",
+            "marquage_wegoto",
+            "surface_wegoto",
+            "poteau_gauche_wegoto",
+            "poteau_droit_wegoto",
+            "poteau_gauche_h_wegoto",
+            "poteau_droit_h_wegoto",
+            "largeur_traverse",
+            "chanfrein_wegoto",
+            "forme_trottoir_wegoto",
+            "tactile_paving",
+            "traffic_signals_wegoto",
+            "traffic_signals_wegoto2",
+            "incline_wegoto",
+            "kerb",
+            "hauteur_trottoir_wegoto"
+        ],
+        "geometry": [
+            "vertex"
+        ],
+        "tags": {},
+        "name": "End of Crossing"
+    },
     "highway/traversee_wegoto": {
         "icon": "highway-cycleway",
         "fields": [
-            "marquage_wegoto",
-            "traffic_signals_wegoto",
-            "traffic_signals_wegoto2",
-            "poteau_gauche_wegoto",
-            "poteau_droit_wegoto",
             "incline_wegoto",
             "kerb",
-            "largeur_traverse",
-            "poteau_gauche_h_wegoto",
-            "poteau_droit_h_wegoto",
-            "forme_trottoir_wegoto",
-            "chanfrein_wegoto",
-            "tactile_paving",
-            "obstacle_wegoto"
+            "width",
+            "elevation",
+            "surface_wegoto",
+            "smoothness_wegoto"
         ],
         "geometry": [
             "line"
@@ -5095,6 +5119,7 @@
             "line"
         ],
         "tags": {
+            "highway": "footway",
             "footway": "sidewalk"
         },
         "terms": [],
@@ -10511,6 +10536,32 @@
             "flat top hump"
         ],
         "name": "Raised Pedestrian Crossing"
+    },
+    "traversee_entree": {
+        "icon": "circle",
+        "fields": [
+            "obstacle_wegoto",
+            "marquage_wegoto",
+            "surface_wegoto",
+            "poteau_gauche_wegoto",
+            "poteau_droit_wegoto",
+            "poteau_gauche_h_wegoto",
+            "poteau_droit_h_wegoto",
+            "largeur_traverse",
+            "chanfrein_wegoto",
+            "forme_trottoir_wegoto",
+            "tactile_paving",
+            "traffic_signals_wegoto",
+            "traffic_signals_wegoto2",
+            "incline_wegoto",
+            "kerb",
+            "hauteur_trottoir_wegoto"
+        ],
+        "geometry": [
+            "vertex"
+        ],
+        "tags": {},
+        "name": "Start of Crossing"
     },
     "type/boundary": {
         "geometry": [

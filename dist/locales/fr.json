@@ -685,16 +685,33 @@
             "tactile_paving":{
                 "label": "BEV",
                 "options": {
-                    "no": "Non présent",
-                    "yes:m": "bla",
-                    "limited:1:m": "bla1",
-                    "limited:2:m": "blaé",
-                     "yes:l": "bla2",
-                    "limited:1:l": "blas",
-                    "limited:2:l": "bsla",
-                     "yes:r": "d",
-                    "limited:1:r": "df",
-                    "limited:2:r": "s"
+                    "no": "Absence",
+                    "yes:m": "Présence BEV conforme",
+                    "limited:1:m": "Présence BEV conforme endommagées",
+                    "limited:2:m": "BEV à changer",
+                     "yes:l": "BEV non endommagées et orienté vers la droite",
+                    "limited:1:l": "BEV  endommagées et orienté vers la gauche",
+                    "limited:2:l": "BEV  à changer et orienté vers la gauche",
+                     "yes:r": "BEV non endommagées et orienté vers la droite ",
+                    "limited:1:r": "BEV endommagées et orienté vers la droite",
+                    "limited:2:r": "BEV à changer et orienté vers la droite"
+                }
+
+                },
+
+                  "island_tactile_paving_wegoto":{
+                "label": "BEV de l'ilot",
+                "options": {
+                    "no": "Absence",
+                    "yes:m": "Présence BEV conforme",
+                    "limited:1:m": "Présence BEV conforme endommagées",
+                    "limited:2:m": "BEV à changer",
+                     "yes:l": "BEV non endommagées et orienté vers la droite",
+                    "limited:1:l": "BEV  endommagées et orienté vers la gauche",
+                    "limited:2:l": "BEV  à changer et orienté vers la gauche",
+                     "yes:r": "BEV non endommagées et orienté vers la droite ",
+                    "limited:1:r": "BEV endommagées et orienté vers la droite",
+                    "limited:2:r": "BEV à changer et orienté vers la droite"
                 }
 
                 },
@@ -704,6 +721,9 @@
             },
             "access_toilets": {
                 "label": "Accès"
+            },
+            "hauteur_troittoir_wegoto": {
+                "label": "Hauteur du trottoir (en cm)"
             },
             "address": {
                 "label": "Adresse",
@@ -1213,8 +1233,27 @@
                  
 
                  },
+
+"island_kerb_wegoto": {
+                "label": "Devers de l'ilot "
+                 
+
+                 },
+
+                 "island_incline_wegoto": {
+                "label": "Pente de l'ilot "
+                 
+
+                 },
+
+
                  "poteau_droit_h_wegoto": {
                 "label": "Hauteur Poteau droit "
+                 
+
+                 },
+                    "island_high_wegoto": {
+                "label": "Hauteur de l'ilot "
                  
 
                  },
@@ -1756,8 +1795,14 @@
                 "label": "Accès en fauteuil roulant"
             },
             "width": {
-                "label": "Largeur (mètres)"
+                "label": "Largeur (cm)"
             },
+
+        "island_width_wegoto": {
+                "label": "Largeur de l'ilot (cm)"
+            },
+
+
             "wikipedia": {
                 "label": "Wikipédia"
             }
@@ -2792,6 +2837,14 @@
               "highway/pietonne_wegoto": {
                 "name": "Rue piétonne",
                 "terms": "Rue piétonnière,Espace piétonnier,Place piétonne,Rue piétonne"
+            },
+              "highway/traversee_entree": {
+                "name": "Entrée d'une traversée",
+                "terms": "traversée, entrée, entrée d'une traversée"
+            },
+                "highway/traversee_sortie": {
+                "name": "Sortie d'une traversée",
+                "terms": "traversée, sortie, sortie d'une traversée"
             },
             "highway/primary": {
                 "name": "Route principale",
