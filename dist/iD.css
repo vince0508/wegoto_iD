@@ -1276,9 +1276,10 @@ path.casing.tag-waterway-river {
     stroke-width: 6;
 }
 
-.preset-icon .icon.tag-footway-crossing{
+.preset-icon .icon.footway-crossing{
     color: #6591ff;
 }
+
 .preset-icon .icon.tag-waterway-ditch {
     color: #6591ff;
 }
