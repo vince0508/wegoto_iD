@@ -4306,7 +4306,7 @@
         "name": "Road"
     },
     "highway/chemin_wegoto": {
-        "icon": "highway-path",
+        "icon": "waterway-stream",
         "fields": [
             "address",
             "incline_wegoto",
