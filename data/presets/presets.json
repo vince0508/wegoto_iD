@@ -4430,7 +4430,7 @@
         "name": "island"
     },
     "highway/ilot_wegoto": {
-        "icon": "highway-cycleway",
+        "icon": "waterway-canal",
         "fields": [
             "incline_wegoto",
             "kerb",
