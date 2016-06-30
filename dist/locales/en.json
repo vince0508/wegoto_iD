@@ -1082,7 +1082,7 @@
             },
             "island_width_wegoto": {
                 "label": "Type of island (cm)",
-                "placeholder": "Bande blanche, absence de marquage, ...",
+                "placeholder": "Largueur < 150, Largeur entre 150-180, ...",
                 "options": {
                     "lower_150": " type lower 150",
                     "lower_180": "type 150-180",

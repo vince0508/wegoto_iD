@@ -533,7 +533,7 @@ en:
           # island_width=lower_270
           lower_270: type 230-270
         # island_width_wegoto field placeholder
-        placeholder: 'Bande blanche, absence de marquage, ...'
+        placeholder: 'Largueur < 150, Largeur entre 150-180, ...'
       kerb:
         # 'kerb=*'
         label: Kerb
@@ -2594,6 +2594,7 @@ en:
         name: Start of Crossing
         terms: "<translate with synonyms or related terms for 'Start of Crossing', separated by commas>"
       highway/traversee_sortie:
+        # island=toto
         name: End of Crossing
         terms: "<translate with synonyms or related terms for 'End of Crossing', separated by commas>"
       highway/traversee_wegoto:

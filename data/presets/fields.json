@@ -691,7 +691,7 @@
         "key": "island_width",
         "type": "combo",
         "label": "Type of island (cm)",
-        "placeholder": "Bande blanche, absence de marquage, ...",
+        "placeholder": "Largueur < 150, Largeur entre 150-180, ...",
         "strings": {
             "options": {
                 "lower_150": " type lower 150",

@@ -30,7 +30,7 @@
         "point"
     ],
     "vertex": [
-        "highway/crosswalk",
+       
         "highway/traversee_entree",
         "highway/traversee_sortie",
         "highway/ilot_entree",
