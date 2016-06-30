@@ -2594,7 +2594,7 @@ en:
         name: Start of Crossing
         terms: "<translate with synonyms or related terms for 'Start of Crossing', separated by commas>"
       highway/traversee_sortie:
-        # 'crossing:obstacle=no'
+        # 'crossing:bevel=no'
         name: End of Crossing
         terms: "<translate with synonyms or related terms for 'End of Crossing', separated by commas>"
       highway/traversee_wegoto:

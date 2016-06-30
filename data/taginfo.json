@@ -1099,7 +1099,7 @@
             "value": "traffic_signals"
         },
         {
-            "key": "crossing:obstacle",
+            "key": "crossing:bevel",
             "value": "no"
         },
         {
