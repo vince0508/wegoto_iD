@@ -1012,14 +1012,6 @@
         },
         {
             "key": "highway",
-            "value": "motorway"
-        },
-        {
-            "key": "highway",
-            "value": "motorway"
-        },
-        {
-            "key": "highway",
             "value": "primary"
         },
         {
@@ -1788,14 +1780,6 @@
         {
             "key": "power",
             "value": "transformer"
-        },
-        {
-            "key": "highway",
-            "value": "motorway"
-        },
-        {
-            "key": "highway",
-            "value": "motorway"
         },
         {
             "key": "public_transport",

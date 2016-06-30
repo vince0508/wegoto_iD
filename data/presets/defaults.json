@@ -31,8 +31,8 @@
     ],
     "vertex": [
         "highway/crosswalk",
-        "highway/ppieton_entree",
-        "highway/ppieton_sortie",
+        "highway/traversee_entree",
+        "highway/traversee_sortie",
         "highway/ilot_entree",
         "highway/ilot_sortie",
         "vertex"

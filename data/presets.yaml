@@ -2478,14 +2478,6 @@ en:
         # highway=pedestrian
         name: Pedestrian Street
         terms: "<translate with synonyms or related terms for 'Pedestrian Street', separated by commas>"
-      highway/ppieton_entree:
-        # highway=motorway
-        name: Start of crossing way
-        terms: "<translate with synonyms or related terms for 'Start of crossing way', separated by commas>"
-      highway/ppieton_sortie:
-        # highway=motorway
-        name: 'End of crossing '
-        terms: "<translate with synonyms or related terms for 'End of crossing ', separated by commas>"
       highway/primary:
         # highway=primary
         name: Primary Road
@@ -2585,6 +2577,9 @@ en:
         name: Traffic Signals
         # 'terms: light,stoplight,traffic light'
         terms: "<translate with synonyms or related terms for 'Traffic Signals', separated by commas>"
+      highway/traversee_entree:
+        name: Start of Crossing
+        terms: "<translate with synonyms or related terms for 'Start of Crossing', separated by commas>"
       highway/traversee_sortie:
         name: End of Crossing
         terms: "<translate with synonyms or related terms for 'End of Crossing', separated by commas>"
@@ -3334,14 +3329,6 @@ en:
         # power=transformer
         name: Transformer
         terms: "<translate with synonyms or related terms for 'Transformer', separated by commas>"
-      ppieton_entree:
-        # highway=motorway
-        name: 'Start of crossing '
-        terms: "<translate with synonyms or related terms for 'Start of crossing ', separated by commas>"
-      ppieton_sortie:
-        # highway=motorway
-        name: 'End of crossing '
-        terms: "<translate with synonyms or related terms for 'End of crossing ', separated by commas>"
       public_transport/platform:
         # public_transport=platform
         name: Platform
@@ -4011,9 +3998,6 @@ en:
         name: Raised Pedestrian Crossing
         # 'terms: speed table,flat top hump'
         terms: "<translate with synonyms or related terms for 'Raised Pedestrian Crossing', separated by commas>"
-      traversee_entree:
-        name: Start of Crossing
-        terms: "<translate with synonyms or related terms for 'Start of Crossing', separated by commas>"
       type/boundary:
         # type=boundary
         name: Boundary

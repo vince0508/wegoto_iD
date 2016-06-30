@@ -1169,7 +1169,7 @@
             },
 
             "surface_wegoto": {
-                "label": "Etat revêtement",
+                "label": "Revêtement",
                  "options":{
                     "asphalt":"Bitume",
             "paving_stone": "Pavé",

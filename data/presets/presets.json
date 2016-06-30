@@ -4580,40 +4580,6 @@
         "terms": [],
         "name": "Pedestrian Street"
     },
-    "highway/ppieton_entree": {
-        "icon": "circle",
-        "fields": [
-            "oneway_yes"
-        ],
-        "geometry": [
-            "vertex"
-        ],
-        "tags": {
-            "highway": "motorway"
-        },
-        "terms": [],
-        "name": "Start of crossing way"
-    },
-    "highway/ppieton_sortie": {
-        "icon": "circle",
-        "fields": [
-            "oneway_yes",
-            "maxspeed",
-            "structure",
-            "access",
-            "lanes",
-            "surface",
-            "ref"
-        ],
-        "geometry": [
-            "vertex"
-        ],
-        "tags": {
-            "highway": "motorway"
-        },
-        "terms": [],
-        "name": "End of crossing "
-    },
     "highway/primary": {
         "icon": "highway-primary",
         "fields": [
@@ -5055,6 +5021,32 @@
             "traffic light"
         ],
         "name": "Traffic Signals"
+    },
+    "highway/traversee_entree": {
+        "icon": "circle",
+        "fields": [
+            "obstacle_wegoto",
+            "marquage_wegoto",
+            "surface_wegoto",
+            "poteau_gauche_wegoto",
+            "poteau_droit_wegoto",
+            "poteau_gauche_h_wegoto",
+            "poteau_droit_h_wegoto",
+            "largeur_traverse",
+            "chanfrein_wegoto",
+            "forme_trottoir_wegoto",
+            "tactile_paving",
+            "traffic_signals_wegoto",
+            "traffic_signals_wegoto2",
+            "incline_wegoto",
+            "kerb",
+            "hauteur_trottoir_wegoto"
+        ],
+        "geometry": [
+            "vertex"
+        ],
+        "tags": {},
+        "name": "Start of Crossing"
     },
     "highway/traversee_sortie": {
         "icon": "circle",
@@ -7713,40 +7705,6 @@
             "power": "transformer"
         },
         "name": "Transformer"
-    },
-    "ppieton_entree": {
-        "icon": "circle",
-        "fields": [
-            "oneway_yes",
-            "maxspeed",
-            "structure",
-            "access",
-            "lanes",
-            "surface",
-            "ref"
-        ],
-        "geometry": [
-            "vertex"
-        ],
-        "tags": {
-            "highway": "motorway"
-        },
-        "terms": [],
-        "name": "Start of crossing "
-    },
-    "ppieton_sortie": {
-        "icon": "circle",
-        "fields": [
-            "oneway_yes"
-        ],
-        "geometry": [
-            "vertex"
-        ],
-        "tags": {
-            "highway": "motorway"
-        },
-        "terms": [],
-        "name": "End of crossing "
     },
     "public_transport/platform": {
         "fields": [
@@ -10536,32 +10494,6 @@
             "flat top hump"
         ],
         "name": "Raised Pedestrian Crossing"
-    },
-    "traversee_entree": {
-        "icon": "circle",
-        "fields": [
-            "obstacle_wegoto",
-            "marquage_wegoto",
-            "surface_wegoto",
-            "poteau_gauche_wegoto",
-            "poteau_droit_wegoto",
-            "poteau_gauche_h_wegoto",
-            "poteau_droit_h_wegoto",
-            "largeur_traverse",
-            "chanfrein_wegoto",
-            "forme_trottoir_wegoto",
-            "tactile_paving",
-            "traffic_signals_wegoto",
-            "traffic_signals_wegoto2",
-            "incline_wegoto",
-            "kerb",
-            "hauteur_trottoir_wegoto"
-        ],
-        "geometry": [
-            "vertex"
-        ],
-        "tags": {},
-        "name": "Start of Crossing"
     },
     "type/boundary": {
         "geometry": [

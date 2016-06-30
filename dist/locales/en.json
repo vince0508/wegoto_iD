@@ -2738,14 +2738,6 @@
                 "name": "Pedestrian Street",
                 "terms": ""
             },
-            "highway/ppieton_entree": {
-                "name": "Start of crossing way",
-                "terms": ""
-            },
-            "highway/ppieton_sortie": {
-                "name": "End of crossing ",
-                "terms": ""
-            },
             "highway/primary": {
                 "name": "Primary Road",
                 "terms": ""
@@ -2833,6 +2825,10 @@
             "highway/traffic_signals": {
                 "name": "Traffic Signals",
                 "terms": "light,stoplight,traffic light"
+            },
+            "highway/traversee_entree": {
+                "name": "Start of Crossing",
+                "terms": ""
             },
             "highway/traversee_sortie": {
                 "name": "End of Crossing",
@@ -3538,14 +3534,6 @@
                 "name": "Transformer",
                 "terms": ""
             },
-            "ppieton_entree": {
-                "name": "Start of crossing ",
-                "terms": ""
-            },
-            "ppieton_sortie": {
-                "name": "End of crossing ",
-                "terms": ""
-            },
             "public_transport/platform": {
                 "name": "Platform",
                 "terms": ""
@@ -4157,10 +4145,6 @@
             "traffic_calming/table": {
                 "name": "Raised Pedestrian Crossing",
                 "terms": "speed table,flat top hump"
-            },
-            "traversee_entree": {
-                "name": "Start of Crossing",
-                "terms": ""
             },
             "type/boundary": {
                 "name": "Boundary",
