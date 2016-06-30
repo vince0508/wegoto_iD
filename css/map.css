@@ -677,6 +677,7 @@ path.stroke.tag-highway-service,
 path.stroke.tag-highway-track,
 path.stroke.tag-highway-path,
 path.stroke.tag-highway-footway,
+path.stroke.tag-footway-crossing,
 path.stroke.tag-highway-cycleway,
 path.stroke.tag-highway-bridleway,
 path.stroke.tag-highway-corridor,
@@ -701,6 +702,7 @@ path.casing.tag-highway-service,
 path.casing.tag-highway-track,
 path.casing.tag-highway-path,
 path.casing.tag-highway-footway,
+path.casing.tag-footway-crossing,
 path.casing.tag-highway-cycleway,
 path.casing.tag-highway-bridleway,
 path.casing.tag-highway-corridor,
@@ -726,6 +728,7 @@ path.casing.tag-road {
 .low-zoom path.stroke.tag-highway-track,
 .low-zoom path.stroke.tag-highway-path,
 .low-zoom path.stroke.tag-highway-footway,
+low-zoom path.stroke.tag-footway-crossing,
 .low-zoom path.stroke.tag-highway-cycleway,
 .low-zoom path.stroke.tag-highway-bridleway,
 .low-zoom path.stroke.tag-highway-corridor,
@@ -862,6 +865,7 @@ path.casing.tag-highway-path.tag-unpaved {
     stroke-dasharray: none;
 }
 path.casing.tag-highway-footway,
+path.casing.tag-highway-crossing,
 path.casing.tag-highway-cycleway,
 path.casing.tag-highway-bridleway,
 path.casing.tag-highway-footway.tag-unpaved,
@@ -880,6 +884,11 @@ path.casing.tag-highway-bridleway.tag-unpaved {
     fill: #c5b59f;
 }
 path.stroke.tag-highway-path {
+    stroke: #746f6f;
+}
+
+/*css traversee*/
+path.stroke.tag-footway-crossing {
     stroke: #746f6f;
 }
 
