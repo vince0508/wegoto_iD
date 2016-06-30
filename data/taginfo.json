@@ -1099,8 +1099,7 @@
             "value": "traffic_signals"
         },
         {
-            "key": "island",
-            "value": "toto"
+            "key": "*"
         },
         {
             "key": "footway",

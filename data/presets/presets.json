@@ -5072,7 +5072,7 @@
             "vertex"
         ],
         "tags": {
-            "island": "toto"
+            "*": "*"
         },
         "name": "End of Crossing"
     },
