@@ -934,11 +934,11 @@ path.stroke.tag-footway-crossing {
     stroke: #E12D00;
 }
 path.stroke.tag-footway-island {
-    stroke: #E12D00;
+    stroke: #FAFA00;
 }
 
 .preset-icon .icon.highway-footway.tag-crossing {
-    color: #444;
+    color: #E12D00;
 }
 path.stroke.tag-footway-crossing.tag-crossing {
     stroke: #444;
