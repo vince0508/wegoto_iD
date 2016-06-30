@@ -62,8 +62,8 @@ iD.ui.preset = function(context) {
     function presets(selection) {
         selection.call(iD.ui.Disclosure()
             .title(t('inspector.all_fields'))
-            .expanded(context.storage('preset_fields.expanded') !== 'false')
-            .on('toggled', toggled)
+            .expanded(context.storage('preset_fields.expanded') == 'false')
+           
             .content(content));
 
         function toggled(expanded) {
