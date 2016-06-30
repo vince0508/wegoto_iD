@@ -1099,7 +1099,8 @@
             "value": "traffic_signals"
         },
         {
-            "key": "*"
+            "key": "crossing:obstacle",
+            "value": "no"
         },
         {
             "key": "footway",

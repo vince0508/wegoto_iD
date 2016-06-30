@@ -5072,7 +5072,7 @@
             "vertex"
         ],
         "tags": {
-            "*": "*"
+            "crossing:obstacle": "no"
         },
         "name": "End of Crossing"
     },
