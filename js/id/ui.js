@@ -124,7 +124,7 @@ iD.ui = function(context) {
 
         var issueLinks = aboutList.append('li');
 
-        issueLinks.append('a')
+/*issueLinks.append('a')
             .attr('target', '_blank')
             .attr('tabindex', -1)
             .attr('href', 'https://github.com/openstreetmap/iD/issues')
@@ -142,7 +142,7 @@ iD.ui = function(context) {
             .call(bootstrap.tooltip()
                 .title(t('help_translate'))
                 .placement('top')
-            );
+            );*/
 
         aboutList.append('li')
             .attr('class', 'feature-warning')
