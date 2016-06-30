@@ -241,6 +241,7 @@ g.midpoint.tag-highway-steps .fill,
 g.midpoint.tag-highway-path .fill,
 g.midpoint.tag-highway-footway .fill,
 g.midpoint.tag-footway-crossing .fill,
+g.midpoint.tag-footway-island .fill,
 g.midpoint.tag-highway-cycleway .fill,
 g.midpoint.tag-highway-bridleway .fill {
     fill: #fff;
@@ -842,6 +843,7 @@ path.stroke.tag-highway-track,
 path.stroke.tag-highway-path,
 path.stroke.tag-highway-footway,
 path.stroke.tag-footway-crossing,
+path.stroke.tag-footway-island,
 path.stroke.tag-highway-cycleway,
 path.stroke.tag-highway-bridleway,
 path.stroke.tag-highway-corridor,
@@ -867,6 +869,7 @@ path.casing.tag-highway-track,
 path.casing.tag-highway-path,
 path.casing.tag-highway-footway,
 path.casing.tag-footway-crossing,
+path.casing.tag-footway-island,
 path.casing.tag-highway-cycleway,
 path.casing.tag-highway-bridleway,
 path.casing.tag-highway-corridor,
@@ -893,6 +896,7 @@ path.casing.tag-road {
 .low-zoom path.stroke.tag-highway-path,
 .low-zoom path.stroke.tag-highway-footway,
 .low-zoom path.stroke.tag-footway-crossing,
+.low-zoom path.stroke.tag-footway-island,
 .low-zoom path.stroke.tag-highway-cycleway,
 .low-zoom path.stroke.tag-highway-bridleway,
 .low-zoom path.stroke.tag-highway-corridor,
@@ -918,6 +922,7 @@ path.casing.tag-road {
 .low-zoom path.casing.tag-highway-path,
 .low-zoom path.casing.tag-highway-footway,
 .low-zoom path.casing.tag-footway-crossing,
+.low-zoom path.casing.tag-footway-island,
 .low-zoom path.casing.tag-highway-cycleway,
 .low-zoom path.casing.tag-highway-bridleway,
 .low-zoom path.casing.tag-highway-corridor,
@@ -1018,6 +1023,7 @@ path.casing.tag-track {
 path.stroke.tag-highway-path,
 path.stroke.tag-highway-footway,
 path.stroke.tag-footway-crossing,
+path.stroke.tag-footway-island,
 path.stroke.tag-highway-cycleway,
 path.stroke.tag-highway-bridleway {
     stroke-linecap: butt;
@@ -1032,13 +1038,13 @@ path.casing.tag-highway-path.tag-unpaved {
 }
 path.casing.tag-highway-footway,
 path.casing.tag-footway-crossing,
-
+path.casing.tag-footway-island,
 path.casing.tag-highway-crossing,
 path.casing.tag-highway-cycleway,
 path.casing.tag-highway-bridleway,
 path.casing.tag-highway-footway.tag-unpaved,
 path.casing.tag-footway-crossing.tag-unpaved,
-
+path.casing.tag-footway-island.tag-unpaved,
 path.casing.tag-highway-cycleway.tag-unpaved,
 path.casing.tag-highway-bridleway.tag-unpaved {
     stroke: #fff;
@@ -1061,7 +1067,9 @@ path.stroke.tag-highway-path {
 path.stroke.tag-footway-crossing {
     stroke: #746f6f;
 }
-
+path.stroke.tag-footway-island {
+    stroke: #746f6f;
+}
 
 
 /* css pour trottoir */ 
@@ -1096,6 +1104,10 @@ path.stroke.tag-footway-island {
     color: #444;
 }
 path.stroke.tag-footway-crossing.tag-crossing {
+    stroke: #444;
+    stroke-dasharray: 6, 4;
+}
+path.stroke.tag-footway-island.tag-island {
     stroke: #444;
     stroke-dasharray: 6, 4;
 }
