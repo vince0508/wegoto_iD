@@ -722,7 +722,7 @@
             "access_toilets": {
                 "label": "Accès"
             },
-            "hauteur_troittoir_wegoto": {
+            "hauteur_trottoir_wegoto": {
                 "label": "Hauteur du trottoir (en cm)"
             },
             "address": {
@@ -1799,7 +1799,15 @@
             },
 
         "island_width_wegoto": {
-                "label": "Largeur de l'ilot (cm)"
+                "label": "Type de l'ilot ",
+                "options": {
+                    "lower_150": "Longueur < 150cm",
+                    "lower_180": "Longueur 150-180cm",
+                    "lower_230": "Longueur 180-230cm",
+                    "lower_270": "Longueur 230-270cm",
+                    "chicane": "Chicane"
+                    
+                }
             },
 
 

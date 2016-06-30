@@ -520,7 +520,20 @@ en:
         placeholder: BEV
       island_width_wegoto:
         # 'island_width=*'
-        label: Width of island (cm)
+        label: Type of island (cm)
+        options:
+          # island_width=chicane
+          chicane: 'chicane '
+          # island_width=lower_150
+          lower_150: ' type lower 150'
+          # island_width=lower_180
+          lower_180: type 150-180
+          # island_width=lower_230
+          lower_230: type 180-230
+          # island_width=lower_270
+          lower_270: type 230-270
+        # island_width_wegoto field placeholder
+        placeholder: 'Bande blanche, absence de marquage, ...'
       kerb:
         # 'kerb=*'
         label: Kerb

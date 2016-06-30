@@ -1081,7 +1081,15 @@
                 }
             },
             "island_width_wegoto": {
-                "label": "Width of island (cm)"
+                "label": "Type of island (cm)",
+                "placeholder": "Bande blanche, absence de marquage, ...",
+                "options": {
+                    "lower_150": " type lower 150",
+                    "lower_180": "type 150-180",
+                    "lower_230": "type 180-230",
+                    "lower_270": "type 230-270",
+                    "chicane": "chicane "
+                }
             },
             "kerb": {
                 "label": "Kerb"
