@@ -684,10 +684,6 @@
             "value": "zebra"
         },
         {
-            "key": "footway",
-            "value": "sidewalk"
-        },
-        {
             "key": "ford",
             "value": "yes"
         },

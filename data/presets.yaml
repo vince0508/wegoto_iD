@@ -2115,10 +2115,6 @@ en:
         name: Pedestrian Crosswalk
         # 'terms: zebra crossing'
         terms: "<translate with synonyms or related terms for 'Pedestrian Crosswalk', separated by commas>"
-      footway/sidewalk:
-        # 'highway=footway, footway=sidewalk'
-        name: Sidewalk
-        terms: "<translate with synonyms or related terms for 'Sidewalk', separated by commas>"
       ford:
         # ford=yes
         name: Ford

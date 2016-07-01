@@ -2395,10 +2395,6 @@
                 "name": "Pedestrian Crosswalk",
                 "terms": "zebra crossing"
             },
-            "footway/sidewalk": {
-                "name": "Sidewalk",
-                "terms": ""
-            },
             "ford": {
                 "name": "Ford",
                 "terms": ""

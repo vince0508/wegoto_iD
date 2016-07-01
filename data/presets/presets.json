@@ -3033,26 +3033,6 @@
         ],
         "name": "Pedestrian Crosswalk"
     },
-    "footway/sidewalk": {
-        "icon": "highway-footway",
-        "fields": [
-            "surface",
-            "Wego",
-            "lit",
-            "width",
-            "structure",
-            "access"
-        ],
-        "geometry": [
-            "line"
-        ],
-        "tags": {
-            "highway": "footway",
-            "footway": "sidewalk"
-        },
-        "terms": [],
-        "name": "Sidewalk"
-    },
     "ford": {
         "geometry": [
             "vertex"
