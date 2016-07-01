@@ -23,6 +23,11 @@
         "highway": "pedestrian"
         
     },
+    "removeTags": {
+              "highway": "pedestrian",
+              "est_width":"*"
+            
+        },
     "terms": [],
     "name": "Pedestrian Street"
 }
