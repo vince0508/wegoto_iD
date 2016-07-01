@@ -1025,7 +1025,8 @@
                 }
             },
             "incline_wegoto": {
-                "label": "Incline"
+                "label": "Incline",
+                "placeholder": " En % "
             },
             "information": {
                 "label": "Type"
@@ -1044,7 +1045,8 @@
                 "label": "high of Island"
             },
             "island_incline_wegoto": {
-                "label": "Incline of Island"
+                "label": "Incline of Island",
+                "placeholder": "En % "
             },
             "island_kerb_wegoto": {
                 "label": "Kerb of Island"
@@ -1077,7 +1079,8 @@
                 }
             },
             "kerb": {
-                "label": "Kerb"
+                "label": "Kerb",
+                "placeholder": "En % "
             },
             "kerb_steps": {
                 "label": "Kerb",
@@ -1097,7 +1100,8 @@
                 "placeholder": "1, 2, 3..."
             },
             "largeur_traverse": {
-                "label": "Width (Meters)"
+                "label": "Width ",
+                "placeholder": "En cm"
             },
             "layer": {
                 "label": "Layer"
@@ -1708,7 +1712,8 @@
                 "label": "Wheelchair Access"
             },
             "width": {
-                "label": "Width (Meters)"
+                "label": "Width (Meters)",
+                "placeholder": "En cm"
             },
             "wikipedia": {
                 "label": "Wikipedia"

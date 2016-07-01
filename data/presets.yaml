@@ -456,6 +456,8 @@ en:
       incline_wegoto:
         # 'incline=*'
         label: Incline
+        # incline_wegoto field placeholder
+        placeholder: ' En % '
       information:
         # 'information=*'
         label: Type
@@ -479,6 +481,8 @@ en:
       island_incline_wegoto:
         # 'island:incline=*'
         label: Incline of Island
+        # island_incline_wegoto field placeholder
+        placeholder: 'En % '
       island_kerb_wegoto:
         # 'island:kerb=*'
         label: Kerb of Island
@@ -527,6 +531,8 @@ en:
       kerb:
         # 'kerb=*'
         label: Kerb
+        # kerb field placeholder
+        placeholder: 'En % '
       kerb_steps:
         # 'kerb=*'
         label: Kerb
@@ -548,7 +554,9 @@ en:
         placeholder: '1, 2, 3...'
       largeur_traverse:
         # 'width=*'
-        label: Width (Meters)
+        label: 'Width '
+        # largeur_traverse field placeholder
+        placeholder: En cm
       layer:
         # 'layer=*'
         label: Layer
@@ -1353,6 +1361,8 @@ en:
       width:
         # 'est_width=*'
         label: Width (Meters)
+        # width field placeholder
+        placeholder: En cm
       wikipedia:
         # 'wikipedia=*, wikidata=*'
         label: Wikipedia

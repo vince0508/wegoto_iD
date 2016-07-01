@@ -1,5 +1,7 @@
 {
     "key": "kerb",
     "type": "number",
-    "label": "Kerb"
+    "label": "Kerb",
+    "placeholder":"En % "
+
 }

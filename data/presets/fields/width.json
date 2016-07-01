@@ -1,5 +1,6 @@
 {
     "key": "est_width",
     "type": "number",
-    "label": "Width (Meters)"
+    "label": "Width (Meters)",
+    "placeholder":"En cm"
 }

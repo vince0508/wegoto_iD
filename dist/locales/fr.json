@@ -1067,7 +1067,7 @@
                 "label": "Pente"
             },
              "kerb": {
-                "label": "Devers en %"
+                "label": "Devers "
             },
             "shoulder_right": {
                 "label": "Accotement droit",
@@ -1145,7 +1145,7 @@
                 }
             },
             "incline_wegoto": {
-                "label": "Pente en %"
+                "label": "Pente "
             },
             "line_left": {
                 "label": "Séparation gauche",
@@ -1795,7 +1795,7 @@
                 "label": "Accès en fauteuil roulant"
             },
             "width": {
-                "label": "Largeur (cm)"
+                "label": "Largeur "
             },
 
         "island_width_wegoto": {

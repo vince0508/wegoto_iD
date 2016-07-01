@@ -631,7 +631,8 @@
     "incline_wegoto": {
         "key": "incline",
         "type": "number",
-        "label": "Incline"
+        "label": "Incline",
+        "placeholder": " En % "
     },
     "information": {
         "key": "information",
@@ -660,7 +661,8 @@
     "island_incline_wegoto": {
         "key": "island:incline",
         "type": "number",
-        "label": "Incline of Island"
+        "label": "Incline of Island",
+        "placeholder": "En % "
     },
     "island_kerb_wegoto": {
         "key": "island:kerb",
@@ -705,7 +707,8 @@
     "kerb": {
         "key": "kerb",
         "type": "number",
-        "label": "Kerb"
+        "label": "Kerb",
+        "placeholder": "En % "
     },
     "kerb_steps": {
         "key": "kerb",
@@ -737,7 +740,8 @@
     "largeur_traverse": {
         "key": "width",
         "type": "number",
-        "label": "Width (Meters)"
+        "label": "Width ",
+        "placeholder": "En cm"
     },
     "layer": {
         "key": "layer",
@@ -1706,7 +1710,8 @@
     "width": {
         "key": "est_width",
         "type": "number",
-        "label": "Width (Meters)"
+        "label": "Width (Meters)",
+        "placeholder": "En cm"
     },
     "wikipedia": {
         "key": "wikipedia",
