@@ -1067,7 +1067,7 @@
                 "label": "Pente"
             },
              "kerb": {
-                "label": "Devers "
+                "label": "Devers en %"
             },
             "shoulder_right": {
                 "label": "Accotement droit",
@@ -1145,7 +1145,7 @@
                 }
             },
             "incline_wegoto": {
-                "label": "Pente "
+                "label": "Pente en % "
             },
             "line_left": {
                 "label": "Séparation gauche",
@@ -1241,7 +1241,7 @@
                  },
 
                  "island_incline_wegoto": {
-                "label": "Pente de l'ilot "
+                "label": "Pente de l'ilot en %"
                  
 
                  },
@@ -1299,7 +1299,7 @@
                 }
             },
                 "largeur_traverse": {
-                "label": "Largeur"
+                "label": "Largeur en cm"
                
             },
             "information": {
@@ -1795,7 +1795,7 @@
                 "label": "Accès en fauteuil roulant"
             },
             "width": {
-                "label": "Largeur "
+                "label": "Largeur en cm"
             },
 
         "island_width_wegoto": {
