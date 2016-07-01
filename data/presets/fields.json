@@ -1417,9 +1417,9 @@
         "placeholder": "Excellent, intermediate, Bad...",
         "strings": {
             "options": {
-                "excellent": "excellent",
-                "intermediate": "intermediate",
-                "bad": "bad"
+                "excellent": "Excellent",
+                "intermediate": "Intermediate",
+                "bad": "Bad"
             }
         }
     },

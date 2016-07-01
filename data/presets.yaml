@@ -1149,11 +1149,11 @@ en:
         label: Smoothnesss
         options:
           # smoothness=bad
-          bad: bad
+          bad: Bad
           # smoothness=excellent
-          excellent: excellent
+          excellent: Excellent
           # smoothness=intermediate
-          intermediate: intermediate
+          intermediate: Intermediate
         # smoothness_wegoto field placeholder
         placeholder: 'Excellent, intermediate, Bad...'
       social_facility_for:

@@ -1548,9 +1548,9 @@
                 "label": "Smoothnesss",
                 "placeholder": "Excellent, intermediate, Bad...",
                 "options": {
-                    "excellent": "excellent",
-                    "intermediate": "intermediate",
-                    "bad": "bad"
+                    "excellent": "Excellent",
+                    "intermediate": "Intermediate",
+                    "bad": "Bad"
                 }
             },
             "social_facility_for": {
