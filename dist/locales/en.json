@@ -1479,37 +1479,37 @@
             "shoulder_left": {
                 "label": "Shoulder left",
                 "options": {
-                    "road": "road",
-                    "rail": "rail",
-                    "bicycle": "bicycle",
-                    "vegetation": "vegetation",
-                    "grass": "grass",
-                    "designated_parking": "designated_parking",
-                    "longside_parking": "longside_parking",
-                    "angled_parking": "angled_parking",
-                    "wall": "wall",
-                    "building": "building",
-                    "house": "house",
-                    "gap": "gap",
-                    "free_space": "free_space"
+                    "road": "Road",
+                    "rail": "Rail",
+                    "bicycle": "Bicycle",
+                    "vegetation": "Vegetation",
+                    "grass": "Grass",
+                    "designated_parking": "Designated_parking",
+                    "longside_parking": "Longside parking",
+                    "angled_parking": "Angled parking",
+                    "wall": "Wall",
+                    "building": "Building",
+                    "house": "House",
+                    "gap": "Gap",
+                    "free_space": "Free space"
                 }
             },
             "shoulder_right": {
                 "label": "Shoulder right",
                 "options": {
-                    "road": "road",
-                    "rail": "rail",
-                    "bicycle": "bicycle",
-                    "vegetation": "vegetation",
-                    "grass": "grass",
-                    "designated_parking": "designated_parking",
-                    "longside_parking": "longside_parking",
-                    "angled_parking": "angled_parking",
-                    "wall": "wall",
-                    "building": "building",
-                    "house": "house",
-                    "gap": "gap",
-                    "free_space": "free_space"
+                    "road": "Road",
+                    "rail": "Rail",
+                    "bicycle": "Bicycle",
+                    "vegetation": "Vegetation",
+                    "grass": "Grass",
+                    "designated_parking": "Designated Parking",
+                    "longside_parking": "Longside Parking",
+                    "angled_parking": "Angled parking",
+                    "wall": "Wall",
+                    "building": "Building",
+                    "house": "House",
+                    "gap": "Gap",
+                    "free_space": "Free Space"
                 }
             },
             "site": {

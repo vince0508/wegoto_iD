@@ -1043,61 +1043,61 @@ en:
         label: Shoulder left
         options:
           # 'shoulder:left=angled_parking'
-          angled_parking: angled_parking
+          angled_parking: Angled parking
           # 'shoulder:left=bicycle'
-          bicycle: bicycle
+          bicycle: Bicycle
           # 'shoulder:left=building'
-          building: building
+          building: Building
           # 'shoulder:left=designated_parking'
-          designated_parking: designated_parking
+          designated_parking: Designated_parking
           # 'shoulder:left=free_space'
-          free_space: free_space
+          free_space: Free space
           # 'shoulder:left=gap'
-          gap: gap
+          gap: Gap
           # 'shoulder:left=grass'
-          grass: grass
+          grass: Grass
           # 'shoulder:left=house'
-          house: house
+          house: House
           # 'shoulder:left=longside_parking'
-          longside_parking: longside_parking
+          longside_parking: Longside parking
           # 'shoulder:left=rail'
-          rail: rail
+          rail: Rail
           # 'shoulder:left=road'
-          road: road
+          road: Road
           # 'shoulder:left=vegetation'
-          vegetation: vegetation
+          vegetation: Vegetation
           # 'shoulder:left=wall'
-          wall: wall
+          wall: Wall
       shoulder_right:
         # 'shoulder:right=*'
         label: Shoulder right
         options:
           # 'shoulder:right=angled_parking'
-          angled_parking: angled_parking
+          angled_parking: Angled parking
           # 'shoulder:right=bicycle'
-          bicycle: bicycle
+          bicycle: Bicycle
           # 'shoulder:right=building'
-          building: building
+          building: Building
           # 'shoulder:right=designated_parking'
-          designated_parking: designated_parking
+          designated_parking: Designated Parking
           # 'shoulder:right=free_space'
-          free_space: free_space
+          free_space: Free Space
           # 'shoulder:right=gap'
-          gap: gap
+          gap: Gap
           # 'shoulder:right=grass'
-          grass: grass
+          grass: Grass
           # 'shoulder:right=house'
-          house: house
+          house: House
           # 'shoulder:right=longside_parking'
-          longside_parking: longside_parking
+          longside_parking: Longside Parking
           # 'shoulder:right=rail'
-          rail: rail
+          rail: Rail
           # 'shoulder:right=road'
-          road: road
+          road: Road
           # 'shoulder:right=vegetation'
-          vegetation: vegetation
+          vegetation: Vegetation
           # 'shoulder:right=wall'
-          wall: wall
+          wall: Wall
       site:
         # 'site=*'
         label: Type
