@@ -5,10 +5,10 @@
     "placeholder": "Droit, arrondi, ...",
     "strings": {
         "options": {
-            "straight":"straight",
-            "curved:left": "curved:left",
-            "curved:right": "curved:right",
-            "other":"other"
+            "straight":"Straight",
+            "curved:left": "Left Curved",
+            "curved:right": "Right Curved",
+            "other":"Other"
             
 
           

@@ -370,13 +370,13 @@ en:
         label: Crossing shape
         options:
           # 'crossing:shape=curved:left'
-          'curved:left': 'curved:left'
+          'curved:left': Left Curved
           # 'crossing:shape=curved:right'
-          'curved:right': 'curved:right'
+          'curved:right': Right Curved
           # 'crossing:shape=other'
-          other: other
+          other: Other
           # 'crossing:shape=straight'
-          straight: straight
+          straight: Straight
         # forme_trottoir_wegoto field placeholder
         placeholder: 'Droit, arrondi, ...'
       fuel:
@@ -619,53 +619,53 @@ en:
         label: Line left
         options:
           # 'line:left=bollard'
-          bollard: bollard
+          bollard: Bollard
           # 'line:left=diagonal_cross'
-          diagonal_cross: diagonal_cross
+          diagonal_cross: Diagonal cross
           # 'line:left=gardener_box'
-          gardener_box: gardener_box
+          gardener_box: Gardener box
           # 'line:left=hedge'
-          hedge: hedge
+          hedge: Hedge
           # 'line:left=no'
-          'no': 'no'
+          'no': Nothing
           # 'line:left=post'
-          post: post
+          post: Post
           # 'line:left=railing'
-          railing: railing
+          railing: Railing
           # 'line:left=ref'
-          ref: ref
+          ref: Ref
           # 'line:left=sidewalk'
-          sidewalk: sidewalk
+          sidewalk: Sidewalk
           # 'line:left=sound_ref'
-          sound_ref: sound_ref
+          sound_ref: Sound ref
           # 'line:left=tree'
-          tree: tree
+          tree: Tree
       line_right:
         # 'line:right=*'
         label: Line right
         options:
           # 'line:right=bollard'
-          bollard: bollard
+          bollard: Bollard
           # 'line:right=diagonal_cross'
-          diagonal_cross: diagonal_cross
+          diagonal_cross: Diagonal cross
           # 'line:right=gardener_box'
-          gardener_box: gardener box
+          gardener_box: Dardener box
           # 'line:right=hedge'
-          hedge: hedge
+          hedge: Hedge
           # 'line:right=no'
-          'no': 'no'
+          'no': Nothing
           # 'line:right=post'
-          post: post
+          post: Post
           # 'line:right=railing'
-          railing: railing
+          railing: Railing
           # 'line:right=ref'
-          ref: ref
+          ref: Ref
           # 'line:right=sidewalk'
-          sidewalk: sidewalk
+          sidewalk: Sidewalk
           # 'line:right=sound_ref'
-          sound_ref: sound_ref
+          sound_ref: Sound ref
           # 'line:right=tree'
-          tree: tree
+          tree: Tree
       lit:
         # 'lit=*'
         label: Lit
@@ -680,15 +680,15 @@ en:
         label: Crossing reference
         options:
           # 'crossing:ref=dammaged'
-          dammaged: dammaged
+          dammaged: Dammaged
           # 'crossing:ref=other'
-          other: other
+          other: Other
           # 'crossing:ref=temporary'
-          temporary: temporary
+          temporary: Temporary
           # 'crossing:ref=unmarked'
-          unmarked: unmarked
+          unmarked: Unmarked
           # 'crossing:ref=zebra'
-          zebra: zebra
+          zebra: Zebra
         # marquage_wegoto field placeholder
         placeholder: 'Bande blanche, absence de marquage, ...'
       maxspeed:
@@ -772,9 +772,9 @@ en:
         label: Crossing obstacle
         options:
           # 'crossing:obstacle=no'
-          'no': 'no'
+          'no': 'No'
           # 'crossing:obstacle=yes'
-          'yes': 'yes'
+          'yes': 'Yes'
         # obstacle_wegoto field placeholder
         placeholder: "Pas d'obstacle, rail,  ..."
       office:
@@ -912,15 +912,15 @@ en:
         label: Right crossing bollard
         options:
           # 'crossing:bollard:right=barrier'
-          barrier: barrier
+          barrier: Barrier
           # 'crossing:bollard:right=contrasted'
-          contrasted: contrasted
+          contrasted: Contrasted
           # 'crossing:bollard:right=no'
-          'no': 'no'
+          'no': No bollard
           # 'crossing:bollard:right=other'
-          other: other
+          other: Other
           # 'crossing:bollard:right=yes'
-          'yes': 'yes'
+          'yes': 'Yes'
       poteau_gauche_h_wegoto:
         # 'crossing:bollard:left:high=*'
         label: Left high crossing bollard
@@ -929,15 +929,15 @@ en:
         label: Left crossing bollard
         options:
           # 'crossing:bollard:left=barrier'
-          barrier: barrier
+          barrier: Barrier
           # 'crossing:bollard:left=contrasted'
-          contrasted: contrasted
+          contrasted: Contrasted
           # 'crossing:bollard:left=no'
-          'no': 'no'
+          'no': No bollard
           # 'crossing:bollard:left=other'
-          other: other
+          other: Other
           # 'crossing:bollard:left=yes'
-          'yes': 'yes'
+          'yes': 'Yes'
       power:
         # 'power=*'
         label: Type
@@ -1206,19 +1206,19 @@ en:
         label: Surface
         options:
           # surface=asphalt
-          asphalt: asphalt
+          asphalt: Asphalt
           # surface=compacted
-          compacted: compacted
+          compacted: Compacted
           # surface=dalle
-          dalle: dalle
+          dalle: Dalle
           # surface=dirt
-          dirt: dirt
+          dirt: Dirt
           # surface=grass
-          grass: grass
+          grass: Grass
           # surface=paving_stone
-          paving_stone: paving_stone
+          paving_stone: Paving stone
           # surface=wood
-          wood: wood
+          wood: Wood
       tactile_paving:
         # 'tactile_paving=*'
         label: Tactile Paving

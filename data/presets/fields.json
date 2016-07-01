@@ -510,10 +510,10 @@
         "placeholder": "Droit, arrondi, ...",
         "strings": {
             "options": {
-                "straight": "straight",
-                "curved:left": "curved:left",
-                "curved:right": "curved:right",
-                "other": "other"
+                "straight": "Straight",
+                "curved:left": "Left Curved",
+                "curved:right": "Right Curved",
+                "other": "Other"
             }
         }
     },
@@ -824,17 +824,17 @@
         "label": "Line left",
         "strings": {
             "options": {
-                "bollard": "bollard",
-                "post": "post",
-                "ref": "ref",
-                "sound_ref": "sound_ref",
-                "sidewalk": "sidewalk",
-                "railing": "railing",
-                "diagonal_cross": "diagonal_cross",
-                "tree": "tree",
-                "hedge": "hedge",
-                "gardener_box": "gardener_box",
-                "no": "no"
+                "bollard": "Bollard",
+                "post": "Post",
+                "ref": "Ref",
+                "sound_ref": "Sound ref",
+                "sidewalk": "Sidewalk",
+                "railing": "Railing",
+                "diagonal_cross": "Diagonal cross",
+                "tree": "Tree",
+                "hedge": "Hedge",
+                "gardener_box": "Gardener box",
+                "no": "Nothing"
             }
         }
     },
@@ -844,17 +844,17 @@
         "label": "Line right",
         "strings": {
             "options": {
-                "bollard": "bollard",
-                "post": "post",
-                "ref": "ref",
-                "sound_ref": "sound_ref",
-                "sidewalk": "sidewalk",
-                "railing": "railing",
-                "diagonal_cross": "diagonal_cross",
-                "tree": "tree",
-                "hedge": "hedge",
-                "gardener_box": "gardener box",
-                "no": "no"
+                "bollard": "Bollard",
+                "post": "Post",
+                "ref": "Ref",
+                "sound_ref": "Sound ref",
+                "sidewalk": "Sidewalk",
+                "railing": "Railing",
+                "diagonal_cross": "Diagonal cross",
+                "tree": "Tree",
+                "hedge": "Hedge",
+                "gardener_box": "Dardener box",
+                "no": "Nothing"
             }
         }
     },
@@ -880,11 +880,11 @@
         "placeholder": "Bande blanche, absence de marquage, ...",
         "strings": {
             "options": {
-                "zebra": "zebra",
-                "dammaged": "dammaged",
-                "unmarked": "unmarked",
-                "other": "other",
-                "temporary": "temporary"
+                "zebra": "Zebra",
+                "dammaged": "Dammaged",
+                "unmarked": "Unmarked",
+                "other": "Other",
+                "temporary": "Temporary"
             }
         }
     },
@@ -991,8 +991,8 @@
         "placeholder": "Pas d'obstacle, rail,  ...",
         "strings": {
             "options": {
-                "no": "no",
-                "yes": "yes"
+                "no": "No",
+                "yes": "Yes"
             }
         }
     },
@@ -1146,11 +1146,11 @@
         "label": "Right crossing bollard",
         "strings": {
             "options": {
-                "contrasted": "contrasted",
-                "yes": "yes",
-                "barrier": "barrier",
-                "no": "no",
-                "other": "other"
+                "contrasted": "Contrasted",
+                "yes": "Yes",
+                "barrier": "Barrier",
+                "no": "No bollard",
+                "other": "Other"
             }
         }
     },
@@ -1165,11 +1165,11 @@
         "label": "Left crossing bollard",
         "strings": {
             "options": {
-                "contrasted": "contrasted",
-                "yes": "yes",
-                "barrier": "barrier",
-                "no": "no",
-                "other": "other"
+                "contrasted": "Contrasted",
+                "yes": "Yes",
+                "barrier": "Barrier",
+                "no": "No bollard",
+                "other": "Other"
             }
         }
     },
@@ -1530,13 +1530,13 @@
         "label": "Surface",
         "strings": {
             "options": {
-                "asphalt": "asphalt",
-                "paving_stone": "paving_stone",
-                "dirt": "dirt",
-                "compacted": "compacted",
-                "grass": "grass",
-                "dalle": "dalle",
-                "wood": "wood"
+                "asphalt": "Asphalt",
+                "paving_stone": "Paving stone",
+                "dirt": "Dirt",
+                "compacted": "Compacted",
+                "grass": "Grass",
+                "dalle": "Dalle",
+                "wood": "Wood"
             }
         }
     },

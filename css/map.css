@@ -931,7 +931,7 @@ path.stroke.tag-highway-footway {
 }
 /*couleur ?*/
 path.stroke.tag-footway-crossing {
-    stroke: #002F2F;
+    stroke:#05966D;
 }
 path.stroke.tag-footway-island {
     stroke: #0D0064;
@@ -1114,7 +1114,7 @@ path.casing.tag-waterway-river {
 }
 /*blabla*/
 svg.icon.waterway-ditch.tag-footway.tag-footway-crossing{
-    color: #002F2F;
+    color: #05966D;
 }
 svg.icon.waterway-canal.tag-footway.tag-footway-island{
     color:#0D0064;

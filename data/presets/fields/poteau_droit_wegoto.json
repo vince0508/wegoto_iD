@@ -4,11 +4,11 @@
     "label": "Right crossing bollard",
     "strings":{
    	 	"options": {
-             "contrasted": "contrasted",
-            "yes": "yes",
-            "barrier": "barrier",
-            "no": "no",
-            "other": "other"
+             "contrasted": "Contrasted",
+            "yes": "Yes",
+            "barrier": "Barrier",
+            "no": "No bollard",
+            "other": "Other"
               
                 }
             }

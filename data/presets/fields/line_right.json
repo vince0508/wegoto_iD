@@ -4,17 +4,17 @@
     "label": "Line right",
     "strings":{
     "options": {
-             "bollard":"bollard",
-            "post": "post",
-            "ref": "ref",
-            "sound_ref": "sound_ref",
-            "sidewalk": "sidewalk",
-            "railing": "railing",
-            "diagonal_cross": "diagonal_cross",
-            "tree": "tree",
-            "hedge": "hedge",
-            "gardener_box": "gardener box",
-            "no": "no"
+             "bollard":"Bollard",
+            "post": "Post",
+            "ref": "Ref",
+            "sound_ref": "Sound ref",
+            "sidewalk": "Sidewalk",
+            "railing": "Railing",
+            "diagonal_cross": "Diagonal cross",
+            "tree": "Tree",
+            "hedge": "Hedge",
+            "gardener_box": "Dardener box",
+            "no": "Nothing"
            
               
                 }}

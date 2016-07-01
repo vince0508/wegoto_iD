@@ -5,11 +5,11 @@
     "placeholder": "Bande blanche, absence de marquage, ...",
     "strings": {
         "options": {
-            "zebra":"zebra",
-            "dammaged": "dammaged",
-            "unmarked": "unmarked",
-            "other":"other",
-            "temporary":"temporary"
+            "zebra":"Zebra",
+            "dammaged": "Dammaged",
+            "unmarked": "Unmarked",
+            "other":"Other",
+            "temporary":"Temporary"
 
           
         }

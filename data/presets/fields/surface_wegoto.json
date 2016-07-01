@@ -4,13 +4,13 @@
     "label": "Surface",
     "strings": {
         "options": {
-            "asphalt":"asphalt",
-            "paving_stone": "paving_stone",
-            "dirt": "dirt",
-            "compacted": "compacted",
-            "grass": "grass",
-            "dalle": "dalle",
-            "wood": "wood"
+            "asphalt":"Asphalt",
+            "paving_stone": "Paving stone",
+            "dirt": "Dirt",
+            "compacted": "Compacted",
+            "grass": "Grass",
+            "dalle": "Dalle",
+            "wood": "Wood"
             
           
         }
