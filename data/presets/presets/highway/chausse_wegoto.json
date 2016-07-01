@@ -21,6 +21,11 @@
         "highway": "road"
        
     },
+        "removeTags": {
+              "highway": "road"
+
+            
+        },
     "terms": [],
     "name": "Road"
 }

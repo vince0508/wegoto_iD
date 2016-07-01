@@ -16,6 +16,11 @@
         "footway":"island"
        
     },
+        "removeTags": {
+              "footway": "island"
+
+            
+        },
     "terms": [],
     "name": "Island"
 }

@@ -18,6 +18,11 @@
         "footway": "crossing"
     
     },
+        "removeTags": {
+              "footway": "crossing"
+
+            
+        },
     
     "name": "Street Crossing"
 }

@@ -18,6 +18,11 @@
         "island:node":"yes"
         
     },
+    "removeTags": {
+              "island:node": "yes"
+
+            
+        },
     "terms": [],
     "name": "island"
 }

@@ -25,6 +25,12 @@
 
 
     },
+
+        "removeTags": {
+              "highway": "path"
+
+            
+        },
     "terms": [],
     "name": "Path"
 }

@@ -27,6 +27,11 @@
      
     
     },
+        "removeTags": {
+              "crossing:node": "yes"
+
+            
+        },
     
     "name": "Crossing"
 }

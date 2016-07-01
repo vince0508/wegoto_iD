@@ -21,6 +21,12 @@
         "footway": "sidewalk"
         
     },
+        "removeTags": {
+              "highway": "footway",
+               "footway": "sidewalk"
+
+            
+        },
     "terms": [],
     "name": "SideWalk"
 }

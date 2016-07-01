@@ -3079,6 +3079,9 @@
         "tags": {
             "footway": "other"
         },
+        "removeTags": {
+            "footway": "other"
+        },
         "terms": [],
         "name": "Other Road"
     },
@@ -3122,6 +3125,9 @@
         "tags": {
             "highway": "road"
         },
+        "removeTags": {
+            "highway": "road"
+        },
         "terms": [],
         "name": "Road"
     },
@@ -3144,6 +3150,9 @@
             "line"
         ],
         "tags": {
+            "highway": "path"
+        },
+        "removeTags": {
             "highway": "path"
         },
         "terms": [],
@@ -3226,6 +3235,9 @@
         "tags": {
             "highway": "cycleway"
         },
+        "removeTags": {
+            "highway": "cycleway"
+        },
         "terms": [
             "bike"
         ],
@@ -3246,6 +3258,9 @@
         "tags": {
             "island:node": "yes"
         },
+        "removeTags": {
+            "island:node": "yes"
+        },
         "terms": [],
         "name": "island"
     },
@@ -3263,6 +3278,9 @@
             "line"
         ],
         "tags": {
+            "footway": "island"
+        },
+        "removeTags": {
             "footway": "island"
         },
         "terms": [],
@@ -3384,8 +3402,7 @@
             "highway": "pedestrian"
         },
         "removeTags": {
-            "highway": "pedestrian",
-            "est_width": "*"
+            "highway": "pedestrian"
         },
         "terms": [],
         "name": "Pedestrian Street"
@@ -3858,6 +3875,9 @@
         "tags": {
             "crossing:node": "yes"
         },
+        "removeTags": {
+            "crossing:node": "yes"
+        },
         "name": "Crossing"
     },
     "highway/traversee_wegoto": {
@@ -3874,6 +3894,9 @@
             "line"
         ],
         "tags": {
+            "footway": "crossing"
+        },
+        "removeTags": {
             "footway": "crossing"
         },
         "name": "Street Crossing"
@@ -3897,6 +3920,10 @@
             "line"
         ],
         "tags": {
+            "highway": "footway",
+            "footway": "sidewalk"
+        },
+        "removeTags": {
             "highway": "footway",
             "footway": "sidewalk"
         },

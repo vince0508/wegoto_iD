@@ -24,8 +24,8 @@
         
     },
     "removeTags": {
-              "highway": "pedestrian",
-              "est_width":"*"
+              "highway": "pedestrian"
+
             
         },
     "terms": [],
