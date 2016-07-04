@@ -425,7 +425,7 @@ button.minor:hover {
 }
 
 button.action {
-    background: #7092ff;
+    background: #E53A41;
     color: white;
 }
 
@@ -437,7 +437,7 @@ button[disabled].action:hover {
 
 button.action:focus,
 button.action:hover {
-    background: #597BE7;
+    background: #FACA24;
 }
 
 button.secondary-action {
