@@ -15,7 +15,6 @@
         "amenity/fast_food",
         "amenity/bar",
         "amenity/bank",
-        "shop/supermarket",
         "point"
     ],
     "vertex": [
