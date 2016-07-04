@@ -1,9 +1,0 @@
-{
-    "geometry": "line",
-    "name": "Path Features",
-    "icon": "category-path",
-    "members": [
-
-        "highway/steps"
-    ]
-}

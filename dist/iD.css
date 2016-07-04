@@ -2722,7 +2722,7 @@ button.save.has-count .count::before {
 }
 
 .preset-list-item button.tag-reference-button {
-        visibility: hidden;
+        visibility: hidden; /* modif enlever taf reference*/
     height: 100%;
     border: 1px solid #CCC;
     border-radius: 0 3px 3px 0;

@@ -111,6 +111,7 @@ function suggestionsToPresets(presets) {
         var tag = category.split('/'),
             parent = presets[tag[0] + '/' + tag[1]];
 
+            if (parent != undefined){
         presets[category] = {
             tags: parent.tags ? _.merge(tags, parent.tags) : tags,
             name: name,
@@ -124,6 +125,7 @@ function suggestionsToPresets(presets) {
             category: category,
             count: count
         };
+        }
     }
 
     return presets;
