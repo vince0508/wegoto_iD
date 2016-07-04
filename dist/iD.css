@@ -4584,6 +4584,7 @@ img.tile-removing {
 
 .save-success a.button.social {
     height: auto;
+    visibility: hidden;
 }
 
 .save-success .icon.social {
