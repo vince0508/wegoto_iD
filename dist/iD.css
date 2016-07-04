@@ -2722,6 +2722,7 @@ button.save.has-count .count::before {
 }
 
 .preset-list-item button.tag-reference-button {
+        visibility: hidden;
     height: 100%;
     border: 1px solid #CCC;
     border-radius: 0 3px 3px 0;
@@ -2737,6 +2738,7 @@ button.save.has-count .count::before {
 }
 
 .preset-list-item button.tag-reference-button .icon {
+    visibility: hidden; /*MODIF suprr icon tag ref*/
     opacity: .5;
 }
 
@@ -3459,14 +3461,12 @@ div.combobox {
 }
 
 .tag-row .tag-reference-button {
-      background: transparent;
-    border: none !important;
-    font-size:0;
+
     right: 0;
     border-radius: 0;
     width: 10%;
     top: 0;
-   
+    background: #fafafa;
 }
 
 /* Adding form fields to tag editor */
