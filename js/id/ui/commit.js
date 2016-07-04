@@ -88,7 +88,7 @@ iD.ui.Commit = function(context) {
             .attr('class', 'clippy-area');
 
 
-        var changeSetInfo = commentSection.append('div')
+       /* var changeSetInfo = commentSection.append('div')
             .attr('class', 'changeset-info');
 
         changeSetInfo.append('a')
@@ -97,7 +97,7 @@ iD.ui.Commit = function(context) {
             .call(iD.svg.Icon('#icon-out-link', 'inline'))
             .attr('href', t('commit.about_changeset_comments_link'))
             .append('span')
-            .text(t('commit.about_changeset_comments'));
+            .text(t('commit.about_changeset_comments'));*/
 
         // Warnings
         var warnings = body.selectAll('div.warning-section')
