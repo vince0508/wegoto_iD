@@ -1798,10 +1798,6 @@ en:
         # amenity=water_point
         name: RV Drinking Water
         terms: "<translate with synonyms or related terms for 'RV Drinking Water', separated by commas>"
-      area:
-        # area=yes
-        name: Area
-        terms: "<translate with synonyms or related terms for 'Area', separated by commas>"
       barrier:
         # 'barrier=*'
         name: Barrier
@@ -2026,10 +2022,6 @@ en:
         # building=warehouse
         name: Warehouse
         terms: "<translate with synonyms or related terms for 'Warehouse', separated by commas>"
-      craft:
-        # 'craft=*'
-        name: Craft
-        terms: "<translate with synonyms or related terms for 'Craft', separated by commas>"
       embankment:
         # embankment=yes
         name: Embankment
@@ -2047,10 +2039,6 @@ en:
         name: Pedestrian Crosswalk
         # 'terms: zebra crossing'
         terms: "<translate with synonyms or related terms for 'Pedestrian Crosswalk', separated by commas>"
-      ford:
-        # ford=yes
-        name: Ford
-        terms: "<translate with synonyms or related terms for 'Ford', separated by commas>"
       highway:
         # 'highway=*'
         name: Highway
@@ -2384,14 +2372,6 @@ en:
       line:
         name: Line
         terms: "<translate with synonyms or related terms for 'Line', separated by commas>"
-      man_made:
-        # 'man_made=*'
-        name: Man Made
-        terms: "<translate with synonyms or related terms for 'Man Made', separated by commas>"
-      natural:
-        # 'natural=*'
-        name: Natural
-        terms: "<translate with synonyms or related terms for 'Natural', separated by commas>"
       natural/bay:
         # natural=bay
         name: Bay
@@ -2494,107 +2474,9 @@ en:
         name: Wood
         # 'terms: tree'
         terms: "<translate with synonyms or related terms for 'Wood', separated by commas>"
-      office:
-        # 'office=*'
-        name: Office
-        terms: "<translate with synonyms or related terms for 'Office', separated by commas>"
-      office/accountant:
-        # office=accountant
-        name: Accountant
-        terms: "<translate with synonyms or related terms for 'Accountant', separated by commas>"
-      office/administrative:
-        # office=administrative
-        name: Administrative Office
-        terms: "<translate with synonyms or related terms for 'Administrative Office', separated by commas>"
-      office/architect:
-        # office=architect
-        name: Architect
-        terms: "<translate with synonyms or related terms for 'Architect', separated by commas>"
-      office/company:
-        # office=company
-        name: Company Office
-        terms: "<translate with synonyms or related terms for 'Company Office', separated by commas>"
-      office/educational_institution:
-        # office=educational_institution
-        name: Educational Institution
-        terms: "<translate with synonyms or related terms for 'Educational Institution', separated by commas>"
-      office/employment_agency:
-        # office=employment_agency
-        name: Employment Agency
-        # 'terms: job'
-        terms: "<translate with synonyms or related terms for 'Employment Agency', separated by commas>"
-      office/estate_agent:
-        # office=estate_agent
-        name: Real Estate Office
-        terms: "<translate with synonyms or related terms for 'Real Estate Office', separated by commas>"
-      office/financial:
-        # office=financial
-        name: Financial Office
-        terms: "<translate with synonyms or related terms for 'Financial Office', separated by commas>"
-      office/government:
-        # office=government
-        name: Government Office
-        terms: "<translate with synonyms or related terms for 'Government Office', separated by commas>"
-      office/insurance:
-        # office=insurance
-        name: Insurance Office
-        terms: "<translate with synonyms or related terms for 'Insurance Office', separated by commas>"
-      office/it:
-        # office=it
-        name: IT Office
-        terms: "<translate with synonyms or related terms for 'IT Office', separated by commas>"
-      office/lawyer:
-        # office=lawyer
-        name: Law Office
-        terms: "<translate with synonyms or related terms for 'Law Office', separated by commas>"
-      office/newspaper:
-        # office=newspaper
-        name: Newspaper
-        terms: "<translate with synonyms or related terms for 'Newspaper', separated by commas>"
-      office/ngo:
-        # office=ngo
-        name: NGO Office
-        terms: "<translate with synonyms or related terms for 'NGO Office', separated by commas>"
-      office/physician:
-        # office=physician
-        name: Physician
-        terms: "<translate with synonyms or related terms for 'Physician', separated by commas>"
-      office/political_party:
-        # office=political_party
-        name: Political Party
-        terms: "<translate with synonyms or related terms for 'Political Party', separated by commas>"
-      office/research:
-        # office=research
-        name: Research Office
-        terms: "<translate with synonyms or related terms for 'Research Office', separated by commas>"
-      office/telecommunication:
-        # office=telecommunication
-        name: Telecom Office
-        terms: "<translate with synonyms or related terms for 'Telecom Office', separated by commas>"
-      office/therapist:
-        # office=therapist
-        name: Therapist
-        terms: "<translate with synonyms or related terms for 'Therapist', separated by commas>"
-      office/travel_agent:
-        # office=travel_agent
-        name: Travel Agency
-        terms: "<translate with synonyms or related terms for 'Travel Agency', separated by commas>"
-      piste:
-        # 'piste:type=*'
-        name: Piste/Ski Trail
-        # 'terms: ski,sled,sleigh,snowboard,nordic,downhill,snowmobile'
-        terms: "<translate with synonyms or related terms for 'Piste/Ski Trail', separated by commas>"
-      place:
-        # 'place=*'
-        name: Place
-        terms: "<translate with synonyms or related terms for 'Place', separated by commas>"
       point:
         name: Point
         terms: "<translate with synonyms or related terms for 'Point', separated by commas>"
-      power:
-        # 'power=*'
-        name: Power
-        terms: "<translate with synonyms or related terms for 'Power', separated by commas>"
       public_transport/platform:
         # public_transport=platform
         name: Platform
@@ -2672,34 +2554,6 @@ en:
         # junction=roundabout
         name: Roundabout
         terms: "<translate with synonyms or related terms for 'Roundabout', separated by commas>"
-      shop:
-        # 'shop=*'
-        name: Shop
-        terms: "<translate with synonyms or related terms for 'Shop', separated by commas>"
-      tourism:
-        # 'tourism=*'
-        name: Tourism
-        terms: "<translate with synonyms or related terms for 'Tourism', separated by commas>"
-      traffic_calming/bump:
-        # traffic_calming=bump
-        name: Speed Bump
-        # 'terms: speed hump'
-        terms: "<translate with synonyms or related terms for 'Speed Bump', separated by commas>"
-      traffic_calming/hump:
-        # traffic_calming=hump
-        name: Speed Hump
-        # 'terms: speed bump'
-        terms: "<translate with synonyms or related terms for 'Speed Hump', separated by commas>"
-      traffic_calming/rumble_strip:
-        # traffic_calming=rumble_strip
-        name: Rumble Strip
-        # 'terms: sleeper lines,audible lines,growlers'
-        terms: "<translate with synonyms or related terms for 'Rumble Strip', separated by commas>"
-      traffic_calming/table:
-        # 'highway=crossing, traffic_calming=table'
-        name: Raised Pedestrian Crossing
-        # 'terms: speed table,flat top hump'
-        terms: "<translate with synonyms or related terms for 'Raised Pedestrian Crossing', separated by commas>"
       type/boundary/administrative:
         # 'type=boundary, boundary=administrative'
         name: Administrative Boundary
@@ -2735,64 +2589,3 @@ en:
       vertex:
         name: Other
         terms: "<translate with synonyms or related terms for 'Other', separated by commas>"
-      waterway:
-        # 'waterway=*'
-        name: Waterway
-        terms: "<translate with synonyms or related terms for 'Waterway', separated by commas>"
-      waterway/boatyard:
-        # waterway=boatyard
-        name: Boatyard
-        terms: "<translate with synonyms or related terms for 'Boatyard', separated by commas>"
-      waterway/canal:
-        # waterway=canal
-        name: Canal
-        terms: "<translate with synonyms or related terms for 'Canal', separated by commas>"
-      waterway/dam:
-        # waterway=dam
-        name: Dam
-        terms: "<translate with synonyms or related terms for 'Dam', separated by commas>"
-      waterway/ditch:
-        # waterway=ditch
-        name: Ditch
-        terms: "<translate with synonyms or related terms for 'Ditch', separated by commas>"
-      waterway/dock:
-        # waterway=dock
-        name: Wet Dock / Dry Dock
-        # 'terms: boat,ship,vessel,marine'
-        terms: "<translate with synonyms or related terms for 'Wet Dock / Dry Dock', separated by commas>"
-      waterway/drain:
-        # waterway=drain
-        name: Drain
-        terms: "<translate with synonyms or related terms for 'Drain', separated by commas>"
-      waterway/fuel:
-        # waterway=fuel
-        name: Marine Fuel Station
-        # 'terms: petrol,gas,diesel,boat'
-        terms: "<translate with synonyms or related terms for 'Marine Fuel Station', separated by commas>"
-      waterway/river:
-        # waterway=river
-        name: River
-        # 'terms: beck,branch,brook,course,creek,estuary,rill,rivulet,run,runnel,stream,tributary,watercourse'
-        terms: "<translate with synonyms or related terms for 'River', separated by commas>"
-      waterway/riverbank:
-        # waterway=riverbank
-        name: Riverbank
-        terms: "<translate with synonyms or related terms for 'Riverbank', separated by commas>"
-      waterway/sanitary_dump_station:
-        # waterway=sanitary_dump_station
-        name: Marine Toilet Disposal
-        # 'terms: Boat,Watercraft,Sanitary,Dump Station,Pumpout,Pump out,Elsan,CDP,CTDP,Chemical Toilet'
-        terms: "<translate with synonyms or related terms for 'Marine Toilet Disposal', separated by commas>"
-      waterway/stream:
-        # waterway=stream
-        name: Stream
-        # 'terms: beck,branch,brook,burn,course,creek,current,drift,flood,flow,freshet,race,rill,rindle,rivulet,run,runnel,rush,spate,spritz,surge,tide,torrent,tributary,watercourse'
-        terms: "<translate with synonyms or related terms for 'Stream', separated by commas>"
-      waterway/water_point:
-        # waterway=water_point
-        name: Marine Drinking Water
-        terms: "<translate with synonyms or related terms for 'Marine Drinking Water', separated by commas>"
-      waterway/weir:
-        # waterway=weir
-        name: Weir
-        terms: "<translate with synonyms or related terms for 'Weir', separated by commas>"

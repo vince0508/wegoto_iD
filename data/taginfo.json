@@ -385,10 +385,6 @@
             "value": "water_point"
         },
         {
-            "key": "area",
-            "value": "yes"
-        },
-        {
             "key": "barrier"
         },
         {
@@ -603,9 +599,6 @@
             "value": "warehouse"
         },
         {
-            "key": "craft"
-        },
-        {
             "key": "embankment",
             "value": "yes"
         },
@@ -619,10 +612,6 @@
         {
             "key": "crossing",
             "value": "zebra"
-        },
-        {
-            "key": "ford",
-            "value": "yes"
         },
         {
             "key": "highway"
@@ -917,12 +906,6 @@
             "value": "wegotooo"
         },
         {
-            "key": "man_made"
-        },
-        {
-            "key": "natural"
-        },
-        {
             "key": "natural",
             "value": "bay"
         },
@@ -1015,98 +998,6 @@
             "value": "wood"
         },
         {
-            "key": "office"
-        },
-        {
-            "key": "office",
-            "value": "accountant"
-        },
-        {
-            "key": "office",
-            "value": "administrative"
-        },
-        {
-            "key": "office",
-            "value": "architect"
-        },
-        {
-            "key": "office",
-            "value": "company"
-        },
-        {
-            "key": "office",
-            "value": "educational_institution"
-        },
-        {
-            "key": "office",
-            "value": "employment_agency"
-        },
-        {
-            "key": "office",
-            "value": "estate_agent"
-        },
-        {
-            "key": "office",
-            "value": "financial"
-        },
-        {
-            "key": "office",
-            "value": "government"
-        },
-        {
-            "key": "office",
-            "value": "insurance"
-        },
-        {
-            "key": "office",
-            "value": "it"
-        },
-        {
-            "key": "office",
-            "value": "lawyer"
-        },
-        {
-            "key": "office",
-            "value": "newspaper"
-        },
-        {
-            "key": "office",
-            "value": "ngo"
-        },
-        {
-            "key": "office",
-            "value": "physician"
-        },
-        {
-            "key": "office",
-            "value": "political_party"
-        },
-        {
-            "key": "office",
-            "value": "research"
-        },
-        {
-            "key": "office",
-            "value": "telecommunication"
-        },
-        {
-            "key": "office",
-            "value": "therapist"
-        },
-        {
-            "key": "office",
-            "value": "travel_agent"
-        },
-        {
-            "key": "piste:type"
-        },
-        {
-            "key": "place"
-        },
-        {
-            "key": "power"
-        },
-        {
             "key": "public_transport",
             "value": "platform"
         },
@@ -1174,28 +1065,6 @@
             "value": "roundabout"
         },
         {
-            "key": "shop"
-        },
-        {
-            "key": "tourism"
-        },
-        {
-            "key": "traffic_calming",
-            "value": "bump"
-        },
-        {
-            "key": "traffic_calming",
-            "value": "hump"
-        },
-        {
-            "key": "traffic_calming",
-            "value": "rumble_strip"
-        },
-        {
-            "key": "traffic_calming",
-            "value": "table"
-        },
-        {
             "key": "boundary",
             "value": "administrative"
         },
@@ -1226,61 +1095,6 @@
         {
             "key": "restriction",
             "value": "only_straight_on"
-        },
-        {
-            "key": "waterway"
-        },
-        {
-            "key": "waterway",
-            "value": "boatyard"
-        },
-        {
-            "key": "waterway",
-            "value": "canal"
-        },
-        {
-            "key": "waterway",
-            "value": "dam"
-        },
-        {
-            "key": "waterway",
-            "value": "ditch"
-        },
-        {
-            "key": "waterway",
-            "value": "dock"
-        },
-        {
-            "key": "waterway",
-            "value": "drain"
-        },
-        {
-            "key": "waterway",
-            "value": "fuel"
-        },
-        {
-            "key": "waterway",
-            "value": "river"
-        },
-        {
-            "key": "waterway",
-            "value": "riverbank"
-        },
-        {
-            "key": "waterway",
-            "value": "sanitary_dump_station"
-        },
-        {
-            "key": "waterway",
-            "value": "stream"
-        },
-        {
-            "key": "waterway",
-            "value": "water_point"
-        },
-        {
-            "key": "waterway",
-            "value": "weir"
         }
     ]
 }

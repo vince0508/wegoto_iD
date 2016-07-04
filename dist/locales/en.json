@@ -2081,10 +2081,6 @@
                 "name": "RV Drinking Water",
                 "terms": ""
             },
-            "area": {
-                "name": "Area",
-                "terms": ""
-            },
             "barrier": {
                 "name": "Barrier",
                 "terms": ""
@@ -2301,10 +2297,6 @@
                 "name": "Warehouse",
                 "terms": ""
             },
-            "craft": {
-                "name": "Craft",
-                "terms": ""
-            },
             "embankment": {
                 "name": "Embankment",
                 "terms": ""
@@ -2320,10 +2312,6 @@
             "footway/crosswalk": {
                 "name": "Pedestrian Crosswalk",
                 "terms": "zebra crossing"
-            },
-            "ford": {
-                "name": "Ford",
-                "terms": ""
             },
             "highway": {
                 "name": "Highway",
@@ -2625,14 +2613,6 @@
                 "name": "Line",
                 "terms": ""
             },
-            "man_made": {
-                "name": "Man Made",
-                "terms": ""
-            },
-            "natural": {
-                "name": "Natural",
-                "terms": ""
-            },
             "natural/bay": {
                 "name": "Bay",
                 "terms": ""
@@ -2725,104 +2705,8 @@
                 "name": "Wood",
                 "terms": "tree"
             },
-            "office": {
-                "name": "Office",
-                "terms": ""
-            },
-            "office/accountant": {
-                "name": "Accountant",
-                "terms": ""
-            },
-            "office/administrative": {
-                "name": "Administrative Office",
-                "terms": ""
-            },
-            "office/architect": {
-                "name": "Architect",
-                "terms": ""
-            },
-            "office/company": {
-                "name": "Company Office",
-                "terms": ""
-            },
-            "office/educational_institution": {
-                "name": "Educational Institution",
-                "terms": ""
-            },
-            "office/employment_agency": {
-                "name": "Employment Agency",
-                "terms": "job"
-            },
-            "office/estate_agent": {
-                "name": "Real Estate Office",
-                "terms": ""
-            },
-            "office/financial": {
-                "name": "Financial Office",
-                "terms": ""
-            },
-            "office/government": {
-                "name": "Government Office",
-                "terms": ""
-            },
-            "office/insurance": {
-                "name": "Insurance Office",
-                "terms": ""
-            },
-            "office/it": {
-                "name": "IT Office",
-                "terms": ""
-            },
-            "office/lawyer": {
-                "name": "Law Office",
-                "terms": ""
-            },
-            "office/newspaper": {
-                "name": "Newspaper",
-                "terms": ""
-            },
-            "office/ngo": {
-                "name": "NGO Office",
-                "terms": ""
-            },
-            "office/physician": {
-                "name": "Physician",
-                "terms": ""
-            },
-            "office/political_party": {
-                "name": "Political Party",
-                "terms": ""
-            },
-            "office/research": {
-                "name": "Research Office",
-                "terms": ""
-            },
-            "office/telecommunication": {
-                "name": "Telecom Office",
-                "terms": ""
-            },
-            "office/therapist": {
-                "name": "Therapist",
-                "terms": ""
-            },
-            "office/travel_agent": {
-                "name": "Travel Agency",
-                "terms": ""
-            },
-            "piste": {
-                "name": "Piste/Ski Trail",
-                "terms": "ski,sled,sleigh,snowboard,nordic,downhill,snowmobile"
-            },
-            "place": {
-                "name": "Place",
-                "terms": ""
-            },
             "point": {
                 "name": "Point",
-                "terms": ""
-            },
-            "power": {
-                "name": "Power",
                 "terms": ""
             },
             "public_transport/platform": {
@@ -2897,30 +2781,6 @@
                 "name": "Roundabout",
                 "terms": ""
             },
-            "shop": {
-                "name": "Shop",
-                "terms": ""
-            },
-            "tourism": {
-                "name": "Tourism",
-                "terms": ""
-            },
-            "traffic_calming/bump": {
-                "name": "Speed Bump",
-                "terms": "speed hump"
-            },
-            "traffic_calming/hump": {
-                "name": "Speed Hump",
-                "terms": "speed bump"
-            },
-            "traffic_calming/rumble_strip": {
-                "name": "Rumble Strip",
-                "terms": "sleeper lines,audible lines,growlers"
-            },
-            "traffic_calming/table": {
-                "name": "Raised Pedestrian Crossing",
-                "terms": "speed table,flat top hump"
-            },
             "type/boundary/administrative": {
                 "name": "Administrative Boundary",
                 "terms": ""
@@ -2955,62 +2815,6 @@
             },
             "vertex": {
                 "name": "Other",
-                "terms": ""
-            },
-            "waterway": {
-                "name": "Waterway",
-                "terms": ""
-            },
-            "waterway/boatyard": {
-                "name": "Boatyard",
-                "terms": ""
-            },
-            "waterway/canal": {
-                "name": "Canal",
-                "terms": ""
-            },
-            "waterway/dam": {
-                "name": "Dam",
-                "terms": ""
-            },
-            "waterway/ditch": {
-                "name": "Ditch",
-                "terms": ""
-            },
-            "waterway/dock": {
-                "name": "Wet Dock / Dry Dock",
-                "terms": "boat,ship,vessel,marine"
-            },
-            "waterway/drain": {
-                "name": "Drain",
-                "terms": ""
-            },
-            "waterway/fuel": {
-                "name": "Marine Fuel Station",
-                "terms": "petrol,gas,diesel,boat"
-            },
-            "waterway/river": {
-                "name": "River",
-                "terms": "beck,branch,brook,course,creek,estuary,rill,rivulet,run,runnel,stream,tributary,watercourse"
-            },
-            "waterway/riverbank": {
-                "name": "Riverbank",
-                "terms": ""
-            },
-            "waterway/sanitary_dump_station": {
-                "name": "Marine Toilet Disposal",
-                "terms": "Boat,Watercraft,Sanitary,Dump Station,Pumpout,Pump out,Elsan,CDP,CTDP,Chemical Toilet"
-            },
-            "waterway/stream": {
-                "name": "Stream",
-                "terms": "beck,branch,brook,burn,course,creek,current,drift,flood,flow,freshet,race,rill,rindle,rivulet,run,runnel,rush,spate,spritz,surge,tide,torrent,tributary,watercourse"
-            },
-            "waterway/water_point": {
-                "name": "Marine Drinking Water",
-                "terms": ""
-            },
-            "waterway/weir": {
-                "name": "Weir",
                 "terms": ""
             }
         }
