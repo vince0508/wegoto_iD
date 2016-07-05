@@ -1,5 +1,6 @@
 {
     "icon-alert":               { "viewBox": "0 0 20 20" },
+    "icon-poi":               { "viewBox": "0 0 20 20" },
     "icon-point":               { "viewBox": "20 0 20 20" },
     "icon-line":                { "viewBox": "40 0 20 20" },
     "icon-area":                { "viewBox": "60 0 20 20" },
