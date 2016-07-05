@@ -2383,154 +2383,133 @@ en:
         terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
       poa/bench_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Bench
+        # 'terms: bench,banc assis'
+        terms: "<translate with synonyms or related terms for 'Bench', separated by commas>"
       poa/benchstand_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Bench stand
+        # 'terms: bench stand,banc debout'
+        terms: "<translate with synonyms or related terms for 'Bench stand', separated by commas>"
       poa/bicycle_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Bycicle
+        # 'terms: bycicle,Velos'
+        terms: "<translate with synonyms or related terms for 'Bycicle', separated by commas>"
       poa/billboard_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Billboard
+        # 'terms: Billboard,Panneau publicitaire'
+        terms: "<translate with synonyms or related terms for 'Billboard', separated by commas>"
       poa/byciclepark_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Bycicle park
+        # 'terms: Bycicle park, parking vélos'
+        terms: "<translate with synonyms or related terms for 'Bycicle park', separated by commas>"
       poa/carpool_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Carpool
+        # 'terms: Carpool,parking autopartage'
+        terms: "<translate with synonyms or related terms for 'Carpool', separated by commas>"
       poa/conservatory_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Conservatory
+        # 'terms: Conservatory'
+        terms: "<translate with synonyms or related terms for 'Conservatory', separated by commas>"
       poa/constrastedsign_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Constrasted sign
+        terms: "<translate with synonyms or related terms for 'Constrasted sign', separated by commas>"
       poa/coverstop_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Cover stop
+        terms: "<translate with synonyms or related terms for 'Cover stop', separated by commas>"
       poa/crack_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Crack
+        terms: "<translate with synonyms or related terms for 'Crack', separated by commas>"
       poa/electricCharge_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Electrical charge
+        terms: "<translate with synonyms or related terms for 'Electrical charge', separated by commas>"
       poa/electricalpanel_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Electrical panel
+        terms: "<translate with synonyms or related terms for 'Electrical panel', separated by commas>"
       poa/fall_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Fall
+        terms: "<translate with synonyms or related terms for 'Fall', separated by commas>"
       poa/frontstep_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Front step
+        terms: "<translate with synonyms or related terms for 'Front step', separated by commas>"
       poa/gardenerbox_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Gardener box
+        terms: "<translate with synonyms or related terms for 'Gardener box', separated by commas>"
       poa/handicapparking_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Handicap parking
+        terms: "<translate with synonyms or related terms for 'Handicap parking', separated by commas>"
       poa/letterbox_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Letterbox
+        terms: "<translate with synonyms or related terms for 'Letterbox', separated by commas>"
       poa/masterpiece_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Master piece
+        terms: "<translate with synonyms or related terms for 'Master piece', separated by commas>"
       poa/metalgate_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Metal gate
+        terms: "<translate with synonyms or related terms for 'Metal gate', separated by commas>"
       poa/morriscolumn_wegoto:
         # leisure=park
-        name: ATM
+        name: Morris column
         # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        terms: "<translate with synonyms or related terms for 'Morris column', separated by commas>"
       poa/notcoverstop_wegoto:
         # leisure=park
-        name: ATM
+        name: Not cover Stop
         # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        terms: "<translate with synonyms or related terms for 'Not cover Stop', separated by commas>"
       poa/overhanging_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: over Hanging
+        terms: "<translate with synonyms or related terms for 'over Hanging', separated by commas>"
       poa/post_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Post
+        terms: "<translate with synonyms or related terms for 'Post', separated by commas>"
       poa/rail_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Rail
+        terms: "<translate with synonyms or related terms for 'Rail', separated by commas>"
       poa/roadsign_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Road sign
+        terms: "<translate with synonyms or related terms for 'Road sign', separated by commas>"
       poa/separatewaste_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Separate waste
+        terms: "<translate with synonyms or related terms for 'Separate waste', separated by commas>"
       poa/streetlamp_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Street lamp
+        terms: "<translate with synonyms or related terms for 'Street lamp', separated by commas>"
       poa/toilet_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Toilet
+        terms: "<translate with synonyms or related terms for 'Toilet', separated by commas>"
       poa/trash_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Trash
+        terms: "<translate with synonyms or related terms for 'Trash', separated by commas>"
       poa/tree_wegoto:
         # leisure=park
-        name: ATM
-        # 'terms: atm,distributeur'
-        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+        name: Tree
+        terms: "<translate with synonyms or related terms for 'Tree', separated by commas>"
       point:
         name: Point
         terms: "<translate with synonyms or related terms for 'Point', separated by commas>"

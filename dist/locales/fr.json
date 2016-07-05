@@ -753,6 +753,16 @@
             "admin_level": {
                 "label": "Niveau administratif"
             },
+              "atm_wegoto": {
+                "label": "Distributeur de billet"
+            },
+
+
+
+
+
+
+
             "aerialway": {
                 "label": "Type"
             },
