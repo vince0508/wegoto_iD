@@ -613,6 +613,12 @@
     },
     "presets": {
         "categories": {
+            "category-poa": {
+                "name": "Point of alert"
+            },
+            "category-poi": {
+                "name": "Point of interest"
+            },
             "category-road": {
                 "name": "Road Features"
             }

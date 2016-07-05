@@ -1,4 +1,16 @@
 {
+    "category-poa": {
+        "geometry": "point",
+        "name": "Point of alert",
+        "icon": "category-poa",
+        "members": []
+    },
+    "category-poi": {
+        "geometry": "point",
+        "name": "Point of interest",
+        "icon": "category-poi",
+        "members": []
+    },
     "category-road": {
         "geometry": "line",
         "name": "Road Features",

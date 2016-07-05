@@ -7,6 +7,8 @@
         "line"
     ],
     "point": [
+        "category-poi",
+        "category-poa",
         "leisure/park",
         "amenity/hospital",
         "amenity/place_of_worship",

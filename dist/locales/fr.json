@@ -468,7 +468,7 @@
     },
     "splash": {
         "welcome": "Bienvenue sur l'éditeur en ligne de Wegoto",
-        "text": "ID est un outil convivial mais puissant pour contribuer à la meilleure carte libre du monde. Ceci est la version {version}. Pour plus d'informations consultez {website} et reportez les bugs sur {github}.",
+        "text": "Cet éditeur permet de visualiser vos données et les modifier.",
         "walkthrough": "Commencer le tutorial",
         "start": "Editer"
     },
@@ -629,6 +629,12 @@
             },
             "category-road": {
                 "name": "Éléments voiries"
+            },
+             "category-poi": {
+                "name": "Points d'interets"
+            },
+             "category-poa": {
+                "name": "Points d'alertes"
             },
             "category-route": {
                 "name": "Éléments pour itinéraires"
