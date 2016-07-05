@@ -8,9 +8,9 @@
     ],
     "point": [
         "category-poi",
-        "category-poa",
-        "leisure/park",
-        "point"
+        "category-poa"
+       
+        
     ],
     "vertex": [
         "highway/traversee_sortie",
