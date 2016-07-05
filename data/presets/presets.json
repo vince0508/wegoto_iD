@@ -4225,7 +4225,7 @@
             "distributeur"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Distributeur de billet"
         },
         "name": "ATM"
     },
@@ -4239,7 +4239,7 @@
             "banc assis"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Banc assis"
         },
         "name": "Bench"
     },
@@ -4253,7 +4253,7 @@
             "banc debout"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Banc debout"
         },
         "name": "Bench stand"
     },
@@ -4267,7 +4267,7 @@
             "Velos"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Vélo-Ville"
         },
         "name": "Bycicle"
     },
@@ -4281,7 +4281,7 @@
             "Panneau publicitaire"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Panneau publicitaire"
         },
         "name": "Billboard"
     },
@@ -4295,7 +4295,7 @@
             " parking vélos"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Parking vélo"
         },
         "name": "Bycicle park"
     },
@@ -4309,7 +4309,7 @@
             "parking autopartage"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Place autopartage"
         },
         "name": "Carpool"
     },
@@ -4322,7 +4322,7 @@
             "Conservatory"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Véranda commerce"
         },
         "name": "Conservatory"
     },
@@ -4333,7 +4333,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Poteau bas (pas de panneau) Contrasté"
         },
         "name": "Constrasted sign"
     },
@@ -4344,7 +4344,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Arrêt TC avec abris"
         },
         "name": "Cover stop"
     },
@@ -4355,7 +4355,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Fente"
         },
         "name": "Crack"
     },
@@ -4366,7 +4366,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Borne recharge électrique"
         },
         "name": "Electrical charge"
     },
@@ -4377,7 +4377,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Boîtier électrique (EDF)"
         },
         "name": "Electrical panel"
     },
@@ -4388,7 +4388,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Trou"
         },
         "name": "Fall"
     },
@@ -4399,7 +4399,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Perron, seuil"
         },
         "name": "Front step"
     },
@@ -4410,7 +4410,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Jardinière"
         },
         "name": "Gardener box"
     },
@@ -4421,7 +4421,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Place GIG"
         },
         "name": "Handicap parking"
     },
@@ -4432,7 +4432,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Boite aux lettres"
         },
         "name": "Letterbox"
     },
@@ -4443,7 +4443,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Œuvre d'art (statue …)"
         },
         "name": "Master piece"
     },
@@ -4454,7 +4454,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Grille au sol"
         },
         "name": "Metal gate"
     },
@@ -4468,7 +4468,7 @@
             "distributeur"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Colonne Morris"
         },
         "name": "Morris column"
     },
@@ -4482,7 +4482,7 @@
             "distributeur"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Arrêt TC sans abris"
         },
         "name": "Not cover Stop"
     },
@@ -4493,7 +4493,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Obstacle en saillie"
         },
         "name": "over Hanging"
     },
@@ -4504,7 +4504,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Horodateur"
         },
         "name": "Parking meter"
     },
@@ -4515,7 +4515,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Boite aux lettres"
         },
         "name": "Post"
     },
@@ -4526,7 +4526,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Rails"
         },
         "name": "Rail"
     },
@@ -4537,7 +4537,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Panneau haut (avec panneau)"
         },
         "name": "Road sign"
     },
@@ -4548,7 +4548,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Espace tri déchets"
         },
         "name": "Separate waste"
     },
@@ -4559,7 +4559,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Lampadaire"
         },
         "name": "Street lamp"
     },
@@ -4570,7 +4570,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "WC publiques accessibles"
         },
         "name": "Toilet"
     },
@@ -4581,7 +4581,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Corbeille"
         },
         "name": "Trash"
     },
@@ -4592,7 +4592,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:on:name": "Arbre"
         },
         "name": "Tree"
     },
@@ -4606,7 +4606,7 @@
             "distributeur"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "Distributeur de billet"
         },
         "name": "ATM"
     },
@@ -4620,7 +4620,7 @@
             "Velos"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "Vélo-Ville"
         },
         "name": "Bycicle"
     },
@@ -4634,7 +4634,7 @@
             " parking vélos"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "Parking vélo"
         },
         "name": "Bycicle park"
     },
@@ -4648,7 +4648,7 @@
             "parking autopartage"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "Place autopartage"
         },
         "name": "Carpool"
     },
@@ -4659,7 +4659,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "Arrêt TC avec abris"
         },
         "name": "Cover stop"
     },
@@ -4670,7 +4670,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "Jardinière"
         },
         "name": "Gardener box"
     },
@@ -4681,7 +4681,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "Place GIG"
         },
         "name": "Handicap parking"
     },
@@ -4692,7 +4692,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "Boite aux lettres"
         },
         "name": "Letterbox"
     },
@@ -4703,7 +4703,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "Œuvre d'art (statue …)"
         },
         "name": "Master piece"
     },
@@ -4717,7 +4717,7 @@
             "distributeur"
         ],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "Arrêt TC sans abris"
         },
         "name": "Not cover Stop"
     },
@@ -4728,7 +4728,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "Horodateur"
         },
         "name": "Parking meter"
     },
@@ -4739,7 +4739,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "Espace tri déchets"
         },
         "name": "Separate waste"
     },
@@ -4750,7 +4750,7 @@
         ],
         "terms": [],
         "tags": {
-            "leisure": "park"
+            "obstacle:off:name": "WC publiques accessibles"
         },
         "name": "Toilet"
     },

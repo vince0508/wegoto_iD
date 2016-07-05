@@ -8,7 +8,7 @@
        
     ],
     "tags": {
-        "leisure": "park"
+        "obstacle:on:name": "Horodateur"
     },
     "name": "Parking meter"
 }

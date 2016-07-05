@@ -9,7 +9,7 @@
         "Velos"
     ],
     "tags": {
-        "leisure": "park"
+        "obstacle:off:name": "Vélo-Ville"
     },
     "name": "Bycicle"
 }

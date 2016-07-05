@@ -9,7 +9,7 @@
         "distributeur"
     ],
     "tags": {
-        "leisure": "park"
+        "obstacle:off:name": "Arrêt TC sans abris"
     },
     "name": "Not cover Stop"
 }

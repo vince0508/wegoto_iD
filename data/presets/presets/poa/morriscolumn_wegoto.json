@@ -9,7 +9,7 @@
         "distributeur"
     ],
     "tags": {
-        "leisure": "park"
+        "obstacle:on:name": "Colonne Morris"
     },
     "name": "Morris column"
 }

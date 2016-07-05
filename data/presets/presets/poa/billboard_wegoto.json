@@ -9,7 +9,7 @@
         "Panneau publicitaire"
     ],
     "tags": {
-        "leisure": "park"
+        "obstacle:on:name": "Panneau publicitaire"
     },
     "name": "Billboard"
 }

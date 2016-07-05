@@ -9,7 +9,7 @@
         "distributeur"
     ],
     "tags": {
-        "leisure": "park"
+        "obstacle:off:name": "Distributeur de billet"
     },
     "name": "ATM"
 }

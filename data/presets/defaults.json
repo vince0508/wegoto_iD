@@ -10,13 +10,6 @@
         "category-poi",
         "category-poa",
         "leisure/park",
-        "amenity/hospital",
-        "amenity/place_of_worship",
-        "amenity/cafe",
-        "amenity/restaurant",
-        "amenity/fast_food",
-        "amenity/bar",
-        "amenity/bank",
         "point"
     ],
     "vertex": [

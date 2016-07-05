@@ -906,184 +906,184 @@
             "value": "wegotooo"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Distributeur de billet"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Banc assis"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Banc debout"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Vélo-Ville"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Panneau publicitaire"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Parking vélo"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Place autopartage"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Véranda commerce"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Poteau bas (pas de panneau) Contrasté"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Arrêt TC avec abris"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Fente"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Borne recharge électrique"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Boîtier électrique (EDF)"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Trou"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Perron, seuil"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Jardinière"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Place GIG"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Boite aux lettres"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Œuvre d'art (statue …)"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Grille au sol"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Colonne Morris"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Arrêt TC sans abris"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Obstacle en saillie"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Horodateur"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Boite aux lettres"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Rails"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Panneau haut (avec panneau)"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Espace tri déchets"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Lampadaire"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "WC publiques accessibles"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Corbeille"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:on:name",
+            "value": "Arbre"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "Distributeur de billet"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "Vélo-Ville"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "Parking vélo"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "Place autopartage"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "Arrêt TC avec abris"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "Jardinière"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "Place GIG"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "Boite aux lettres"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "Œuvre d'art (statue …)"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "Arrêt TC sans abris"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "Horodateur"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "Espace tri déchets"
         },
         {
-            "key": "leisure",
-            "value": "park"
+            "key": "obstacle:off:name",
+            "value": "WC publiques accessibles"
         },
         {
             "key": "public_transport",

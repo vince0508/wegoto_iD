@@ -9,7 +9,7 @@
         " parking vélos"
     ],
     "tags": {
-        "leisure": "park"
+        "obstacle:on:name": "Parking vélo"
     },
     "name": "Bycicle park"
 }

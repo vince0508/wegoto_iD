@@ -8,7 +8,7 @@
         
     ],
     "tags": {
-        "leisure": "park"
+        "obstacle:on:name": "Boîtier électrique (EDF)"
     },
     "name": "Electrical panel"
 }

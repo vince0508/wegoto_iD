@@ -9,7 +9,7 @@
         "banc assis"
     ],
     "tags": {
-        "leisure": "park"
+        "obstacle:on:name": "Banc assis"
     },
     "name": "Bench"
 }

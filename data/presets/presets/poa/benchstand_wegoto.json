@@ -9,7 +9,7 @@
         "banc debout"
     ],
     "tags": {
-        "leisure": "park"
+        "obstacle:on:name": "Banc debout"
     },
     "name": "Bench stand"
 }

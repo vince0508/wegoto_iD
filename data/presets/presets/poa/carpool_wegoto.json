@@ -9,7 +9,7 @@
         "parking autopartage"
     ],
     "tags": {
-        "leisure": "park"
+        "obstacle:on:name": "Place autopartage"
     },
     "name": "Carpool"
 }

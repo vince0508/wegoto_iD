@@ -8,7 +8,7 @@
         
     ],
     "tags": {
-        "leisure": "park"
+        "obstacle:off:name": "Boite aux lettres"
     },
     "name": "Letterbox"
 }
