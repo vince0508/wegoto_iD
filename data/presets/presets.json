@@ -4216,7 +4216,7 @@
         "matchScore": 0.1
     },
     "poa/atm_wegoto": {
-        "icon": "park",
+        "icon": "information",
         "geometry": [
             "point"
         ],
