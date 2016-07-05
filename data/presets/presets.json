@@ -4564,7 +4564,7 @@
         "name": "Street lamp"
     },
     "poa/toilet_wegoto": {
-        "icon": "park",
+        "icon": "toilets",
         "geometry": [
             "point"
         ],
@@ -4744,7 +4744,7 @@
         "name": "Separate waste"
     },
     "poi/toilet_wegoto": {
-        "icon": "park",
+        "icon": "toilets",
         "geometry": [
             "point"
         ],
