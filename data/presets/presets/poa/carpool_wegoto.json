@@ -1,0 +1,15 @@
+{
+    "icon": "park",
+    "geometry": [
+        "point"
+       
+    ],
+    "terms": [
+        "atm",
+        "distributeur"
+    ],
+    "tags": {
+        "leisure": "park"
+    },
+    "name": "ATM"
+}

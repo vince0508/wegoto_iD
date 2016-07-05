@@ -4215,6 +4215,440 @@
         ],
         "matchScore": 0.1
     },
+    "poa/atm_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/bench_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/benchstand_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/bicycle_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/billboard_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/byciclepark_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/carpool_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/conservatory_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/constrastedsign_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/coverstop_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/crack_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/electricCharge_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/electricalpanel_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/fall_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/frontstep_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/gardenerbox_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/handicapparking_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/letterbox_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/masterpiece_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/metalgate_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/morriscolumn_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/notcoverstop_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/overhanging_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/post_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/rail_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/roadsign_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/separatewaste_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/streetlamp_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/toilet_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/trash_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poa/tree_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
     "point": {
         "name": "Point",
         "tags": {},

@@ -2619,6 +2619,130 @@
                 "name": "Line",
                 "terms": ""
             },
+            "poa/atm_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/bench_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/benchstand_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/bicycle_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/billboard_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/byciclepark_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/carpool_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/conservatory_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/constrastedsign_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/coverstop_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/crack_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/electricCharge_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/electricalpanel_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/fall_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/frontstep_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/gardenerbox_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/handicapparking_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/letterbox_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/masterpiece_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/metalgate_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/morriscolumn_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/notcoverstop_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/overhanging_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/post_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/rail_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/roadsign_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/separatewaste_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/streetlamp_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/toilet_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/trash_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poa/tree_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
             "point": {
                 "name": "Point",
                 "terms": ""

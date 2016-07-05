@@ -2376,6 +2376,161 @@ en:
       line:
         name: Line
         terms: "<translate with synonyms or related terms for 'Line', separated by commas>"
+      poa/atm_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/bench_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/benchstand_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/bicycle_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/billboard_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/byciclepark_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/carpool_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/conservatory_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/constrastedsign_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/coverstop_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/crack_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/electricCharge_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/electricalpanel_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/fall_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/frontstep_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/gardenerbox_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/handicapparking_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/letterbox_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/masterpiece_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/metalgate_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/morriscolumn_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/notcoverstop_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/overhanging_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/post_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/rail_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/roadsign_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/separatewaste_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/streetlamp_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/toilet_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/trash_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poa/tree_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
       point:
         name: Point
         terms: "<translate with synonyms or related terms for 'Point', separated by commas>"

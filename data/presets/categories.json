@@ -2,12 +2,43 @@
     "category-poa": {
         "geometry": "point",
         "name": "Point of alert",
-        "members": []
+        "members": [
+            "poa/post_wegoto",
+            "poa/streetlamp_wegoto",
+            "poa/roadsign_wegoto",
+            "poa/trash_wegoto",
+            "poa/billboard_wegoto",
+            "poa/morriscolumn_wegoto",
+            "poa/byciclepark_wegoto",
+            "poa/coverstop_wegoto",
+            "poa/notcoverstop_wegoto",
+            "poa/bench_wegoto",
+            "poa/gardenerbox_wegoto",
+            "poa/masterpiece_wegoto",
+            "poa/electricalpanel_wegoto",
+            "poa/metalgate_wegoto",
+            "poa/overhanging_wegoto",
+            "poa/tree_wegoto",
+            "poa/rail_wegoto",
+            "poa/benchstand_wegoto",
+            "poa/letterbox_wegoto",
+            "poa/toilet_wegoto",
+            "poa/handicapparking_wegoto",
+            "poa/atm_wegoto",
+            "poa/separatewaste_wegoto",
+            "poa/constrastedsign_wegoto",
+            "poa/bicycle_wegoto",
+            "poa/conservatory_wegoto",
+            "poa/carpool_wegoto",
+            "poa/electricCharge_wegoto",
+            "poa/fall_wegoto",
+            "poa/crack_wegoto",
+            "poa/frontstep_wegoto"
+        ]
     },
     "category-poi": {
         "geometry": "point",
         "name": "Point of interest",
-        "icon": "category-poi",
         "members": []
     },
     "category-road": {
