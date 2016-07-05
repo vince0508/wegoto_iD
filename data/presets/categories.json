@@ -2,7 +2,6 @@
     "category-poa": {
         "geometry": "point",
         "name": "Point of alert",
-        "icon": "category-poa",
         "members": []
     },
     "category-poi": {
