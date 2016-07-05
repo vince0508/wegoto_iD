@@ -753,9 +753,7 @@
             "admin_level": {
                 "label": "Niveau administratif"
             },
-              "atm_wegoto": {
-                "label": "Distributeur de billet"
-            },
+          
 
 
 
@@ -2850,6 +2848,9 @@
                 "terms": "Chaussée"
             },
 
+
+
+
              "highway/chemin_wegoto": {
                 "name": "Chemin",
                 "terms": "Chemin"
@@ -2898,6 +2899,106 @@
                 "name": "Autre type de voie",
                 "terms": "Route inconnue"
             },
+
+
+            "poa/atm_wegoto": {
+                "name": "Distributeur de billet"
+            },
+
+
+             "poa/bench_wegoto": {
+                "name": "Banc assis"
+            },
+             "poa/benchstand_wegoto": {
+                "name": "Banc debout"
+            },
+
+             "poa/bicycle_wegoto": {
+                "name": "Vélos-Ville"
+            },
+             "poa/billboard_wegoto": {
+                "name": "Panneau publicitaire"
+            },
+             "poa/byciclepark_wegoto": {
+                "name": "Parking à vélos"
+            },
+             "poa/carpool_wegoto": {
+                "name": "Place autopartage"
+            },
+             "poa/conservatory_wegoto": {
+                "name": "Véranda commerce"
+            },
+             "poa/contrastedsign_wegoto": {
+                "name": "Poteau bas contrasté"
+            },
+             "poa/coverstop_wegoto": {
+                "name": "Arrêt TC avec abris"
+            },
+             "poa/crack_wegoto": {
+                "name": "Fente"
+            },
+             "poa/electricalpanel_wegoto": {
+                "name": "Boîtier électrique (EDF)"
+            },
+
+              "poa/electricalCharge_wegoto": {
+                "name": "Borne recharge électrique"
+            },
+              "poa/fail_wegoto": {
+                "name": "Trou"
+            },
+              "poa/frontstep_wegoto": {
+                "name": "Perron, seuil"
+            },
+              "poa/gardenerbox_wegoto": {
+                "name": "Jardiniére"
+            },
+              "poa/handicapparking_wegoto": {
+                "name": "Place GIG"
+            },
+              "poa/letterbox_wegoto": {
+                "name": "Boite aux lettres"
+            },
+            "poa/masterpiece_wegoto": {
+                "name": "Œuvre d'art (statue …)"
+            },
+            "poa/metalgate_wegoto": {
+                "name": "Grille au sol"
+            },
+            "poa/morriscolumn_wegoto": {
+                "name": "Colonne morris"
+            },
+            "poa/notcoverstop_wegoto": {
+                "name": "Arrêt TC sans abris"
+            },
+            "poa/overhanging_wegoto": {
+                "name": "Obstacle en saillie"
+            },
+             "poa/post_wegoto": {
+                "name": "Borne"
+            },
+             "poa/roadsign_wegoto": {
+                "name": "Panneau haut (avec panneau)"
+            },
+             "poa/separatewaste_wegoto": {
+                "name": "Espace tri déchets"
+            },
+             "poa/streetlamp_wegoto": {
+                "name": "Lampadaire"
+            },
+            "poa/toilet_wegoto": {
+                "name": "WC publiques accessibles"
+            },
+            "poa/trash_wegoto": {
+                "name": "Poubelle"
+            },
+            "poa/tree_wegoto": {
+                "name": "Arbre"
+            },
+
+
+
+
             "highway/secondary": {
                 "name": "Route secondaire",
                 "terms": "Route secondaire"
