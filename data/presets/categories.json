@@ -40,7 +40,7 @@
     "category-poi": {
         "geometry": "point",
         "name": "Point of interest",
-        "icon": "information",
+        "icon": "marker",
         "members": [
             "poi/atm_wegoto",
             "poi/bicycle_wegoto",
