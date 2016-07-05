@@ -1,0 +1,15 @@
+{
+    "icon": "park",
+    "geometry": [
+        "point"
+       
+    ],
+    "terms": [
+        "Carpool",
+        "parking autopartage"
+    ],
+    "tags": {
+        "leisure": "park"
+    },
+    "name": "Carpool"
+}

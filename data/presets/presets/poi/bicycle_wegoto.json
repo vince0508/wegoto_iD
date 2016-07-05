@@ -1,0 +1,15 @@
+{
+    "icon": "park",
+    "geometry": [
+        "point"
+       
+    ],
+    "terms": [
+        "bycicle",
+        "Velos"
+    ],
+    "tags": {
+        "leisure": "park"
+    },
+    "name": "Bycicle"
+}

@@ -4497,6 +4497,17 @@
         },
         "name": "over Hanging"
     },
+    "poa/parkingmeter_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Parking meter"
+    },
     "poa/post_wegoto": {
         "icon": "park",
         "geometry": [
@@ -4584,6 +4595,164 @@
             "leisure": "park"
         },
         "name": "Tree"
+    },
+    "poi/atm_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "ATM"
+    },
+    "poi/bicycle_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "bycicle",
+            "Velos"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Bycicle"
+    },
+    "poi/byciclepark_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "Bycicle park",
+            " parking vélos"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Bycicle park"
+    },
+    "poi/carpool_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "Carpool",
+            "parking autopartage"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Carpool"
+    },
+    "poi/coverstop_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Cover stop"
+    },
+    "poi/gardenerbox_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Gardener box"
+    },
+    "poi/handicapparking_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Handicap parking"
+    },
+    "poi/letterbox_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Letterbox"
+    },
+    "poi/masterpiece_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Master piece"
+    },
+    "poi/notcoverstop_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [
+            "atm",
+            "distributeur"
+        ],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Not cover Stop"
+    },
+    "poi/parkingmeter_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Parking meter"
+    },
+    "poi/separatewaste_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Separate waste"
+    },
+    "poi/toilet_wegoto": {
+        "icon": "park",
+        "geometry": [
+            "point"
+        ],
+        "terms": [],
+        "tags": {
+            "leisure": "park"
+        },
+        "name": "Toilet"
     },
     "point": {
         "name": "Point",

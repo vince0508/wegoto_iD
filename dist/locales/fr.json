@@ -2928,11 +2928,14 @@
              "poa/conservatory_wegoto": {
                 "name": "Véranda commerce"
             },
-             "poa/contrastedsign_wegoto": {
+             "poa/constrastedsign_wegoto": {
                 "name": "Poteau bas contrasté"
             },
              "poa/coverstop_wegoto": {
                 "name": "Arrêt TC avec abris"
+            },
+             "poa/parkingmeter_wegoto": {
+                "name": "Horodateur"
             },
              "poa/crack_wegoto": {
                 "name": "Fente"
@@ -2941,10 +2944,10 @@
                 "name": "Boîtier électrique (EDF)"
             },
 
-              "poa/electricalCharge_wegoto": {
+              "poa/electricCharge_wegoto": {
                 "name": "Borne recharge électrique"
             },
-              "poa/fail_wegoto": {
+              "poa/fall_wegoto": {
                 "name": "Trou"
             },
               "poa/frontstep_wegoto": {
@@ -2977,6 +2980,9 @@
              "poa/post_wegoto": {
                 "name": "Borne"
             },
+               "poa/rail_wegoto": {
+                "name": "Rail"
+            },
              "poa/roadsign_wegoto": {
                 "name": "Panneau haut (avec panneau)"
             },
@@ -2995,6 +3001,52 @@
             "poa/tree_wegoto": {
                 "name": "Arbre"
             },
+
+                "poi/atm_wegoto": {
+                "name": "Distributeur de billet"
+            },
+
+                 "poi/bicycle_wegoto": {
+                "name": "Vélos-Ville"
+            },
+                 "poi/byciclepark_wegoto": {
+                "name": "Parking à vélos"
+            },
+                  "poi/carpool_wegoto": {
+                "name": "Place d'autopartage"
+            },
+                  "poi/coverstop_wegoto": {
+                "name": "Arret TC avec abris"
+            },
+                  "poi/gardenerbox_wegoto": {
+                "name": "Bac à Végétation"
+            },
+                  "poi/handicapparking_wegoto": {
+                "name": "Place GIG"
+            },
+
+                    "poi/letterbox_wegoto": {
+                "name": "Boite aux lettres"
+            },
+
+                      "poi/masterpiece_wegoto": {
+                "name": "Oeuvre d'art"
+            },
+                      "poi/notcoverstop_wegoto": {
+                "name": "Arret TC sans abris"
+            },
+                      "poi/parkingmeter_wegoto": {
+                "name": "Horodateur"
+            },
+
+                      "poi/separatewaste_wegoto": {
+                "name": "Tri de déchet"
+            },
+                      "poi/toilet_wegoto": {
+                "name": "WC publique"
+            },
+
+
 
 
 

@@ -1,0 +1,15 @@
+{
+    "icon": "park",
+    "geometry": [
+        "point"
+       
+    ],
+    "terms": [
+        "Bycicle park",
+        " parking vélos"
+    ],
+    "tags": {
+        "leisure": "park"
+    },
+    "name": "Bycicle park"
+}

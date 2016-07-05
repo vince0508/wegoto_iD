@@ -1,0 +1,14 @@
+{
+    "icon": "park",
+    "geometry": [
+        "point"
+       
+    ],
+    "terms": [
+        
+    ],
+    "tags": {
+        "leisure": "park"
+    },
+    "name": "Letterbox"
+}

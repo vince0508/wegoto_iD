@@ -2711,6 +2711,10 @@
                 "name": "over Hanging",
                 "terms": ""
             },
+            "poa/parkingmeter_wegoto": {
+                "name": "Parking meter",
+                "terms": ""
+            },
             "poa/post_wegoto": {
                 "name": "Post",
                 "terms": ""
@@ -2741,6 +2745,58 @@
             },
             "poa/tree_wegoto": {
                 "name": "Tree",
+                "terms": ""
+            },
+            "poi/atm_wegoto": {
+                "name": "ATM",
+                "terms": "atm,distributeur"
+            },
+            "poi/bicycle_wegoto": {
+                "name": "Bycicle",
+                "terms": "bycicle,Velos"
+            },
+            "poi/byciclepark_wegoto": {
+                "name": "Bycicle park",
+                "terms": "Bycicle park, parking vélos"
+            },
+            "poi/carpool_wegoto": {
+                "name": "Carpool",
+                "terms": "Carpool,parking autopartage"
+            },
+            "poi/coverstop_wegoto": {
+                "name": "Cover stop",
+                "terms": ""
+            },
+            "poi/gardenerbox_wegoto": {
+                "name": "Gardener box",
+                "terms": ""
+            },
+            "poi/handicapparking_wegoto": {
+                "name": "Handicap parking",
+                "terms": ""
+            },
+            "poi/letterbox_wegoto": {
+                "name": "Letterbox",
+                "terms": ""
+            },
+            "poi/masterpiece_wegoto": {
+                "name": "Master piece",
+                "terms": ""
+            },
+            "poi/notcoverstop_wegoto": {
+                "name": "Not cover Stop",
+                "terms": "atm,distributeur"
+            },
+            "poi/parkingmeter_wegoto": {
+                "name": "Parking meter",
+                "terms": ""
+            },
+            "poi/separatewaste_wegoto": {
+                "name": "Separate waste",
+                "terms": ""
+            },
+            "poi/toilet_wegoto": {
+                "name": "Toilet",
                 "terms": ""
             },
             "point": {

@@ -2478,6 +2478,10 @@ en:
         # leisure=park
         name: over Hanging
         terms: "<translate with synonyms or related terms for 'over Hanging', separated by commas>"
+      poa/parkingmeter_wegoto:
+        # leisure=park
+        name: Parking meter
+        terms: "<translate with synonyms or related terms for 'Parking meter', separated by commas>"
       poa/post_wegoto:
         # leisure=park
         name: Post
@@ -2510,6 +2514,63 @@ en:
         # leisure=park
         name: Tree
         terms: "<translate with synonyms or related terms for 'Tree', separated by commas>"
+      poi/atm_wegoto:
+        # leisure=park
+        name: ATM
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
+      poi/bicycle_wegoto:
+        # leisure=park
+        name: Bycicle
+        # 'terms: bycicle,Velos'
+        terms: "<translate with synonyms or related terms for 'Bycicle', separated by commas>"
+      poi/byciclepark_wegoto:
+        # leisure=park
+        name: Bycicle park
+        # 'terms: Bycicle park, parking vélos'
+        terms: "<translate with synonyms or related terms for 'Bycicle park', separated by commas>"
+      poi/carpool_wegoto:
+        # leisure=park
+        name: Carpool
+        # 'terms: Carpool,parking autopartage'
+        terms: "<translate with synonyms or related terms for 'Carpool', separated by commas>"
+      poi/coverstop_wegoto:
+        # leisure=park
+        name: Cover stop
+        terms: "<translate with synonyms or related terms for 'Cover stop', separated by commas>"
+      poi/gardenerbox_wegoto:
+        # leisure=park
+        name: Gardener box
+        terms: "<translate with synonyms or related terms for 'Gardener box', separated by commas>"
+      poi/handicapparking_wegoto:
+        # leisure=park
+        name: Handicap parking
+        terms: "<translate with synonyms or related terms for 'Handicap parking', separated by commas>"
+      poi/letterbox_wegoto:
+        # leisure=park
+        name: Letterbox
+        terms: "<translate with synonyms or related terms for 'Letterbox', separated by commas>"
+      poi/masterpiece_wegoto:
+        # leisure=park
+        name: Master piece
+        terms: "<translate with synonyms or related terms for 'Master piece', separated by commas>"
+      poi/notcoverstop_wegoto:
+        # leisure=park
+        name: Not cover Stop
+        # 'terms: atm,distributeur'
+        terms: "<translate with synonyms or related terms for 'Not cover Stop', separated by commas>"
+      poi/parkingmeter_wegoto:
+        # leisure=park
+        name: Parking meter
+        terms: "<translate with synonyms or related terms for 'Parking meter', separated by commas>"
+      poi/separatewaste_wegoto:
+        # leisure=park
+        name: Separate waste
+        terms: "<translate with synonyms or related terms for 'Separate waste', separated by commas>"
+      poi/toilet_wegoto:
+        # leisure=park
+        name: Toilet
+        terms: "<translate with synonyms or related terms for 'Toilet', separated by commas>"
       point:
         name: Point
         terms: "<translate with synonyms or related terms for 'Point', separated by commas>"

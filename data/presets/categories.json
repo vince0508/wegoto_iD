@@ -16,6 +16,7 @@
             "poa/gardenerbox_wegoto",
             "poa/masterpiece_wegoto",
             "poa/electricalpanel_wegoto",
+            "poa/parkingmeter_wegoto",
             "poa/metalgate_wegoto",
             "poa/overhanging_wegoto",
             "poa/tree_wegoto",
@@ -39,7 +40,20 @@
     "category-poi": {
         "geometry": "point",
         "name": "Point of interest",
-        "members": []
+        "members": [
+            "poi/atm_wegoto",
+            "poi/bicycle_wegoto",
+            "poi/carpool_wegoto",
+            "poi/coverstop_wegoto",
+            "poi/gardenerbox_wegoto",
+            "poi/handicapparking_wegoto",
+            "poi/letterbox_wegoto",
+            "poi/masterpiece_wegoto",
+            "poi/notcoverstop_wegoto",
+            "poi/parkingmeter_wegoto",
+            "poi/separatewaste_wegoto",
+            "poi/toilet_wegoto"
+        ]
     },
     "category-road": {
         "geometry": "line",
