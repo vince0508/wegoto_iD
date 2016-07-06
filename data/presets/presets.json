@@ -4216,7 +4216,7 @@
         "matchScore": 0.1
     },
     "poa/atm_wegoto": {
-        "icon": "information",
+        "icon": "atm",
         "geometry": [
             "point"
         ],
@@ -4360,7 +4360,7 @@
         "name": "Crack"
     },
     "poa/electricCharge_wegoto": {
-        "icon": "park",
+        "icon": "fuel",
         "geometry": [
             "point"
         ],
@@ -4509,7 +4509,7 @@
         "name": "Parking meter"
     },
     "poa/post_wegoto": {
-        "icon": "park",
+        "icon": "beer",
         "geometry": [
             "point"
         ],
@@ -4597,7 +4597,7 @@
         "name": "Tree"
     },
     "poi/atm_wegoto": {
-        "icon": "park",
+        "icon": "atm",
         "geometry": [
             "point"
         ],
