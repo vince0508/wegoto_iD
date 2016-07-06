@@ -4415,7 +4415,7 @@
         "name": "Gardener box"
     },
     "poa/handicapparking_wegoto": {
-        "icon": "park",
+        "icon": "disability",
         "geometry": [
             "point"
         ],
@@ -4625,7 +4625,7 @@
         "name": "Bycicle"
     },
     "poi/byciclepark_wegoto": {
-        "icon": "bicycle",
+        "icon": "parking-garage",
         "geometry": [
             "point"
         ],
@@ -4653,7 +4653,7 @@
         "name": "Carpool"
     },
     "poi/coverstop_wegoto": {
-        "icon": "park",
+        "icon": "bus",
         "geometry": [
             "point"
         ],
