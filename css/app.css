@@ -45,11 +45,7 @@ body {
     height: 0;
 }
 
-svg.icon.marker-stroked{
-    stroke:#E53A41;
-    stroke-width:2;
 
-}
 .spacer {
     height: 40px;
     margin-right: 10px;

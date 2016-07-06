@@ -4314,7 +4314,7 @@
         "name": "Carpool"
     },
     "poa/conservatory_wegoto": {
-        "icon": "park",
+        "icon": "veranda",
         "geometry": [
             "point"
         ],
@@ -4459,7 +4459,7 @@
         "name": "Metal gate"
     },
     "poa/morriscolumn_wegoto": {
-        "icon": "park",
+        "icon": "morris",
         "geometry": [
             "point"
         ],
@@ -4531,7 +4531,7 @@
         "name": "Rail"
     },
     "poa/roadsign_wegoto": {
-        "icon": "roadblock",
+        "icon": "panneau2",
         "geometry": [
             "point"
         ],
