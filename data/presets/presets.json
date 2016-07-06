@@ -4498,7 +4498,7 @@
         "name": "over Hanging"
     },
     "poa/parkingmeter_wegoto": {
-        "icon": "parking",
+        "icon": "parking-meter",
         "geometry": [
             "point"
         ],
@@ -4722,7 +4722,7 @@
         "name": "Not cover Stop"
     },
     "poi/parkingmeter_wegoto": {
-        "icon": "parking",
+        "icon": "parking-meter",
         "geometry": [
             "point"
         ],
