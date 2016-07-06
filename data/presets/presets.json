@@ -4230,7 +4230,7 @@
         "name": "ATM"
     },
     "poa/bench_wegoto": {
-        "icon": "park",
+        "icon": "bench",
         "geometry": [
             "point"
         ],
@@ -4272,7 +4272,7 @@
         "name": "Bycicle"
     },
     "poa/billboard_wegoto": {
-        "icon": "park",
+        "icon": "billboard",
         "geometry": [
             "point"
         ],
@@ -4286,7 +4286,7 @@
         "name": "Billboard"
     },
     "poa/byciclepark_wegoto": {
-        "icon": "parking-garage",
+        "icon": "bike-parking",
         "geometry": [
             "point"
         ],
@@ -4327,7 +4327,7 @@
         "name": "Conservatory"
     },
     "poa/constrastedsign_wegoto": {
-        "icon": "park",
+        "icon": "poteau",
         "geometry": [
             "point"
         ],
@@ -4349,7 +4349,7 @@
         "name": "Cover stop"
     },
     "poa/crack_wegoto": {
-        "icon": "park",
+        "icon": "fente",
         "geometry": [
             "point"
         ],
@@ -4371,7 +4371,7 @@
         "name": "Electrical charge"
     },
     "poa/electricalpanel_wegoto": {
-        "icon": "park",
+        "icon": "electrical",
         "geometry": [
             "point"
         ],
@@ -4382,7 +4382,7 @@
         "name": "Electrical panel"
     },
     "poa/fall_wegoto": {
-        "icon": "park",
+        "icon": "trou",
         "geometry": [
             "point"
         ],
@@ -4393,7 +4393,7 @@
         "name": "Fall"
     },
     "poa/frontstep_wegoto": {
-        "icon": "park",
+        "icon": "front-step",
         "geometry": [
             "point"
         ],
@@ -4448,7 +4448,7 @@
         "name": "Master piece"
     },
     "poa/metalgate_wegoto": {
-        "icon": "park",
+        "icon": "metalgate",
         "geometry": [
             "point"
         ],
@@ -4473,7 +4473,7 @@
         "name": "Morris column"
     },
     "poa/notcoverstop_wegoto": {
-        "icon": "bus",
+        "icon": "bus-not-stop",
         "geometry": [
             "point"
         ],
@@ -4553,7 +4553,7 @@
         "name": "Separate waste"
     },
     "poa/streetlamp_wegoto": {
-        "icon": "park",
+        "icon": "lamp",
         "geometry": [
             "point"
         ],
@@ -4625,7 +4625,7 @@
         "name": "Bycicle"
     },
     "poi/byciclepark_wegoto": {
-        "icon": "parking-garage",
+        "icon": "bike-parking",
         "geometry": [
             "point"
         ],
@@ -4708,7 +4708,7 @@
         "name": "Master piece"
     },
     "poi/notcoverstop_wegoto": {
-        "icon": "bus",
+        "icon": "bus-not-stop",
         "geometry": [
             "point"
         ],

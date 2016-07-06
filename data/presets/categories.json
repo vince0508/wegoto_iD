@@ -2,6 +2,7 @@
     "category-poa": {
         "geometry": "point",
         "name": "Point of alert",
+        "icon": "poa",
         "members": [
             "poa/post_wegoto",
             "poa/streetlamp_wegoto",
@@ -40,7 +41,7 @@
     "category-poi": {
         "geometry": "point",
         "name": "Point of interest",
-        "icon": "information",
+        "icon": "poi",
         "members": [
             "poi/atm_wegoto",
             "poi/bicycle_wegoto",
