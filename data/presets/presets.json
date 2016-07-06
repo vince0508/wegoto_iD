@@ -4487,7 +4487,7 @@
         "name": "Not cover Stop"
     },
     "poa/overhanging_wegoto": {
-        "icon": "park",
+        "icon": "saillie",
         "geometry": [
             "point"
         ],
