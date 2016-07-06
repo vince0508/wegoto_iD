@@ -4300,7 +4300,7 @@
         "name": "Bycicle park"
     },
     "poa/carpool_wegoto": {
-        "icon": "park",
+        "icon": "autopartage",
         "geometry": [
             "point"
         ],
@@ -4338,7 +4338,7 @@
         "name": "Constrasted sign"
     },
     "poa/coverstop_wegoto": {
-        "icon": "bus",
+        "icon": "bus-stop",
         "geometry": [
             "point"
         ],
@@ -4639,7 +4639,7 @@
         "name": "Bycicle park"
     },
     "poi/carpool_wegoto": {
-        "icon": "park",
+        "icon": "autopartage",
         "geometry": [
             "point"
         ],
@@ -4653,7 +4653,7 @@
         "name": "Carpool"
     },
     "poi/coverstop_wegoto": {
-        "icon": "bus",
+        "icon": "bus-stop",
         "geometry": [
             "point"
         ],
