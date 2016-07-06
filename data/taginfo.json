@@ -16,34 +16,7 @@
             "key": "addr:housenumber"
         },
         {
-            "key": "aerialway"
-        },
-        {
-            "key": "aeroway"
-        },
-        {
-            "key": "amenity"
-        },
-        {
-            "key": "barrier"
-        },
-        {
-            "key": "building"
-        },
-        {
-            "key": "embankment",
-            "value": "yes"
-        },
-        {
             "key": "entrance"
-        },
-        {
-            "key": "footway",
-            "value": "crossing"
-        },
-        {
-            "key": "crossing",
-            "value": "zebra"
         },
         {
             "key": "highway"
@@ -51,10 +24,6 @@
         {
             "key": "footway",
             "value": "other"
-        },
-        {
-            "key": "highway",
-            "value": "bus_stop"
         },
         {
             "key": "highway",
@@ -66,15 +35,7 @@
         },
         {
             "key": "highway",
-            "value": "corridor"
-        },
-        {
-            "key": "highway",
             "value": "crossing"
-        },
-        {
-            "key": "crossing",
-            "value": "zebra"
         },
         {
             "key": "highway",
@@ -90,63 +51,7 @@
         },
         {
             "key": "highway",
-            "value": "living_street"
-        },
-        {
-            "key": "highway",
-            "value": "mini_roundabout"
-        },
-        {
-            "key": "highway",
-            "value": "motorway"
-        },
-        {
-            "key": "highway",
-            "value": "motorway_junction"
-        },
-        {
-            "key": "highway",
-            "value": "motorway_link"
-        },
-        {
-            "key": "highway",
             "value": "pedestrian"
-        },
-        {
-            "key": "highway",
-            "value": "primary"
-        },
-        {
-            "key": "highway",
-            "value": "primary_link"
-        },
-        {
-            "key": "highway",
-            "value": "raceway"
-        },
-        {
-            "key": "highway",
-            "value": "residential"
-        },
-        {
-            "key": "highway",
-            "value": "rest_area"
-        },
-        {
-            "key": "highway",
-            "value": "road"
-        },
-        {
-            "key": "highway",
-            "value": "secondary"
-        },
-        {
-            "key": "highway",
-            "value": "secondary_link"
-        },
-        {
-            "key": "highway",
-            "value": "service"
         },
         {
             "key": "service",
@@ -170,35 +75,7 @@
         },
         {
             "key": "highway",
-            "value": "services"
-        },
-        {
-            "key": "highway",
             "value": "steps"
-        },
-        {
-            "key": "highway",
-            "value": "stop"
-        },
-        {
-            "key": "highway",
-            "value": "street_lamp"
-        },
-        {
-            "key": "highway",
-            "value": "tertiary"
-        },
-        {
-            "key": "highway",
-            "value": "tertiary_link"
-        },
-        {
-            "key": "highway",
-            "value": "track"
-        },
-        {
-            "key": "highway",
-            "value": "traffic_signals"
         },
         {
             "key": "crossing:node",
@@ -214,32 +91,11 @@
         },
         {
             "key": "highway",
-            "value": "trunk"
-        },
-        {
-            "key": "highway",
-            "value": "trunk_link"
-        },
-        {
-            "key": "highway",
-            "value": "turning_circle"
-        },
-        {
-            "key": "highway",
             "value": "unclassified"
-        },
-        {
-            "key": "historic"
         },
         {
             "key": "junction",
             "value": "yes"
-        },
-        {
-            "key": "landuse"
-        },
-        {
-            "key": "leisure"
         },
         {
             "key": "obstacle:on:name",
@@ -422,15 +278,8 @@
             "value": "WC publiques accessibles"
         },
         {
-            "key": "railway"
-        },
-        {
             "key": "junction",
             "value": "roundabout"
-        },
-        {
-            "key": "boundary",
-            "value": "administrative"
         },
         {
             "key": "restriction",

@@ -1715,41 +1715,9 @@
                 "name": "Address",
                 "terms": ""
             },
-            "aerialway": {
-                "name": "Aerialway",
-                "terms": "ski lift,funifor,funitel"
-            },
-            "aeroway": {
-                "name": "Aeroway",
-                "terms": ""
-            },
-            "amenity": {
-                "name": "Amenity",
-                "terms": ""
-            },
-            "barrier": {
-                "name": "Barrier",
-                "terms": ""
-            },
-            "building": {
-                "name": "Building",
-                "terms": ""
-            },
-            "embankment": {
-                "name": "Embankment",
-                "terms": ""
-            },
             "entrance": {
                 "name": "Entrance/Exit",
                 "terms": ""
-            },
-            "footway/crossing": {
-                "name": "Street Crossing",
-                "terms": ""
-            },
-            "footway/crosswalk": {
-                "name": "Pedestrian Crosswalk",
-                "terms": "zebra crossing"
             },
             "highway": {
                 "name": "Highway",
@@ -1757,10 +1725,6 @@
             },
             "highway/autre_wegoto": {
                 "name": "Other Road",
-                "terms": ""
-            },
-            "highway/bus_stop": {
-                "name": "Bus Stop",
                 "terms": ""
             },
             "highway/chausse_wegoto": {
@@ -1771,17 +1735,9 @@
                 "name": "Path",
                 "terms": ""
             },
-            "highway/corridor": {
-                "name": "Indoor Corridor",
-                "terms": "gallery,hall,hallway,indoor,passage,passageway"
-            },
             "highway/crossing": {
                 "name": "Street Crossing",
                 "terms": ""
-            },
-            "highway/crosswalk": {
-                "name": "Pedestrian Crosswalk",
-                "terms": "zebra crossing"
             },
             "highway/cyclable_wegoto": {
                 "name": "Cycle Path",
@@ -1795,64 +1751,8 @@
                 "name": "Island",
                 "terms": ""
             },
-            "highway/living_street": {
-                "name": "Living Street",
-                "terms": ""
-            },
-            "highway/mini_roundabout": {
-                "name": "Mini-Roundabout",
-                "terms": ""
-            },
-            "highway/motorway": {
-                "name": "Motorway",
-                "terms": ""
-            },
-            "highway/motorway_junction": {
-                "name": "Motorway Junction / Exit",
-                "terms": ""
-            },
-            "highway/motorway_link": {
-                "name": "Motorway Link",
-                "terms": "ramp,on ramp,off ramp"
-            },
             "highway/pietonne_wegoto": {
                 "name": "Pedestrian Street",
-                "terms": ""
-            },
-            "highway/primary": {
-                "name": "Primary Road",
-                "terms": ""
-            },
-            "highway/primary_link": {
-                "name": "Primary Link",
-                "terms": "ramp,on ramp,off ramp"
-            },
-            "highway/raceway": {
-                "name": "Motor Raceway",
-                "terms": "auto*,race*,nascar"
-            },
-            "highway/residential": {
-                "name": "Residential Road",
-                "terms": ""
-            },
-            "highway/rest_area": {
-                "name": "Rest Area",
-                "terms": "rest stop"
-            },
-            "highway/road": {
-                "name": "Unknown Road",
-                "terms": ""
-            },
-            "highway/secondary": {
-                "name": "Secondary Road",
-                "terms": ""
-            },
-            "highway/secondary_link": {
-                "name": "Secondary Link",
-                "terms": "ramp,on ramp,off ramp"
-            },
-            "highway/service": {
-                "name": "Service Road",
                 "terms": ""
             },
             "highway/service/alley": {
@@ -1875,37 +1775,9 @@
                 "name": "Parking Aisle",
                 "terms": ""
             },
-            "highway/services": {
-                "name": "Service Area",
-                "terms": "services,travel plaza,service station"
-            },
             "highway/steps": {
                 "name": "Steps",
                 "terms": "stairs,staircase"
-            },
-            "highway/stop": {
-                "name": "Stop Sign",
-                "terms": "stop sign"
-            },
-            "highway/street_lamp": {
-                "name": "Street Lamp",
-                "terms": "streetlight,street light,lamp,light,gaslight"
-            },
-            "highway/tertiary": {
-                "name": "Tertiary Road",
-                "terms": ""
-            },
-            "highway/tertiary_link": {
-                "name": "Tertiary Link",
-                "terms": "ramp,on ramp,off ramp"
-            },
-            "highway/track": {
-                "name": "Unmaintained Track Road",
-                "terms": "woods road,forest road,logging road,fire road,farm road,agricultural road,ranch road,carriage road,primitive,unmaintained,rut,offroad,4wd,4x4,four wheel drive,atv,quad,jeep,double track,two track"
-            },
-            "highway/traffic_signals": {
-                "name": "Traffic Signals",
-                "terms": "light,stoplight,traffic light"
             },
             "highway/traversee_sortie": {
                 "name": "Crossing",
@@ -1919,36 +1791,12 @@
                 "name": "SideWalk",
                 "terms": ""
             },
-            "highway/trunk": {
-                "name": "Trunk Road",
-                "terms": ""
-            },
-            "highway/trunk_link": {
-                "name": "Trunk Link",
-                "terms": "ramp,on ramp,off ramp"
-            },
-            "highway/turning_circle": {
-                "name": "Turning Circle",
-                "terms": "cul-de-sac"
-            },
             "highway/unclassified": {
                 "name": "Minor/Unclassified Road",
                 "terms": ""
             },
-            "historic": {
-                "name": "Historic Site",
-                "terms": ""
-            },
             "junction": {
                 "name": "Junction",
-                "terms": ""
-            },
-            "landuse": {
-                "name": "Land Use",
-                "terms": ""
-            },
-            "leisure": {
-                "name": "Leisure",
                 "terms": ""
             },
             "line": {
@@ -2139,20 +1987,12 @@
                 "name": "Point",
                 "terms": ""
             },
-            "railway": {
-                "name": "Railway",
-                "terms": ""
-            },
             "relation": {
                 "name": "Relation",
                 "terms": ""
             },
             "roundabout": {
                 "name": "Roundabout",
-                "terms": ""
-            },
-            "type/boundary/administrative": {
-                "name": "Administrative Boundary",
                 "terms": ""
             },
             "type/restriction/no_left_turn": {

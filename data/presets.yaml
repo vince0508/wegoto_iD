@@ -1365,44 +1365,10 @@ en:
         # 'addr:housenumber=*'
         name: Address
         terms: "<translate with synonyms or related terms for 'Address', separated by commas>"
-      aerialway:
-        # 'aerialway=*'
-        name: Aerialway
-        # 'terms: ski lift,funifor,funitel'
-        terms: "<translate with synonyms or related terms for 'Aerialway', separated by commas>"
-      aeroway:
-        # 'aeroway=*'
-        name: Aeroway
-        terms: "<translate with synonyms or related terms for 'Aeroway', separated by commas>"
-      amenity:
-        # 'amenity=*'
-        name: Amenity
-        terms: "<translate with synonyms or related terms for 'Amenity', separated by commas>"
-      barrier:
-        # 'barrier=*'
-        name: Barrier
-        terms: "<translate with synonyms or related terms for 'Barrier', separated by commas>"
-      building:
-        # 'building=*'
-        name: Building
-        terms: "<translate with synonyms or related terms for 'Building', separated by commas>"
-      embankment:
-        # embankment=yes
-        name: Embankment
-        terms: "<translate with synonyms or related terms for 'Embankment', separated by commas>"
       entrance:
         # 'entrance=*'
         name: Entrance/Exit
         terms: "<translate with synonyms or related terms for 'Entrance/Exit', separated by commas>"
-      footway/crossing:
-        # 'highway=footway, footway=crossing'
-        name: Street Crossing
-        terms: "<translate with synonyms or related terms for 'Street Crossing', separated by commas>"
-      footway/crosswalk:
-        # 'highway=footway, footway=crossing, crossing=zebra'
-        name: Pedestrian Crosswalk
-        # 'terms: zebra crossing'
-        terms: "<translate with synonyms or related terms for 'Pedestrian Crosswalk', separated by commas>"
       highway:
         # 'highway=*'
         name: Highway
@@ -1411,10 +1377,6 @@ en:
         # footway=other
         name: Other Road
         terms: "<translate with synonyms or related terms for 'Other Road', separated by commas>"
-      highway/bus_stop:
-        # highway=bus_stop
-        name: Bus Stop
-        terms: "<translate with synonyms or related terms for 'Bus Stop', separated by commas>"
       highway/chausse_wegoto:
         # highway=road
         name: Road
@@ -1423,20 +1385,10 @@ en:
         # highway=path
         name: Path
         terms: "<translate with synonyms or related terms for 'Path', separated by commas>"
-      highway/corridor:
-        # highway=corridor
-        name: Indoor Corridor
-        # 'terms: gallery,hall,hallway,indoor,passage,passageway'
-        terms: "<translate with synonyms or related terms for 'Indoor Corridor', separated by commas>"
       highway/crossing:
         # highway=crossing
         name: Street Crossing
         terms: "<translate with synonyms or related terms for 'Street Crossing', separated by commas>"
-      highway/crosswalk:
-        # 'highway=crossing, crossing=zebra'
-        name: Pedestrian Crosswalk
-        # 'terms: zebra crossing'
-        terms: "<translate with synonyms or related terms for 'Pedestrian Crosswalk', separated by commas>"
       highway/cyclable_wegoto:
         # highway=cycleway
         name: Cycle Path
@@ -1450,71 +1402,10 @@ en:
         # footway=island
         name: Island
         terms: "<translate with synonyms or related terms for 'Island', separated by commas>"
-      highway/living_street:
-        # highway=living_street
-        name: Living Street
-        terms: "<translate with synonyms or related terms for 'Living Street', separated by commas>"
-      highway/mini_roundabout:
-        # highway=mini_roundabout
-        name: Mini-Roundabout
-        terms: "<translate with synonyms or related terms for 'Mini-Roundabout', separated by commas>"
-      highway/motorway:
-        # highway=motorway
-        name: Motorway
-        terms: "<translate with synonyms or related terms for 'Motorway', separated by commas>"
-      highway/motorway_junction:
-        # highway=motorway_junction
-        name: Motorway Junction / Exit
-        terms: "<translate with synonyms or related terms for 'Motorway Junction / Exit', separated by commas>"
-      highway/motorway_link:
-        # highway=motorway_link
-        name: Motorway Link
-        # 'terms: ramp,on ramp,off ramp'
-        terms: "<translate with synonyms or related terms for 'Motorway Link', separated by commas>"
       highway/pietonne_wegoto:
         # highway=pedestrian
         name: Pedestrian Street
         terms: "<translate with synonyms or related terms for 'Pedestrian Street', separated by commas>"
-      highway/primary:
-        # highway=primary
-        name: Primary Road
-        terms: "<translate with synonyms or related terms for 'Primary Road', separated by commas>"
-      highway/primary_link:
-        # highway=primary_link
-        name: Primary Link
-        # 'terms: ramp,on ramp,off ramp'
-        terms: "<translate with synonyms or related terms for 'Primary Link', separated by commas>"
-      highway/raceway:
-        # highway=raceway
-        name: Motor Raceway
-        # 'terms: auto*,race*,nascar'
-        terms: "<translate with synonyms or related terms for 'Motor Raceway', separated by commas>"
-      highway/residential:
-        # highway=residential
-        name: Residential Road
-        terms: "<translate with synonyms or related terms for 'Residential Road', separated by commas>"
-      highway/rest_area:
-        # highway=rest_area
-        name: Rest Area
-        # 'terms: rest stop'
-        terms: "<translate with synonyms or related terms for 'Rest Area', separated by commas>"
-      highway/road:
-        # highway=road
-        name: Unknown Road
-        terms: "<translate with synonyms or related terms for 'Unknown Road', separated by commas>"
-      highway/secondary:
-        # highway=secondary
-        name: Secondary Road
-        terms: "<translate with synonyms or related terms for 'Secondary Road', separated by commas>"
-      highway/secondary_link:
-        # highway=secondary_link
-        name: Secondary Link
-        # 'terms: ramp,on ramp,off ramp'
-        terms: "<translate with synonyms or related terms for 'Secondary Link', separated by commas>"
-      highway/service:
-        # highway=service
-        name: Service Road
-        terms: "<translate with synonyms or related terms for 'Service Road', separated by commas>"
       highway/service/alley:
         # 'highway=service, service=alley'
         name: Alley
@@ -1535,45 +1426,11 @@ en:
         # 'highway=service, service=parking_aisle'
         name: Parking Aisle
         terms: "<translate with synonyms or related terms for 'Parking Aisle', separated by commas>"
-      highway/services:
-        # highway=services
-        name: Service Area
-        # 'terms: services,travel plaza,service station'
-        terms: "<translate with synonyms or related terms for 'Service Area', separated by commas>"
       highway/steps:
         # highway=steps
         name: Steps
         # 'terms: stairs,staircase'
         terms: "<translate with synonyms or related terms for 'Steps', separated by commas>"
-      highway/stop:
-        # highway=stop
-        name: Stop Sign
-        # 'terms: stop sign'
-        terms: "<translate with synonyms or related terms for 'Stop Sign', separated by commas>"
-      highway/street_lamp:
-        # highway=street_lamp
-        name: Street Lamp
-        # 'terms: streetlight,street light,lamp,light,gaslight'
-        terms: "<translate with synonyms or related terms for 'Street Lamp', separated by commas>"
-      highway/tertiary:
-        # highway=tertiary
-        name: Tertiary Road
-        terms: "<translate with synonyms or related terms for 'Tertiary Road', separated by commas>"
-      highway/tertiary_link:
-        # highway=tertiary_link
-        name: Tertiary Link
-        # 'terms: ramp,on ramp,off ramp'
-        terms: "<translate with synonyms or related terms for 'Tertiary Link', separated by commas>"
-      highway/track:
-        # highway=track
-        name: Unmaintained Track Road
-        # 'terms: woods road,forest road,logging road,fire road,farm road,agricultural road,ranch road,carriage road,primitive,unmaintained,rut,offroad,4wd,4x4,four wheel drive,atv,quad,jeep,double track,two track'
-        terms: "<translate with synonyms or related terms for 'Unmaintained Track Road', separated by commas>"
-      highway/traffic_signals:
-        # highway=traffic_signals
-        name: Traffic Signals
-        # 'terms: light,stoplight,traffic light'
-        terms: "<translate with synonyms or related terms for 'Traffic Signals', separated by commas>"
       highway/traversee_sortie:
         # 'crossing:node=yes'
         name: Crossing
@@ -1586,40 +1443,14 @@ en:
         # 'highway=footway, footway=sidewalk'
         name: SideWalk
         terms: "<translate with synonyms or related terms for 'SideWalk', separated by commas>"
-      highway/trunk:
-        # highway=trunk
-        name: Trunk Road
-        terms: "<translate with synonyms or related terms for 'Trunk Road', separated by commas>"
-      highway/trunk_link:
-        # highway=trunk_link
-        name: Trunk Link
-        # 'terms: ramp,on ramp,off ramp'
-        terms: "<translate with synonyms or related terms for 'Trunk Link', separated by commas>"
-      highway/turning_circle:
-        # highway=turning_circle
-        name: Turning Circle
-        # 'terms: cul-de-sac'
-        terms: "<translate with synonyms or related terms for 'Turning Circle', separated by commas>"
       highway/unclassified:
         # highway=unclassified
         name: Minor/Unclassified Road
         terms: "<translate with synonyms or related terms for 'Minor/Unclassified Road', separated by commas>"
-      historic:
-        # 'historic=*'
-        name: Historic Site
-        terms: "<translate with synonyms or related terms for 'Historic Site', separated by commas>"
       junction:
         # junction=yes
         name: Junction
         terms: "<translate with synonyms or related terms for 'Junction', separated by commas>"
-      landuse:
-        # 'landuse=*'
-        name: Land Use
-        terms: "<translate with synonyms or related terms for 'Land Use', separated by commas>"
-      leisure:
-        # 'leisure=*'
-        name: Leisure
-        terms: "<translate with synonyms or related terms for 'Leisure', separated by commas>"
       line:
         name: Line
         terms: "<translate with synonyms or related terms for 'Line', separated by commas>"
@@ -1821,10 +1652,6 @@ en:
       point:
         name: Point
         terms: "<translate with synonyms or related terms for 'Point', separated by commas>"
-      railway:
-        # 'railway=*'
-        name: Railway
-        terms: "<translate with synonyms or related terms for 'Railway', separated by commas>"
       relation:
         name: Relation
         terms: "<translate with synonyms or related terms for 'Relation', separated by commas>"
@@ -1832,10 +1659,6 @@ en:
         # junction=roundabout
         name: Roundabout
         terms: "<translate with synonyms or related terms for 'Roundabout', separated by commas>"
-      type/boundary/administrative:
-        # 'type=boundary, boundary=administrative'
-        name: Administrative Boundary
-        terms: "<translate with synonyms or related terms for 'Administrative Boundary', separated by commas>"
       type/restriction/no_left_turn:
         # 'type=restriction, restriction=no_left_turn'
         name: No Left Turn
