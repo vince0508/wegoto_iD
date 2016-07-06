@@ -4244,7 +4244,7 @@
         "name": "Bench"
     },
     "poa/benchstand_wegoto": {
-        "icon": "park",
+        "icon": "banc2",
         "geometry": [
             "point"
         ],
@@ -4258,7 +4258,7 @@
         "name": "Bench stand"
     },
     "poa/bicycle_wegoto": {
-        "icon": "banc2",
+        "icon": "bicycle",
         "geometry": [
             "point"
         ],
