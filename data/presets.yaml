@@ -2483,7 +2483,7 @@ en:
         name: Parking meter
         terms: "<translate with synonyms or related terms for 'Parking meter', separated by commas>"
       poa/post_wegoto:
-        # 'obstacle:on:name=Boite aux lettres'
+        # 'obstacle:on:name=Borne'
         name: Post
         terms: "<translate with synonyms or related terms for 'Post', separated by commas>"
       poa/rail_wegoto:
