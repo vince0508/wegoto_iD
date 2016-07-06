@@ -8,357 +8,33 @@ en:
       category-road:
         name: Road Features
     fields:
-      Wego:
-        # 'Wego=*'
-        label: Wego
-      access:
-        # 'access=*, foot=*, motor_vehicle=*, bicycle=*, horse=*'
-        label: Allowed Access
-        options:
-          designated:
-            # access=designated
-            description: Access permitted according to signs or specific local laws
-            # access=designated
-            title: Designated
-          destination:
-            # access=destination
-            description: Access permitted only to reach a destination
-            # access=destination
-            title: Destination
-          dismount:
-            # access=dismount
-            description: Access permitted but rider must dismount
-            # access=dismount
-            title: Dismount
-          'no':
-            # access=no
-            description: Access not permitted to the general public
-            # access=no
-            title: Prohibited
-          permissive:
-            # access=permissive
-            description: Access permitted until such time as the owner revokes the permission
-            # access=permissive
-            title: Permissive
-          private:
-            # access=private
-            description: Access permitted only with permission of the owner on an individual basis
-            # access=private
-            title: Private
-          'yes':
-            # access=yes
-            description: Access permitted by law; a right of way
-            # access=yes
-            title: Allowed
-        # access field placeholder
-        placeholder: Not Specified
-        types:
-          access: All
-          bicycle: Bicycles
-          foot: Foot
-          horse: Horses
-          motor_vehicle: Motor Vehicles
-      access_simple:
-        # 'access=*'
-        label: Allowed Access
-        # access_simple field placeholder
-        placeholder: 'yes'
-      access_toilets:
-        # 'access=*'
-        label: Access
       address:
         # 'addr:city=*, addr:postcode=*'
         label: Address
         placeholders:
           city: City
           postcode: Postcode
-      admin_level:
-        # 'admin_level=*'
-        label: Admin Level
-      aerialway:
-        # 'aerialway=*'
-        label: Type
-      aerialway/access:
-        # 'aerialway:access=*'
-        label: Access
-        options:
-          # 'aerialway:access=both'
-          both: Both
-          # 'aerialway:access=entry'
-          entry: Entry
-          # 'aerialway:access=exit'
-          exit: Exit
-      aerialway/bubble:
-        # 'aerialway:bubble=*'
-        label: Bubble
-      aerialway/capacity:
-        # 'aerialway:capacity=*'
-        label: Capacity (per hour)
-        # aerialway/capacity field placeholder
-        placeholder: '500, 2500, 5000...'
-      aerialway/duration:
-        # 'aerialway:duration=*'
-        label: Duration (minutes)
-        # aerialway/duration field placeholder
-        placeholder: '1, 2, 3...'
-      aerialway/heating:
-        # 'aerialway:heating=*'
-        label: Heated
-      aerialway/occupancy:
-        # 'aerialway:occupancy=*'
-        label: Occupancy
-        # aerialway/occupancy field placeholder
-        placeholder: '2, 4, 8...'
-      aerialway/summer/access:
-        # 'aerialway:summer:access=*'
-        label: Access (summer)
-        options:
-          # 'aerialway:summer:access=both'
-          both: Both
-          # 'aerialway:summer:access=entry'
-          entry: Entry
-          # 'aerialway:summer:access=exit'
-          exit: Exit
-      aeroway:
-        # 'aeroway=*'
-        label: Type
-      amenity:
-        # 'amenity=*'
-        label: Type
-      area/highway:
-        # 'area:highway=*'
-        label: Type
-      artist:
-        # 'artist_name=*'
-        label: Artist
-      artwork_type:
-        # 'artwork_type=*'
-        label: Type
-      atm:
-        # 'atm=*'
-        label: ATM
-      backrest:
-        # 'backrest=*'
-        label: Backrest
-      barrier:
-        # 'barrier=*'
-        label: Type
-      bench:
-        # 'bench=*'
-        label: Bench
       bicycle_parking:
         # 'bicycle_parking=*'
         label: Type
-      bin:
-        # 'bin=*'
-        label: Waste Bin
-      boundary:
-        # 'boundary=*'
-        label: Type
-      brand:
-        # 'brand=*'
-        label: Brand
-      building:
-        # 'building=*'
-        label: Building
-      building_area:
-        # 'building=*'
-        label: Building
-      capacity:
-        # 'capacity=*'
-        label: Capacity
-        # capacity field placeholder
-        placeholder: '50, 100, 200...'
-      cardinal_direction:
-        # 'direction=*'
-        label: Direction
-        options:
-          # direction=E
-          E: East
-          # direction=ENE
-          ENE: East-northeast
-          # direction=ESE
-          ESE: East-southeast
-          # direction=N
-          'N': North
-          # direction=NE
-          NE: Northeast
-          # direction=NNE
-          NNE: North-northeast
-          # direction=NNW
-          NNW: North-northwest
-          # direction=NW
-          NW: Northwest
-          # direction=S
-          S: South
-          # direction=SE
-          SE: Southeast
-          # direction=SSE
-          SSE: South-southeast
-          # direction=SSW
-          SSW: South-southwest
-          # direction=SW
-          SW: Southwest
-          # direction=W
-          W: West
-          # direction=WNW
-          WNW: West-northwest
-          # direction=WSW
-          WSW: West-southwest
       chanfrein_wegoto:
         # 'crossing:bevel=*'
         label: Bevel
       city_wegoto:
         # 'addr:city=*'
         label: City
-      clock_direction:
-        # 'direction=*'
-        label: Direction
-        options:
-          # direction=anticlockwise
-          anticlockwise: Counterclockwise
-          # direction=clockwise
-          clockwise: Clockwise
-      collection_times:
-        # 'collection_times=*'
-        label: Collection Times
-      construction:
-        # 'construction=*'
-        label: Type
-      content:
-        # 'content=*'
-        label: Contents
       country:
         # 'country=*'
         label: Country
-      covered:
-        # 'covered=*'
-        label: Covered
       cp_wegoto:
         # 'addr:postcode=*'
         label: Post Code
-      craft:
-        # 'craft=*'
-        label: Type
-      crop:
-        # 'crop=*'
-        label: Crop
       crossing:
         # 'crossing=*'
         label: Type
-      cuisine:
-        # 'cuisine=*'
-        label: Cuisine
-      currency_multi:
-        # 'currency:=*'
-        label: Currency Types
-      cycleway:
-        # 'cycleway:left=*, cycleway:right=*'
-        label: Bike Lanes
-        options:
-          # lane=yes
-          lane:
-            description: A bike lane separated from auto traffic by a painted line
-            title: Standard bike lane
-          # none=yes
-          none:
-            description: No bike lane
-            title: None
-          # opposite=yes
-          opposite:
-            description: A bike lane that travels in both directions on a one-way street
-            title: Contraflow bike lane
-          # opposite_lane=yes
-          opposite_lane:
-            description: A bike lane that travels in the opposite direction of traffic
-            title: Opposite bike lane
-          # share_busway=yes
-          share_busway:
-            description: A bike lane shared with a bus lane
-            title: Bike lane shared with bus
-          # shared_lane=yes
-          shared_lane:
-            description: A bike lane with no separation from auto traffic
-            title: Shared bike lane
-          # track=yes
-          track:
-            description: A bike lane separated from traffic by a physical barrier
-            title: Bike track
-        # cycleway field placeholder
-        placeholder: none
-        types:
-          'cycleway:left': Left side
-          'cycleway:right': Right side
-      delivery:
-        # 'delivery=*'
-        label: Delivery
-      denomination:
-        # 'denomination=*'
-        label: Denomination
-      denotation:
-        # 'denotation=*'
-        label: Denotation
-      description:
-        # 'description=*'
-        label: Description
-      diaper:
-        # 'diaper=*'
-        label: Diaper Changing Available
-      dock:
-        # 'dock=*'
-        label: Type
-      drive_through:
-        # 'drive_through=*'
-        label: Drive-Through
-      electrified:
-        # 'electrified=*'
-        label: Electrification
-        options:
-          # electrified=contact_line
-          contact_line: Contact Line
-          # electrified=no
-          'no': 'No'
-          # electrified=rail
-          rail: Electrified Rail
-          # electrified=yes
-          'yes': Yes (unspecified)
-        # electrified field placeholder
-        placeholder: 'Contact Line, Electrified Rail...'
       elevation:
         # 'ele=*'
         label: Elevation
-      emergency:
-        # 'emergency=*'
-        label: Emergency
-      entrance:
-        # 'entrance=*'
-        label: Type
-      except:
-        # 'except=*'
-        label: Exceptions
-      fax:
-        # 'fax=*'
-        label: Fax
-        # fax field placeholder
-        placeholder: +31 42 123 4567
-      fee:
-        # 'fee=*'
-        label: Fee
-      fire_hydrant/type:
-        # 'fire_hydrant:type=*'
-        label: Type
-        options:
-          # 'fire_hydrant:type=pillar'
-          pillar: Pillar/Aboveground
-          # 'fire_hydrant:type=pond'
-          pond: Pond
-          # 'fire_hydrant:type=underground'
-          underground: Underground
-          # 'fire_hydrant:type=wall'
-          wall: Wall
-      fixme:
-        # 'fixme=*'
-        label: Fix Me
       forme_trottoir_wegoto:
         # 'crossing:shape=*'
         label: Crossing shape
@@ -373,69 +49,12 @@ en:
           straight: Straight
         # forme_trottoir_wegoto field placeholder
         placeholder: 'Droit, arrondi, ...'
-      fuel:
-        # 'fuel=*'
-        label: Fuel
-      fuel_multi:
-        # 'fuel:=*'
-        label: Fuel Types
-      gauge:
-        # 'gauge=*'
-        label: Gauge
-      gender:
-        # 'male=*, female=*, unisex=*'
-        label: Gender
-        options:
-          # female=yes
-          female: Female
-          # male=yes
-          male: Male
-          # unisex=yes
-          unisex: Unisex
-        # gender field placeholder
-        placeholder: Unknown
-      generator/method:
-        # 'generator:method=*'
-        label: Method
-      generator/source:
-        # 'generator:source=*'
-        label: Source
-      generator/type:
-        # 'generator:type=*'
-        label: Type
-      golf_hole:
-        # 'ref=*'
-        label: Reference
-        # golf_hole field placeholder
-        placeholder: Hole number (1-18)
-      handicap:
-        # 'handicap=*'
-        label: Handicap
-        # handicap field placeholder
-        placeholder: 1-18
-      handrail:
-        # 'handrail=*'
-        label: Handrail
       hauteur_trottoir_wegoto:
         # 'height_curb=*'
         label: Height curb
       highway:
         # 'highway=*'
         label: Type
-      historic:
-        # 'historic=*'
-        label: Type
-      hoops:
-        # 'hoops=*'
-        label: Hoops
-        # hoops field placeholder
-        placeholder: '1, 2, 4...'
-      iata:
-        # 'iata=*'
-        label: IATA
-      icao:
-        # 'icao=*'
-        label: ICAO
       incline:
         # 'incline=*'
         label: Incline
@@ -452,23 +71,6 @@ en:
         label: Incline
         # incline_wegoto field placeholder
         placeholder: ' En % '
-      information:
-        # 'information=*'
-        label: Type
-      internet_access:
-        # 'internet_access=*'
-        label: Internet Access
-        options:
-          # internet_access=no
-          'no': 'No'
-          # internet_access=terminal
-          terminal: Terminal
-          # internet_access=wired
-          wired: Wired
-          # internet_access=wlan
-          wlan: Wifi
-          # internet_access=yes
-          'yes': 'Yes'
       island_high_wegoto:
         # 'island:high=*'
         label: high of Island
@@ -535,87 +137,11 @@ en:
           down: Down
           # kerb=up
           up: Up
-      lamp_type:
-        # 'lamp_type=*'
-        label: Type
-      landuse:
-        # 'landuse=*'
-        label: Type
-      lanes:
-        # 'lanes=*'
-        label: Lanes
-        # lanes field placeholder
-        placeholder: '1, 2, 3...'
       largeur_traverse:
         # 'width=*'
         label: 'Width '
         # largeur_traverse field placeholder
         placeholder: En cm
-      layer:
-        # 'layer=*'
-        label: Layer
-      leaf_cycle:
-        # 'leaf_cycle=*'
-        label: Leaf Cycle
-        options:
-          # leaf_cycle=deciduous
-          deciduous: Deciduous
-          # leaf_cycle=evergreen
-          evergreen: Evergreen
-          # leaf_cycle=mixed
-          mixed: Mixed
-          # leaf_cycle=semi_deciduous
-          semi_deciduous: Semi-Deciduous
-          # leaf_cycle=semi_evergreen
-          semi_evergreen: Semi-Evergreen
-      leaf_cycle_singular:
-        # 'leaf_cycle=*'
-        label: Leaf Cycle
-        options:
-          # leaf_cycle=deciduous
-          deciduous: Deciduous
-          # leaf_cycle=evergreen
-          evergreen: Evergreen
-          # leaf_cycle=semi_deciduous
-          semi_deciduous: Semi-Deciduous
-          # leaf_cycle=semi_evergreen
-          semi_evergreen: Semi-Evergreen
-      leaf_type:
-        # 'leaf_type=*'
-        label: Leaf Type
-        options:
-          # leaf_type=broadleaved
-          broadleaved: Broadleaved
-          # leaf_type=leafless
-          leafless: Leafless
-          # leaf_type=mixed
-          mixed: Mixed
-          # leaf_type=needleleaved
-          needleleaved: Needleleaved
-      leaf_type_singular:
-        # 'leaf_type=*'
-        label: Leaf Type
-        options:
-          # leaf_type=broadleaved
-          broadleaved: Broadleaved
-          # leaf_type=leafless
-          leafless: Leafless
-          # leaf_type=needleleaved
-          needleleaved: Needleleaved
-      leisure:
-        # 'leisure=*'
-        label: Type
-      length:
-        # 'length=*'
-        label: Length (Meters)
-      level:
-        # 'level=*'
-        label: Level
-      levels:
-        # 'building:levels=*'
-        label: Levels
-        # levels field placeholder
-        placeholder: '2, 4, 6...'
       line_left:
         # 'line:left=*'
         label: Line left
@@ -668,15 +194,6 @@ en:
           sound_ref: Sound ref
           # 'line:right=tree'
           tree: Tree
-      lit:
-        # 'lit=*'
-        label: Lit
-      location:
-        # 'location=*'
-        label: Location
-      man_made:
-        # 'man_made=*'
-        label: Type
       marquage_wegoto:
         # 'crossing:ref=*'
         label: Crossing reference
@@ -693,79 +210,11 @@ en:
           zebra: Zebra
         # marquage_wegoto field placeholder
         placeholder: 'Bande blanche, absence de marquage, ...'
-      maxspeed:
-        # 'maxspeed=*'
-        label: Speed Limit
-        # maxspeed field placeholder
-        placeholder: '40, 50, 60...'
-      maxstay:
-        # 'maxstay=*'
-        label: Max Stay
-      mtb/scale:
-        # 'mtb:scale=*'
-        label: Mountain Biking Difficulty
-        options:
-          # 'mtb:scale=0'
-          '0': '0: Solid gravel/packed earth, no obstacles, wide curves'
-          # 'mtb:scale=1'
-          '1': '1: Some loose surface, small obstacles, wide curves'
-          # 'mtb:scale=2'
-          '2': '2: Much loose surface, large obstacles, easy hairpins'
-          # 'mtb:scale=3'
-          '3': '3: Slippery surface, large obstacles, tight hairpins'
-          # 'mtb:scale=4'
-          '4': '4: Loose surface or boulders, dangerous hairpins'
-          # 'mtb:scale=5'
-          '5': '5: Maximum difficulty, boulder fields, landslides'
-          # 'mtb:scale=6'
-          '6': '6: Not rideable except by the very best mountain bikers'
-        # mtb/scale field placeholder
-        placeholder: '0, 1, 2, 3...'
-      mtb/scale/imba:
-        # 'mtb:scale:imba=*'
-        label: IMBA Trail Difficulty
-        options:
-          # 'mtb:scale:imba=0'
-          '0': Easiest (white circle)
-          # 'mtb:scale:imba=1'
-          '1': Easy (green circle)
-          # 'mtb:scale:imba=2'
-          '2': Medium (blue square)
-          # 'mtb:scale:imba=3'
-          '3': Difficult (black diamond)
-          # 'mtb:scale:imba=4'
-          '4': Extremely Difficult (double black diamond)
-        # mtb/scale/imba field placeholder
-        placeholder: 'Easy, Medium, Difficult...'
-      mtb/scale/uphill:
-        # 'mtb:scale:uphill=*'
-        label: Mountain Biking Uphill Difficulty
-        options:
-          # 'mtb:scale:uphill=0'
-          '0': '0: Avg. incline <10%, gravel/packed earth, no obstacles'
-          # 'mtb:scale:uphill=1'
-          '1': '1: Avg. incline <15%, gravel/packed earth, few small objects'
-          # 'mtb:scale:uphill=2'
-          '2': '2: Avg. incline <20%, stable surface, fistsize rocks/roots'
-          # 'mtb:scale:uphill=3'
-          '3': '3: Avg. incline <25%, variable surface, fistsize rocks/branches'
-          # 'mtb:scale:uphill=4'
-          '4': '4: Avg. incline <30%, poor condition, big rocks/branches'
-          # 'mtb:scale:uphill=5'
-          '5': '5: Very steep, bike generally needs to be pushed or carried'
-        # mtb/scale/uphill field placeholder
-        placeholder: '0, 1, 2, 3...'
       name:
         # 'name=*'
         label: Name
         # name field placeholder
         placeholder: Street
-      natural:
-        # 'natural=*'
-        label: Natural
-      network:
-        # 'network=*'
-        label: Network
       note:
         # 'note=*'
         label: Note
@@ -779,43 +228,6 @@ en:
           'yes': 'Yes'
         # obstacle_wegoto field placeholder
         placeholder: "Pas d'obstacle, rail,  ..."
-      office:
-        # 'office=*'
-        label: Type
-      oneway:
-        # 'oneway=*'
-        label: One Way
-        options:
-          # oneway=no
-          'no': 'No'
-          # oneway=undefined
-          undefined: Assumed to be No
-          # oneway=yes
-          'yes': 'Yes'
-      oneway_yes:
-        # 'oneway=*'
-        label: One Way
-        options:
-          # oneway=no
-          'no': 'No'
-          # oneway=undefined
-          undefined: Assumed to be Yes
-          # oneway=yes
-          'yes': 'Yes'
-      opening_hours:
-        # 'opening_hours=*'
-        label: Hours
-      operator:
-        # 'operator=*'
-        label: Operator
-      par:
-        # 'par=*'
-        label: Par
-        # par field placeholder
-        placeholder: '3, 4, 5...'
-      park_ride:
-        # 'park_ride=*'
-        label: Park and Ride
       parking:
         # 'parking=*'
         label: Type
@@ -834,78 +246,6 @@ en:
           surface: Surface
           # parking=underground
           underground: Underground
-      payment_multi:
-        # 'payment:=*'
-        label: Payment Types
-      phone:
-        # 'phone=*'
-        label: Phone
-        # phone field placeholder
-        placeholder: +31 42 123 4567
-      piste/difficulty:
-        # 'piste:difficulty=*'
-        label: Difficulty
-        options:
-          # 'piste:difficulty=advanced'
-          advanced: Advanced (black diamond)
-          # 'piste:difficulty=easy'
-          easy: Easy (green circle)
-          # 'piste:difficulty=expert'
-          expert: Expert (double black diamond)
-          # 'piste:difficulty=extreme'
-          extreme: Extreme (climbing equipment required)
-          # 'piste:difficulty=freeride'
-          freeride: Freeride (off-piste)
-          # 'piste:difficulty=intermediate'
-          intermediate: Intermediate (blue square)
-          # 'piste:difficulty=novice'
-          novice: Novice (instructional)
-        # piste/difficulty field placeholder
-        placeholder: 'Easy, Intermediate, Advanced...'
-      piste/grooming:
-        # 'piste:grooming=*'
-        label: Grooming
-        options:
-          # 'piste:grooming=backcountry'
-          backcountry: Backcountry
-          # 'piste:grooming=classic'
-          classic: Classic
-          # 'piste:grooming=classic+skating'
-          classic+skating: Classic and Skating
-          # 'piste:grooming=mogul'
-          mogul: Mogul
-          # 'piste:grooming=scooter'
-          scooter: Scooter/Snowmobile
-          # 'piste:grooming=skating'
-          skating: Skating
-      piste/type:
-        # 'piste:type=*'
-        label: Type
-        options:
-          # 'piste:type=downhill'
-          downhill: Downhill
-          # 'piste:type=hike'
-          hike: Hike
-          # 'piste:type=ice_skate'
-          ice_skate: Ice Skate
-          # 'piste:type=nordic'
-          nordic: Nordic
-          # 'piste:type=playground'
-          playground: Playground
-          # 'piste:type=skitour'
-          skitour: Skitour
-          # 'piste:type=sled'
-          sled: Sled
-          # 'piste:type=sleigh'
-          sleigh: Sleigh
-          # 'piste:type=snow_park'
-          snow_park: Snow Park
-      place:
-        # 'place=*'
-        label: Type
-      population:
-        # 'population=*'
-        label: Population
       poteau_droit_h_wegoto:
         # 'crossing:bollard:right:high=*'
         label: Right high crossing bollard
@@ -940,105 +280,17 @@ en:
           other: Other
           # 'crossing:bollard:left=yes'
           'yes': 'Yes'
-      power:
-        # 'power=*'
-        label: Type
-      power_supply:
-        # 'power_supply=*'
-        label: Power Supply
       railway:
         # 'railway=*'
         label: Type
-      recycling_accepts:
-        # 'recycling:=*'
-        label: Accepts
       ref:
         # 'ref=*'
         label: Reference
       relation:
         # 'type=*'
         label: Type
-      religion:
-        # 'religion=*'
-        label: Religion
-      restriction:
-        # 'restriction=*'
-        label: Type
-      restrictions:
-        label: Turn Restrictions
       route:
         # 'route=*'
-        label: Type
-      route_master:
-        # 'route_master=*'
-        label: Type
-      sac_scale:
-        # 'sac_scale=*'
-        label: Hiking Difficulty
-        options:
-          # sac_scale=alpine_hiking
-          alpine_hiking: 'T4: Alpine Hiking'
-          # sac_scale=demanding_alpine_hiking
-          demanding_alpine_hiking: 'T5: Demanding Alpine Hiking'
-          # sac_scale=demanding_mountain_hiking
-          demanding_mountain_hiking: 'T3: Demanding Mountain Hiking'
-          # sac_scale=difficult_alpine_hiking
-          difficult_alpine_hiking: 'T6: Difficult Alpine Hiking'
-          # sac_scale=hiking
-          hiking: 'T1: Hiking'
-          # sac_scale=mountain_hiking
-          mountain_hiking: 'T2: Mountain Hiking'
-        # sac_scale field placeholder
-        placeholder: 'Mountain Hiking, Alpine Hiking...'
-      sanitary_dump_station:
-        # 'sanitary_dump_station=*'
-        label: Toilet Disposal
-      seasonal:
-        # 'seasonal=*'
-        label: Seasonal
-      service:
-        # 'service=*'
-        label: Type
-      service/bicycle/chain_tool:
-        # 'service:bicycle:chain_tool=*'
-        label: Chain Tool
-        options:
-          # 'service:bicycle:chain_tool=no'
-          'no': 'No'
-          # 'service:bicycle:chain_tool=undefined'
-          undefined: Assumed to be No
-          # 'service:bicycle:chain_tool=yes'
-          'yes': 'Yes'
-      service/bicycle/pump:
-        # 'service:bicycle:pump=*'
-        label: Air Pump
-        options:
-          # 'service:bicycle:pump=no'
-          'no': 'No'
-          # 'service:bicycle:pump=undefined'
-          undefined: Assumed to be No
-          # 'service:bicycle:pump=yes'
-          'yes': 'Yes'
-      service_rail:
-        # 'service=*'
-        label: Service Type
-        options:
-          # service=crossover
-          crossover: Crossover
-          # service=siding
-          siding: Siding
-          # service=spur
-          spur: Spur
-          # service=yard
-          yard: Yard
-      shelter:
-        # 'shelter=*'
-        label: Shelter
-      shelter_type:
-        # 'shelter_type=*'
-        label: Type
-      shop:
-        # 'shop=*'
         label: Type
       shoulder_left:
         # 'shoulder:left=*'
@@ -1100,30 +352,9 @@ en:
           vegetation: Vegetation
           # 'shoulder:right=wall'
           wall: Wall
-      site:
-        # 'site=*'
-        label: Type
       sloped_curb:
         # 'sloped_curb=*'
         label: Sloped Curb
-      smoking:
-        # 'smoking=*'
-        label: Smoking
-        options:
-          # smoking=dedicated
-          dedicated: "Dedicated to smokers (e.g. smokers' club)"
-          # smoking=isolated
-          isolated: 'In smoking areas, physically isolated'
-          # smoking=no
-          'no': No smoking anywhere
-          # smoking=outside
-          outside: Allowed outside
-          # smoking=separated
-          separated: 'In smoking areas, not physically isolated'
-          # smoking=yes
-          'yes': Allowed everywhere
-        # smoking field placeholder
-        placeholder: 'No, Separated, Yes...'
       smoothness:
         # 'smoothness=*'
         label: Smoothness
@@ -1158,48 +389,6 @@ en:
           intermediate: Intermediate
         # smoothness_wegoto field placeholder
         placeholder: 'Excellent, intermediate, Bad...'
-      social_facility_for:
-        # 'social_facility:for=*'
-        label: People served
-        # social_facility_for field placeholder
-        placeholder: 'Homeless, Disabled, Child, etc'
-      source:
-        # 'source=*'
-        label: Source
-      sport:
-        # 'sport=*'
-        label: Sport
-      sport_ice:
-        # 'sport=*'
-        label: Sport
-      sport_racing:
-        # 'sport=*'
-        label: Sport
-      structure:
-        # 'bridge=*, tunnel=*, embankment=*, cutting=*, ford=*'
-        label: Structure
-        options:
-          # bridge=yes
-          bridge: Bridge
-          # cutting=yes
-          cutting: Cutting
-          # embankment=yes
-          embankment: Embankment
-          # ford=yes
-          ford: Ford
-          # tunnel=yes
-          tunnel: Tunnel
-        # structure field placeholder
-        placeholder: Unknown
-      studio:
-        # 'studio=*'
-        label: Type
-      substation:
-        # 'substation=*'
-        label: Type
-      supervised:
-        # 'supervised=*'
-        label: Supervised
       surface:
         # 'surface=*'
         label: Surface
@@ -1247,52 +436,6 @@ en:
           'yes:r': Etat 1
         # tactile_paving field placeholder
         placeholder: BEV
-      takeaway:
-        # 'takeaway=*'
-        label: Takeaway
-        options:
-          # takeaway=no
-          'no': 'No'
-          # takeaway=only
-          only: Takeaway Only
-          # takeaway=yes
-          'yes': 'Yes'
-        # takeaway field placeholder
-        placeholder: 'Yes, No, Takeaway Only...'
-      toilets/disposal:
-        # 'toilets:disposal=*'
-        label: Disposal
-        options:
-          # 'toilets:disposal=bucket'
-          bucket: Bucket
-          # 'toilets:disposal=chemical'
-          chemical: Chemical
-          # 'toilets:disposal=flush'
-          flush: Flush
-          # 'toilets:disposal=pitlatrine'
-          pitlatrine: Pit/Latrine
-      tourism:
-        # 'tourism=*'
-        label: Type
-      towertype:
-        # 'tower:type=*'
-        label: Tower type
-      tracktype:
-        # 'tracktype=*'
-        label: Track Type
-        options:
-          # tracktype=grade1
-          grade1: 'Solid: paved or heavily compacted hardcore surface'
-          # tracktype=grade2
-          grade2: 'Mostly Solid: gravel/rock with some soft material mixed in'
-          # tracktype=grade3
-          grade3: Even mixture of hard and soft materials
-          # tracktype=grade4
-          grade4: 'Mostly Soft: soil/sand/grass with some hard material mixed in'
-          # tracktype=grade5
-          grade5: 'Soft: soil/sand/grass'
-        # tracktype field placeholder
-        placeholder: 'Solid, Mostly Solid, Soft...'
       traffic_signals:
         # 'traffic_signals=*'
         label: Type
@@ -1302,53 +445,6 @@ en:
       traffic_signals_wegoto2:
         # 'traffic_signals:sound=*'
         label: Sound Traffic signal
-      trail_visibility:
-        # 'trail_visibility=*'
-        label: Trail Visibility
-        options:
-          # trail_visibility=bad
-          bad: 'Bad: no markers, path sometimes invisible/pathless'
-          # trail_visibility=excellent
-          excellent: 'Excellent: unambiguous path or markers everywhere'
-          # trail_visibility=good
-          good: 'Good: markers visible, sometimes require searching'
-          # trail_visibility=horrible
-          horrible: 'Horrible: often pathless, some orientation skills required'
-          # trail_visibility=intermediate
-          intermediate: 'Intermediate: few markers, path mostly visible'
-          # trail_visibility=no
-          'no': 'No: pathless, excellent orientation skills required'
-        # trail_visibility field placeholder
-        placeholder: 'Excellent, Good, Bad...'
-      trees:
-        # 'trees=*'
-        label: Trees
-      tunnel:
-        # 'tunnel=*'
-        label: Tunnel
-      vending:
-        # 'vending=*'
-        label: Type of Goods
-      water:
-        # 'water=*'
-        label: Type
-      water_point:
-        # 'water_point=*'
-        label: Water Point
-      waterway:
-        # 'waterway=*'
-        label: Type
-      website:
-        # 'website=*'
-        label: Website
-        # website field placeholder
-        placeholder: 'http://example.com/'
-      wegoto:
-        # 'wegoto=*'
-        label: wegoto
-      wetland:
-        # 'wetland=*'
-        label: Type
       wheelchair:
         # 'wheelchair=*'
         label: Wheelchair Access
@@ -1365,14 +461,6 @@ en:
         # 'addr:housenumber=*'
         name: Address
         terms: "<translate with synonyms or related terms for 'Address', separated by commas>"
-      entrance:
-        # 'entrance=*'
-        name: Entrance/Exit
-        terms: "<translate with synonyms or related terms for 'Entrance/Exit', separated by commas>"
-      highway:
-        # 'highway=*'
-        name: Highway
-        terms: "<translate with synonyms or related terms for 'Highway', separated by commas>"
       highway/autre_wegoto:
         # footway=other
         name: Other Road
@@ -1406,31 +494,6 @@ en:
         # highway=pedestrian
         name: Pedestrian Street
         terms: "<translate with synonyms or related terms for 'Pedestrian Street', separated by commas>"
-      highway/service/alley:
-        # 'highway=service, service=alley'
-        name: Alley
-        terms: "<translate with synonyms or related terms for 'Alley', separated by commas>"
-      highway/service/drive-through:
-        # 'highway=service, service=drive-through'
-        name: Drive-Through
-        terms: "<translate with synonyms or related terms for 'Drive-Through', separated by commas>"
-      highway/service/driveway:
-        # 'highway=service, service=driveway'
-        name: Driveway
-        terms: "<translate with synonyms or related terms for 'Driveway', separated by commas>"
-      highway/service/emergency_access:
-        # 'highway=service, service=emergency_access'
-        name: Emergency Access
-        terms: "<translate with synonyms or related terms for 'Emergency Access', separated by commas>"
-      highway/service/parking_aisle:
-        # 'highway=service, service=parking_aisle'
-        name: Parking Aisle
-        terms: "<translate with synonyms or related terms for 'Parking Aisle', separated by commas>"
-      highway/steps:
-        # highway=steps
-        name: Steps
-        # 'terms: stairs,staircase'
-        terms: "<translate with synonyms or related terms for 'Steps', separated by commas>"
       highway/traversee_sortie:
         # 'crossing:node=yes'
         name: Crossing
@@ -1443,14 +506,6 @@ en:
         # 'highway=footway, footway=sidewalk'
         name: SideWalk
         terms: "<translate with synonyms or related terms for 'SideWalk', separated by commas>"
-      highway/unclassified:
-        # highway=unclassified
-        name: Minor/Unclassified Road
-        terms: "<translate with synonyms or related terms for 'Minor/Unclassified Road', separated by commas>"
-      junction:
-        # junction=yes
-        name: Junction
-        terms: "<translate with synonyms or related terms for 'Junction', separated by commas>"
       line:
         name: Line
         terms: "<translate with synonyms or related terms for 'Line', separated by commas>"
@@ -1655,38 +710,6 @@ en:
       relation:
         name: Relation
         terms: "<translate with synonyms or related terms for 'Relation', separated by commas>"
-      roundabout:
-        # junction=roundabout
-        name: Roundabout
-        terms: "<translate with synonyms or related terms for 'Roundabout', separated by commas>"
-      type/restriction/no_left_turn:
-        # 'type=restriction, restriction=no_left_turn'
-        name: No Left Turn
-        terms: "<translate with synonyms or related terms for 'No Left Turn', separated by commas>"
-      type/restriction/no_right_turn:
-        # 'type=restriction, restriction=no_right_turn'
-        name: No Right Turn
-        terms: "<translate with synonyms or related terms for 'No Right Turn', separated by commas>"
-      type/restriction/no_straight_on:
-        # 'type=restriction, restriction=no_straight_on'
-        name: No Straight On
-        terms: "<translate with synonyms or related terms for 'No Straight On', separated by commas>"
-      type/restriction/no_u_turn:
-        # 'type=restriction, restriction=no_u_turn'
-        name: No U-turn
-        terms: "<translate with synonyms or related terms for 'No U-turn', separated by commas>"
-      type/restriction/only_left_turn:
-        # 'type=restriction, restriction=only_left_turn'
-        name: Left Turn Only
-        terms: "<translate with synonyms or related terms for 'Left Turn Only', separated by commas>"
-      type/restriction/only_right_turn:
-        # 'type=restriction, restriction=only_right_turn'
-        name: Right Turn Only
-        terms: "<translate with synonyms or related terms for 'Right Turn Only', separated by commas>"
-      type/restriction/only_straight_on:
-        # 'type=restriction, restriction=only_straight_on'
-        name: No Turns
-        terms: "<translate with synonyms or related terms for 'No Turns', separated by commas>"
       vertex:
         name: Other
         terms: "<translate with synonyms or related terms for 'Other', separated by commas>"

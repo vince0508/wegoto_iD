@@ -16,12 +16,6 @@
             "key": "addr:housenumber"
         },
         {
-            "key": "entrance"
-        },
-        {
-            "key": "highway"
-        },
-        {
             "key": "footway",
             "value": "other"
         },
@@ -54,30 +48,6 @@
             "value": "pedestrian"
         },
         {
-            "key": "service",
-            "value": "alley"
-        },
-        {
-            "key": "service",
-            "value": "drive-through"
-        },
-        {
-            "key": "service",
-            "value": "driveway"
-        },
-        {
-            "key": "service",
-            "value": "emergency_access"
-        },
-        {
-            "key": "service",
-            "value": "parking_aisle"
-        },
-        {
-            "key": "highway",
-            "value": "steps"
-        },
-        {
             "key": "crossing:node",
             "value": "yes"
         },
@@ -88,14 +58,6 @@
         {
             "key": "footway",
             "value": "sidewalk"
-        },
-        {
-            "key": "highway",
-            "value": "unclassified"
-        },
-        {
-            "key": "junction",
-            "value": "yes"
         },
         {
             "key": "obstacle:on:name",
@@ -276,38 +238,6 @@
         {
             "key": "obstacle:off:name",
             "value": "WC publiques accessibles"
-        },
-        {
-            "key": "junction",
-            "value": "roundabout"
-        },
-        {
-            "key": "restriction",
-            "value": "no_left_turn"
-        },
-        {
-            "key": "restriction",
-            "value": "no_right_turn"
-        },
-        {
-            "key": "restriction",
-            "value": "no_straight_on"
-        },
-        {
-            "key": "restriction",
-            "value": "no_u_turn"
-        },
-        {
-            "key": "restriction",
-            "value": "only_left_turn"
-        },
-        {
-            "key": "restriction",
-            "value": "only_right_turn"
-        },
-        {
-            "key": "restriction",
-            "value": "only_straight_on"
         }
     ]
 }
