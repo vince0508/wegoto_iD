@@ -304,12 +304,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "atm",
             "distributeur"
         ],
         "tags": {
-            "obstacle:on:name": "Distributeur de billet"
+            "obstacle:type": "Distributeur de billet"
         },
         "name": "ATM"
     },
@@ -318,12 +322,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "bench",
             "banc assis"
         ],
         "tags": {
-            "obstacle:on:name": "Banc assis"
+            "obstacle:type": "Banc assis"
         },
         "name": "Bench"
     },
@@ -332,12 +340,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "bench stand",
             "banc debout"
         ],
         "tags": {
-            "obstacle:on:name": "Banc debout"
+            "obstacle:type": "Banc debout"
         },
         "name": "Bench stand"
     },
@@ -346,12 +358,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "bycicle",
             "Velos"
         ],
         "tags": {
-            "obstacle:on:name": "Vélo-Ville"
+            "obstacle:type": "Vélo-Ville"
         },
         "name": "Bycicle"
     },
@@ -360,12 +376,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "Billboard",
             "Panneau publicitaire"
         ],
         "tags": {
-            "obstacle:on:name": "Panneau publicitaire"
+            "obstacle:type": "Panneau publicitaire"
         },
         "name": "Billboard"
     },
@@ -374,12 +394,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "Bycicle park",
             " parking vélos"
         ],
         "tags": {
-            "obstacle:on:name": "Parking vélo"
+            "obstacle:type": "Parking vélo"
         },
         "name": "Bycicle park"
     },
@@ -388,12 +412,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "Carpool",
             "parking autopartage"
         ],
         "tags": {
-            "obstacle:on:name": "Place autopartage"
+            "obstacle:type": "Place autopartage"
         },
         "name": "Carpool"
     },
@@ -402,11 +430,15 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "Conservatory"
         ],
         "tags": {
-            "obstacle:on:name": "Véranda commerce"
+            "obstacle:type": "Véranda commerce"
         },
         "name": "Conservatory"
     },
@@ -415,9 +447,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Poteau bas (pas de panneau) Contrasté"
+            "obstacle:type": "Poteau bas (pas de panneau) Contrasté"
         },
         "name": "Constrasted sign"
     },
@@ -426,9 +462,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Arrêt TC avec abris"
+            "obstacle:type": "Arrêt TC avec abris"
         },
         "name": "Cover stop"
     },
@@ -437,9 +477,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Fente"
+            "obstacle:type": "Fente"
         },
         "name": "Crack"
     },
@@ -448,9 +492,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Borne recharge électrique"
+            "obstacle:type": "Borne recharge électrique"
         },
         "name": "Electrical charge"
     },
@@ -459,9 +507,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Boîtier électrique (EDF)"
+            "obstacle:type": "Boîtier électrique (EDF)"
         },
         "name": "Electrical panel"
     },
@@ -470,9 +522,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Trou"
+            "obstacle:type": "Trou"
         },
         "name": "Fall"
     },
@@ -481,9 +537,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Perron, seuil"
+            "obstacle:type": "Perron, seuil"
         },
         "name": "Front step"
     },
@@ -492,9 +552,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Jardinière"
+            "obstacle:type": "Jardinière"
         },
         "name": "Gardener box"
     },
@@ -503,9 +567,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Place GIG"
+            "obstacle:type": "Place GIG"
         },
         "name": "Handicap parking"
     },
@@ -514,9 +582,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Boite aux lettres"
+            "obstacle:type": "Boite aux lettres"
         },
         "name": "Letterbox"
     },
@@ -525,9 +597,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Œuvre d'art (statue …)"
+            "obstacle:type": "Œuvre d'art (statue …)"
         },
         "name": "Master piece"
     },
@@ -536,9 +612,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Grille au sol"
+            "obstacle:type": "Grille au sol"
         },
         "name": "Metal gate"
     },
@@ -547,12 +627,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "atm",
             "distributeur"
         ],
         "tags": {
-            "obstacle:on:name": "Colonne Morris"
+            "obstacle:type": "Colonne Morris"
         },
         "name": "Morris column"
     },
@@ -561,12 +645,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "atm",
             "distributeur"
         ],
         "tags": {
-            "obstacle:on:name": "Arrêt TC sans abris"
+            "obstacle:type": "Arrêt TC sans abris"
         },
         "name": "Not cover Stop"
     },
@@ -575,9 +663,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Obstacle en saillie"
+            "obstacle:type": "Obstacle en saillie"
         },
         "name": "over Hanging"
     },
@@ -586,9 +678,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Horodateur"
+            "obstacle:type": "Horodateur"
         },
         "name": "Parking meter"
     },
@@ -597,9 +693,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Borne"
+            "obstacle:type": "Borne"
         },
         "name": "Post"
     },
@@ -608,9 +708,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Rails"
+            "obstacle:type": "Rails"
         },
         "name": "Rail"
     },
@@ -619,9 +723,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Panneau haut (avec panneau)"
+            "obstacle:type": "Panneau haut (avec panneau)"
         },
         "name": "Road sign"
     },
@@ -630,9 +738,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Espace tri déchets"
+            "obstacle:type": "Espace tri déchets"
         },
         "name": "Separate waste"
     },
@@ -641,9 +753,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Lampadaire"
+            "obstacle:type": "Lampadaire"
         },
         "name": "Street lamp"
     },
@@ -652,9 +768,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "WC publiques accessibles"
+            "obstacle:type": "WC publiques accessibles"
         },
         "name": "Toilet"
     },
@@ -663,9 +783,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Corbeille"
+            "obstacle:type": "Corbeille"
         },
         "name": "Trash"
     },
@@ -674,9 +798,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:on:name": "Arbre"
+            "obstacle:type": "Arbre"
         },
         "name": "Tree"
     },
@@ -685,12 +813,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "atm",
             "distributeur"
         ],
         "tags": {
-            "obstacle:off:name": "Distributeur de billet"
+            "obstacle:type": "Distributeur de billet"
         },
         "name": "ATM"
     },
@@ -699,12 +831,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "bycicle",
             "Velos"
         ],
         "tags": {
-            "obstacle:off:name": "Vélo-Ville"
+            "obstacle:type": "Vélo-Ville"
         },
         "name": "Bycicle"
     },
@@ -713,12 +849,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "Bycicle park",
             " parking vélos"
         ],
         "tags": {
-            "obstacle:off:name": "Parking vélo"
+            "obstacle:type": "Parking vélo"
         },
         "name": "Bycicle park"
     },
@@ -727,12 +867,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "Carpool",
             "parking autopartage"
         ],
         "tags": {
-            "obstacle:off:name": "Place autopartage"
+            "obstacle:type": "Place autopartage"
         },
         "name": "Carpool"
     },
@@ -741,9 +885,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:off:name": "Arrêt TC avec abris"
+            "obstacle:type": "Arrêt TC avec abris"
         },
         "name": "Cover stop"
     },
@@ -752,9 +900,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:off:name": "Jardinière"
+            "obstacle:type": "Jardinière"
         },
         "name": "Gardener box"
     },
@@ -763,9 +915,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:off:name": "Place GIG"
+            "obstacle:type": "Place GIG"
         },
         "name": "Handicap parking"
     },
@@ -774,9 +930,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:off:name": "Boite aux lettres"
+            "obstacle:type": "Boite aux lettres"
         },
         "name": "Letterbox"
     },
@@ -785,9 +945,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:off:name": "Œuvre d'art (statue …)"
+            "obstacle:type": "Œuvre d'art (statue …)"
         },
         "name": "Master piece"
     },
@@ -796,12 +960,16 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [
             "atm",
             "distributeur"
         ],
         "tags": {
-            "obstacle:off:name": "Arrêt TC sans abris"
+            "obstacle:type": "Arrêt TC sans abris"
         },
         "name": "Not cover Stop"
     },
@@ -810,9 +978,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:off:name": "Horodateur"
+            "obstacle:type": "Horodateur"
         },
         "name": "Parking meter"
     },
@@ -821,9 +993,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:off:name": "Espace tri déchets"
+            "obstacle:type": "Espace tri déchets"
         },
         "name": "Separate waste"
     },
@@ -832,9 +1008,13 @@
         "geometry": [
             "point"
         ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
         "terms": [],
         "tags": {
-            "obstacle:off:name": "WC publiques accessibles"
+            "obstacle:type": "WC publiques accessibles"
         },
         "name": "Toilet"
     },

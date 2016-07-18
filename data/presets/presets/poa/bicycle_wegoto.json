@@ -4,12 +4,16 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         "bycicle",
         "Velos"
     ],
     "tags": {
-        "obstacle:on:name": "Vélo-Ville"
+        "obstacle:type": "Vélo-Ville"
     },
     "name": "Bycicle"
 }

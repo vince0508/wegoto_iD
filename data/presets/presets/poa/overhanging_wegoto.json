@@ -4,11 +4,15 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         
     ],
     "tags": {
-        "obstacle:on:name": "Obstacle en saillie"
+        "obstacle:type": "Obstacle en saillie"
     },
     "name": "over Hanging"
 }

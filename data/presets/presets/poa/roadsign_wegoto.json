@@ -4,11 +4,15 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         
     ],
     "tags": {
-        "obstacle:on:name": "Panneau haut (avec panneau)"
+        "obstacle:type": "Panneau haut (avec panneau)"
     },
     "name": "Road sign"
 }

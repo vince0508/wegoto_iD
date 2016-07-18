@@ -4,12 +4,16 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         "Bycicle park",
         " parking vélos"
     ],
     "tags": {
-        "obstacle:on:name": "Parking vélo"
+        "obstacle:type": "Parking vélo"
     },
     "name": "Bycicle park"
 }

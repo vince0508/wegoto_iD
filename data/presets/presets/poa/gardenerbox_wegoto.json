@@ -4,11 +4,15 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
        
     ],
     "tags": {
-        "obstacle:on:name": "Jardinière"
+        "obstacle:type": "Jardinière"
     },
     "name": "Gardener box"
 }

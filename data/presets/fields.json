@@ -212,6 +212,18 @@
             }
         }
     },
+    "location_wegoto": {
+        "key": "obstacle:location",
+        "type": "combo",
+        "label": "Location",
+        "strings": {
+            "options": {
+                "right": "Right",
+                "center": "Center",
+                "left": "Left"
+            }
+        }
+    },
     "marquage_wegoto": {
         "key": "crossing:ref",
         "type": "combo",
@@ -265,6 +277,17 @@
                 "carports": "Carports",
                 "garage_boxes": "Garage Boxes",
                 "lane": "Roadside Lane"
+            }
+        }
+    },
+    "position_wegoto": {
+        "key": "obstacle:position",
+        "type": "combo",
+        "label": "Position",
+        "strings": {
+            "options": {
+                "on": "On",
+                "off": "Off"
             }
         }
     },

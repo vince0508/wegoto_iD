@@ -4,12 +4,16 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         "bench",
         "banc assis"
     ],
     "tags": {
-        "obstacle:on:name": "Banc assis"
+        "obstacle:type": "Banc assis"
     },
     "name": "Bench"
 }

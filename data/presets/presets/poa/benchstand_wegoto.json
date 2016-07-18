@@ -4,12 +4,16 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         "bench stand",
         "banc debout"
     ],
     "tags": {
-        "obstacle:on:name": "Banc debout"
+        "obstacle:type": "Banc debout"
     },
     "name": "Bench stand"
 }

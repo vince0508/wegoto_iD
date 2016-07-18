@@ -766,6 +766,14 @@
                     "no": "Nothing"
                 }
             },
+            "location_wegoto": {
+                "label": "Location",
+                "options": {
+                    "right": "Right",
+                    "center": "Center",
+                    "left": "Left"
+                }
+            },
             "marquage_wegoto": {
                 "label": "Crossing reference",
                 "placeholder": "Bande blanche, absence de marquage, ...",
@@ -802,6 +810,13 @@
                     "carports": "Carports",
                     "garage_boxes": "Garage Boxes",
                     "lane": "Roadside Lane"
+                }
+            },
+            "position_wegoto": {
+                "label": "Position",
+                "options": {
+                    "on": "On",
+                    "off": "Off"
                 }
             },
             "poteau_droit_h_wegoto": {

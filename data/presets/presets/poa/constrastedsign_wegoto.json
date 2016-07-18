@@ -4,11 +4,15 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         
     ],
     "tags": {
-        "obstacle:on:name": "Poteau bas (pas de panneau) Contrasté"
+        "obstacle:type": "Poteau bas (pas de panneau) Contrasté"
     },
     "name": "Constrasted sign"
 }

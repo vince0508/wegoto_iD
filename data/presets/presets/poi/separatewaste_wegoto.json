@@ -4,11 +4,15 @@
         "point"
        
     ],
+         "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
       
     ],
     "tags": {
-        "obstacle:off:name": "Espace tri déchets"
+        "obstacle:type": "Espace tri déchets"
     },
     "name": "Separate waste"
 }

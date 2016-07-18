@@ -4,11 +4,15 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         
     ],
     "tags": {
-        "obstacle:on:name": "Arrêt TC avec abris"
+        "obstacle:type": "Arrêt TC avec abris"
     },
     "name": "Cover stop"
 }

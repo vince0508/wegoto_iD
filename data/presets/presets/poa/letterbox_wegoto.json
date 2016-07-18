@@ -4,11 +4,15 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         
     ],
     "tags": {
-        "obstacle:on:name": "Boite aux lettres"
+        "obstacle:type": "Boite aux lettres"
     },
     "name": "Letterbox"
 }

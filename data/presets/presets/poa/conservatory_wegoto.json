@@ -4,12 +4,16 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         "Conservatory"
         
     ],
     "tags": {
-        "obstacle:on:name": "Véranda commerce"
+        "obstacle:type": "Véranda commerce"
     },
     "name": "Conservatory"
 }

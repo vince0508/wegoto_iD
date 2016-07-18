@@ -60,183 +60,183 @@
             "value": "sidewalk"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Distributeur de billet"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Banc assis"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Banc debout"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Vélo-Ville"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Panneau publicitaire"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Parking vélo"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Place autopartage"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Véranda commerce"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Poteau bas (pas de panneau) Contrasté"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Arrêt TC avec abris"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Fente"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Borne recharge électrique"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Boîtier électrique (EDF)"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Trou"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Perron, seuil"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Jardinière"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Place GIG"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Boite aux lettres"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Œuvre d'art (statue …)"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Grille au sol"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Colonne Morris"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Arrêt TC sans abris"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Obstacle en saillie"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Horodateur"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Borne"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Rails"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Panneau haut (avec panneau)"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Espace tri déchets"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Lampadaire"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "WC publiques accessibles"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Corbeille"
         },
         {
-            "key": "obstacle:on:name",
+            "key": "obstacle:type",
             "value": "Arbre"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "Distributeur de billet"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "Vélo-Ville"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "Parking vélo"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "Place autopartage"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "Arrêt TC avec abris"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "Jardinière"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "Place GIG"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "Boite aux lettres"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "Œuvre d'art (statue …)"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "Arrêt TC sans abris"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "Horodateur"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "Espace tri déchets"
         },
         {
-            "key": "obstacle:off:name",
+            "key": "obstacle:type",
             "value": "WC publiques accessibles"
         }
     ]

@@ -628,7 +628,7 @@
                 "name": "Éléments  pour restrictions"
             },
             "category-road": {
-                "name": "Éléments voiries"
+                "name": "Élémentssssss voiries"
             },
              "category-poi": {
                 "name": "Points d'interets"
@@ -1221,6 +1221,32 @@
                  }
 
                  },
+
+  "position_wegoto": {
+                "label": "Position obstacle",
+                 "options":{
+                  "on":"Sur",
+            "off": "A coté"
+            
+                 }
+
+                 },
+
+                  "location_wegoto": {
+                "label": "Location",
+                 "options":{
+                  "right":"Droite",
+            "center": "Milieu",
+            "left": "Gauche"
+            
+            
+
+            
+                 }
+
+                 },
+
+
                   "obstacle_wegoto": {
                 "label": "Présence obstacle ",
                  "options":{

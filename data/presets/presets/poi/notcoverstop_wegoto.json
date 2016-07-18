@@ -4,12 +4,16 @@
         "point"
        
     ],
+         "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         "atm",
         "distributeur"
     ],
     "tags": {
-        "obstacle:off:name": "Arrêt TC sans abris"
+        "obstacle:type": "Arrêt TC sans abris"
     },
     "name": "Not cover Stop"
 }

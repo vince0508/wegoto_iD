@@ -1,0 +1,17 @@
+{
+    "key": "obstacle:location",
+    "type": "combo",
+    "label": "Location",
+   
+    "strings": {
+        "options": {
+            "right":"Right",
+            "center": "Center",
+            "left": "Left"
+            
+            
+
+          
+        }
+    }
+}

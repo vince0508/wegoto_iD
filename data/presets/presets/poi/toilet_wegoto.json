@@ -4,11 +4,15 @@
         "point"
        
     ],
+         "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         
     ],
     "tags": {
-        "obstacle:off:name": "WC publiques accessibles"
+        "obstacle:type": "WC publiques accessibles"
     },
     "name": "Toilet"
 }

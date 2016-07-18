@@ -194,6 +194,16 @@ en:
           sound_ref: Sound ref
           # 'line:right=tree'
           tree: Tree
+      location_wegoto:
+        # 'obstacle:location=*'
+        label: Location
+        options:
+          # 'obstacle:location=center'
+          center: Center
+          # 'obstacle:location=left'
+          left: Left
+          # 'obstacle:location=right'
+          right: Right
       marquage_wegoto:
         # 'crossing:ref=*'
         label: Crossing reference
@@ -246,6 +256,14 @@ en:
           surface: Surface
           # parking=underground
           underground: Underground
+      position_wegoto:
+        # 'obstacle:position=*'
+        label: Position
+        options:
+          # 'obstacle:position=off'
+          'off': 'Off'
+          # 'obstacle:position=on'
+          'on': 'On'
       poteau_droit_h_wegoto:
         # 'crossing:bollard:right:high=*'
         label: Right high crossing bollard
@@ -510,198 +528,198 @@ en:
         name: Line
         terms: "<translate with synonyms or related terms for 'Line', separated by commas>"
       poa/atm_wegoto:
-        # 'obstacle:on:name=Distributeur de billet'
+        # 'obstacle:type=Distributeur de billet'
         name: ATM
         # 'terms: atm,distributeur'
         terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
       poa/bench_wegoto:
-        # 'obstacle:on:name=Banc assis'
+        # 'obstacle:type=Banc assis'
         name: Bench
         # 'terms: bench,banc assis'
         terms: "<translate with synonyms or related terms for 'Bench', separated by commas>"
       poa/benchstand_wegoto:
-        # 'obstacle:on:name=Banc debout'
+        # 'obstacle:type=Banc debout'
         name: Bench stand
         # 'terms: bench stand,banc debout'
         terms: "<translate with synonyms or related terms for 'Bench stand', separated by commas>"
       poa/bicycle_wegoto:
-        # 'obstacle:on:name=Vélo-Ville'
+        # 'obstacle:type=Vélo-Ville'
         name: Bycicle
         # 'terms: bycicle,Velos'
         terms: "<translate with synonyms or related terms for 'Bycicle', separated by commas>"
       poa/billboard_wegoto:
-        # 'obstacle:on:name=Panneau publicitaire'
+        # 'obstacle:type=Panneau publicitaire'
         name: Billboard
         # 'terms: Billboard,Panneau publicitaire'
         terms: "<translate with synonyms or related terms for 'Billboard', separated by commas>"
       poa/byciclepark_wegoto:
-        # 'obstacle:on:name=Parking vélo'
+        # 'obstacle:type=Parking vélo'
         name: Bycicle park
         # 'terms: Bycicle park, parking vélos'
         terms: "<translate with synonyms or related terms for 'Bycicle park', separated by commas>"
       poa/carpool_wegoto:
-        # 'obstacle:on:name=Place autopartage'
+        # 'obstacle:type=Place autopartage'
         name: Carpool
         # 'terms: Carpool,parking autopartage'
         terms: "<translate with synonyms or related terms for 'Carpool', separated by commas>"
       poa/conservatory_wegoto:
-        # 'obstacle:on:name=Véranda commerce'
+        # 'obstacle:type=Véranda commerce'
         name: Conservatory
         # 'terms: Conservatory'
         terms: "<translate with synonyms or related terms for 'Conservatory', separated by commas>"
       poa/constrastedsign_wegoto:
-        # 'obstacle:on:name=Poteau bas (pas de panneau) Contrasté'
+        # 'obstacle:type=Poteau bas (pas de panneau) Contrasté'
         name: Constrasted sign
         terms: "<translate with synonyms or related terms for 'Constrasted sign', separated by commas>"
       poa/coverstop_wegoto:
-        # 'obstacle:on:name=Arrêt TC avec abris'
+        # 'obstacle:type=Arrêt TC avec abris'
         name: Cover stop
         terms: "<translate with synonyms or related terms for 'Cover stop', separated by commas>"
       poa/crack_wegoto:
-        # 'obstacle:on:name=Fente'
+        # 'obstacle:type=Fente'
         name: Crack
         terms: "<translate with synonyms or related terms for 'Crack', separated by commas>"
       poa/electricCharge_wegoto:
-        # 'obstacle:on:name=Borne recharge électrique'
+        # 'obstacle:type=Borne recharge électrique'
         name: Electrical charge
         terms: "<translate with synonyms or related terms for 'Electrical charge', separated by commas>"
       poa/electricalpanel_wegoto:
-        # 'obstacle:on:name=Boîtier électrique (EDF)'
+        # 'obstacle:type=Boîtier électrique (EDF)'
         name: Electrical panel
         terms: "<translate with synonyms or related terms for 'Electrical panel', separated by commas>"
       poa/fall_wegoto:
-        # 'obstacle:on:name=Trou'
+        # 'obstacle:type=Trou'
         name: Fall
         terms: "<translate with synonyms or related terms for 'Fall', separated by commas>"
       poa/frontstep_wegoto:
-        # 'obstacle:on:name=Perron, seuil'
+        # 'obstacle:type=Perron, seuil'
         name: Front step
         terms: "<translate with synonyms or related terms for 'Front step', separated by commas>"
       poa/gardenerbox_wegoto:
-        # 'obstacle:on:name=Jardinière'
+        # 'obstacle:type=Jardinière'
         name: Gardener box
         terms: "<translate with synonyms or related terms for 'Gardener box', separated by commas>"
       poa/handicapparking_wegoto:
-        # 'obstacle:on:name=Place GIG'
+        # 'obstacle:type=Place GIG'
         name: Handicap parking
         terms: "<translate with synonyms or related terms for 'Handicap parking', separated by commas>"
       poa/letterbox_wegoto:
-        # 'obstacle:on:name=Boite aux lettres'
+        # 'obstacle:type=Boite aux lettres'
         name: Letterbox
         terms: "<translate with synonyms or related terms for 'Letterbox', separated by commas>"
       poa/masterpiece_wegoto:
-        # "obstacle:on:name=Œuvre d'art (statue …)"
+        # "obstacle:type=Œuvre d'art (statue …)"
         name: Master piece
         terms: "<translate with synonyms or related terms for 'Master piece', separated by commas>"
       poa/metalgate_wegoto:
-        # 'obstacle:on:name=Grille au sol'
+        # 'obstacle:type=Grille au sol'
         name: Metal gate
         terms: "<translate with synonyms or related terms for 'Metal gate', separated by commas>"
       poa/morriscolumn_wegoto:
-        # 'obstacle:on:name=Colonne Morris'
+        # 'obstacle:type=Colonne Morris'
         name: Morris column
         # 'terms: atm,distributeur'
         terms: "<translate with synonyms or related terms for 'Morris column', separated by commas>"
       poa/notcoverstop_wegoto:
-        # 'obstacle:on:name=Arrêt TC sans abris'
+        # 'obstacle:type=Arrêt TC sans abris'
         name: Not cover Stop
         # 'terms: atm,distributeur'
         terms: "<translate with synonyms or related terms for 'Not cover Stop', separated by commas>"
       poa/overhanging_wegoto:
-        # 'obstacle:on:name=Obstacle en saillie'
+        # 'obstacle:type=Obstacle en saillie'
         name: over Hanging
         terms: "<translate with synonyms or related terms for 'over Hanging', separated by commas>"
       poa/parkingmeter_wegoto:
-        # 'obstacle:on:name=Horodateur'
+        # 'obstacle:type=Horodateur'
         name: Parking meter
         terms: "<translate with synonyms or related terms for 'Parking meter', separated by commas>"
       poa/post_wegoto:
-        # 'obstacle:on:name=Borne'
+        # 'obstacle:type=Borne'
         name: Post
         terms: "<translate with synonyms or related terms for 'Post', separated by commas>"
       poa/rail_wegoto:
-        # 'obstacle:on:name=Rails'
+        # 'obstacle:type=Rails'
         name: Rail
         terms: "<translate with synonyms or related terms for 'Rail', separated by commas>"
       poa/roadsign_wegoto:
-        # 'obstacle:on:name=Panneau haut (avec panneau)'
+        # 'obstacle:type=Panneau haut (avec panneau)'
         name: Road sign
         terms: "<translate with synonyms or related terms for 'Road sign', separated by commas>"
       poa/separatewaste_wegoto:
-        # 'obstacle:on:name=Espace tri déchets'
+        # 'obstacle:type=Espace tri déchets'
         name: Separate waste
         terms: "<translate with synonyms or related terms for 'Separate waste', separated by commas>"
       poa/streetlamp_wegoto:
-        # 'obstacle:on:name=Lampadaire'
+        # 'obstacle:type=Lampadaire'
         name: Street lamp
         terms: "<translate with synonyms or related terms for 'Street lamp', separated by commas>"
       poa/toilet_wegoto:
-        # 'obstacle:on:name=WC publiques accessibles'
+        # 'obstacle:type=WC publiques accessibles'
         name: Toilet
         terms: "<translate with synonyms or related terms for 'Toilet', separated by commas>"
       poa/trash_wegoto:
-        # 'obstacle:on:name=Corbeille'
+        # 'obstacle:type=Corbeille'
         name: Trash
         terms: "<translate with synonyms or related terms for 'Trash', separated by commas>"
       poa/tree_wegoto:
-        # 'obstacle:on:name=Arbre'
+        # 'obstacle:type=Arbre'
         name: Tree
         terms: "<translate with synonyms or related terms for 'Tree', separated by commas>"
       poi/atm_wegoto:
-        # 'obstacle:off:name=Distributeur de billet'
+        # 'obstacle:type=Distributeur de billet'
         name: ATM
         # 'terms: atm,distributeur'
         terms: "<translate with synonyms or related terms for 'ATM', separated by commas>"
       poi/bicycle_wegoto:
-        # 'obstacle:off:name=Vélo-Ville'
+        # 'obstacle:type=Vélo-Ville'
         name: Bycicle
         # 'terms: bycicle,Velos'
         terms: "<translate with synonyms or related terms for 'Bycicle', separated by commas>"
       poi/byciclepark_wegoto:
-        # 'obstacle:off:name=Parking vélo'
+        # 'obstacle:type=Parking vélo'
         name: Bycicle park
         # 'terms: Bycicle park, parking vélos'
         terms: "<translate with synonyms or related terms for 'Bycicle park', separated by commas>"
       poi/carpool_wegoto:
-        # 'obstacle:off:name=Place autopartage'
+        # 'obstacle:type=Place autopartage'
         name: Carpool
         # 'terms: Carpool,parking autopartage'
         terms: "<translate with synonyms or related terms for 'Carpool', separated by commas>"
       poi/coverstop_wegoto:
-        # 'obstacle:off:name=Arrêt TC avec abris'
+        # 'obstacle:type=Arrêt TC avec abris'
         name: Cover stop
         terms: "<translate with synonyms or related terms for 'Cover stop', separated by commas>"
       poi/gardenerbox_wegoto:
-        # 'obstacle:off:name=Jardinière'
+        # 'obstacle:type=Jardinière'
         name: Gardener box
         terms: "<translate with synonyms or related terms for 'Gardener box', separated by commas>"
       poi/handicapparking_wegoto:
-        # 'obstacle:off:name=Place GIG'
+        # 'obstacle:type=Place GIG'
         name: Handicap parking
         terms: "<translate with synonyms or related terms for 'Handicap parking', separated by commas>"
       poi/letterbox_wegoto:
-        # 'obstacle:off:name=Boite aux lettres'
+        # 'obstacle:type=Boite aux lettres'
         name: Letterbox
         terms: "<translate with synonyms or related terms for 'Letterbox', separated by commas>"
       poi/masterpiece_wegoto:
-        # "obstacle:off:name=Œuvre d'art (statue …)"
+        # "obstacle:type=Œuvre d'art (statue …)"
         name: Master piece
         terms: "<translate with synonyms or related terms for 'Master piece', separated by commas>"
       poi/notcoverstop_wegoto:
-        # 'obstacle:off:name=Arrêt TC sans abris'
+        # 'obstacle:type=Arrêt TC sans abris'
         name: Not cover Stop
         # 'terms: atm,distributeur'
         terms: "<translate with synonyms or related terms for 'Not cover Stop', separated by commas>"
       poi/parkingmeter_wegoto:
-        # 'obstacle:off:name=Horodateur'
+        # 'obstacle:type=Horodateur'
         name: Parking meter
         terms: "<translate with synonyms or related terms for 'Parking meter', separated by commas>"
       poi/separatewaste_wegoto:
-        # 'obstacle:off:name=Espace tri déchets'
+        # 'obstacle:type=Espace tri déchets'
         name: Separate waste
         terms: "<translate with synonyms or related terms for 'Separate waste', separated by commas>"
       poi/toilet_wegoto:
-        # 'obstacle:off:name=WC publiques accessibles'
+        # 'obstacle:type=WC publiques accessibles'
         name: Toilet
         terms: "<translate with synonyms or related terms for 'Toilet', separated by commas>"
       point:

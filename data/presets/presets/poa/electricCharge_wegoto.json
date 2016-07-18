@@ -4,11 +4,15 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         
     ],
     "tags": {
-        "obstacle:on:name": "Borne recharge électrique"
+        "obstacle:type": "Borne recharge électrique"
     },
     "name": "Electrical charge"
 }

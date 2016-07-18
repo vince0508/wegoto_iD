@@ -4,11 +4,15 @@
         "point"
        
     ],
+         "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
       
     ],
     "tags": {
-        "obstacle:on:name": "Arbre"
+        "obstacle:type": "Arbre"
     },
     "name": "Tree"
 }

@@ -4,12 +4,16 @@
         "point"
        
     ],
+     "fields": [
+    "position_wegoto",
+    "location_wegoto"
+        ],
     "terms": [
         "Carpool",
         "parking autopartage"
     ],
     "tags": {
-        "obstacle:on:name": "Place autopartage"
+        "obstacle:type": "Place autopartage"
     },
     "name": "Carpool"
 }
