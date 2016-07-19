@@ -225,7 +225,7 @@
         }
     },
     "marquage_wegoto": {
-        "key": "crossing:ref",
+        "key": "crossing_ref",
         "type": "combo",
         "label": "Crossing reference",
         "placeholder": "Bande blanche, absence de marquage, ...",
@@ -253,7 +253,7 @@
         "label": "Note"
     },
     "obstacle_wegoto": {
-        "key": "crossing:obstacle",
+        "key": "crossing:railway",
         "type": "combo",
         "label": "Crossing obstacle",
         "placeholder": "Pas d'obstacle, rail,  ...",

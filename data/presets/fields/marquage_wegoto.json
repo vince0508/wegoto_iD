@@ -1,5 +1,5 @@
 {
-    "key": "crossing:ref",
+    "key": "crossing_ref",
     "type": "combo",
     "label": "Crossing reference",
     "placeholder": "Bande blanche, absence de marquage, ...",

@@ -205,18 +205,18 @@ en:
           # 'obstacle:location=right'
           right: Right
       marquage_wegoto:
-        # 'crossing:ref=*'
+        # 'crossing_ref=*'
         label: Crossing reference
         options:
-          # 'crossing:ref=dammaged'
+          # crossing_ref=dammaged
           dammaged: Dammaged
-          # 'crossing:ref=other'
+          # crossing_ref=other
           other: Other
-          # 'crossing:ref=temporary'
+          # crossing_ref=temporary
           temporary: Temporary
-          # 'crossing:ref=unmarked'
+          # crossing_ref=unmarked
           unmarked: Unmarked
-          # 'crossing:ref=zebra'
+          # crossing_ref=zebra
           zebra: Zebra
         # marquage_wegoto field placeholder
         placeholder: 'Bande blanche, absence de marquage, ...'
@@ -229,12 +229,12 @@ en:
         # 'note=*'
         label: Note
       obstacle_wegoto:
-        # 'crossing:obstacle=*'
+        # 'crossing:railway=*'
         label: Crossing obstacle
         options:
-          # 'crossing:obstacle=no'
+          # 'crossing:railway=no'
           'no': 'No'
-          # 'crossing:obstacle=yes'
+          # 'crossing:railway=yes'
           'yes': 'Yes'
         # obstacle_wegoto field placeholder
         placeholder: "Pas d'obstacle, rail,  ..."
