@@ -13,7 +13,7 @@
         "banc assis"
     ],
     "tags": {
-        "obstacle:type": "Banc assis"
+        "obstacle:type": "bench"
     },
     "name": "Bench"
 }

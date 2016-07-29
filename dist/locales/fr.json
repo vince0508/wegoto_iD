@@ -3031,6 +3031,9 @@
                 "poi/atm_wegoto": {
                 "name": "Distributeur de billet"
             },
+                 "poa/littlesign_wegoto": {
+                "name": "Poteau bas (pas de panneau) NC"
+            },
 
                  "poi/bicycle_wegoto": {
                 "name": "Vélos-Ville"

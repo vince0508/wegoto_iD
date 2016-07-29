@@ -13,7 +13,7 @@
         "distributeur"
     ],
     "tags": {
-        "obstacle:type": "Arrêt TC sans abris"
+        "obstacle:type": "not_cover_stop"
     },
     "name": "Not cover Stop"
 }

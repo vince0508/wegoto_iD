@@ -12,7 +12,7 @@
         
     ],
     "tags": {
-        "obstacle:type": "Panneau haut (avec panneau)"
+        "obstacle:type": "road_sign"
     },
     "name": "Road sign"
 }

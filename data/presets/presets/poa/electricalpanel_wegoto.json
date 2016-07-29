@@ -12,7 +12,7 @@
         
     ],
     "tags": {
-        "obstacle:type": "Boîtier électrique (EDF)"
+        "obstacle:type": "electrical_panel"
     },
     "name": "Electrical panel"
 }

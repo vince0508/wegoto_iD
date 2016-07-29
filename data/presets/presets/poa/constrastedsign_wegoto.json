@@ -12,7 +12,7 @@
         
     ],
     "tags": {
-        "obstacle:type": "Poteau bas (pas de panneau) Contrasté"
+        "obstacle:type": "constrasted_sign"
     },
     "name": "Constrasted sign"
 }

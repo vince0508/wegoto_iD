@@ -12,7 +12,7 @@
         
     ],
     "tags": {
-        "obstacle:type": "Arrêt TC avec abris"
+        "obstacle:type": "cover_stop"
     },
     "name": "Cover stop"
 }

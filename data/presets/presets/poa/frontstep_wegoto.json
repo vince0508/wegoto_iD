@@ -12,7 +12,7 @@
        
     ],
     "tags": {
-        "obstacle:type": "Perron, seuil"
+        "obstacle:type": "front_step"
     },
     "name": "Front step"
 }

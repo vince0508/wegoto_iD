@@ -12,7 +12,7 @@
       
     ],
     "tags": {
-        "obstacle:type": "Arbre"
+        "obstacle:type": "tree"
     },
     "name": "Tree"
 }

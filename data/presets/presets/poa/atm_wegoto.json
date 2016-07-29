@@ -13,7 +13,7 @@
         "distributeur"
     ],
     "tags": {
-        "obstacle:type": "Distributeur de billet"
+        "obstacle:type": "atm"
     },
     "name": "ATM"
 }

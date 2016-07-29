@@ -762,7 +762,7 @@
                     "diagonal_cross": "Diagonal cross",
                     "tree": "Tree",
                     "hedge": "Hedge",
-                    "gardener_box": "Dardener box",
+                    "gardener_box": "Gardener box",
                     "no": "Nothing"
                 }
             },
@@ -865,7 +865,7 @@
                     "bicycle": "Bicycle",
                     "vegetation": "Vegetation",
                     "grass": "Grass",
-                    "designated_parking": "Designated_parking",
+                    "designated_parking": "Designated parking",
                     "longside_parking": "Longside parking",
                     "angled_parking": "Angled parking",
                     "wall": "Wall",
@@ -1044,7 +1044,7 @@
                 "terms": "Billboard,Panneau publicitaire"
             },
             "poa/byciclepark_wegoto": {
-                "name": "Bycicle park",
+                "name": "Bicycle park",
                 "terms": "Bycicle park, parking vélos"
             },
             "poa/carpool_wegoto": {
@@ -1094,6 +1094,10 @@
             "poa/letterbox_wegoto": {
                 "name": "Letterbox",
                 "terms": ""
+            },
+            "poa/littlesign_wegoto": {
+                "name": "little sign",
+                "terms": "little_sign,distributeur"
             },
             "poa/masterpiece_wegoto": {
                 "name": "Master piece",
@@ -1156,11 +1160,11 @@
                 "terms": "atm,distributeur"
             },
             "poi/bicycle_wegoto": {
-                "name": "Bycicle",
+                "name": "Bicycle",
                 "terms": "bycicle,Velos"
             },
             "poi/byciclepark_wegoto": {
-                "name": "Bycicle park",
+                "name": "Bicycle park",
                 "terms": "Bycicle park, parking vélos"
             },
             "poi/carpool_wegoto": {

@@ -207,7 +207,7 @@
                 "diagonal_cross": "Diagonal cross",
                 "tree": "Tree",
                 "hedge": "Hedge",
-                "gardener_box": "Dardener box",
+                "gardener_box": "Gardener box",
                 "no": "Nothing"
             }
         }
@@ -360,7 +360,7 @@
                 "bicycle": "Bicycle",
                 "vegetation": "Vegetation",
                 "grass": "Grass",
-                "designated_parking": "Designated_parking",
+                "designated_parking": "Designated parking",
                 "longside_parking": "Longside parking",
                 "angled_parking": "Angled parking",
                 "wall": "Wall",

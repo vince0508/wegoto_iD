@@ -313,7 +313,7 @@
             "distributeur"
         ],
         "tags": {
-            "obstacle:type": "Distributeur de billet"
+            "obstacle:type": "atm"
         },
         "name": "ATM"
     },
@@ -331,7 +331,7 @@
             "banc assis"
         ],
         "tags": {
-            "obstacle:type": "Banc assis"
+            "obstacle:type": "bench"
         },
         "name": "Bench"
     },
@@ -349,7 +349,7 @@
             "banc debout"
         ],
         "tags": {
-            "obstacle:type": "Banc debout"
+            "obstacle:type": "bench_stand"
         },
         "name": "Bench stand"
     },
@@ -367,7 +367,7 @@
             "Velos"
         ],
         "tags": {
-            "obstacle:type": "Vélo-Ville"
+            "obstacle:type": "bicycle"
         },
         "name": "Bycicle"
     },
@@ -385,7 +385,7 @@
             "Panneau publicitaire"
         ],
         "tags": {
-            "obstacle:type": "Panneau publicitaire"
+            "obstacle:type": "billboard"
         },
         "name": "Billboard"
     },
@@ -403,9 +403,9 @@
             " parking vélos"
         ],
         "tags": {
-            "obstacle:type": "Parking vélo"
+            "obstacle:type": "bicycle_park"
         },
-        "name": "Bycicle park"
+        "name": "Bicycle park"
     },
     "poa/carpool_wegoto": {
         "icon": "autopartage",
@@ -421,7 +421,7 @@
             "parking autopartage"
         ],
         "tags": {
-            "obstacle:type": "Place autopartage"
+            "obstacle:type": "carpool_parking"
         },
         "name": "Carpool"
     },
@@ -438,7 +438,7 @@
             "Conservatory"
         ],
         "tags": {
-            "obstacle:type": "Véranda commerce"
+            "obstacle:type": "conservatory"
         },
         "name": "Conservatory"
     },
@@ -453,7 +453,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Poteau bas (pas de panneau) Contrasté"
+            "obstacle:type": "constrasted_sign"
         },
         "name": "Constrasted sign"
     },
@@ -468,7 +468,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Arrêt TC avec abris"
+            "obstacle:type": "cover_stop"
         },
         "name": "Cover stop"
     },
@@ -483,7 +483,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Fente"
+            "obstacle:type": "crack"
         },
         "name": "Crack"
     },
@@ -498,7 +498,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Borne recharge électrique"
+            "obstacle:type": "electric_charge"
         },
         "name": "Electrical charge"
     },
@@ -513,7 +513,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Boîtier électrique (EDF)"
+            "obstacle:type": "electrical_panel"
         },
         "name": "Electrical panel"
     },
@@ -528,7 +528,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Trou"
+            "obstacle:type": "fall"
         },
         "name": "Fall"
     },
@@ -543,7 +543,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Perron, seuil"
+            "obstacle:type": "front_step"
         },
         "name": "Front step"
     },
@@ -558,7 +558,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Jardinière"
+            "obstacle:type": "gardener_box"
         },
         "name": "Gardener box"
     },
@@ -573,7 +573,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Place GIG"
+            "obstacle:type": "handicap_parking"
         },
         "name": "Handicap parking"
     },
@@ -588,9 +588,27 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Boite aux lettres"
+            "obstacle:type": "letterbox"
         },
         "name": "Letterbox"
+    },
+    "poa/littlesign_wegoto": {
+        "icon": "poteau",
+        "geometry": [
+            "point"
+        ],
+        "fields": [
+            "position_wegoto",
+            "location_wegoto"
+        ],
+        "terms": [
+            "little_sign",
+            "distributeur"
+        ],
+        "tags": {
+            "obstacle:type": "little_sign"
+        },
+        "name": "little sign"
     },
     "poa/masterpiece_wegoto": {
         "icon": "art-gallery",
@@ -603,7 +621,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Œuvre d'art (statue …)"
+            "obstacle:type": "masterpiece"
         },
         "name": "Master piece"
     },
@@ -618,7 +636,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Grille au sol"
+            "obstacle:type": "metal_gate"
         },
         "name": "Metal gate"
     },
@@ -636,7 +654,7 @@
             "distributeur"
         ],
         "tags": {
-            "obstacle:type": "Colonne Morris"
+            "obstacle:type": "morris_column"
         },
         "name": "Morris column"
     },
@@ -654,7 +672,7 @@
             "distributeur"
         ],
         "tags": {
-            "obstacle:type": "Arrêt TC sans abris"
+            "obstacle:type": "not_cover_stop"
         },
         "name": "Not cover Stop"
     },
@@ -669,7 +687,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Obstacle en saillie"
+            "obstacle:type": "overhanging"
         },
         "name": "over Hanging"
     },
@@ -684,7 +702,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Horodateur"
+            "obstacle:type": "parking_meter"
         },
         "name": "Parking meter"
     },
@@ -699,7 +717,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Borne"
+            "obstacle:type": "post"
         },
         "name": "Post"
     },
@@ -714,7 +732,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Rails"
+            "obstacle:type": "rail"
         },
         "name": "Rail"
     },
@@ -729,7 +747,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Panneau haut (avec panneau)"
+            "obstacle:type": "road_sign"
         },
         "name": "Road sign"
     },
@@ -744,7 +762,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Espace tri déchets"
+            "obstacle:type": "separate_waste"
         },
         "name": "Separate waste"
     },
@@ -759,7 +777,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Lampadaire"
+            "obstacle:type": "street_lamp"
         },
         "name": "Street lamp"
     },
@@ -774,7 +792,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "WC publiques accessibles"
+            "obstacle:type": "toilet"
         },
         "name": "Toilet"
     },
@@ -789,7 +807,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Corbeille"
+            "obstacle:type": "trash"
         },
         "name": "Trash"
     },
@@ -804,7 +822,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Arbre"
+            "obstacle:type": "tree"
         },
         "name": "Tree"
     },
@@ -822,7 +840,7 @@
             "distributeur"
         ],
         "tags": {
-            "obstacle:type": "Distributeur de billet"
+            "obstacle:type": "atm"
         },
         "name": "ATM"
     },
@@ -840,9 +858,9 @@
             "Velos"
         ],
         "tags": {
-            "obstacle:type": "Vélo-Ville"
+            "obstacle:type": "bicycle"
         },
-        "name": "Bycicle"
+        "name": "Bicycle"
     },
     "poi/byciclepark_wegoto": {
         "icon": "bike-parking",
@@ -858,9 +876,9 @@
             " parking vélos"
         ],
         "tags": {
-            "obstacle:type": "Parking vélo"
+            "obstacle:type": "bicycle_park"
         },
-        "name": "Bycicle park"
+        "name": "Bicycle park"
     },
     "poi/carpool_wegoto": {
         "icon": "autopartage",
@@ -876,7 +894,7 @@
             "parking autopartage"
         ],
         "tags": {
-            "obstacle:type": "Place autopartage"
+            "obstacle:type": "carpool_parking"
         },
         "name": "Carpool"
     },
@@ -891,7 +909,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Arrêt TC avec abris"
+            "obstacle:type": "cover_stop"
         },
         "name": "Cover stop"
     },
@@ -906,7 +924,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Jardinière"
+            "obstacle:type": "gardener_box"
         },
         "name": "Gardener box"
     },
@@ -921,7 +939,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Place GIG"
+            "obstacle:type": "handicap_parking"
         },
         "name": "Handicap parking"
     },
@@ -936,7 +954,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Boite aux lettres"
+            "obstacle:type": "letterbox"
         },
         "name": "Letterbox"
     },
@@ -951,7 +969,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Œuvre d'art (statue …)"
+            "obstacle:type": "masterpiece"
         },
         "name": "Master piece"
     },
@@ -969,7 +987,7 @@
             "distributeur"
         ],
         "tags": {
-            "obstacle:type": "Arrêt TC sans abris"
+            "obstacle:type": "not_cover_stop"
         },
         "name": "Not cover Stop"
     },
@@ -984,7 +1002,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Horodateur"
+            "obstacle:type": "parking_meter"
         },
         "name": "Parking meter"
     },
@@ -999,7 +1017,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "Espace tri déchets"
+            "obstacle:type": "separate_waste"
         },
         "name": "Separate waste"
     },
@@ -1014,7 +1032,7 @@
         ],
         "terms": [],
         "tags": {
-            "obstacle:type": "WC publiques accessibles"
+            "obstacle:type": "toilet"
         },
         "name": "Toilet"
     },

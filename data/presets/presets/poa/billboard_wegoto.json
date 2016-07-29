@@ -13,7 +13,7 @@
         "Panneau publicitaire"
     ],
     "tags": {
-        "obstacle:type": "Panneau publicitaire"
+        "obstacle:type": "billboard"
     },
     "name": "Billboard"
 }

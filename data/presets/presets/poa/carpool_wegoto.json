@@ -13,7 +13,7 @@
         "parking autopartage"
     ],
     "tags": {
-        "obstacle:type": "Place autopartage"
+        "obstacle:type": "carpool_parking"
     },
     "name": "Carpool"
 }

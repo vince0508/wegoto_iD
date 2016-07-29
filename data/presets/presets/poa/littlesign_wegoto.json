@@ -1,19 +1,19 @@
 {
-    "icon": "atm",
+    "icon": "poteau",
     "geometry": [
         "point"
        
     ],
-         "fields": [
+     "fields": [
     "position_wegoto",
     "location_wegoto"
         ],
     "terms": [
-        "atm",
+        "little_sign",
         "distributeur"
     ],
     "tags": {
-        "obstacle:type": "atm"
+        "obstacle:type": "little_sign"
     },
-    "name": "ATM"
+    "name": "little sign"
 }

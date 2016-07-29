@@ -12,7 +12,7 @@
         
     ],
     "tags": {
-        "obstacle:type": "Obstacle en saillie"
+        "obstacle:type": "overhanging"
     },
     "name": "over Hanging"
 }

@@ -12,7 +12,7 @@
       
     ],
     "tags": {
-        "obstacle:type": "Rails"
+        "obstacle:type": "rail"
     },
     "name": "Rail"
 }

@@ -13,7 +13,7 @@
         "banc debout"
     ],
     "tags": {
-        "obstacle:type": "Banc debout"
+        "obstacle:type": "bench_stand"
     },
     "name": "Bench stand"
 }

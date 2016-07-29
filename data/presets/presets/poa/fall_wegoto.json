@@ -12,7 +12,7 @@
       
     ],
     "tags": {
-        "obstacle:type": "Trou"
+        "obstacle:type": "fall"
     },
     "name": "Fall"
 }

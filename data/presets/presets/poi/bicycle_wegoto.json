@@ -13,7 +13,7 @@
         "Velos"
     ],
     "tags": {
-        "obstacle:type": "Vélo-Ville"
+        "obstacle:type": "bicycle"
     },
-    "name": "Bycicle"
+    "name": "Bicycle"
 }

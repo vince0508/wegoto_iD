@@ -61,183 +61,187 @@
         },
         {
             "key": "obstacle:type",
-            "value": "Distributeur de billet"
+            "value": "atm"
         },
         {
             "key": "obstacle:type",
-            "value": "Banc assis"
+            "value": "bench"
         },
         {
             "key": "obstacle:type",
-            "value": "Banc debout"
+            "value": "bench_stand"
         },
         {
             "key": "obstacle:type",
-            "value": "Vélo-Ville"
+            "value": "bicycle"
         },
         {
             "key": "obstacle:type",
-            "value": "Panneau publicitaire"
+            "value": "billboard"
         },
         {
             "key": "obstacle:type",
-            "value": "Parking vélo"
+            "value": "bicycle_park"
         },
         {
             "key": "obstacle:type",
-            "value": "Place autopartage"
+            "value": "carpool_parking"
         },
         {
             "key": "obstacle:type",
-            "value": "Véranda commerce"
+            "value": "conservatory"
         },
         {
             "key": "obstacle:type",
-            "value": "Poteau bas (pas de panneau) Contrasté"
+            "value": "constrasted_sign"
         },
         {
             "key": "obstacle:type",
-            "value": "Arrêt TC avec abris"
+            "value": "cover_stop"
         },
         {
             "key": "obstacle:type",
-            "value": "Fente"
+            "value": "crack"
         },
         {
             "key": "obstacle:type",
-            "value": "Borne recharge électrique"
+            "value": "electric_charge"
         },
         {
             "key": "obstacle:type",
-            "value": "Boîtier électrique (EDF)"
+            "value": "electrical_panel"
         },
         {
             "key": "obstacle:type",
-            "value": "Trou"
+            "value": "fall"
         },
         {
             "key": "obstacle:type",
-            "value": "Perron, seuil"
+            "value": "front_step"
         },
         {
             "key": "obstacle:type",
-            "value": "Jardinière"
+            "value": "gardener_box"
         },
         {
             "key": "obstacle:type",
-            "value": "Place GIG"
+            "value": "handicap_parking"
         },
         {
             "key": "obstacle:type",
-            "value": "Boite aux lettres"
+            "value": "letterbox"
         },
         {
             "key": "obstacle:type",
-            "value": "Œuvre d'art (statue …)"
+            "value": "little_sign"
         },
         {
             "key": "obstacle:type",
-            "value": "Grille au sol"
+            "value": "masterpiece"
         },
         {
             "key": "obstacle:type",
-            "value": "Colonne Morris"
+            "value": "metal_gate"
         },
         {
             "key": "obstacle:type",
-            "value": "Arrêt TC sans abris"
+            "value": "morris_column"
         },
         {
             "key": "obstacle:type",
-            "value": "Obstacle en saillie"
+            "value": "not_cover_stop"
         },
         {
             "key": "obstacle:type",
-            "value": "Horodateur"
+            "value": "overhanging"
         },
         {
             "key": "obstacle:type",
-            "value": "Borne"
+            "value": "parking_meter"
         },
         {
             "key": "obstacle:type",
-            "value": "Rails"
+            "value": "post"
         },
         {
             "key": "obstacle:type",
-            "value": "Panneau haut (avec panneau)"
+            "value": "rail"
         },
         {
             "key": "obstacle:type",
-            "value": "Espace tri déchets"
+            "value": "road_sign"
         },
         {
             "key": "obstacle:type",
-            "value": "Lampadaire"
+            "value": "separate_waste"
         },
         {
             "key": "obstacle:type",
-            "value": "WC publiques accessibles"
+            "value": "street_lamp"
         },
         {
             "key": "obstacle:type",
-            "value": "Corbeille"
+            "value": "toilet"
         },
         {
             "key": "obstacle:type",
-            "value": "Arbre"
+            "value": "trash"
         },
         {
             "key": "obstacle:type",
-            "value": "Distributeur de billet"
+            "value": "tree"
         },
         {
             "key": "obstacle:type",
-            "value": "Vélo-Ville"
+            "value": "atm"
         },
         {
             "key": "obstacle:type",
-            "value": "Parking vélo"
+            "value": "bicycle"
         },
         {
             "key": "obstacle:type",
-            "value": "Place autopartage"
+            "value": "bicycle_park"
         },
         {
             "key": "obstacle:type",
-            "value": "Arrêt TC avec abris"
+            "value": "carpool_parking"
         },
         {
             "key": "obstacle:type",
-            "value": "Jardinière"
+            "value": "cover_stop"
         },
         {
             "key": "obstacle:type",
-            "value": "Place GIG"
+            "value": "gardener_box"
         },
         {
             "key": "obstacle:type",
-            "value": "Boite aux lettres"
+            "value": "handicap_parking"
         },
         {
             "key": "obstacle:type",
-            "value": "Œuvre d'art (statue …)"
+            "value": "letterbox"
         },
         {
             "key": "obstacle:type",
-            "value": "Arrêt TC sans abris"
+            "value": "masterpiece"
         },
         {
             "key": "obstacle:type",
-            "value": "Horodateur"
+            "value": "not_cover_stop"
         },
         {
             "key": "obstacle:type",
-            "value": "Espace tri déchets"
+            "value": "parking_meter"
         },
         {
             "key": "obstacle:type",
-            "value": "WC publiques accessibles"
+            "value": "separate_waste"
+        },
+        {
+            "key": "obstacle:type",
+            "value": "toilet"
         }
     ]
 }

@@ -4,6 +4,7 @@
     "label": "Shoulder right",
     "strings": {
         "options": {
+            
             "road":"Road",
             "rail": "Rail",
             "bicycle": "Bicycle",

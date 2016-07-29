@@ -12,7 +12,7 @@
       
     ],
     "tags": {
-        "obstacle:type": "Corbeille"
+        "obstacle:type": "trash"
     },
     "name": "Trash"
 }

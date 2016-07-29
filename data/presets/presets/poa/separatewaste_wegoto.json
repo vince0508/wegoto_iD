@@ -12,7 +12,7 @@
       
     ],
     "tags": {
-        "obstacle:type": "Espace tri déchets"
+        "obstacle:type": "separate_waste"
     },
     "name": "Separate waste"
 }

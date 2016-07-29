@@ -12,7 +12,7 @@
         
     ],
     "tags": {
-        "obstacle:type": "Borne recharge électrique"
+        "obstacle:type": "electric_charge"
     },
     "name": "Electrical charge"
 }

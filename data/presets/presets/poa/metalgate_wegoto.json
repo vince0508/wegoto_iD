@@ -12,7 +12,7 @@
        
     ],
     "tags": {
-        "obstacle:type": "Grille au sol"
+        "obstacle:type": "metal_gate"
     },
     "name": "Metal gate"
 }

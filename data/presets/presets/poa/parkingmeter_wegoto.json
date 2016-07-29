@@ -12,7 +12,7 @@
        
     ],
     "tags": {
-        "obstacle:type": "Horodateur"
+        "obstacle:type": "parking_meter"
     },
     "name": "Parking meter"
 }

@@ -12,7 +12,7 @@
         
     ],
     "tags": {
-        "obstacle:type": "Boite aux lettres"
+        "obstacle:type": "letterbox"
     },
     "name": "Letterbox"
 }
