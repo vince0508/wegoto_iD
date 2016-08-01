@@ -1,0 +1,19 @@
+{
+    "icon": "atm",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+
+        ],
+    "terms": [
+      
+    ],
+    "tags": {
+        "breakpoint:presence": "twosteps",
+        "breakpoint:ramp": "no",
+        "breakpoint:elevator": "no"
+    },
+    "name": "Marches sans plan incliné sans ascenseur"
+}

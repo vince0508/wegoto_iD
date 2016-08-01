@@ -1,0 +1,20 @@
+{
+    "icon": "atm",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+ "incline_rupture",
+       "kerb_rupture"
+        ],
+    "terms": [
+      
+    ],
+    "tags": {
+        "breakpoint:presence": "twosteps",
+        "breakpoint:ramp": "yes",
+        "breakpoint:elevator": "yes"
+    },
+    "name": "Marches avec plan incliné et ascenseur"
+}

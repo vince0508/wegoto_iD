@@ -1,0 +1,18 @@
+{
+    "icon": "atm",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+  "incline_rupture",
+       "kerb_rupture"
+        ],
+  
+    "tags": {
+        "breakpoint:presence": "onestep",
+        "breakpoint:ramp": "yes",
+        "breakpoint:elevator": "no"
+    },
+    "name": "Marche avec rampe de seuil"
+}

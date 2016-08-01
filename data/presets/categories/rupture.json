@@ -1,0 +1,19 @@
+{
+    "geometry": "point",
+    "name": "Rupture de niveau",
+    "icon": "ramp",
+    "members": [
+        
+        "rupture/marche_rampe",
+     "rupture/marche_sans_rampe",
+     "rupture/marches",
+     "rupture/marches_ascenseur",
+     "rupture/marches_plan",
+     "rupture/marches_plan_acensceur"
+     
+     
+
+        
+        
+    ]
+}

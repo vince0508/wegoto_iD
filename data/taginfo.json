@@ -242,6 +242,30 @@
         {
             "key": "obstacle:type",
             "value": "toilet"
+        },
+        {
+            "key": "breakpoint:elevator",
+            "value": "no"
+        },
+        {
+            "key": "breakpoint:elevator",
+            "value": "no"
+        },
+        {
+            "key": "breakpoint:elevator",
+            "value": "no"
+        },
+        {
+            "key": "breakpoint:elevator",
+            "value": "yes"
+        },
+        {
+            "key": "breakpoint:elevator",
+            "value": "no"
+        },
+        {
+            "key": "breakpoint:elevator",
+            "value": "yes"
         }
     ]
 }

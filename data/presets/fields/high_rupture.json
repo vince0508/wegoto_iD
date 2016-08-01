@@ -1,0 +1,7 @@
+{
+    "key": "breakpoint:high",
+    "type": "number",
+    "label": "High",
+    "placeholder":"En cm"
+
+}

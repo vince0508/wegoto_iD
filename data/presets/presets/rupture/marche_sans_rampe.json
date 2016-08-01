@@ -1,0 +1,19 @@
+{
+    "icon": "atm",
+    "geometry": [
+        "point"
+       
+    ],
+     "fields": [
+ "high_rupture"
+        ],
+    "terms": [
+      
+    ],
+    "tags": {
+        "breakpoint:presence": "onestep",
+        "breakpoint:ramp": "no",
+        "breakpoint:elevator": "no"
+    },
+    "name": "Marche sans rampe de seuil"
+}

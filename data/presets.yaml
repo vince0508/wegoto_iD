@@ -7,6 +7,8 @@ en:
         name: Point of interest
       category-road:
         name: Road Features
+      category-rupture:
+        name: Rupture de niveau
     fields:
       address:
         # 'addr:city=*, addr:postcode=*'
@@ -52,11 +54,19 @@ en:
       hauteur_trottoir_wegoto:
         # 'height_curb=*'
         label: Height curb
+      high_rupture:
+        # 'breakpoint:high=*'
+        label: High
+        # high_rupture field placeholder
+        placeholder: En cm
       highway:
         # 'highway=*'
         label: Type
       incline:
         # 'incline=*'
+        label: Incline
+      incline_rupture:
+        # 'breakpoint:incline=*'
         label: Incline
       incline_steps:
         # 'incline=*'
@@ -128,6 +138,11 @@ en:
         # 'kerb=*'
         label: Kerb
         # kerb field placeholder
+        placeholder: 'En % '
+      kerb_rupture:
+        # 'breakpoint:kerb=*'
+        label: Kerb
+        # kerb_rupture field placeholder
         placeholder: 'En % '
       kerb_steps:
         # 'kerb=*'
@@ -733,6 +748,30 @@ en:
       relation:
         name: Relation
         terms: "<translate with synonyms or related terms for 'Relation', separated by commas>"
+      rupture/marche_rampe:
+        # 'breakpoint:presence=onestep, breakpoint:ramp=yes, breakpoint:elevator=no'
+        name: Marche avec rampe de seuil
+        terms: "<translate with synonyms or related terms for 'Marche avec rampe de seuil', separated by commas>"
+      rupture/marche_sans_rampe:
+        # 'breakpoint:presence=onestep, breakpoint:ramp=no, breakpoint:elevator=no'
+        name: Marche sans rampe de seuil
+        terms: "<translate with synonyms or related terms for 'Marche sans rampe de seuil', separated by commas>"
+      rupture/marches:
+        # 'breakpoint:presence=twosteps, breakpoint:ramp=no, breakpoint:elevator=no'
+        name: Marches sans plan incliné sans ascenseur
+        terms: "<translate with synonyms or related terms for 'Marches sans plan incliné sans ascenseur', separated by commas>"
+      rupture/marches_ascenseur:
+        # 'breakpoint:presence=twosteps, breakpoint:ramp=no, breakpoint:elevator=yes'
+        name: Marches avec ascenseur sans plan incliné
+        terms: "<translate with synonyms or related terms for 'Marches avec ascenseur sans plan incliné', separated by commas>"
+      rupture/marches_plan:
+        # 'breakpoint:presence=twosteps, breakpoint:ramp=yes, breakpoint:elevator=no'
+        name: Marches avec plan incliné sans ascenseur
+        terms: "<translate with synonyms or related terms for 'Marches avec plan incliné sans ascenseur', separated by commas>"
+      rupture/marches_plan_acensceur:
+        # 'breakpoint:presence=twosteps, breakpoint:ramp=yes, breakpoint:elevator=yes'
+        name: Marches avec plan incliné et ascenseur
+        terms: "<translate with synonyms or related terms for 'Marches avec plan incliné et ascenseur', separated by commas>"
       vertex:
         name: Other
         terms: "<translate with synonyms or related terms for 'Other', separated by commas>"

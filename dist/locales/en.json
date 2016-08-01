@@ -621,6 +621,9 @@
             },
             "category-road": {
                 "name": "Road Features"
+            },
+            "category-rupture": {
+                "name": "Rupture de niveau"
             }
         },
         "fields": {
@@ -665,10 +668,17 @@
             "hauteur_trottoir_wegoto": {
                 "label": "Height curb"
             },
+            "high_rupture": {
+                "label": "High",
+                "placeholder": "En cm"
+            },
             "highway": {
                 "label": "Type"
             },
             "incline": {
+                "label": "Incline"
+            },
+            "incline_rupture": {
                 "label": "Incline"
             },
             "incline_steps": {
@@ -720,6 +730,10 @@
                 }
             },
             "kerb": {
+                "label": "Kerb",
+                "placeholder": "En % "
+            },
+            "kerb_rupture": {
                 "label": "Kerb",
                 "placeholder": "En % "
             },
@@ -1213,6 +1227,30 @@
             },
             "relation": {
                 "name": "Relation",
+                "terms": ""
+            },
+            "rupture/marche_rampe": {
+                "name": "Marche avec rampe de seuil",
+                "terms": ""
+            },
+            "rupture/marche_sans_rampe": {
+                "name": "Marche sans rampe de seuil",
+                "terms": ""
+            },
+            "rupture/marches": {
+                "name": "Marches sans plan incliné sans ascenseur",
+                "terms": ""
+            },
+            "rupture/marches_ascenseur": {
+                "name": "Marches avec ascenseur sans plan incliné",
+                "terms": ""
+            },
+            "rupture/marches_plan": {
+                "name": "Marches avec plan incliné sans ascenseur",
+                "terms": ""
+            },
+            "rupture/marches_plan_acensceur": {
+                "name": "Marches avec plan incliné et ascenseur",
                 "terms": ""
             },
             "vertex": {

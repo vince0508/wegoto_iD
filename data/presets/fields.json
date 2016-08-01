@@ -71,6 +71,12 @@
         "type": "number",
         "label": "Height curb"
     },
+    "high_rupture": {
+        "key": "breakpoint:high",
+        "type": "number",
+        "label": "High",
+        "placeholder": "En cm"
+    },
     "highway": {
         "key": "highway",
         "type": "typeCombo",
@@ -78,6 +84,11 @@
     },
     "incline": {
         "key": "incline",
+        "type": "combo",
+        "label": "Incline"
+    },
+    "incline_rupture": {
+        "key": "breakpoint:incline",
         "type": "combo",
         "label": "Incline"
     },
@@ -151,6 +162,12 @@
     },
     "kerb": {
         "key": "kerb",
+        "type": "number",
+        "label": "Kerb",
+        "placeholder": "En % "
+    },
+    "kerb_rupture": {
+        "key": "breakpoint:kerb",
         "type": "number",
         "label": "Kerb",
         "placeholder": "En % "
