@@ -1056,7 +1056,7 @@
         ]
     },
     "rupture/marche_rampe": {
-        "icon": "atm",
+        "icon": "ramp",
         "geometry": [
             "point"
         ],
@@ -1072,7 +1072,7 @@
         "name": "Marche avec rampe de seuil"
     },
     "rupture/marche_sans_rampe": {
-        "icon": "atm",
+        "icon": "ramp",
         "geometry": [
             "point"
         ],
@@ -1088,7 +1088,7 @@
         "name": "Marche sans rampe de seuil"
     },
     "rupture/marches": {
-        "icon": "atm",
+        "icon": "ramp",
         "geometry": [
             "point"
         ],
@@ -1102,7 +1102,7 @@
         "name": "Marches sans plan incliné sans ascenseur"
     },
     "rupture/marches_ascenseur": {
-        "icon": "atm",
+        "icon": "ramp",
         "geometry": [
             "point"
         ],
@@ -1116,7 +1116,7 @@
         "name": "Marches avec ascenseur sans plan incliné"
     },
     "rupture/marches_plan": {
-        "icon": "atm",
+        "icon": "ramp",
         "geometry": [
             "point"
         ],
@@ -1133,7 +1133,7 @@
         "name": "Marches avec plan incliné sans ascenseur"
     },
     "rupture/marches_plan_acensceur": {
-        "icon": "atm",
+        "icon": "ramp",
         "geometry": [
             "point"
         ],
