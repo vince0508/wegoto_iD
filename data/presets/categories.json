@@ -35,7 +35,8 @@
             "poa/electricCharge_wegoto",
             "poa/fall_wegoto",
             "poa/crack_wegoto",
-            "poa/frontstep_wegoto"
+            "poa/frontstep_wegoto",
+            "poa/littlesign_wegoto"
         ]
     },
     "category-poi": {
